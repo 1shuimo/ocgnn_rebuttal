@@ -18,6 +18,7 @@ from sklearn.metrics import roc_auc_score, average_precision_score
 from models.model_ocgnn import Model_ocgnn
 from models.model import Model_ggad
 from utils.utils import *
+from utils.log_paths import add_log_subdir_argument, get_log_file
 import os
 
 # Set CUDA device
@@ -39,6 +40,7 @@ parser.add_argument('--embedding_dim', type=int, default=300)
 parser.add_argument('--negsamp_ratio', type=int, default=1)
 parser.add_argument('--readout', type=str, default='avg')
 parser.add_argument('--seed', type=int, default=0)
+add_log_subdir_argument(parser, 'ggad_2_step_reg')
 args = parser.parse_args()
 
 
@@ -209,7 +211,7 @@ xent = nn.CrossEntropyLoss()
 
 
 print("\n🔁 Starting Student Training...")
-output_file = f"./ggad_2_step_reg/{args.dataset}_ggad_delete_num_node.txt"
+output_file = get_log_file(args, f"{args.dataset}_ggad_delete_num_node.txt")
 with open(output_file, "a") as f:
     with tqdm(total=args.num_epoch) as pbar:
         total_time = 0

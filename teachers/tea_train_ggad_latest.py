@@ -11,6 +11,7 @@ import numpy as np
 import scipy.sparse as sp
 from models.model import Model_ggad
 from utils.utils_old import *
+from utils.log_paths import add_log_subdir_argument, get_log_file
 from sklearn.metrics import roc_auc_score
 import random
 import dgl
@@ -40,6 +41,7 @@ parser.add_argument('--negsamp_ratio', type=int, default=1)
 parser.add_argument('--mean', type=float, default=0.0)
 parser.add_argument('--var', type=float, default=0.0)
 
+add_log_subdir_argument(parser, 'tea_train_ggad_latest')
 args = parser.parse_args()
 
 if args.lr is None:
@@ -127,7 +129,7 @@ b_xent = nn.BCEWithLogitsLoss(reduction='none', pos_weight=torch.tensor([args.ne
 xent = nn.CrossEntropyLoss()
 
 # Setup for training and logging
-output_file = f"{args.dataset}_unify_ggad_origin.txt"
+output_file = get_log_file(args, f"{args.dataset}_unify_ggad_origin.txt")
 weight_save_path = f"./ggad_train_size/{args.dataset}_ggad_teacher_best{args.lr}.pth" # Define save path
 
 # Training window parameters

@@ -14,6 +14,7 @@ import torch.nn.functional as F
 from models.model_dominant import Model_dominant
 from models.model_ocgnn import Model_ocgnn
 from utils.utils import *
+from utils.log_paths import add_log_subdir_argument, get_log_file
 
 from sklearn.metrics import roc_auc_score
 import random
@@ -48,6 +49,7 @@ parser.add_argument('--readout', type=str, default='avg')
 parser.add_argument('--auc_test_rounds', type=int, default=256)
 parser.add_argument('--negsamp_ratio', type=int, default=1)
 
+add_log_subdir_argument(parser, 'dominant_unify')
 args = parser.parse_args()
 
 
@@ -196,7 +198,7 @@ xent = nn.CrossEntropyLoss()
 # Train the model
 print('Starting training loop...')
 # Open file in append mode to write (each run appends new content)
-output_file = f"{args.dataset}_dominant_unify_edit_gcn.txt"
+output_file = get_log_file(args, f"{args.dataset}_dominant_unify_edit_gcn.txt")
 mlp_reduce = nn.Linear(ft_size, args.embedding_dim)
 with open(output_file, "a") as f:
     with tqdm(total=args.num_epoch) as pbar:

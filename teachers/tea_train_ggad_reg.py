@@ -9,6 +9,7 @@ import torch.nn as nn
 
 from models.model import Model_ggad
 from utils.utils import *
+from utils.log_paths import add_log_subdir_argument, get_log_file
 
 from sklearn.metrics import roc_auc_score
 import random
@@ -40,6 +41,7 @@ parser.add_argument('--var', type=float, default=0.0)
 
 
 
+add_log_subdir_argument(parser, 'tea_train_ggad_reg')
 args = parser.parse_args()
 
 if args.lr is None:
@@ -139,7 +141,7 @@ xent = nn.CrossEntropyLoss()
 # Train the model
 print('Starting training loop...')
 # Open file in append mode to write (each run appends new content)
-output_file = f"{args.dataset}_unify_ggad_origin.txt"
+output_file = get_log_file(args, f"{args.dataset}_unify_ggad_origin.txt")
 # Train model
 target_epoch = 480 # 你可以根据需要修改
 window = 100

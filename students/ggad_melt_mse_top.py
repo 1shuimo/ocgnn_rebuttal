@@ -18,6 +18,7 @@ from sklearn.metrics import roc_auc_score, average_precision_score
 from models.model_ocgnn import Model_ocgnn
 from models.model import Model_ggad
 from utils.utils import *
+from utils.log_paths import add_log_subdir_argument, get_log_file
 import os
 
 # Set CUDA device
@@ -48,6 +49,7 @@ parser.add_argument('--seed', type=int, default=0)
 parser.add_argument('--reg2_weight', type=float, default=0.01, help='Weight for the reg2_mse loss (data augmentation)')
 parser.add_argument('--top_percent', type=float, default=0.05, help='Percentage of top-scoring nodes to label as pseudo-anomalies')
 
+add_log_subdir_argument(parser, 'ggad_melt_exp')
 args = parser.parse_args()
 
 # 根据数据集设置学习率
@@ -291,7 +293,7 @@ xent = nn.CrossEntropyLoss()
 # 训练循环
 # ===========================
 print("\n🔁 Starting Student Training...")
-output_file = f"./ggad_melt_exp/{args.dataset}_melt_abnormal_optimize_{args.lr}_reg2_{args.reg2_weight}_topP_{args.top_percent}.txt"
+output_file = get_log_file(args, f"{args.dataset}_melt_abnormal_optimize_{args.lr}_reg2_{args.reg2_weight}_topP_{args.top_percent}.txt")
 with open(output_file, "a") as f:
     with tqdm(total=args.num_epoch) as pbar:
         total_time = 0

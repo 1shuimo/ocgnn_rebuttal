@@ -12,6 +12,7 @@ import torch.nn as nn
 
 from models.model_dominant_edge import Model_dominant
 from utils.utils import *
+from utils.log_paths import add_log_subdir_argument, get_log_file
 import pickle
 
 from sklearn.metrics import roc_auc_score
@@ -42,6 +43,7 @@ parser.add_argument('--readout', type=str, default='avg')
 parser.add_argument('--auc_test_rounds', type=int, default=256)
 parser.add_argument('--negsamp_ratio', type=int, default=1)
 
+add_log_subdir_argument(parser, 'tea_train_dominant_edge_no_dgl')
 args = parser.parse_args()
 
 # 根据数据集设置学习率
@@ -150,7 +152,7 @@ if torch.cuda.is_available():
     labels = labels.cuda()
 
 # Train model
-output_file = f"{args.dataset}_dominant_github.txt"
+output_file = get_log_file(args, f"{args.dataset}_dominant_github.txt")
 best_auc_window = 0.0
 best_epoch_window = -1
 target_epoch = args.num_epoch//2

@@ -18,6 +18,7 @@ from sklearn.metrics import roc_auc_score, average_precision_score
 from models.model_ocgnn import Model_ocgnn
 from models.model import Model_ggad
 from utils.utils import *
+from utils.log_paths import add_log_subdir_argument, get_log_file
 import os
 
 # Set CUDA device
@@ -39,6 +40,7 @@ parser.add_argument('--num_epoch', type=int)
 parser.add_argument('--negsamp_ratio', type=int, default=1)
 parser.add_argument('--readout', type=str, default='avg')
 parser.add_argument('--seed', type=int, default=0)
+add_log_subdir_argument(parser, 'ggad_score_distill')
 args = parser.parse_args()
 
 
@@ -203,7 +205,7 @@ _, _, logits_total, _, _ = model(features, adj, abnormal_label_idx, normal_label
 
 
 print("\n🔁 Starting Student Training...")
-output_file = f"./ggad_score_distill/{args.dataset}_ggad_2_step.txt"
+output_file = get_log_file(args, f"{args.dataset}_ggad_2_step.txt")
 with open(output_file, "a") as f:
     with tqdm(total=args.num_epoch) as pbar:
         total_time = 0

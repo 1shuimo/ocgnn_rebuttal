@@ -12,6 +12,7 @@ import torch.nn as nn
 import pickle
 from models.model_ocgnn import Model_ocgnn
 from utils.utils import *
+from utils.log_paths import add_log_subdir_argument, get_log_file
 
 from sklearn.metrics import roc_auc_score
 import random
@@ -39,6 +40,7 @@ parser.add_argument('--readout', type=str, default='avg')  # max min avg  weight
 parser.add_argument('--auc_test_rounds', type=int, default=256)
 parser.add_argument('--negsamp_ratio', type=int, default=1)
 
+add_log_subdir_argument(parser, 'tea_train_ocgnn_latest')
 args = parser.parse_args()
 
 if args.lr is None:
@@ -192,7 +194,7 @@ batch_num = nb_nodes // batch_size + 1
 
 import time
 # Train model
-output_file = f"{args.dataset}_ocgnn_github.txt"
+output_file = get_log_file(args, f"{args.dataset}_ocgnn_github.txt")
 best_auc_window = 0.0
 best_epoch_window = -1
 target_epoch = args.num_epoch//2

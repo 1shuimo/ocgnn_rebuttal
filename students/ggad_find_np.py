@@ -18,6 +18,7 @@ from sklearn.metrics import roc_auc_score, average_precision_score
 from models.model_ocgnn import Model_ocgnn
 from models.model import Model_ggad
 from utils.utils_old import *
+from utils.log_paths import add_log_subdir_argument, get_log_file
 import os
 import dgl  # dgl需要被导入以使用 dgl.random.seed
 
@@ -42,6 +43,7 @@ parser.add_argument('--embedding_dim', type=int, default=300)
 parser.add_argument('--negsamp_ratio', type=int, default=1)
 parser.add_argument('--readout', type=str, default='avg')
 parser.add_argument('--seed', type=int, default=0)
+add_log_subdir_argument(parser, 'student_find_fp')
 args = parser.parse_args()
 
 # 根据数据集设置学习率
@@ -326,7 +328,7 @@ output_dir = "./student_find_fp"
 # Create the directory if it doesn't exist
 os.makedirs(output_dir, exist_ok=True)
 # Setup for training and logging
-output_file = f"./student_find_fp/{args.dataset}_student_find_fp_fn_add_noise_new_utils_test.txt"
+output_file = get_log_file(args, f"{args.dataset}_student_find_fp_fn_add_noise_new_utils_test.txt")
 best_logits_file = f"./student_find_fp/{args.dataset}_best_logits.npy"  # 保存最佳 logits 的文件路径
 best_labels_file = f"./student_find_fp/{args.dataset}_test_labels.npy"  # 保存测试集真实标签的文件路径
 with open(output_file, "a") as f:

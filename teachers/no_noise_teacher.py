@@ -11,6 +11,7 @@ import torch.nn as nn
 
 from models.model3 import Model_ggad
 from utils.utils import *
+from utils.log_paths import add_log_subdir_argument, get_log_file
 
 from sklearn.metrics import roc_auc_score
 import random
@@ -43,6 +44,7 @@ parser.add_argument('--negsamp_ratio', type=int, default=1)
 parser.add_argument('--mean', type=float, default=0)
 parser.add_argument('--var', type=float, default=0)
 
+add_log_subdir_argument(parser, 'no_noise_pth')
 args = parser.parse_args()
 
 if args.lr is None:
@@ -160,7 +162,7 @@ best_t = 0
 batch_num = nb_nodes // batch_size + 1
 
 # Setup for training and logging
-output_file = f"./no_noise_pth/{args.dataset}_training_log_0305.txt"
+output_file = get_log_file(args, f"{args.dataset}_training_log_0305.txt")
 weight_save_path = f"./no_noise_pth/{args.dataset}_best_model_0305.pth"  # 保存最佳权重的路径
 
 best_auc = 0.0  # 用于记录最佳 AUC

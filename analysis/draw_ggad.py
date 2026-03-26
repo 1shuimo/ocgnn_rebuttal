@@ -18,6 +18,7 @@ from sklearn.metrics import roc_auc_score, average_precision_score
 from models.model_ocgnn import Model_ocgnn
 from models.model import Model_ggad
 from utils.utils_old import *
+from utils.log_paths import add_log_subdir_argument, get_log_file
 import os
 import matplotlib.pyplot as plt
 import dgl
@@ -50,6 +51,7 @@ parser.add_argument('--embedding_dim', type=int, default=300)
 parser.add_argument('--negsamp_ratio', type=int, default=1)
 parser.add_argument('--readout', type=str, default='avg')
 parser.add_argument('--seed', type=int, default=0)
+add_log_subdir_argument(parser, 'ggad_2_step_2_reg_data_enhance')
 args = parser.parse_args()
 
 # 根据数据集设置学习率
@@ -309,7 +311,7 @@ xent = nn.CrossEntropyLoss()
 # ... (此部分代码保持不变) ...
 # ===========================
 print("\n🔁 Starting Student Training...")
-output_file = f"./ggad_2_step_2_reg_data_enhance/{args.dataset}_draw_pdf_{args.lr}.txt"
+output_file = get_log_file(args, f"{args.dataset}_draw_pdf_{args.lr}.txt")
 with open(output_file, "a") as f:
     # The entire training loop is left as is.
     with tqdm(total=args.num_epoch) as pbar:

@@ -11,6 +11,7 @@ import numpy as np
 import scipy.sparse as sp
 from models.model import Model_ggad
 from utils.utils_old import *
+from utils.log_paths import add_log_subdir_argument, get_log_file
 from sklearn.metrics import roc_auc_score
 import random
 import dgl
@@ -38,6 +39,7 @@ parser.add_argument('--negsamp_ratio', type=int, default=1)
 parser.add_argument('--mean', type=float, default=0.0)
 parser.add_argument('--var', type=float, default=0.0)
 
+add_log_subdir_argument(parser, 'teacher_find_fp')
 args = parser.parse_args()
 
 if args.lr is None:
@@ -127,7 +129,7 @@ output_dir = "./teacher_find_fp"
 os.makedirs(output_dir, exist_ok=True)
 
 # Setup for training and logging
-output_file = f"./teacher_find_fp/{args.dataset}_teacher_find_fp.txt"
+output_file = get_log_file(args, f"{args.dataset}_teacher_find_fp.txt")
 best_logits_file = f"./teacher_find_fp/{args.dataset}_best_logits.npy"  # 保存最佳 logits 的文件路径
 best_labels_file = f"./teacher_find_fp/{args.dataset}_test_labels.npy"  # 保存测试集真实标签的文件路径
 weight_save_path = f"{args.dataset}_ggad_teacher_best{args.lr}_80.pth"  # Define save path

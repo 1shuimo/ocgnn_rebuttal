@@ -18,6 +18,7 @@ from sklearn.metrics import roc_auc_score, average_precision_score
 from models.model_ocgnn import Model_ocgnn
 # from model import Model_ocgnn # Assuming the import above is correct
 from utils.utils import *
+from utils.log_paths import add_log_subdir_argument, get_log_file
 import os
 import dgl # Assuming dgl is used in utils
 import scipy.sparse as sp # Assuming sp is used in utils
@@ -52,6 +53,7 @@ parser.add_argument('--embedding_dim', type=int, default=300)
 parser.add_argument('--negsamp_ratio', type=int, default=1)
 parser.add_argument('--readout', type=str, default='avg')
 parser.add_argument('--seed', type=int, default=0)
+add_log_subdir_argument(parser, 'ocgnn_2_step_2_reg_data_enhance')
 args = parser.parse_args()
 
 # Set learning rate according to dataset
@@ -328,7 +330,7 @@ xent = nn.CrossEntropyLoss()
 # Training Loop
 # ===========================
 print("\n🔁 Starting Student Training...")
-output_file = f"./ocgnn_2_step_2_reg_data_enhance/{args.dataset}_reg2_enhance_mse.txt"
+output_file = get_log_file(args, f"{args.dataset}_reg2_enhance_mse.txt")
 os.makedirs(os.path.dirname(output_file), exist_ok=True) # Ensure directory exists
 
 with open(output_file, "a") as f:
