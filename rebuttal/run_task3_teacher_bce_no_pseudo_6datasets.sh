@@ -15,9 +15,8 @@ datasets=(
 )
 
 for ds in "${datasets[@]}"; do
-  python rebuttal/fp_fn_ratio_sweep.py \
+  python rebuttal/ggad_teacher_bce_no_pseudo.py \
     --dataset "${ds}" \
-    --logits_path "../rebuttal_log/ggad_labeledNormal_normreg_compare/${ds}_with_normreg_best_logits.npy" \
-    --labels_path "../rebuttal_log/ggad_labeledNormal_normreg_compare/${ds}_with_normreg_test_labels.npy" \
-    --base_ratio 0.2
+    --teacher_path "../ggad_new_best_pth/${ds}_ggad_teacher_final.pth" \
+    --hard_label_ratio 0.2
 done

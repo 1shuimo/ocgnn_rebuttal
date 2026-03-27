@@ -41,7 +41,7 @@ parser.add_argument('--embedding_dim', type=int, default=300)
 parser.add_argument('--negsamp_ratio', type=int, default=1)
 parser.add_argument('--readout', type=str, default='avg')
 parser.add_argument('--seed', type=int, default=0)
-parser.add_argument('--hard_label_threshold', type=float, default=0.8)
+parser.add_argument('--hard_label_ratio', type=float, default=0.2)
 add_log_subdir_argument(parser, 'ggad_teacher_bce_no_pseudo')
 args = parser.parse_args()
 
@@ -153,8 +153,13 @@ def loss_func(emb):
 
     return loss, score, c, r
 
-def to_hard_label(score, threshold=0.8):
-    return (score >= threshold).float()
+def to_hard_label_by_ratio(score, ratio=0.2):
+    num_nodes = score.shape[0]
+    abnormal_count = max(1, int(ratio * num_nodes))
+    sorted_idx = torch.argsort(score, descending=True)
+    hard_label = torch.zeros_like(score)
+    hard_label[sorted_idx[:abnormal_count]] = 1.0
+    return hard_label
 
 # Load and preprocess data
 print('Loading and preprocessing data...')
@@ -205,9 +210,9 @@ optimiser_mlp_s = torch.optim.Adam(mlp_s.parameters(), lr=args.lr, weight_decay=
 
 
 print("\n🔁 Starting Student Training...")
-output_file = get_log_file(args, f"{args.dataset}_thr_{args.hard_label_threshold:.2f}.txt")
-best_logits_file = get_log_file(args, f"{args.dataset}_thr_{args.hard_label_threshold:.2f}_best_logits.npy")
-best_labels_file = get_log_file(args, f"{args.dataset}_thr_{args.hard_label_threshold:.2f}_test_labels.npy")
+output_file = get_log_file(args, f"{args.dataset}_ratio_{args.hard_label_ratio:.2f}.txt")
+best_logits_file = get_log_file(args, f"{args.dataset}_ratio_{args.hard_label_ratio:.2f}_best_logits.npy")
+best_labels_file = get_log_file(args, f"{args.dataset}_ratio_{args.hard_label_ratio:.2f}_test_labels.npy")
 best_auc = float("-inf")
 with open(output_file, "a") as f:
     with tqdm(total=args.num_epoch) as pbar:
@@ -228,7 +233,7 @@ with open(output_file, "a") as f:
                 auc = roc_auc_score(ano_label[idx_test], logits)
                 log_message = (
                     f'Testing_last_ggad_ {args.dataset} AUC: {auc:.4f}\n'
-                    f'Hard label threshold: {args.hard_label_threshold:.2f}\n'
+                    f'Hard label ratio: {args.hard_label_ratio:.2f}\n'
                     f'Pseudo abnormal used in BCE: False\n'
                 )
                 score_from_ggad = min_max_normalize(score_from_ggad_non_normalize)
@@ -247,7 +252,7 @@ with open(output_file, "a") as f:
             student_score = torch.sigmoid(student_score_non_normalize)
 
             # 转为硬标签
-            teacher_hard = to_hard_label(score_from_ggad ,threshold=args.hard_label_threshold)
+            teacher_hard = to_hard_label_by_ratio(score_from_ggad, ratio=args.hard_label_ratio)
             # log_message += f'Teacher hard label (first 10): {teacher_hard[:10]}\n'
 
             bce_loss = F.binary_cross_entropy(student_score, teacher_hard, reduction='mean')
@@ -348,4 +353,3 @@ with open(output_file, "a") as f:
             pbar.update(1)
 
     print("Training completed.")
-
