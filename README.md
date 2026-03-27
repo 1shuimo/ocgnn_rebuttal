@@ -163,6 +163,117 @@ python rebuttal/fp_fn_ratio_sweep.py \
 ../rebuttal_log/fp_fn_ratio_sweep/
 ```
 
+## 日志示例
+
+### 1. NormReg 对比日志
+
+`rebuttal/ggad_labeledNormal_our_normreg_compare.py` 的日志会写到：
+
+```text
+../rebuttal_log/ggad_labeledNormal_normreg_compare/
+```
+
+例如 `Amazon_with_normreg.txt` 大致会长这样：
+
+```text
+Teacher baseline: Testing_last_ggad_ Amazon AUC: 0.8123
+Teacher real_abnormal_center -> labeled_normal_center: 1.8421
+Teacher real_abnormal_center -> all_normal_center: 1.6354
+
+NormReg enabled: True
+Epoch 0: Total Loss = 0.1432
+MSE Loss = 0.1315
+Reg2 MSE Loss = 1.1734
+student_score: 0.4218
+ggad_score: 0.3987
+student_score_non_normalize: -0.2154
+ggad_score_non_normalize: -0.1876
+Testing Amazon AUC_student_mlp_s: 0.7312
+Testing Amazon AUC_student_mlp_s_non_normalize: 0.7285
+Testing Amazon AUC_student_ggad: 0.8044
+Testing Amazon AUC_student_ggad_non_normalize: 0.8019
+Testing Amazon AUC_student_minus_ggad: 0.6761
+Testing Amazon AUC_student_minus_ggad_non_normalize: 0.6708
+Student real_abnormal_center -> labeled_normal_center: 1.1248
+Student real_abnormal_center -> all_normal_center: 0.9736
+Testing AP_student_mlp_s: 0.4521
+Testing AP_student_mlp_s_non_normalize: 0.4478
+Testing AP_student_ggad: 0.5884
+Testing AP_student_ggad_non_normalize: 0.5829
+Testing AP_student_minus_ggad: 0.4016
+Testing AP_student_minus_ggad_non_normalize: 0.3962
+Total time is: 0.00
+```
+
+同时还会额外保存：
+
+```text
+../rebuttal_log/ggad_labeledNormal_normreg_compare/Amazon_with_normreg_best_logits.npy
+../rebuttal_log/ggad_labeledNormal_normreg_compare/Amazon_with_normreg_test_labels.npy
+../rebuttal_log/ggad_labeledNormal_normreg_compare/Amazon_with_normreg_best_metrics.txt
+```
+
+`best_metrics.txt` 大致如下：
+
+```text
+Best AUC_student_mlp_s: 0.7814
+NormReg enabled: True
+Teacher real_abnormal_center -> labeled_normal_center: 1.8421
+Teacher real_abnormal_center -> all_normal_center: 1.6354
+Best Student real_abnormal_center -> labeled_normal_center: 1.3928
+Best Student real_abnormal_center -> all_normal_center: 1.2147
+```
+
+### 2. FP / FN sweep 日志
+
+`rebuttal/fp_fn_ratio_sweep.py` 的输出日志大致如下：
+
+```text
+Dataset: Amazon
+Logits path: ../rebuttal_log/ggad_labeledNormal_normreg_compare/Amazon_with_normreg_best_logits.npy
+Labels path: ../rebuttal_log/ggad_labeledNormal_normreg_compare/Amazon_with_normreg_test_labels.npy
+Base ratio: 0.2000
+
+Ratio: 0.1000
+Predicted abnormal count: 330
+TP: 145
+FP: 185
+TN: 2140
+FN: 260
+Precision: 0.4394
+Recall: 0.3580
+F1: 0.3945
+FP indices: [3, 8, 12, ...]
+FN indices: [1, 5, 9, ...]
+Top-ranked abnormal indices: [77, 103, 5, ...]
+
+Ratio: 0.2000
+Predicted abnormal count: 660
+TP: 238
+FP: 422
+TN: 1903
+FN: 167
+Precision: 0.3606
+Recall: 0.5877
+F1: 0.4470
+FP indices: [...]
+FN indices: [...]
+Top-ranked abnormal indices: [...]
+
+Ratio: 0.3000
+Predicted abnormal count: 990
+TP: 301
+FP: 689
+TN: 1636
+FN: 104
+Precision: 0.3040
+Recall: 0.7432
+F1: 0.4315
+FP indices: [...]
+FN indices: [...]
+Top-ranked abnormal indices: [...]
+```
+
 ### 3. 四个优先数据集
 
 当前优先跑：
