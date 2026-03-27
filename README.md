@@ -85,6 +85,111 @@ python main/ggad_labeledNormal_no_noise.py \
 - 主入口：`main/dominant.py`
 - teacher 训练：`teachers/tea_train_dominant.py`
 
+## Rebuttal 脚本
+
+`rebuttal/` 目录下放的是这次 rebuttal 额外加的实验脚本。
+
+### 1. NormReg 对比
+
+脚本：
+
+- `rebuttal/ggad_labeledNormal_our_normreg_compare.py`
+
+作用：
+
+1. 基于 `our` 主实验
+2. 通过 `--use_normreg 1/0` 对比有无 NormReg
+3. 自动输出：
+   - `真实 abnormal center -> labeled normal center`
+   - `真实 abnormal center -> all normal center`
+4. 自动保存最佳 logits 和测试集 labels，供后续 FP/FN 分析使用
+
+有 NormReg：
+
+```bash
+python rebuttal/ggad_labeledNormal_our_normreg_compare.py \
+  --dataset Amazon \
+  --teacher_path ../ggad_new_best_pth/Amazon_ggad_teacher_final.pth \
+  --use_normreg 1
+```
+
+无 NormReg：
+
+```bash
+python rebuttal/ggad_labeledNormal_our_normreg_compare.py \
+  --dataset Amazon \
+  --teacher_path ../ggad_new_best_pth/Amazon_ggad_teacher_final.pth \
+  --use_normreg 0
+```
+
+默认日志目录：
+
+```text
+../rebuttal_log/ggad_labeledNormal_normreg_compare/
+```
+
+### 2. FP / FN 比例阈值 sweep
+
+脚本：
+
+- `rebuttal/fp_fn_ratio_sweep.py`
+
+作用：
+
+1. 对主实验 GraphNC 的 logits 做离线分析
+2. 默认统一比例阈值 `0.2`
+3. 自动计算：
+   - `0.1`
+   - `0.2`
+   - `0.3`
+4. 输出：
+   - TP / FP / TN / FN
+   - Precision / Recall / F1
+   - FP / FN 节点索引
+
+示例命令：
+
+```bash
+python rebuttal/fp_fn_ratio_sweep.py \
+  --dataset Amazon \
+  --logits_path ../rebuttal_log/ggad_labeledNormal_normreg_compare/Amazon_with_normreg_best_logits.npy \
+  --labels_path ../rebuttal_log/ggad_labeledNormal_normreg_compare/Amazon_with_normreg_test_labels.npy \
+  --base_ratio 0.2
+```
+
+默认日志目录：
+
+```text
+../rebuttal_log/fp_fn_ratio_sweep/
+```
+
+### 3. 四个优先数据集
+
+当前优先跑：
+
+1. `Amazon`
+2. `tolokers`
+3. `tf_finace`
+4. `YelpChi-all`
+
+例如 `tolokers`：
+
+```bash
+python rebuttal/ggad_labeledNormal_our_normreg_compare.py \
+  --dataset tolokers \
+  --teacher_path ../ggad_new_best_pth/tolokers_ggad_teacher_final.pth \
+  --use_normreg 1
+```
+
+例如 `tf_finace`：
+
+```bash
+python rebuttal/ggad_labeledNormal_our_normreg_compare.py \
+  --dataset tf_finace \
+  --teacher_path ../ggad_new_best_pth/tf_finace_ggad_teacher_final.pth \
+  --use_normreg 1
+```
+
 ## 说明
 
 - `main/ggad_labeledNormal_our.py` 使用：
