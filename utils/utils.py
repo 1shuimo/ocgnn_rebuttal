@@ -160,7 +160,7 @@ def load_mat_100(dataset, train_rate=0.3, val_rate=0.1):
     return adj, feat, ano_labels, all_idx, idx_train, idx_val, idx_test, ano_labels, str_ano_labels, attr_ano_labels, normal_label_idx, abnormal_label_idx
 
 
-def load_mat(dataset, train_rate=0.1, val_rate=0.1):
+def load_mat(dataset, train_rate=0.3, val_rate=0.1):
     # change train_rate to 0.25  0.3  0.4  0.5
     """Load .mat dataset."""
     data = sio.loadmat(_dataset_path(dataset))
@@ -200,7 +200,7 @@ def load_mat(dataset, train_rate=0.1, val_rate=0.1):
     print('Test', Counter(np.squeeze(ano_labels[idx_test])))
     # Sample some labeled normal nodes
     all_normal_label_idx = [i for i in idx_train if ano_labels[i] == 0]
-    rate = 0.7 # 0.3 0.5 0.6  0.8
+    rate = 0.5 # 0.3 0.5 0.6  0.8
     random.shuffle(all_normal_label_idx)
     normal_label_idx = all_normal_label_idx[: int(len(all_normal_label_idx) * rate)]
     print('Training rate', rate)
