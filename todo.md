@@ -1,239 +1,337 @@
 # TODO
 
-## 1. 计算四个数据集“异常中心到正常中心”的距离
+## 已确认的总体设置
+
+### 数据集优先级
+
+优先跑 4 个：
+
+1. Amazon
+2. Tolokers
+3. T-Finance
+4. YelpChi-All
+
+如果时间允许，再补：
+
+5. Reddit
+6. Photo
+
+也就是说，能做的话最好直接把 6 个数据集都跑掉。
+
+### 任务 1 的两个对比口径
+
+#### 情况 1
+
+只考虑 `有 NormReg` 和 `无 NormReg`。
+
+这里的“有无 NormReg”不是：
+
+- [main/ggad_labeledNormal_no_noise.py](/Users/shuimo/Desktop/ocgnn_rebuttal/main/ggad_labeledNormal_no_noise.py)
+
+而是指主实验 loss 里是否带正则项。
+
+目前你的定义是：
+
+- `无 NormReg`:
+  - `Loss = Loss1`
+- `有 NormReg`:
+  - `Loss = Loss1 + Loss2`
+  - 其中 `Loss2` 是 NormReg
+
+#### 情况 2
+
+当情况 1 里发现：
+
+- `有 NormReg` 的距离没有比 `无 NormReg` 更大
+- 或者几乎不变
+
+则进一步比较：
+
+1. `ScoreDA + NormReg`
+2. `都没有`
+
+其中：
+
+- `ScoreDA + NormReg` = 当前主实验
+- `都没有` = teacher 模型本身
+
+### 任务 1 最终要报什么
+
+你现在希望两种距离都算，但更偏向：
+
+- `异常中心 -> 正常中心`
+
+最终至少要固定输出：
+
+1. `真实 abnormal center -> labeled normal center`
+2. `真实 abnormal center -> all normal center`
+
+这个要求在两种情况里都要做：
+
+1. `有 / 无 NormReg`
+2. `ScoreDA+NormReg / teacher`
+
+### 任务 2 的阈值定义
+
+你确认这里沿用以前 `find_np` 的设置，也就是：
+
+- 比例阈值
+
+所以 `+-0.1` 也是对比例阈值做：
+
+1. 原阈值
+2. 原阈值 - 0.1
+3. 原阈值 + 0.1
+
+你还提到一个重要点：
+
+- 之前比例阈值那套好像主要只看了 Amazon 和 Tolokers
+- 这次剩下 4 个数据集也都要补上
+
+因此任务 2 需要扩成：
+
+1. 原阈值的 4 个数据集
+2. `-0.1` 的 6 个数据集
+3. `+0.1` 的 6 个数据集
+
+总之，这次需要把 6 个数据集都覆盖进去。
+
+### 任务 2 分析哪个模型
+
+只分析主实验，也就是：
+
+- GraphNC
+
+并且：
+
+1. FP 要算
+2. FN 也要算
+
+### 任务 3 的目标版本
+
+任务 3 不是单纯问 “BCE only 好不好”，而是要做下面这个版本：
+
+1. 先训练一个 teacher
+2. 用 teacher 分数 + 一个阈值，给节点打 hard label
+3. 用这些 hard label 对 student 做监督学习 BCE
+4. 明确不要再把 GGAD 生成的伪异常放进去
+
+你也确认了：
+
+- hard label 阈值先固定 `0.8` 就可以
+- 效果不需要特别强，最好比我们主方法差一点
+
+## 1. 任务 1：异常中心到正常中心距离
 
 ### 我目前的想法
 
-这件事我倾向于先做成“分析输出”，不要先揉进训练逻辑。
+这部分先做成分析输出，不先改 loss。
 
-第一版建议这样做：
+第一版建议直接挂到主实验和对应对照实验里，固定统计：
 
-1. 先固定在 GGAD 这条线做
-2. 先算 teacher embedding 上的距离
-3. 同时统计两种 normal center：
-   - `labeled normal center`
-   - `all normal center`
-4. 同时统计两种 abnormal 集合：
-   - `teacher_hard == 1`
-   - `ground-truth anomaly`
+1. `真实 abnormal center -> labeled normal center`
+2. `真实 abnormal center -> all normal center`
 
-这样最后每个实验版本至少会有 4 组距离：
+如果需要补充，再额外输出：
 
-1. abnormal center -> labeled normal center
-2. abnormal center -> all normal center
-3. mean(abnormal_i -> labeled normal center)
-4. mean(abnormal_i -> all normal center)
+1. 每个真实 abnormal 到 labeled normal center 的平均距离
+2. 每个真实 abnormal 到 all normal center 的平均距离
 
-然后再按你的要求做两层比较：
+但主表述还是以 center-to-center 为主。
 
-1. `有 NormReg` vs `无 NormReg`
-2. 如果差异不明显，再比较：
-   - `ScoreDA + NormReg`
-   - `teacher 本身`
-
-### 现有代码里我已经确认的点
+### 现有代码里已经确认的点
 
 - [main/ggad_labeledNormal_our.py](/Users/shuimo/Desktop/ocgnn_rebuttal/main/ggad_labeledNormal_our.py)
-  - 能构造 `teacher_hard`
-  - 能构造 `all_normal_idx`
-  - 有 `normal_label_idx`
+  - 可以取到 `normal_label_idx`
+  - 可以构造 `teacher_hard`
+  - 可以构造 `all_normal_idx`
 - [students/ggad_find_np.py](/Users/shuimo/Desktop/ocgnn_rebuttal/students/ggad_find_np.py)
-  - 虽然也算了 `all_normal_idx`
-  - 但真正用于特征增强和约束的是 `normal_label_idx`
+  - 当前很多约束最终实际用的是 `normal_label_idx`
+  - 不是 `all_normal_idx`
 - [students/ggad_0.5reg_dis.py](/Users/shuimo/Desktop/ocgnn_rebuttal/students/ggad_0.5reg_dis.py)
-  - 已经有“normal 到 normal center”的统计
-  - 但还不是你要的 abnormal-center 分析
+  - 有现成距离统计
+  - 但目前统计的是 `normal -> normal center`
 
-### 我现在的疑惑
+### 现在剩下的疑惑
 
-1. 你说的“四个数据集”具体是哪四个？
-   - Amazon / reddit / tf_finace / elliptic？
-   - 还是你有别的四个固定数据集
-2. “有无 NormReg”你希望对比的具体脚本是哪两个？
-   - `main/ggad_labeledNormal_our.py` vs `main/ggad_labeledNormal_no_noise.py`
-   - 还是你指的是某两条 student 分支
-3. “同时有 ScoreDA+NormReg 和同时没有这两个”你对应的具体实验脚本是哪些？
-   - 我现在能理解成：
-     - 有：当前主实验线
-     - 没有：teacher 本身
-   - 但这点还需要你确认
-4. 距离最终你想看哪一种作为主指标？
-   - center-to-center distance
-   - 还是每个异常点到 normal center 的平均距离
-
-### 你需要补充/确认什么
-
-1. 四个数据集名字
-2. “有 NormReg / 无 NormReg”分别对应哪个脚本
-3. “有 ScoreDA+NormReg / 都没有”分别对应哪个脚本
-4. 最终论文里你更想报哪一个距离指标
+1. “无 NormReg”具体基于哪一个脚本来跑最合适？
+   - 是直接从主实验拷一个 `no_normreg` 版本
+   - 还是仓库里已经有对应分支
+2. 你说的“teacher 本身”这里：
+   - 是直接用 teacher embedding 去算
+   - 还是用 teacher score 先分出 abnormal / normal 再基于 embedding 算
+   - 我现在理解成后者，但这点最好执行前再确认一次
 
 ### 我建议的实施步骤
 
-1. 你先把上面 4 个点确认掉
-2. 我先把距离统计函数加到：
-   - [main/ggad_labeledNormal_our.py](/Users/shuimo/Desktop/ocgnn_rebuttal/main/ggad_labeledNormal_our.py)
-   - [main/ggad_labeledNormal_no_noise.py](/Users/shuimo/Desktop/ocgnn_rebuttal/main/ggad_labeledNormal_no_noise.py)
-3. 如果 teacher 也要对比，再补到 teacher 脚本
-4. 最后统一输出到 `rebuttal_log`
+1. 先从主实验复制一个 `no_normreg` 版本
+2. 在两边都加统一距离分析函数
+3. 先跑 4 个优先数据集
+4. 如果结果不够，再补 teacher 对比和另外 2 个数据集
 
-## 2. false positive / false negative 的阈值，以及在这个基础上 ±0.1
+## 2. 任务 2：FP / FN 比例阈值 sweep
 
 ### 我目前的想法
 
-这件事我不建议直接继续改训练脚本，而是建议做一个独立离线分析脚本。
+这部分不要继续改训练脚本，直接做离线分析脚本。
 
-因为我现在确认下来，`find_np` 当前不是固定数值阈值，而是：
+输入：
 
-1. 把测试集 logits 排序
-2. 固定取 top 20% 判成异常
+1. GraphNC 的 logits
+2. labels
+3. 原比例阈值
 
-也就是当前真正起作用的是：
+输出：
 
-- `abnormal_ratio = 0.2`
+1. FP count
+2. FN count
+3. 可选的 FP/FN 节点索引
 
-所以“+-0.1”这里有两种可能解释：
+然后统一做：
 
-1. 改比例阈值：
-   - `0.1 / 0.2 / 0.3`
-2. 改 score cutoff：
-   - 先找到 top-20% 对应的 cutoff score
-   - 再算 `cutoff-0.1 / cutoff / cutoff+0.1`
+1. 原阈值
+2. 原阈值 - 0.1
+3. 原阈值 + 0.1
 
-我目前更倾向于两种都做，因为它们回答的问题不同。
-
-### 现有代码里我已经确认的点
+### 现有代码里已经确认的点
 
 - [students/ggad_find_np.py](/Users/shuimo/Desktop/ocgnn_rebuttal/students/ggad_find_np.py)
-  - 当前 FP/FN 逻辑是固定 `abnormal_ratio = 0.2`
+  - 当前是按比例阈值分
   - 不是固定 score threshold
-- [students/ggad_find_np_only_distill.py](/Users/shuimo/Desktop/ocgnn_rebuttal/students/ggad_find_np_only_distill.py)
-  - 同一类逻辑
-- [students/stu_train_ggad_hard_label.py](/Users/shuimo/Desktop/ocgnn_rebuttal/students/stu_train_ggad_hard_label.py)
-  - 有 `threshold = 0.8`
-  - 但这是 teacher hard label 的监督阈值
-  - 不是 `find_np` 用来做 FP/FN 的阈值
 
-### 我现在的疑惑
+### 现在剩下的疑惑
 
-1. 你说的“这个阈值”到底是指哪一个？
-   - `find_np` 当前的 `abnormal_ratio = 0.2`
-   - 还是你脑子里想的是一个 score threshold
-2. 你要的最终结果是：
-   - 只看 FP / FN 数量
-   - 还是还要节点索引、Precision、Recall、F1
-3. 你要分析的是：
-   - teacher
-   - student
-   - only distill
-   - 还是三者都做
-
-### 你需要补充/确认什么
-
-1. `+-0.1` 你想加减的是：
-   - 比例阈值
-   - 还是 score threshold
-2. 你要分析哪些模型输出：
-   - teacher
-   - student
-   - only distill
-3. 最终你需要报什么：
-   - 只报 FP/FN count
-   - 还是也报 Precision / Recall / F1
+1. 之前各数据集对应的“原比例阈值”是不是统一一个值？
+   - 还是 Amazon / Tolokers 用过特殊值
+2. 你说“原阈值的 4 个 + 6 + 6”
+   - 我现在理解成：
+     - 原设定只补 4 个
+     - `-0.1` 跑 6 个
+     - `+0.1` 跑 6 个
+   - 但这个统计口径后面最好再明确成表格
 
 ### 我建议的实施步骤
 
-1. 你先确认“+-0.1”对应的阈值定义
-2. 我新建一个离线分析脚本：
-   - `analysis/fp_fn_threshold_sweep.py`
-3. 读取现有 `best_logits.npy` 和 `test_labels.npy`
-4. 输出：
-   - FP / FN count
-   - 可选的节点索引
-   - Precision / Recall / F1
+1. 先把各数据集原比例阈值整理出来
+2. 新建离线脚本：
+   - `analysis/fp_fn_ratio_sweep.py`
+3. 先只支持 GraphNC
+4. 跑：
+   - 原阈值
+   - 原阈值 - 0.1
+   - 原阈值 + 0.1
 
-## 3. 先用 GGAD 打 normal / abnormal 标签，再对 student 做 BCE；去掉伪异常
+## 3. 任务 3：teacher hard label -> student BCE，且不要伪异常
 
 ### 我目前的想法
 
-这件事我觉得最容易先落成一个干净 baseline。
+这部分最适合新开一个干净脚本。
 
-因为现有代码里已经有一版非常接近你要的东西：
+最接近的现成基线是：
 
 - [students/stu_train_ggad_hard_label.py](/Users/shuimo/Desktop/ocgnn_rebuttal/students/stu_train_ggad_hard_label.py)
 
-它当前就是：
+因为它已经是：
 
 1. teacher 出分数
 2. teacher 分数转 hard label
-3. student 只在原始节点上输出 score
-4. BCE 只在原始节点上算
+3. student 在原始节点上做 BCE
+4. 没有把伪异常拼进 BCE
 
-也就是说，这一版本身没有把伪异常拼进 BCE。
+所以最稳的做法是：
 
-所以我现在的想法不是去复杂脚本里删逻辑，而是：
+1. 从它复制一份
+2. 命名更明确
+3. 把阈值、日志、输出清理一下
 
-1. 以 `stu_train_ggad_hard_label.py` 为底
-2. 整理成一个更明确的新脚本
-3. 第一版先保持最干净：
-   - teacher hard label
-   - student BCE
-   - no pseudo abnormal
-   - no extra reg
-
-### 现有代码里我已经确认的点
+### 现有代码里已经确认的点
 
 - [students/stu_train_ggad_hard_label.py](/Users/shuimo/Desktop/ocgnn_rebuttal/students/stu_train_ggad_hard_label.py)
-  - 当前 BCE 不含伪异常
-- 下面这些脚本才是把伪异常拼进去一起做 BCE / label concat 的：
-  - [students/stu_train_ggad_2_reg_mse.py](/Users/shuimo/Desktop/ocgnn_rebuttal/students/stu_train_ggad_2_reg_mse.py)
-  - [students/stu_train_ggad_0.01reg.py](/Users/shuimo/Desktop/ocgnn_rebuttal/students/stu_train_ggad_0.01reg.py)
-  - [students/stu_train_ggad_2_reg_data_enhance.py](/Users/shuimo/Desktop/ocgnn_rebuttal/students/stu_train_ggad_2_reg_data_enhance.py)
+  - 当前 hard label 阈值就是 `0.8`
+  - BCE 不含伪异常
+- 一些 `2_reg` / `data_enhance` 系列才是把伪异常拼进去了
 
-### 我现在的疑惑
+### 现在剩下的疑惑
 
-1. hard label 你想继续用固定 `threshold=0.8`，还是改成可调参数？
-2. label 是不是只针对原始图所有节点？
-   - 还是只针对测试集 / 某个子集
-3. 第一版你要不要保留任何额外项？
-   - `reg2_mse`
-   - augmentation
-   - 还是严格 `BCE only`
-
-### 你需要补充/确认什么
-
-1. 第一版是否就做 `BCE only`
-2. hard label 阈值是否先用 `0.8`
-3. 是否只监督原始节点的全部节点
+1. 你说“最好比我们的差”
+   - 我理解成这个实验只需要作为 baseline，不用再额外调很多超参数
+2. hard label 是不是就直接基于 teacher score 的 sigmoid 后结果做 `threshold=0.8`
+   - 目前 `stu_train_ggad_hard_label.py` 就是这样
 
 ### 我建议的实施步骤
 
 1. 新建：
    - `students/stu_train_ggad_teacher_bce_no_pseudo.py`
-2. 从 `stu_train_ggad_hard_label.py` 拷一份
-3. 把 threshold 变成命令行参数
-4. 把日志路径、输出命名整理干净
-5. 第一版先跑 `BCE only`
-6. 后面你如果需要，再加：
-   - `reg2_mse`
-   - top-percent hard label
+2. 从 `stu_train_ggad_hard_label.py` 复制
+3. 保留：
+   - teacher score
+   - threshold=0.8
+   - student BCE
+4. 去掉或避免所有 pseudo abnormal 相关逻辑
+5. 先跑 4 个优先数据集
 
-## 我建议的总体执行顺序
+## 4. 新增实验：RHO
 
-1. 先做任务 3
-   - 最容易快速形成一个干净 baseline
-2. 再做任务 2
-   - 属于离线分析，独立性高
-3. 最后做任务 1
-   - 因为它依赖你先明确实验对照组
+### 目标
 
-## 我现在最需要你补充的 8 个点
+在 RHO 上跑 2 个数据集，尽量挑两个能体现提升的数据集。
 
-1. 四个数据集具体是哪四个
-2. 任务 1 里“有 NormReg / 无 NormReg”具体对应哪两个脚本
-3. 任务 1 里“有 ScoreDA+NormReg / 都没有”具体对应哪两个脚本
-4. 任务 1 你最终更想报 center-to-center 还是 abnormal-to-center mean
-5. 任务 2 里的“+-0.1”是针对比例阈值还是 score threshold
-6. 任务 2 需要分析 teacher / student / only-distill 中的哪些
-7. 任务 3 第一版是否就做 `BCE only`
-8. 任务 3 hard label 阈值是否先固定 `0.8`
+### 我目前查到的信息
+
+RHO 仓库主页是：
+
+- [mala-lab/RHO](https://github.com/mala-lab/RHO)
+
+README 里写的是：
+
+1. 这是一个半监督图异常检测方法
+2. 官方运行方式包括：
+   - `sh run.sh`
+   - `python reproduction.py --dataset name`
+3. 仓库里有：
+   - `datasets/`
+   - `train.py`
+   - `reproduction.py`
+   - `checkpoint/`
+
+这是我根据它的 GitHub README 做的归纳。[来源](https://github.com/mala-lab/RHO)
+
+### 我目前的想法
+
+先不要一上来就做全量迁移，先做一个最小验证：
+
+1. 选 2 个数据集
+2. 先确认 RHO 仓库是否原生支持
+3. 如果支持，先复现它自己的结果
+4. 再考虑把我们的设置或方法接进去
+
+### 现在剩下的疑惑
+
+1. 你想放到 RHO 上的是：
+   - 我们的 student 训练策略
+   - 我们的正则项
+   - 还是整个 GraphNC 框架思路
+2. “最好能放两个提升的”
+   - 这个我可以先根据数据集特性和现有结果猜
+   - 但最终还是得跑一下 baseline 才能确认
+
+### 你需要补充/确认什么
+
+1. 你想优先试哪两个数据集
+   - Amazon / Tolokers 是我当前最优先的猜测
+2. 你希望迁移到 RHO 的具体成分是什么
+
+### 我建议的实施步骤
+
+1. 先 clone / 检查 RHO
+2. 确认它支持的数据集
+3. 先选两个最可能有提升的数据集
+4. 先复现 RHO baseline
+5. 再决定把我们的哪一部分接进去
+
+## 我下一步建议直接做的事情
+
+1. 新建 `students/stu_train_ggad_teacher_bce_no_pseudo.py`
+2. 新建 `analysis/fp_fn_ratio_sweep.py`
+3. 给主实验复制一个 `no_normreg` 版本，用于任务 1 对比
+4. 最后再看 RHO 接入
