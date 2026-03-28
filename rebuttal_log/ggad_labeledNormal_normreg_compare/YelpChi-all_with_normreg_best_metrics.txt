@@ -1,0 +1,6 @@
+Best AUC_student_mlp_s: 0.6599
+NormReg enabled: True
+Teacher real_abnormal_center -> labeled_normal_center: 0.0055
+Teacher real_abnormal_center -> all_normal_center: 0.0010
+Best Student real_abnormal_center -> labeled_normal_center: 0.2314
+Best Student real_abnormal_center -> all_normal_center: 0.2269
