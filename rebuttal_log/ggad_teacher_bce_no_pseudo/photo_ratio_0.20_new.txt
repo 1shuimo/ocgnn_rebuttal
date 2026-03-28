@@ -1,0 +1,4200 @@
+Testing_last_ggad_ photo AUC: 0.6606
+Hard label ratio: 0.20
+Pseudo abnormal used in BCE: False
+Epoch 0: Total Loss = 1.0779478549957275,BCE Loss =1.0779478549957275
+student_score: 0.6750805974006653
+ggad_score: 0.02766912803053856
+student_score_non_normalize: 0.7695364356040955
+ggad_score_non_normalize: -5.281368255615234
+Testing photo AUC_student_mlp_s: 0.3870
+Testing photo AUC_student_mlp_s_non_normalize: 0.3870
+Testing photo AUC_student_ggad: 0.4752
+Testing photo AUC_student_ggad_non_normalize: 0.6480
+Testing photo AUC_student_minus_ggad: 0.3618
+Testing photo AUC_student_minus_ggad_non_normalize: 0.3347
+Testing AP_student_mlp_s: 0.0742
+Testing AP_student_mlp_s_non_normalize: 0.0742
+Testing AP_student_ggad: 0.0982
+Testing AP_student_ggad_non_normalize: 0.1537
+Testing AP_student_minus_ggad: 0.0715
+Testing AP_student_minus_ggad_non_normalize: 0.0681
+Total time is: 0
+Testing_last_ggad_ photo AUC: 0.6606
+Hard label ratio: 0.20
+Pseudo abnormal used in BCE: False
+Epoch 5: Total Loss = 0.4472635090351105,BCE Loss =0.4472635090351105
+student_score: 0.11384240537881851
+ggad_score: 0.02766912803053856
+student_score_non_normalize: -2.631784677505493
+ggad_score_non_normalize: -5.281368255615234
+Testing photo AUC_student_mlp_s: 0.5800
+Testing photo AUC_student_mlp_s_non_normalize: 0.5800
+Testing photo AUC_student_ggad: 0.6127
+Testing photo AUC_student_ggad_non_normalize: 0.6527
+Testing photo AUC_student_minus_ggad: 0.5448
+Testing photo AUC_student_minus_ggad_non_normalize: 0.3919
+Testing AP_student_mlp_s: 0.1083
+Testing AP_student_mlp_s_non_normalize: 0.1083
+Testing AP_student_ggad: 0.1288
+Testing AP_student_ggad_non_normalize: 0.1454
+Testing AP_student_minus_ggad: 0.1008
+Testing AP_student_minus_ggad_non_normalize: 0.0716
+Total time is: 1.3539056777954102
+Testing_last_ggad_ photo AUC: 0.6606
+Hard label ratio: 0.20
+Pseudo abnormal used in BCE: False
+Epoch 10: Total Loss = 0.4622536301612854,BCE Loss =0.4622536301612854
+student_score: 0.09593468904495239
+ggad_score: 0.02766912803053856
+student_score_non_normalize: -3.055421829223633
+ggad_score_non_normalize: -5.281368255615234
+Testing photo AUC_student_mlp_s: 0.6047
+Testing photo AUC_student_mlp_s_non_normalize: 0.6047
+Testing photo AUC_student_ggad: 0.6301
+Testing photo AUC_student_ggad_non_normalize: 0.6597
+Testing photo AUC_student_minus_ggad: 0.5704
+Testing photo AUC_student_minus_ggad_non_normalize: 0.4264
+Testing AP_student_mlp_s: 0.1170
+Testing AP_student_mlp_s_non_normalize: 0.1170
+Testing AP_student_ggad: 0.1358
+Testing AP_student_ggad_non_normalize: 0.1492
+Testing AP_student_minus_ggad: 0.1090
+Testing AP_student_minus_ggad_non_normalize: 0.0765
+Total time is: 2.720280408859253
+Testing_last_ggad_ photo AUC: 0.6606
+Hard label ratio: 0.20
+Pseudo abnormal used in BCE: False
+Epoch 15: Total Loss = 0.42097872495651245,BCE Loss =0.42097872495651245
+student_score: 0.2094353437423706
+ggad_score: 0.02766912803053856
+student_score_non_normalize: -1.5794161558151245
+ggad_score_non_normalize: -5.281368255615234
+Testing photo AUC_student_mlp_s: 0.6148
+Testing photo AUC_student_mlp_s_non_normalize: 0.6148
+Testing photo AUC_student_ggad: 0.6361
+Testing photo AUC_student_ggad_non_normalize: 0.6662
+Testing photo AUC_student_minus_ggad: 0.5562
+Testing photo AUC_student_minus_ggad_non_normalize: 0.3830
+Testing AP_student_mlp_s: 0.1214
+Testing AP_student_mlp_s_non_normalize: 0.1214
+Testing AP_student_ggad: 0.1415
+Testing AP_student_ggad_non_normalize: 0.1548
+Testing AP_student_minus_ggad: 0.1030
+Testing AP_student_minus_ggad_non_normalize: 0.0713
+Total time is: 3.909893751144409
+Testing_last_ggad_ photo AUC: 0.6606
+Hard label ratio: 0.20
+Pseudo abnormal used in BCE: False
+Epoch 20: Total Loss = 0.41900819540023804,BCE Loss =0.41900819540023804
+student_score: 0.1457376331090927
+ggad_score: 0.02766912803053856
+student_score_non_normalize: -2.2919931411743164
+ggad_score_non_normalize: -5.281368255615234
+Testing photo AUC_student_mlp_s: 0.6249
+Testing photo AUC_student_mlp_s_non_normalize: 0.6249
+Testing photo AUC_student_ggad: 0.6421
+Testing photo AUC_student_ggad_non_normalize: 0.6679
+Testing photo AUC_student_minus_ggad: 0.5807
+Testing photo AUC_student_minus_ggad_non_normalize: 0.4169
+Testing AP_student_mlp_s: 0.1264
+Testing AP_student_mlp_s_non_normalize: 0.1264
+Testing AP_student_ggad: 0.1436
+Testing AP_student_ggad_non_normalize: 0.1556
+Testing AP_student_minus_ggad: 0.1097
+Testing AP_student_minus_ggad_non_normalize: 0.0756
+Total time is: 5.2563841342926025
+Testing_last_ggad_ photo AUC: 0.6606
+Hard label ratio: 0.20
+Pseudo abnormal used in BCE: False
+Epoch 25: Total Loss = 0.41150638461112976,BCE Loss =0.41150638461112976
+student_score: 0.17370295524597168
+ggad_score: 0.02766912803053856
+student_score_non_normalize: -1.9722402095794678
+ggad_score_non_normalize: -5.281368255615234
+Testing photo AUC_student_mlp_s: 0.6384
+Testing photo AUC_student_mlp_s_non_normalize: 0.6384
+Testing photo AUC_student_ggad: 0.6513
+Testing photo AUC_student_ggad_non_normalize: 0.6718
+Testing photo AUC_student_minus_ggad: 0.5871
+Testing photo AUC_student_minus_ggad_non_normalize: 0.4126
+Testing AP_student_mlp_s: 0.1351
+Testing AP_student_mlp_s_non_normalize: 0.1351
+Testing AP_student_ggad: 0.1496
+Testing AP_student_ggad_non_normalize: 0.1590
+Testing AP_student_minus_ggad: 0.1136
+Testing AP_student_minus_ggad_non_normalize: 0.0754
+Total time is: 6.417657852172852
+Testing_last_ggad_ photo AUC: 0.6606
+Hard label ratio: 0.20
+Pseudo abnormal used in BCE: False
+Epoch 30: Total Loss = 0.40907320380210876,BCE Loss =0.40907320380210876
+student_score: 0.18472076952457428
+ggad_score: 0.02766912803053856
+student_score_non_normalize: -1.8743188381195068
+ggad_score_non_normalize: -5.281368255615234
+Testing photo AUC_student_mlp_s: 0.6524
+Testing photo AUC_student_mlp_s_non_normalize: 0.6524
+Testing photo AUC_student_ggad: 0.6609
+Testing photo AUC_student_ggad_non_normalize: 0.6755
+Testing photo AUC_student_minus_ggad: 0.6003
+Testing photo AUC_student_minus_ggad_non_normalize: 0.4170
+Testing AP_student_mlp_s: 0.1455
+Testing AP_student_mlp_s_non_normalize: 0.1455
+Testing AP_student_ggad: 0.1562
+Testing AP_student_ggad_non_normalize: 0.1624
+Testing AP_student_minus_ggad: 0.1203
+Testing AP_student_minus_ggad_non_normalize: 0.0763
+Total time is: 7.4531426429748535
+Testing_last_ggad_ photo AUC: 0.6606
+Hard label ratio: 0.20
+Pseudo abnormal used in BCE: False
+Epoch 35: Total Loss = 0.40726223587989807,BCE Loss =0.40726223587989807
+student_score: 0.16626831889152527
+ggad_score: 0.02766912803053856
+student_score_non_normalize: -2.1048083305358887
+ggad_score_non_normalize: -5.281368255615234
+Testing photo AUC_student_mlp_s: 0.6608
+Testing photo AUC_student_mlp_s_non_normalize: 0.6608
+Testing photo AUC_student_ggad: 0.6671
+Testing photo AUC_student_ggad_non_normalize: 0.6783
+Testing photo AUC_student_minus_ggad: 0.6129
+Testing photo AUC_student_minus_ggad_non_normalize: 0.4344
+Testing AP_student_mlp_s: 0.1538
+Testing AP_student_mlp_s_non_normalize: 0.1538
+Testing AP_student_ggad: 0.1603
+Testing AP_student_ggad_non_normalize: 0.1648
+Testing AP_student_minus_ggad: 0.1264
+Testing AP_student_minus_ggad_non_normalize: 0.0790
+Total time is: 8.504599809646606
+Testing_last_ggad_ photo AUC: 0.6606
+Hard label ratio: 0.20
+Pseudo abnormal used in BCE: False
+Epoch 40: Total Loss = 0.40378791093826294,BCE Loss =0.40378791093826294
+student_score: 0.1903708577156067
+ggad_score: 0.02766912803053856
+student_score_non_normalize: -1.865397572517395
+ggad_score_non_normalize: -5.281368255615234
+Testing photo AUC_student_mlp_s: 0.6823
+Testing photo AUC_student_mlp_s_non_normalize: 0.6823
+Testing photo AUC_student_ggad: 0.6827
+Testing photo AUC_student_ggad_non_normalize: 0.6839
+Testing photo AUC_student_minus_ggad: 0.6353
+Testing photo AUC_student_minus_ggad_non_normalize: 0.4369
+Testing AP_student_mlp_s: 0.1867
+Testing AP_student_mlp_s_non_normalize: 0.1867
+Testing AP_student_ggad: 0.1743
+Testing AP_student_ggad_non_normalize: 0.1720
+Testing AP_student_minus_ggad: 0.1425
+Testing AP_student_minus_ggad_non_normalize: 0.0801
+Total time is: 9.709994316101074
+Testing_last_ggad_ photo AUC: 0.6606
+Hard label ratio: 0.20
+Pseudo abnormal used in BCE: False
+Epoch 45: Total Loss = 0.40059277415275574,BCE Loss =0.40059277415275574
+student_score: 0.1781867891550064
+ggad_score: 0.02766912803053856
+student_score_non_normalize: -2.024954080581665
+ggad_score_non_normalize: -5.281368255615234
+Testing photo AUC_student_mlp_s: 0.6932
+Testing photo AUC_student_mlp_s_non_normalize: 0.6932
+Testing photo AUC_student_ggad: 0.6909
+Testing photo AUC_student_ggad_non_normalize: 0.6882
+Testing photo AUC_student_minus_ggad: 0.6517
+Testing photo AUC_student_minus_ggad_non_normalize: 0.4549
+Testing AP_student_mlp_s: 0.2040
+Testing AP_student_mlp_s_non_normalize: 0.2040
+Testing AP_student_ggad: 0.1824
+Testing AP_student_ggad_non_normalize: 0.1769
+Testing AP_student_minus_ggad: 0.1547
+Testing AP_student_minus_ggad_non_normalize: 0.0833
+Total time is: 10.850566864013672
+Testing_last_ggad_ photo AUC: 0.6606
+Hard label ratio: 0.20
+Pseudo abnormal used in BCE: False
+Epoch 50: Total Loss = 0.3975459635257721,BCE Loss =0.3975459635257721
+student_score: 0.17961642146110535
+ggad_score: 0.02766912803053856
+student_score_non_normalize: -2.042759895324707
+ggad_score_non_normalize: -5.281368255615234
+Testing photo AUC_student_mlp_s: 0.7082
+Testing photo AUC_student_mlp_s_non_normalize: 0.7082
+Testing photo AUC_student_ggad: 0.7026
+Testing photo AUC_student_ggad_non_normalize: 0.6934
+Testing photo AUC_student_minus_ggad: 0.6724
+Testing photo AUC_student_minus_ggad_non_normalize: 0.4695
+Testing AP_student_mlp_s: 0.2333
+Testing AP_student_mlp_s_non_normalize: 0.2333
+Testing AP_student_ggad: 0.1962
+Testing AP_student_ggad_non_normalize: 0.1844
+Testing AP_student_minus_ggad: 0.1759
+Testing AP_student_minus_ggad_non_normalize: 0.0865
+Total time is: 11.939476013183594
+Testing_last_ggad_ photo AUC: 0.6606
+Hard label ratio: 0.20
+Pseudo abnormal used in BCE: False
+Epoch 55: Total Loss = 0.39472272992134094,BCE Loss =0.39472272992134094
+student_score: 0.19641293585300446
+ggad_score: 0.02766912803053856
+student_score_non_normalize: -1.9009983539581299
+ggad_score_non_normalize: -5.281368255615234
+Testing photo AUC_student_mlp_s: 0.7305
+Testing photo AUC_student_mlp_s_non_normalize: 0.7305
+Testing photo AUC_student_ggad: 0.7202
+Testing photo AUC_student_ggad_non_normalize: 0.7009
+Testing photo AUC_student_minus_ggad: 0.7018
+Testing photo AUC_student_minus_ggad_non_normalize: 0.4821
+Testing AP_student_mlp_s: 0.2899
+Testing AP_student_mlp_s_non_normalize: 0.2899
+Testing AP_student_ggad: 0.2228
+Testing AP_student_ggad_non_normalize: 0.1995
+Testing AP_student_minus_ggad: 0.2264
+Testing AP_student_minus_ggad_non_normalize: 0.0901
+Total time is: 13.265385866165161
+Testing_last_ggad_ photo AUC: 0.6606
+Hard label ratio: 0.20
+Pseudo abnormal used in BCE: False
+Epoch 60: Total Loss = 0.39087799191474915,BCE Loss =0.39087799191474915
+student_score: 0.17824213206768036
+ggad_score: 0.02766912803053856
+student_score_non_normalize: -2.1366989612579346
+ggad_score_non_normalize: -5.281368255615234
+Testing photo AUC_student_mlp_s: 0.7354
+Testing photo AUC_student_mlp_s_non_normalize: 0.7354
+Testing photo AUC_student_ggad: 0.7249
+Testing photo AUC_student_ggad_non_normalize: 0.7049
+Testing photo AUC_student_minus_ggad: 0.7126
+Testing photo AUC_student_minus_ggad_non_normalize: 0.5049
+Testing AP_student_mlp_s: 0.3038
+Testing AP_student_mlp_s_non_normalize: 0.3038
+Testing AP_student_ggad: 0.2315
+Testing AP_student_ggad_non_normalize: 0.2063
+Testing AP_student_minus_ggad: 0.2474
+Testing AP_student_minus_ggad_non_normalize: 0.0951
+Total time is: 14.326640367507935
+Testing_last_ggad_ photo AUC: 0.6606
+Hard label ratio: 0.20
+Pseudo abnormal used in BCE: False
+Epoch 65: Total Loss = 0.38651883602142334,BCE Loss =0.38651883602142334
+student_score: 0.18211016058921814
+ggad_score: 0.02766912803053856
+student_score_non_normalize: -2.1320269107818604
+ggad_score_non_normalize: -5.281368255615234
+Testing photo AUC_student_mlp_s: 0.7480
+Testing photo AUC_student_mlp_s_non_normalize: 0.7480
+Testing photo AUC_student_ggad: 0.7357
+Testing photo AUC_student_ggad_non_normalize: 0.7102
+Testing photo AUC_student_minus_ggad: 0.7313
+Testing photo AUC_student_minus_ggad_non_normalize: 0.5209
+Testing AP_student_mlp_s: 0.3349
+Testing AP_student_mlp_s_non_normalize: 0.3349
+Testing AP_student_ggad: 0.2467
+Testing AP_student_ggad_non_normalize: 0.2143
+Testing AP_student_minus_ggad: 0.2929
+Testing AP_student_minus_ggad_non_normalize: 0.0995
+Total time is: 15.32930064201355
+Testing_last_ggad_ photo AUC: 0.6606
+Hard label ratio: 0.20
+Pseudo abnormal used in BCE: False
+Epoch 70: Total Loss = 0.38147613406181335,BCE Loss =0.38147613406181335
+student_score: 0.18887831270694733
+ggad_score: 0.02766912803053856
+student_score_non_normalize: -2.089027166366577
+ggad_score_non_normalize: -5.281368255615234
+Testing photo AUC_student_mlp_s: 0.7595
+Testing photo AUC_student_mlp_s_non_normalize: 0.7595
+Testing photo AUC_student_ggad: 0.7458
+Testing photo AUC_student_ggad_non_normalize: 0.7146
+Testing photo AUC_student_minus_ggad: 0.7482
+Testing photo AUC_student_minus_ggad_non_normalize: 0.5338
+Testing AP_student_mlp_s: 0.3518
+Testing AP_student_mlp_s_non_normalize: 0.3518
+Testing AP_student_ggad: 0.2562
+Testing AP_student_ggad_non_normalize: 0.2181
+Testing AP_student_minus_ggad: 0.3243
+Testing AP_student_minus_ggad_non_normalize: 0.1034
+Total time is: 16.427632093429565
+Testing_last_ggad_ photo AUC: 0.6606
+Hard label ratio: 0.20
+Pseudo abnormal used in BCE: False
+Epoch 75: Total Loss = 0.375704288482666,BCE Loss =0.375704288482666
+student_score: 0.189550518989563
+ggad_score: 0.02766912803053856
+student_score_non_normalize: -2.104527711868286
+ggad_score_non_normalize: -5.281368255615234
+Testing photo AUC_student_mlp_s: 0.7660
+Testing photo AUC_student_mlp_s_non_normalize: 0.7660
+Testing photo AUC_student_ggad: 0.7516
+Testing photo AUC_student_ggad_non_normalize: 0.7172
+Testing photo AUC_student_minus_ggad: 0.7594
+Testing photo AUC_student_minus_ggad_non_normalize: 0.5449
+Testing AP_student_mlp_s: 0.3450
+Testing AP_student_mlp_s_non_normalize: 0.3450
+Testing AP_student_ggad: 0.2578
+Testing AP_student_ggad_non_normalize: 0.2182
+Testing AP_student_minus_ggad: 0.3341
+Testing AP_student_minus_ggad_non_normalize: 0.1065
+Total time is: 17.58991003036499
+Testing_last_ggad_ photo AUC: 0.6606
+Hard label ratio: 0.20
+Pseudo abnormal used in BCE: False
+Epoch 80: Total Loss = 0.36898598074913025,BCE Loss =0.36898598074913025
+student_score: 0.18501301109790802
+ggad_score: 0.02766912803053856
+student_score_non_normalize: -2.176330089569092
+ggad_score_non_normalize: -5.281368255615234
+Testing photo AUC_student_mlp_s: 0.7674
+Testing photo AUC_student_mlp_s_non_normalize: 0.7674
+Testing photo AUC_student_ggad: 0.7530
+Testing photo AUC_student_ggad_non_normalize: 0.7180
+Testing photo AUC_student_minus_ggad: 0.7644
+Testing photo AUC_student_minus_ggad_non_normalize: 0.5554
+Testing AP_student_mlp_s: 0.3264
+Testing AP_student_mlp_s_non_normalize: 0.3264
+Testing AP_student_ggad: 0.2538
+Testing AP_student_ggad_non_normalize: 0.2163
+Testing AP_student_minus_ggad: 0.3239
+Testing AP_student_minus_ggad_non_normalize: 0.1093
+Total time is: 18.832348346710205
+Testing_last_ggad_ photo AUC: 0.6606
+Hard label ratio: 0.20
+Pseudo abnormal used in BCE: False
+Epoch 85: Total Loss = 0.3611311614513397,BCE Loss =0.3611311614513397
+student_score: 0.1877899020910263
+ggad_score: 0.02766912803053856
+student_score_non_normalize: -2.165825128555298
+ggad_score_non_normalize: -5.281368255615234
+Testing photo AUC_student_mlp_s: 0.7693
+Testing photo AUC_student_mlp_s_non_normalize: 0.7693
+Testing photo AUC_student_ggad: 0.7550
+Testing photo AUC_student_ggad_non_normalize: 0.7189
+Testing photo AUC_student_minus_ggad: 0.7694
+Testing photo AUC_student_minus_ggad_non_normalize: 0.5638
+Testing AP_student_mlp_s: 0.3117
+Testing AP_student_mlp_s_non_normalize: 0.3117
+Testing AP_student_ggad: 0.2485
+Testing AP_student_ggad_non_normalize: 0.2099
+Testing AP_student_minus_ggad: 0.3184
+Testing AP_student_minus_ggad_non_normalize: 0.1124
+Total time is: 19.902281284332275
+Testing_last_ggad_ photo AUC: 0.6606
+Hard label ratio: 0.20
+Pseudo abnormal used in BCE: False
+Epoch 90: Total Loss = 0.35192224383354187,BCE Loss =0.35192224383354187
+student_score: 0.18258316814899445
+ggad_score: 0.02766912803053856
+student_score_non_normalize: -2.262476682662964
+ggad_score_non_normalize: -5.281368255615234
+Testing photo AUC_student_mlp_s: 0.7631
+Testing photo AUC_student_mlp_s_non_normalize: 0.7631
+Testing photo AUC_student_ggad: 0.7504
+Testing photo AUC_student_ggad_non_normalize: 0.7174
+Testing photo AUC_student_minus_ggad: 0.7653
+Testing photo AUC_student_minus_ggad_non_normalize: 0.5740
+Testing AP_student_mlp_s: 0.2932
+Testing AP_student_mlp_s_non_normalize: 0.2932
+Testing AP_student_ggad: 0.2424
+Testing AP_student_ggad_non_normalize: 0.2073
+Testing AP_student_minus_ggad: 0.3063
+Testing AP_student_minus_ggad_non_normalize: 0.1155
+Total time is: 20.97230839729309
+Testing_last_ggad_ photo AUC: 0.6606
+Hard label ratio: 0.20
+Pseudo abnormal used in BCE: False
+Epoch 95: Total Loss = 0.34069493412971497,BCE Loss =0.34069493412971497
+student_score: 0.18493926525115967
+ggad_score: 0.02766912803053856
+student_score_non_normalize: -2.275946617126465
+ggad_score_non_normalize: -5.281368255615234
+Testing photo AUC_student_mlp_s: 0.7603
+Testing photo AUC_student_mlp_s_non_normalize: 0.7603
+Testing photo AUC_student_ggad: 0.7488
+Testing photo AUC_student_ggad_non_normalize: 0.7168
+Testing photo AUC_student_minus_ggad: 0.7644
+Testing photo AUC_student_minus_ggad_non_normalize: 0.5857
+Testing AP_student_mlp_s: 0.2847
+Testing AP_student_mlp_s_non_normalize: 0.2847
+Testing AP_student_ggad: 0.2387
+Testing AP_student_ggad_non_normalize: 0.2057
+Testing AP_student_minus_ggad: 0.3042
+Testing AP_student_minus_ggad_non_normalize: 0.1203
+Total time is: 22.024619340896606
+Testing_last_ggad_ photo AUC: 0.6606
+Hard label ratio: 0.20
+Pseudo abnormal used in BCE: False
+Epoch 100: Total Loss = 0.3340250849723816,BCE Loss =0.3340250849723816
+student_score: 0.1615006923675537
+ggad_score: 0.02766912803053856
+student_score_non_normalize: -2.6331746578216553
+ggad_score_non_normalize: -5.281368255615234
+Testing photo AUC_student_mlp_s: 0.7477
+Testing photo AUC_student_mlp_s_non_normalize: 0.7477
+Testing photo AUC_student_ggad: 0.7381
+Testing photo AUC_student_ggad_non_normalize: 0.7133
+Testing photo AUC_student_minus_ggad: 0.7511
+Testing photo AUC_student_minus_ggad_non_normalize: 0.6000
+Testing AP_student_mlp_s: 0.2651
+Testing AP_student_mlp_s_non_normalize: 0.2651
+Testing AP_student_ggad: 0.2282
+Testing AP_student_ggad_non_normalize: 0.2037
+Testing AP_student_minus_ggad: 0.2846
+Testing AP_student_minus_ggad_non_normalize: 0.1252
+Total time is: 23.431760549545288
+Testing_last_ggad_ photo AUC: 0.6606
+Hard label ratio: 0.20
+Pseudo abnormal used in BCE: False
+Epoch 105: Total Loss = 0.5487648248672485,BCE Loss =0.5487648248672485
+student_score: 0.0499204583466053
+ggad_score: 0.02766912803053856
+student_score_non_normalize: -5.249244213104248
+ggad_score_non_normalize: -5.281368255615234
+Testing photo AUC_student_mlp_s: 0.6729
+Testing photo AUC_student_mlp_s_non_normalize: 0.6729
+Testing photo AUC_student_ggad: 0.6775
+Testing photo AUC_student_ggad_non_normalize: 0.6837
+Testing photo AUC_student_minus_ggad: 0.6416
+Testing photo AUC_student_minus_ggad_non_normalize: 0.5729
+Testing AP_student_mlp_s: 0.1714
+Testing AP_student_mlp_s_non_normalize: 0.1714
+Testing AP_student_ggad: 0.1701
+Testing AP_student_ggad_non_normalize: 0.1728
+Testing AP_student_minus_ggad: 0.1473
+Testing AP_student_minus_ggad_non_normalize: 0.1069
+Total time is: 24.512912034988403
+Testing_last_ggad_ photo AUC: 0.6606
+Hard label ratio: 0.20
+Pseudo abnormal used in BCE: False
+Epoch 110: Total Loss = 0.38763657212257385,BCE Loss =0.38763657212257385
+student_score: 0.11867906153202057
+ggad_score: 0.02766912803053856
+student_score_non_normalize: -3.101393938064575
+ggad_score_non_normalize: -5.281368255615234
+Testing photo AUC_student_mlp_s: 0.6983
+Testing photo AUC_student_mlp_s_non_normalize: 0.6983
+Testing photo AUC_student_ggad: 0.6957
+Testing photo AUC_student_ggad_non_normalize: 0.6931
+Testing photo AUC_student_minus_ggad: 0.6827
+Testing photo AUC_student_minus_ggad_non_normalize: 0.5347
+Testing AP_student_mlp_s: 0.2038
+Testing AP_student_mlp_s_non_normalize: 0.2038
+Testing AP_student_ggad: 0.1880
+Testing AP_student_ggad_non_normalize: 0.1840
+Testing AP_student_minus_ggad: 0.1845
+Testing AP_student_minus_ggad_non_normalize: 0.0986
+Total time is: 25.619692087173462
+Testing_last_ggad_ photo AUC: 0.6606
+Hard label ratio: 0.20
+Pseudo abnormal used in BCE: False
+Epoch 115: Total Loss = 0.371628999710083,BCE Loss =0.371628999710083
+student_score: 0.15749746561050415
+ggad_score: 0.02766912803053856
+student_score_non_normalize: -2.410773515701294
+ggad_score_non_normalize: -5.281368255615234
+Testing photo AUC_student_mlp_s: 0.7100
+Testing photo AUC_student_mlp_s_non_normalize: 0.7100
+Testing photo AUC_student_ggad: 0.7049
+Testing photo AUC_student_ggad_non_normalize: 0.6953
+Testing photo AUC_student_minus_ggad: 0.6951
+Testing photo AUC_student_minus_ggad_non_normalize: 0.5067
+Testing AP_student_mlp_s: 0.2215
+Testing AP_student_mlp_s_non_normalize: 0.2215
+Testing AP_student_ggad: 0.1955
+Testing AP_student_ggad_non_normalize: 0.1870
+Testing AP_student_minus_ggad: 0.1973
+Testing AP_student_minus_ggad_non_normalize: 0.0929
+Total time is: 26.698904752731323
+Testing_last_ggad_ photo AUC: 0.6606
+Hard label ratio: 0.20
+Pseudo abnormal used in BCE: False
+Epoch 120: Total Loss = 0.36966487765312195,BCE Loss =0.36966487765312195
+student_score: 0.20150958001613617
+ggad_score: 0.02766912803053856
+student_score_non_normalize: -1.8854749202728271
+ggad_score_non_normalize: -5.281368255615234
+Testing photo AUC_student_mlp_s: 0.7285
+Testing photo AUC_student_mlp_s_non_normalize: 0.7285
+Testing photo AUC_student_ggad: 0.7199
+Testing photo AUC_student_ggad_non_normalize: 0.6988
+Testing photo AUC_student_minus_ggad: 0.7176
+Testing photo AUC_student_minus_ggad_non_normalize: 0.4911
+Testing AP_student_mlp_s: 0.2504
+Testing AP_student_mlp_s_non_normalize: 0.2504
+Testing AP_student_ggad: 0.2125
+Testing AP_student_ggad_non_normalize: 0.1948
+Testing AP_student_minus_ggad: 0.2320
+Testing AP_student_minus_ggad_non_normalize: 0.0911
+Total time is: 27.867894172668457
+Testing_last_ggad_ photo AUC: 0.6606
+Hard label ratio: 0.20
+Pseudo abnormal used in BCE: False
+Epoch 125: Total Loss = 0.3790420889854431,BCE Loss =0.3790420889854431
+student_score: 0.14163298904895782
+ggad_score: 0.02766912803053856
+student_score_non_normalize: -2.642674207687378
+ggad_score_non_normalize: -5.281368255615234
+Testing photo AUC_student_mlp_s: 0.7090
+Testing photo AUC_student_mlp_s_non_normalize: 0.7090
+Testing photo AUC_student_ggad: 0.7041
+Testing photo AUC_student_ggad_non_normalize: 0.6963
+Testing photo AUC_student_minus_ggad: 0.6940
+Testing photo AUC_student_minus_ggad_non_normalize: 0.5187
+Testing AP_student_mlp_s: 0.2251
+Testing AP_student_mlp_s_non_normalize: 0.2251
+Testing AP_student_ggad: 0.1996
+Testing AP_student_ggad_non_normalize: 0.1916
+Testing AP_student_minus_ggad: 0.2013
+Testing AP_student_minus_ggad_non_normalize: 0.0952
+Total time is: 28.86002826690674
+Testing_last_ggad_ photo AUC: 0.6606
+Hard label ratio: 0.20
+Pseudo abnormal used in BCE: False
+Epoch 130: Total Loss = 0.3726901113986969,BCE Loss =0.3726901113986969
+student_score: 0.24763770401477814
+ggad_score: 0.02766912803053856
+student_score_non_normalize: -1.5260127782821655
+ggad_score_non_normalize: -5.281368255615234
+Testing photo AUC_student_mlp_s: 0.7668
+Testing photo AUC_student_mlp_s_non_normalize: 0.7668
+Testing photo AUC_student_ggad: 0.7521
+Testing photo AUC_student_ggad_non_normalize: 0.7115
+Testing photo AUC_student_minus_ggad: 0.7649
+Testing photo AUC_student_minus_ggad_non_normalize: 0.5158
+Testing AP_student_mlp_s: 0.3123
+Testing AP_student_mlp_s_non_normalize: 0.3123
+Testing AP_student_ggad: 0.2480
+Testing AP_student_ggad_non_normalize: 0.2118
+Testing AP_student_minus_ggad: 0.3282
+Testing AP_student_minus_ggad_non_normalize: 0.0990
+Total time is: 30.04497766494751
+Testing_last_ggad_ photo AUC: 0.6606
+Hard label ratio: 0.20
+Pseudo abnormal used in BCE: False
+Epoch 135: Total Loss = 0.3584102988243103,BCE Loss =0.3584102988243103
+student_score: 0.16113582253456116
+ggad_score: 0.02766912803053856
+student_score_non_normalize: -2.52360200881958
+ggad_score_non_normalize: -5.281368255615234
+Testing photo AUC_student_mlp_s: 0.7379
+Testing photo AUC_student_mlp_s_non_normalize: 0.7379
+Testing photo AUC_student_ggad: 0.7289
+Testing photo AUC_student_ggad_non_normalize: 0.7084
+Testing photo AUC_student_minus_ggad: 0.7360
+Testing photo AUC_student_minus_ggad_non_normalize: 0.5608
+Testing AP_student_mlp_s: 0.2699
+Testing AP_student_mlp_s_non_normalize: 0.2699
+Testing AP_student_ggad: 0.2307
+Testing AP_student_ggad_non_normalize: 0.2106
+Testing AP_student_minus_ggad: 0.2731
+Testing AP_student_minus_ggad_non_normalize: 0.1076
+Total time is: 30.977492332458496
+Testing_last_ggad_ photo AUC: 0.6606
+Hard label ratio: 0.20
+Pseudo abnormal used in BCE: False
+Epoch 140: Total Loss = 0.34616735577583313,BCE Loss =0.34616735577583313
+student_score: 0.22156912088394165
+ggad_score: 0.02766912803053856
+student_score_non_normalize: -1.9632312059402466
+ggad_score_non_normalize: -5.281368255615234
+Testing photo AUC_student_mlp_s: 0.7749
+Testing photo AUC_student_mlp_s_non_normalize: 0.7749
+Testing photo AUC_student_ggad: 0.7617
+Testing photo AUC_student_ggad_non_normalize: 0.7225
+Testing photo AUC_student_minus_ggad: 0.7795
+Testing photo AUC_student_minus_ggad_non_normalize: 0.5958
+Testing AP_student_mlp_s: 0.3230
+Testing AP_student_mlp_s_non_normalize: 0.3230
+Testing AP_student_ggad: 0.2607
+Testing AP_student_ggad_non_normalize: 0.2238
+Testing AP_student_minus_ggad: 0.3475
+Testing AP_student_minus_ggad_non_normalize: 0.1234
+Total time is: 32.068872928619385
+Testing_last_ggad_ photo AUC: 0.6606
+Hard label ratio: 0.20
+Pseudo abnormal used in BCE: False
+Epoch 145: Total Loss = 0.33570435643196106,BCE Loss =0.33570435643196106
+student_score: 0.2020590901374817
+ggad_score: 0.02766912803053856
+student_score_non_normalize: -2.241312265396118
+ggad_score_non_normalize: -5.281368255615234
+Testing photo AUC_student_mlp_s: 0.7727
+Testing photo AUC_student_mlp_s_non_normalize: 0.7727
+Testing photo AUC_student_ggad: 0.7604
+Testing photo AUC_student_ggad_non_normalize: 0.7239
+Testing photo AUC_student_minus_ggad: 0.7778
+Testing photo AUC_student_minus_ggad_non_normalize: 0.6199
+Testing AP_student_mlp_s: 0.3129
+Testing AP_student_mlp_s_non_normalize: 0.3129
+Testing AP_student_ggad: 0.2577
+Testing AP_student_ggad_non_normalize: 0.2237
+Testing AP_student_minus_ggad: 0.3374
+Testing AP_student_minus_ggad_non_normalize: 0.1327
+Total time is: 33.115280866622925
+Testing_last_ggad_ photo AUC: 0.6606
+Hard label ratio: 0.20
+Pseudo abnormal used in BCE: False
+Epoch 150: Total Loss = 0.33001893758773804,BCE Loss =0.33001893758773804
+student_score: 0.17594385147094727
+ggad_score: 0.02766912803053856
+student_score_non_normalize: -2.6047236919403076
+ggad_score_non_normalize: -5.281368255615234
+Testing photo AUC_student_mlp_s: 0.7649
+Testing photo AUC_student_mlp_s_non_normalize: 0.7649
+Testing photo AUC_student_ggad: 0.7538
+Testing photo AUC_student_ggad_non_normalize: 0.7226
+Testing photo AUC_student_minus_ggad: 0.7712
+Testing photo AUC_student_minus_ggad_non_normalize: 0.6340
+Testing AP_student_mlp_s: 0.2937
+Testing AP_student_mlp_s_non_normalize: 0.2937
+Testing AP_student_ggad: 0.2486
+Testing AP_student_ggad_non_normalize: 0.2193
+Testing AP_student_minus_ggad: 0.3182
+Testing AP_student_minus_ggad_non_normalize: 0.1396
+Total time is: 34.270878314971924
+Testing_last_ggad_ photo AUC: 0.6606
+Hard label ratio: 0.20
+Pseudo abnormal used in BCE: False
+Epoch 155: Total Loss = 0.3232901394367218,BCE Loss =0.3232901394367218
+student_score: 0.17474281787872314
+ggad_score: 0.02766912803053856
+student_score_non_normalize: -2.6398134231567383
+ggad_score_non_normalize: -5.281368255615234
+Testing photo AUC_student_mlp_s: 0.7621
+Testing photo AUC_student_mlp_s_non_normalize: 0.7621
+Testing photo AUC_student_ggad: 0.7518
+Testing photo AUC_student_ggad_non_normalize: 0.7221
+Testing photo AUC_student_minus_ggad: 0.7685
+Testing photo AUC_student_minus_ggad_non_normalize: 0.6408
+Testing AP_student_mlp_s: 0.2830
+Testing AP_student_mlp_s_non_normalize: 0.2830
+Testing AP_student_ggad: 0.2438
+Testing AP_student_ggad_non_normalize: 0.2160
+Testing AP_student_minus_ggad: 0.3068
+Testing AP_student_minus_ggad_non_normalize: 0.1440
+Total time is: 35.39442801475525
+Testing_last_ggad_ photo AUC: 0.6606
+Hard label ratio: 0.20
+Pseudo abnormal used in BCE: False
+Epoch 160: Total Loss = 0.3158124089241028,BCE Loss =0.3158124089241028
+student_score: 0.1774328351020813
+ggad_score: 0.02766912803053856
+student_score_non_normalize: -2.620382308959961
+ggad_score_non_normalize: -5.281368255615234
+Testing photo AUC_student_mlp_s: 0.7562
+Testing photo AUC_student_mlp_s_non_normalize: 0.7562
+Testing photo AUC_student_ggad: 0.7472
+Testing photo AUC_student_ggad_non_normalize: 0.7197
+Testing photo AUC_student_minus_ggad: 0.7620
+Testing photo AUC_student_minus_ggad_non_normalize: 0.6416
+Testing AP_student_mlp_s: 0.2710
+Testing AP_student_mlp_s_non_normalize: 0.2710
+Testing AP_student_ggad: 0.2345
+Testing AP_student_ggad_non_normalize: 0.2101
+Testing AP_student_minus_ggad: 0.2941
+Testing AP_student_minus_ggad_non_normalize: 0.1459
+Total time is: 36.71360921859741
+Testing_last_ggad_ photo AUC: 0.6606
+Hard label ratio: 0.20
+Pseudo abnormal used in BCE: False
+Epoch 165: Total Loss = 0.30793875455856323,BCE Loss =0.30793875455856323
+student_score: 0.18394792079925537
+ggad_score: 0.02766912803053856
+student_score_non_normalize: -2.5593693256378174
+ggad_score_non_normalize: -5.281368255615234
+Testing photo AUC_student_mlp_s: 0.7488
+Testing photo AUC_student_mlp_s_non_normalize: 0.7488
+Testing photo AUC_student_ggad: 0.7410
+Testing photo AUC_student_ggad_non_normalize: 0.7164
+Testing photo AUC_student_minus_ggad: 0.7536
+Testing photo AUC_student_minus_ggad_non_normalize: 0.6398
+Testing AP_student_mlp_s: 0.2579
+Testing AP_student_mlp_s_non_normalize: 0.2579
+Testing AP_student_ggad: 0.2256
+Testing AP_student_ggad_non_normalize: 0.2042
+Testing AP_student_minus_ggad: 0.2808
+Testing AP_student_minus_ggad_non_normalize: 0.1473
+Total time is: 37.828405141830444
+Testing_last_ggad_ photo AUC: 0.6606
+Hard label ratio: 0.20
+Pseudo abnormal used in BCE: False
+Epoch 170: Total Loss = 0.30084747076034546,BCE Loss =0.30084747076034546
+student_score: 0.20057283341884613
+ggad_score: 0.02766912803053856
+student_score_non_normalize: -2.3718972206115723
+ggad_score_non_normalize: -5.281368255615234
+Testing photo AUC_student_mlp_s: 0.7433
+Testing photo AUC_student_mlp_s_non_normalize: 0.7433
+Testing photo AUC_student_ggad: 0.7365
+Testing photo AUC_student_ggad_non_normalize: 0.7137
+Testing photo AUC_student_minus_ggad: 0.7469
+Testing photo AUC_student_minus_ggad_non_normalize: 0.6381
+Testing AP_student_mlp_s: 0.2487
+Testing AP_student_mlp_s_non_normalize: 0.2487
+Testing AP_student_ggad: 0.2201
+Testing AP_student_ggad_non_normalize: 0.2017
+Testing AP_student_minus_ggad: 0.2703
+Testing AP_student_minus_ggad_non_normalize: 0.1491
+Total time is: 38.80026626586914
+Testing_last_ggad_ photo AUC: 0.6606
+Hard label ratio: 0.20
+Pseudo abnormal used in BCE: False
+Epoch 175: Total Loss = 0.2931154668331146,BCE Loss =0.2931154668331146
+student_score: 0.18680423498153687
+ggad_score: 0.02766912803053856
+student_score_non_normalize: -2.5941176414489746
+ggad_score_non_normalize: -5.281368255615234
+Testing photo AUC_student_mlp_s: 0.7342
+Testing photo AUC_student_mlp_s_non_normalize: 0.7342
+Testing photo AUC_student_ggad: 0.7285
+Testing photo AUC_student_ggad_non_normalize: 0.7100
+Testing photo AUC_student_minus_ggad: 0.7371
+Testing photo AUC_student_minus_ggad_non_normalize: 0.6422
+Testing AP_student_mlp_s: 0.2384
+Testing AP_student_mlp_s_non_normalize: 0.2384
+Testing AP_student_ggad: 0.2134
+Testing AP_student_ggad_non_normalize: 0.1995
+Testing AP_student_minus_ggad: 0.2581
+Testing AP_student_minus_ggad_non_normalize: 0.1537
+Total time is: 39.879868268966675
+Testing_last_ggad_ photo AUC: 0.6606
+Hard label ratio: 0.20
+Pseudo abnormal used in BCE: False
+Epoch 180: Total Loss = 0.28575417399406433,BCE Loss =0.28575417399406433
+student_score: 0.20024746656417847
+ggad_score: 0.02766912803053856
+student_score_non_normalize: -2.453937292098999
+ggad_score_non_normalize: -5.281368255615234
+Testing photo AUC_student_mlp_s: 0.7325
+Testing photo AUC_student_mlp_s_non_normalize: 0.7325
+Testing photo AUC_student_ggad: 0.7274
+Testing photo AUC_student_ggad_non_normalize: 0.7095
+Testing photo AUC_student_minus_ggad: 0.7351
+Testing photo AUC_student_minus_ggad_non_normalize: 0.6477
+Testing AP_student_mlp_s: 0.2365
+Testing AP_student_mlp_s_non_normalize: 0.2365
+Testing AP_student_ggad: 0.2113
+Testing AP_student_ggad_non_normalize: 0.1991
+Testing AP_student_minus_ggad: 0.2541
+Testing AP_student_minus_ggad_non_normalize: 0.1616
+Total time is: 41.00042772293091
+Testing_last_ggad_ photo AUC: 0.6606
+Hard label ratio: 0.20
+Pseudo abnormal used in BCE: False
+Epoch 185: Total Loss = 0.2782756984233856,BCE Loss =0.2782756984233856
+student_score: 0.20076346397399902
+ggad_score: 0.02766912803053856
+student_score_non_normalize: -2.4901046752929688
+ggad_score_non_normalize: -5.281368255615234
+Testing photo AUC_student_mlp_s: 0.7283
+Testing photo AUC_student_mlp_s_non_normalize: 0.7283
+Testing photo AUC_student_ggad: 0.7237
+Testing photo AUC_student_ggad_non_normalize: 0.7076
+Testing photo AUC_student_minus_ggad: 0.7300
+Testing photo AUC_student_minus_ggad_non_normalize: 0.6528
+Testing AP_student_mlp_s: 0.2318
+Testing AP_student_mlp_s_non_normalize: 0.2318
+Testing AP_student_ggad: 0.2073
+Testing AP_student_ggad_non_normalize: 0.1983
+Testing AP_student_minus_ggad: 0.2452
+Testing AP_student_minus_ggad_non_normalize: 0.1687
+Total time is: 42.197484731674194
+Testing_last_ggad_ photo AUC: 0.6606
+Hard label ratio: 0.20
+Pseudo abnormal used in BCE: False
+Epoch 190: Total Loss = 0.2704911530017853,BCE Loss =0.2704911530017853
+student_score: 0.189410999417305
+ggad_score: 0.02766912803053856
+student_score_non_normalize: -2.703444242477417
+ggad_score_non_normalize: -5.281368255615234
+Testing photo AUC_student_mlp_s: 0.7208
+Testing photo AUC_student_mlp_s_non_normalize: 0.7208
+Testing photo AUC_student_ggad: 0.7169
+Testing photo AUC_student_ggad_non_normalize: 0.7041
+Testing photo AUC_student_minus_ggad: 0.7218
+Testing photo AUC_student_minus_ggad_non_normalize: 0.6541
+Testing AP_student_mlp_s: 0.2232
+Testing AP_student_mlp_s_non_normalize: 0.2232
+Testing AP_student_ggad: 0.2012
+Testing AP_student_ggad_non_normalize: 0.1960
+Testing AP_student_minus_ggad: 0.2342
+Testing AP_student_minus_ggad_non_normalize: 0.1714
+Total time is: 43.30752754211426
+Testing_last_ggad_ photo AUC: 0.6606
+Hard label ratio: 0.20
+Pseudo abnormal used in BCE: False
+Epoch 195: Total Loss = 0.29913580417633057,BCE Loss =0.29913580417633057
+student_score: 0.27620452642440796
+ggad_score: 0.02766912803053856
+student_score_non_normalize: -1.6614657640457153
+ggad_score_non_normalize: -5.281368255615234
+Testing photo AUC_student_mlp_s: 0.7215
+Testing photo AUC_student_mlp_s_non_normalize: 0.7215
+Testing photo AUC_student_ggad: 0.7177
+Testing photo AUC_student_ggad_non_normalize: 0.7038
+Testing photo AUC_student_minus_ggad: 0.7209
+Testing photo AUC_student_minus_ggad_non_normalize: 0.6386
+Testing AP_student_mlp_s: 0.2208
+Testing AP_student_mlp_s_non_normalize: 0.2208
+Testing AP_student_ggad: 0.1965
+Testing AP_student_ggad_non_normalize: 0.1952
+Testing AP_student_minus_ggad: 0.2170
+Testing AP_student_minus_ggad_non_normalize: 0.1689
+Total time is: 44.5036780834198
+Testing_last_ggad_ photo AUC: 0.6606
+Hard label ratio: 0.20
+Pseudo abnormal used in BCE: False
+Epoch 200: Total Loss = 1.334761142730713,BCE Loss =1.334761142730713
+student_score: 0.006322322878986597
+ggad_score: 0.02766912803053856
+student_score_non_normalize: -12.906922340393066
+ggad_score_non_normalize: -5.281368255615234
+Testing photo AUC_student_mlp_s: 0.6404
+Testing photo AUC_student_mlp_s_non_normalize: 0.6404
+Testing photo AUC_student_ggad: 0.6614
+Testing photo AUC_student_ggad_non_normalize: 0.6579
+Testing photo AUC_student_minus_ggad: 0.6504
+Testing photo AUC_student_minus_ggad_non_normalize: 0.6022
+Testing AP_student_mlp_s: 0.1372
+Testing AP_student_mlp_s_non_normalize: 0.1372
+Testing AP_student_ggad: 0.1540
+Testing AP_student_ggad_non_normalize: 0.1491
+Testing AP_student_minus_ggad: 0.1534
+Testing AP_student_minus_ggad_non_normalize: 0.1154
+Total time is: 45.81228542327881
+Testing_last_ggad_ photo AUC: 0.6606
+Hard label ratio: 0.20
+Pseudo abnormal used in BCE: False
+Epoch 205: Total Loss = 0.8834138512611389,BCE Loss =0.8834138512611389
+student_score: 0.016331028193235397
+ggad_score: 0.02766912803053856
+student_score_non_normalize: -8.304343223571777
+ggad_score_non_normalize: -5.281368255615234
+Testing photo AUC_student_mlp_s: 0.6381
+Testing photo AUC_student_mlp_s_non_normalize: 0.6381
+Testing photo AUC_student_ggad: 0.6600
+Testing photo AUC_student_ggad_non_normalize: 0.6619
+Testing photo AUC_student_minus_ggad: 0.6372
+Testing photo AUC_student_minus_ggad_non_normalize: 0.5698
+Testing AP_student_mlp_s: 0.1335
+Testing AP_student_mlp_s_non_normalize: 0.1335
+Testing AP_student_ggad: 0.1502
+Testing AP_student_ggad_non_normalize: 0.1502
+Testing AP_student_minus_ggad: 0.1467
+Testing AP_student_minus_ggad_non_normalize: 0.1044
+Total time is: 47.0114049911499
+Testing_last_ggad_ photo AUC: 0.6606
+Hard label ratio: 0.20
+Pseudo abnormal used in BCE: False
+Epoch 210: Total Loss = 0.41278454661369324,BCE Loss =0.41278454661369324
+student_score: 0.28278639912605286
+ggad_score: 0.02766912803053856
+student_score_non_normalize: -1.1364449262619019
+ggad_score_non_normalize: -5.281368255615234
+Testing photo AUC_student_mlp_s: 0.6933
+Testing photo AUC_student_mlp_s_non_normalize: 0.6933
+Testing photo AUC_student_ggad: 0.6919
+Testing photo AUC_student_ggad_non_normalize: 0.6827
+Testing photo AUC_student_minus_ggad: 0.6564
+Testing photo AUC_student_minus_ggad_non_normalize: 0.4128
+Testing AP_student_mlp_s: 0.1843
+Testing AP_student_mlp_s_non_normalize: 0.1843
+Testing AP_student_ggad: 0.1741
+Testing AP_student_ggad_non_normalize: 0.1696
+Testing AP_student_minus_ggad: 0.1533
+Testing AP_student_minus_ggad_non_normalize: 0.0771
+Total time is: 48.2279212474823
+Testing_last_ggad_ photo AUC: 0.6606
+Hard label ratio: 0.20
+Pseudo abnormal used in BCE: False
+Epoch 215: Total Loss = 0.436294823884964,BCE Loss =0.436294823884964
+student_score: 0.09413889050483704
+ggad_score: 0.02766912803053856
+student_score_non_normalize: -3.364849090576172
+ggad_score_non_normalize: -5.281368255615234
+Testing photo AUC_student_mlp_s: 0.6560
+Testing photo AUC_student_mlp_s_non_normalize: 0.6560
+Testing photo AUC_student_ggad: 0.6644
+Testing photo AUC_student_ggad_non_normalize: 0.6768
+Testing photo AUC_student_minus_ggad: 0.6238
+Testing photo AUC_student_minus_ggad_non_normalize: 0.4882
+Testing AP_student_mlp_s: 0.1483
+Testing AP_student_mlp_s_non_normalize: 0.1483
+Testing AP_student_ggad: 0.1556
+Testing AP_student_ggad_non_normalize: 0.1619
+Testing AP_student_minus_ggad: 0.1288
+Testing AP_student_minus_ggad_non_normalize: 0.0875
+Total time is: 49.49311280250549
+Testing_last_ggad_ photo AUC: 0.6606
+Hard label ratio: 0.20
+Pseudo abnormal used in BCE: False
+Epoch 220: Total Loss = 0.4185933470726013,BCE Loss =0.4185933470726013
+student_score: 0.28753843903541565
+ggad_score: 0.02766912803053856
+student_score_non_normalize: -1.0973873138427734
+ggad_score_non_normalize: -5.281368255615234
+Testing photo AUC_student_mlp_s: 0.7200
+Testing photo AUC_student_mlp_s_non_normalize: 0.7200
+Testing photo AUC_student_ggad: 0.7119
+Testing photo AUC_student_ggad_non_normalize: 0.6883
+Testing photo AUC_student_minus_ggad: 0.6843
+Testing photo AUC_student_minus_ggad_non_normalize: 0.4186
+Testing AP_student_mlp_s: 0.2224
+Testing AP_student_mlp_s_non_normalize: 0.2224
+Testing AP_student_ggad: 0.1897
+Testing AP_student_ggad_non_normalize: 0.1754
+Testing AP_student_minus_ggad: 0.1836
+Testing AP_student_minus_ggad_non_normalize: 0.0786
+Total time is: 50.45467138290405
+Testing_last_ggad_ photo AUC: 0.6606
+Hard label ratio: 0.20
+Pseudo abnormal used in BCE: False
+Epoch 225: Total Loss = 0.39879101514816284,BCE Loss =0.39879101514816284
+student_score: 0.12770366668701172
+ggad_score: 0.02766912803053856
+student_score_non_normalize: -2.7300405502319336
+ggad_score_non_normalize: -5.281368255615234
+Testing photo AUC_student_mlp_s: 0.6712
+Testing photo AUC_student_mlp_s_non_normalize: 0.6712
+Testing photo AUC_student_ggad: 0.6747
+Testing photo AUC_student_ggad_non_normalize: 0.6819
+Testing photo AUC_student_minus_ggad: 0.6373
+Testing photo AUC_student_minus_ggad_non_normalize: 0.4763
+Testing AP_student_mlp_s: 0.1648
+Testing AP_student_mlp_s_non_normalize: 0.1648
+Testing AP_student_ggad: 0.1657
+Testing AP_student_ggad_non_normalize: 0.1681
+Testing AP_student_minus_ggad: 0.1385
+Testing AP_student_minus_ggad_non_normalize: 0.0859
+Total time is: 51.64297795295715
+Testing_last_ggad_ photo AUC: 0.6606
+Hard label ratio: 0.20
+Pseudo abnormal used in BCE: False
+Epoch 230: Total Loss = 0.3790469169616699,BCE Loss =0.3790469169616699
+student_score: 0.20481878519058228
+ggad_score: 0.02766912803053856
+student_score_non_normalize: -1.7923953533172607
+ggad_score_non_normalize: -5.281368255615234
+Testing photo AUC_student_mlp_s: 0.7016
+Testing photo AUC_student_mlp_s_non_normalize: 0.7016
+Testing photo AUC_student_ggad: 0.6978
+Testing photo AUC_student_ggad_non_normalize: 0.6888
+Testing photo AUC_student_minus_ggad: 0.6757
+Testing photo AUC_student_minus_ggad_non_normalize: 0.4550
+Testing AP_student_mlp_s: 0.2054
+Testing AP_student_mlp_s_non_normalize: 0.2054
+Testing AP_student_ggad: 0.1849
+Testing AP_student_ggad_non_normalize: 0.1773
+Testing AP_student_minus_ggad: 0.1715
+Testing AP_student_minus_ggad_non_normalize: 0.0836
+Total time is: 52.76675987243652
+Testing_last_ggad_ photo AUC: 0.6606
+Hard label ratio: 0.20
+Pseudo abnormal used in BCE: False
+Epoch 235: Total Loss = 0.37400251626968384,BCE Loss =0.37400251626968384
+student_score: 0.19326119124889374
+ggad_score: 0.02766912803053856
+student_score_non_normalize: -1.9473949670791626
+ggad_score_non_normalize: -5.281368255615234
+Testing photo AUC_student_mlp_s: 0.7041
+Testing photo AUC_student_mlp_s_non_normalize: 0.7041
+Testing photo AUC_student_ggad: 0.6998
+Testing photo AUC_student_ggad_non_normalize: 0.6908
+Testing photo AUC_student_minus_ggad: 0.6827
+Testing photo AUC_student_minus_ggad_non_normalize: 0.4708
+Testing AP_student_mlp_s: 0.2123
+Testing AP_student_mlp_s_non_normalize: 0.2123
+Testing AP_student_ggad: 0.1880
+Testing AP_student_ggad_non_normalize: 0.1795
+Testing AP_student_minus_ggad: 0.1798
+Testing AP_student_minus_ggad_non_normalize: 0.0863
+Total time is: 53.94638538360596
+Testing_last_ggad_ photo AUC: 0.6606
+Hard label ratio: 0.20
+Pseudo abnormal used in BCE: False
+Epoch 240: Total Loss = 0.3704543113708496,BCE Loss =0.3704543113708496
+student_score: 0.16926056146621704
+ggad_score: 0.02766912803053856
+student_score_non_normalize: -2.289656639099121
+ggad_score_non_normalize: -5.281368255615234
+Testing photo AUC_student_mlp_s: 0.7048
+Testing photo AUC_student_mlp_s_non_normalize: 0.7048
+Testing photo AUC_student_ggad: 0.7005
+Testing photo AUC_student_ggad_non_normalize: 0.6928
+Testing photo AUC_student_minus_ggad: 0.6866
+Testing photo AUC_student_minus_ggad_non_normalize: 0.4970
+Testing AP_student_mlp_s: 0.2155
+Testing AP_student_mlp_s_non_normalize: 0.2155
+Testing AP_student_ggad: 0.1905
+Testing AP_student_ggad_non_normalize: 0.1819
+Testing AP_student_minus_ggad: 0.1868
+Testing AP_student_minus_ggad_non_normalize: 0.0910
+Total time is: 55.0937180519104
+Testing_last_ggad_ photo AUC: 0.6606
+Hard label ratio: 0.20
+Pseudo abnormal used in BCE: False
+Epoch 245: Total Loss = 0.365602970123291,BCE Loss =0.365602970123291
+student_score: 0.21030621230602264
+ggad_score: 0.02766912803053856
+student_score_non_normalize: -1.9007408618927002
+ggad_score_non_normalize: -5.281368255615234
+Testing photo AUC_student_mlp_s: 0.7303
+Testing photo AUC_student_mlp_s_non_normalize: 0.7303
+Testing photo AUC_student_ggad: 0.7214
+Testing photo AUC_student_ggad_non_normalize: 0.7001
+Testing photo AUC_student_minus_ggad: 0.7215
+Testing photo AUC_student_minus_ggad_non_normalize: 0.5058
+Testing AP_student_mlp_s: 0.2522
+Testing AP_student_mlp_s_non_normalize: 0.2522
+Testing AP_student_ggad: 0.2096
+Testing AP_student_ggad_non_normalize: 0.1927
+Testing AP_student_minus_ggad: 0.2353
+Testing AP_student_minus_ggad_non_normalize: 0.0943
+Total time is: 56.06534171104431
+Testing_last_ggad_ photo AUC: 0.6606
+Hard label ratio: 0.20
+Pseudo abnormal used in BCE: False
+Epoch 250: Total Loss = 0.35980498790740967,BCE Loss =0.35980498790740967
+student_score: 0.17483218014240265
+ggad_score: 0.02766912803053856
+student_score_non_normalize: -2.3468215465545654
+ggad_score_non_normalize: -5.281368255615234
+Testing photo AUC_student_mlp_s: 0.7275
+Testing photo AUC_student_mlp_s_non_normalize: 0.7275
+Testing photo AUC_student_ggad: 0.7197
+Testing photo AUC_student_ggad_non_normalize: 0.7022
+Testing photo AUC_student_minus_ggad: 0.7206
+Testing photo AUC_student_minus_ggad_non_normalize: 0.5337
+Testing AP_student_mlp_s: 0.2488
+Testing AP_student_mlp_s_non_normalize: 0.2488
+Testing AP_student_ggad: 0.2103
+Testing AP_student_ggad_non_normalize: 0.1956
+Testing AP_student_minus_ggad: 0.2363
+Testing AP_student_minus_ggad_non_normalize: 0.1000
+Total time is: 57.15324687957764
+Testing_last_ggad_ photo AUC: 0.6606
+Hard label ratio: 0.20
+Pseudo abnormal used in BCE: False
+Epoch 255: Total Loss = 0.3539179265499115,BCE Loss =0.3539179265499115
+student_score: 0.20253707468509674
+ggad_score: 0.02766912803053856
+student_score_non_normalize: -2.0706446170806885
+ggad_score_non_normalize: -5.281368255615234
+Testing photo AUC_student_mlp_s: 0.7488
+Testing photo AUC_student_mlp_s_non_normalize: 0.7488
+Testing photo AUC_student_ggad: 0.7377
+Testing photo AUC_student_ggad_non_normalize: 0.7094
+Testing photo AUC_student_minus_ggad: 0.7477
+Testing photo AUC_student_minus_ggad_non_normalize: 0.5466
+Testing AP_student_mlp_s: 0.2817
+Testing AP_student_mlp_s_non_normalize: 0.2817
+Testing AP_student_ggad: 0.2272
+Testing AP_student_ggad_non_normalize: 0.2053
+Testing AP_student_minus_ggad: 0.2882
+Testing AP_student_minus_ggad_non_normalize: 0.1051
+Total time is: 58.22772717475891
+Testing_last_ggad_ photo AUC: 0.6606
+Hard label ratio: 0.20
+Pseudo abnormal used in BCE: False
+Epoch 260: Total Loss = 0.3478953540325165,BCE Loss =0.3478953540325165
+student_score: 0.1880825310945511
+ggad_score: 0.02766912803053856
+student_score_non_normalize: -2.270571231842041
+ggad_score_non_normalize: -5.281368255615234
+Testing photo AUC_student_mlp_s: 0.7521
+Testing photo AUC_student_mlp_s_non_normalize: 0.7521
+Testing photo AUC_student_ggad: 0.7408
+Testing photo AUC_student_ggad_non_normalize: 0.7124
+Testing photo AUC_student_minus_ggad: 0.7528
+Testing photo AUC_student_minus_ggad_non_normalize: 0.5673
+Testing AP_student_mlp_s: 0.2858
+Testing AP_student_mlp_s_non_normalize: 0.2858
+Testing AP_student_ggad: 0.2317
+Testing AP_student_ggad_non_normalize: 0.2074
+Testing AP_student_minus_ggad: 0.2990
+Testing AP_student_minus_ggad_non_normalize: 0.1113
+Total time is: 59.47988748550415
+Testing_last_ggad_ photo AUC: 0.6606
+Hard label ratio: 0.20
+Pseudo abnormal used in BCE: False
+Epoch 265: Total Loss = 0.34163182973861694,BCE Loss =0.34163182973861694
+student_score: 0.18734747171401978
+ggad_score: 0.02766912803053856
+student_score_non_normalize: -2.3235373497009277
+ggad_score_non_normalize: -5.281368255615234
+Testing photo AUC_student_mlp_s: 0.7590
+Testing photo AUC_student_mlp_s_non_normalize: 0.7590
+Testing photo AUC_student_ggad: 0.7472
+Testing photo AUC_student_ggad_non_normalize: 0.7161
+Testing photo AUC_student_minus_ggad: 0.7624
+Testing photo AUC_student_minus_ggad_non_normalize: 0.5851
+Testing AP_student_mlp_s: 0.2938
+Testing AP_student_mlp_s_non_normalize: 0.2938
+Testing AP_student_ggad: 0.2400
+Testing AP_student_ggad_non_normalize: 0.2114
+Testing AP_student_minus_ggad: 0.3178
+Testing AP_student_minus_ggad_non_normalize: 0.1181
+Total time is: 60.590893030166626
+Testing_last_ggad_ photo AUC: 0.6606
+Hard label ratio: 0.20
+Pseudo abnormal used in BCE: False
+Epoch 270: Total Loss = 0.33606892824172974,BCE Loss =0.33606892824172974
+student_score: 0.1996070146560669
+ggad_score: 0.02766912803053856
+student_score_non_normalize: -2.2039906978607178
+ggad_score_non_normalize: -5.281368255615234
+Testing photo AUC_student_mlp_s: 0.7693
+Testing photo AUC_student_mlp_s_non_normalize: 0.7693
+Testing photo AUC_student_ggad: 0.7566
+Testing photo AUC_student_ggad_non_normalize: 0.7204
+Testing photo AUC_student_minus_ggad: 0.7751
+Testing photo AUC_student_minus_ggad_non_normalize: 0.5984
+Testing AP_student_mlp_s: 0.3075
+Testing AP_student_mlp_s_non_normalize: 0.3075
+Testing AP_student_ggad: 0.2487
+Testing AP_student_ggad_non_normalize: 0.2169
+Testing AP_student_minus_ggad: 0.3402
+Testing AP_student_minus_ggad_non_normalize: 0.1244
+Total time is: 61.687798500061035
+Testing_last_ggad_ photo AUC: 0.6606
+Hard label ratio: 0.20
+Pseudo abnormal used in BCE: False
+Epoch 275: Total Loss = 0.33000534772872925,BCE Loss =0.33000534772872925
+student_score: 0.1939840018749237
+ggad_score: 0.02766912803053856
+student_score_non_normalize: -2.2897861003875732
+ggad_score_non_normalize: -5.281368255615234
+Testing photo AUC_student_mlp_s: 0.7705
+Testing photo AUC_student_mlp_s_non_normalize: 0.7705
+Testing photo AUC_student_ggad: 0.7579
+Testing photo AUC_student_ggad_non_normalize: 0.7219
+Testing photo AUC_student_minus_ggad: 0.7774
+Testing photo AUC_student_minus_ggad_non_normalize: 0.6113
+Testing AP_student_mlp_s: 0.3053
+Testing AP_student_mlp_s_non_normalize: 0.3053
+Testing AP_student_ggad: 0.2484
+Testing AP_student_ggad_non_normalize: 0.2176
+Testing AP_student_minus_ggad: 0.3382
+Testing AP_student_minus_ggad_non_normalize: 0.1302
+Total time is: 63.0164999961853
+Testing_last_ggad_ photo AUC: 0.6606
+Hard label ratio: 0.20
+Pseudo abnormal used in BCE: False
+Epoch 280: Total Loss = 0.32402417063713074,BCE Loss =0.32402417063713074
+student_score: 0.18880309164524078
+ggad_score: 0.02766912803053856
+student_score_non_normalize: -2.37206768989563
+ggad_score_non_normalize: -5.281368255615234
+Testing photo AUC_student_mlp_s: 0.7693
+Testing photo AUC_student_mlp_s_non_normalize: 0.7693
+Testing photo AUC_student_ggad: 0.7572
+Testing photo AUC_student_ggad_non_normalize: 0.7224
+Testing photo AUC_student_minus_ggad: 0.7769
+Testing photo AUC_student_minus_ggad_non_normalize: 0.6217
+Testing AP_student_mlp_s: 0.2976
+Testing AP_student_mlp_s_non_normalize: 0.2976
+Testing AP_student_ggad: 0.2462
+Testing AP_student_ggad_non_normalize: 0.2168
+Testing AP_student_minus_ggad: 0.3274
+Testing AP_student_minus_ggad_non_normalize: 0.1352
+Total time is: 64.1485505104065
+Testing_last_ggad_ photo AUC: 0.6606
+Hard label ratio: 0.20
+Pseudo abnormal used in BCE: False
+Epoch 285: Total Loss = 0.3177529573440552,BCE Loss =0.3177529573440552
+student_score: 0.187655970454216
+ggad_score: 0.02766912803053856
+student_score_non_normalize: -2.418004274368286
+ggad_score_non_normalize: -5.281368255615234
+Testing photo AUC_student_mlp_s: 0.7670
+Testing photo AUC_student_mlp_s_non_normalize: 0.7670
+Testing photo AUC_student_ggad: 0.7556
+Testing photo AUC_student_ggad_non_normalize: 0.7221
+Testing photo AUC_student_minus_ggad: 0.7747
+Testing photo AUC_student_minus_ggad_non_normalize: 0.6300
+Testing AP_student_mlp_s: 0.2899
+Testing AP_student_mlp_s_non_normalize: 0.2899
+Testing AP_student_ggad: 0.2418
+Testing AP_student_ggad_non_normalize: 0.2149
+Testing AP_student_minus_ggad: 0.3171
+Testing AP_student_minus_ggad_non_normalize: 0.1404
+Total time is: 65.58596420288086
+Testing_last_ggad_ photo AUC: 0.6606
+Hard label ratio: 0.20
+Pseudo abnormal used in BCE: False
+Epoch 290: Total Loss = 0.3116203248500824,BCE Loss =0.3116203248500824
+student_score: 0.18799270689487457
+ggad_score: 0.02766912803053856
+student_score_non_normalize: -2.4397804737091064
+ggad_score_non_normalize: -5.281368255615234
+Testing photo AUC_student_mlp_s: 0.7627
+Testing photo AUC_student_mlp_s_non_normalize: 0.7627
+Testing photo AUC_student_ggad: 0.7522
+Testing photo AUC_student_ggad_non_normalize: 0.7206
+Testing photo AUC_student_minus_ggad: 0.7696
+Testing photo AUC_student_minus_ggad_non_normalize: 0.6348
+Testing AP_student_mlp_s: 0.2780
+Testing AP_student_mlp_s_non_normalize: 0.2780
+Testing AP_student_ggad: 0.2347
+Testing AP_student_ggad_non_normalize: 0.2105
+Testing AP_student_minus_ggad: 0.3025
+Testing AP_student_minus_ggad_non_normalize: 0.1443
+Total time is: 66.77597832679749
+Testing_last_ggad_ photo AUC: 0.6606
+Hard label ratio: 0.20
+Pseudo abnormal used in BCE: False
+Epoch 295: Total Loss = 0.30579638481140137,BCE Loss =0.30579638481140137
+student_score: 0.1900547295808792
+ggad_score: 0.02766912803053856
+student_score_non_normalize: -2.440157651901245
+ggad_score_non_normalize: -5.281368255615234
+Testing photo AUC_student_mlp_s: 0.7573
+Testing photo AUC_student_mlp_s_non_normalize: 0.7573
+Testing photo AUC_student_ggad: 0.7478
+Testing photo AUC_student_ggad_non_normalize: 0.7186
+Testing photo AUC_student_minus_ggad: 0.7634
+Testing photo AUC_student_minus_ggad_non_normalize: 0.6376
+Testing AP_student_mlp_s: 0.2668
+Testing AP_student_mlp_s_non_normalize: 0.2668
+Testing AP_student_ggad: 0.2291
+Testing AP_student_ggad_non_normalize: 0.2070
+Testing AP_student_minus_ggad: 0.2905
+Testing AP_student_minus_ggad_non_normalize: 0.1472
+Total time is: 68.0137927532196
+Testing_last_ggad_ photo AUC: 0.6606
+Hard label ratio: 0.20
+Pseudo abnormal used in BCE: False
+Epoch 300: Total Loss = 0.3000902831554413,BCE Loss =0.3000902831554413
+student_score: 0.19190867245197296
+ggad_score: 0.02766912803053856
+student_score_non_normalize: -2.443143129348755
+ggad_score_non_normalize: -5.281368255615234
+Testing photo AUC_student_mlp_s: 0.7526
+Testing photo AUC_student_mlp_s_non_normalize: 0.7526
+Testing photo AUC_student_ggad: 0.7440
+Testing photo AUC_student_ggad_non_normalize: 0.7168
+Testing photo AUC_student_minus_ggad: 0.7583
+Testing photo AUC_student_minus_ggad_non_normalize: 0.6413
+Testing AP_student_mlp_s: 0.2590
+Testing AP_student_mlp_s_non_normalize: 0.2590
+Testing AP_student_ggad: 0.2250
+Testing AP_student_ggad_non_normalize: 0.2045
+Testing AP_student_minus_ggad: 0.2819
+Testing AP_student_minus_ggad_non_normalize: 0.1515
+Total time is: 69.02073359489441
+Testing_last_ggad_ photo AUC: 0.6606
+Hard label ratio: 0.20
+Pseudo abnormal used in BCE: False
+Epoch 305: Total Loss = 0.29416605830192566,BCE Loss =0.29416605830192566
+student_score: 0.18860167264938354
+ggad_score: 0.02766912803053856
+student_score_non_normalize: -2.5136430263519287
+ggad_score_non_normalize: -5.281368255615234
+Testing photo AUC_student_mlp_s: 0.7477
+Testing photo AUC_student_mlp_s_non_normalize: 0.7477
+Testing photo AUC_student_ggad: 0.7398
+Testing photo AUC_student_ggad_non_normalize: 0.7150
+Testing photo AUC_student_minus_ggad: 0.7529
+Testing photo AUC_student_minus_ggad_non_normalize: 0.6465
+Testing AP_student_mlp_s: 0.2516
+Testing AP_student_mlp_s_non_normalize: 0.2516
+Testing AP_student_ggad: 0.2213
+Testing AP_student_ggad_non_normalize: 0.2024
+Testing AP_student_minus_ggad: 0.2743
+Testing AP_student_minus_ggad_non_normalize: 0.1571
+Total time is: 70.11957716941833
+Testing_last_ggad_ photo AUC: 0.6606
+Hard label ratio: 0.20
+Pseudo abnormal used in BCE: False
+Epoch 310: Total Loss = 0.28821560740470886,BCE Loss =0.28821560740470886
+student_score: 0.19053411483764648
+ggad_score: 0.02766912803053856
+student_score_non_normalize: -2.515216112136841
+ggad_score_non_normalize: -5.281368255615234
+Testing photo AUC_student_mlp_s: 0.7435
+Testing photo AUC_student_mlp_s_non_normalize: 0.7435
+Testing photo AUC_student_ggad: 0.7364
+Testing photo AUC_student_ggad_non_normalize: 0.7133
+Testing photo AUC_student_minus_ggad: 0.7481
+Testing photo AUC_student_minus_ggad_non_normalize: 0.6495
+Testing AP_student_mlp_s: 0.2461
+Testing AP_student_mlp_s_non_normalize: 0.2461
+Testing AP_student_ggad: 0.2179
+Testing AP_student_ggad_non_normalize: 0.2013
+Testing AP_student_minus_ggad: 0.2669
+Testing AP_student_minus_ggad_non_normalize: 0.1617
+Total time is: 71.16243815422058
+Testing_last_ggad_ photo AUC: 0.6606
+Hard label ratio: 0.20
+Pseudo abnormal used in BCE: False
+Epoch 315: Total Loss = 0.2823253273963928,BCE Loss =0.2823253273963928
+student_score: 0.18862061202526093
+ggad_score: 0.02766912803053856
+student_score_non_normalize: -2.5784671306610107
+ggad_score_non_normalize: -5.281368255615234
+Testing photo AUC_student_mlp_s: 0.7364
+Testing photo AUC_student_mlp_s_non_normalize: 0.7364
+Testing photo AUC_student_ggad: 0.7302
+Testing photo AUC_student_ggad_non_normalize: 0.7102
+Testing photo AUC_student_minus_ggad: 0.7400
+Testing photo AUC_student_minus_ggad_non_normalize: 0.6499
+Testing AP_student_mlp_s: 0.2373
+Testing AP_student_mlp_s_non_normalize: 0.2373
+Testing AP_student_ggad: 0.2123
+Testing AP_student_ggad_non_normalize: 0.1990
+Testing AP_student_minus_ggad: 0.2552
+Testing AP_student_minus_ggad_non_normalize: 0.1641
+Total time is: 72.37327146530151
+Testing_last_ggad_ photo AUC: 0.6606
+Hard label ratio: 0.20
+Pseudo abnormal used in BCE: False
+Epoch 320: Total Loss = 0.27660736441612244,BCE Loss =0.27660736441612244
+student_score: 0.18937033414840698
+ggad_score: 0.02766912803053856
+student_score_non_normalize: -2.6026241779327393
+ggad_score_non_normalize: -5.281368255615234
+Testing photo AUC_student_mlp_s: 0.7294
+Testing photo AUC_student_mlp_s_non_normalize: 0.7294
+Testing photo AUC_student_ggad: 0.7240
+Testing photo AUC_student_ggad_non_normalize: 0.7069
+Testing photo AUC_student_minus_ggad: 0.7318
+Testing photo AUC_student_minus_ggad_non_normalize: 0.6481
+Testing AP_student_mlp_s: 0.2291
+Testing AP_student_mlp_s_non_normalize: 0.2291
+Testing AP_student_ggad: 0.2065
+Testing AP_student_ggad_non_normalize: 0.1965
+Testing AP_student_minus_ggad: 0.2436
+Testing AP_student_minus_ggad_non_normalize: 0.1647
+Total time is: 73.31799745559692
+Testing_last_ggad_ photo AUC: 0.6606
+Hard label ratio: 0.20
+Pseudo abnormal used in BCE: False
+Epoch 325: Total Loss = 0.271076500415802,BCE Loss =0.271076500415802
+student_score: 0.18867722153663635
+ggad_score: 0.02766912803053856
+student_score_non_normalize: -2.656130313873291
+ggad_score_non_normalize: -5.281368255615234
+Testing photo AUC_student_mlp_s: 0.7230
+Testing photo AUC_student_mlp_s_non_normalize: 0.7230
+Testing photo AUC_student_ggad: 0.7182
+Testing photo AUC_student_ggad_non_normalize: 0.7037
+Testing photo AUC_student_minus_ggad: 0.7245
+Testing photo AUC_student_minus_ggad_non_normalize: 0.6470
+Testing AP_student_mlp_s: 0.2224
+Testing AP_student_mlp_s_non_normalize: 0.2224
+Testing AP_student_ggad: 0.2015
+Testing AP_student_ggad_non_normalize: 0.1940
+Testing AP_student_minus_ggad: 0.2327
+Testing AP_student_minus_ggad_non_normalize: 0.1656
+Total time is: 74.25070881843567
+Testing_last_ggad_ photo AUC: 0.6606
+Hard label ratio: 0.20
+Pseudo abnormal used in BCE: False
+Epoch 330: Total Loss = 0.2661535143852234,BCE Loss =0.2661535143852234
+student_score: 0.19960221648216248
+ggad_score: 0.02766912803053856
+student_score_non_normalize: -2.5531952381134033
+ggad_score_non_normalize: -5.281368255615234
+Testing photo AUC_student_mlp_s: 0.7192
+Testing photo AUC_student_mlp_s_non_normalize: 0.7192
+Testing photo AUC_student_ggad: 0.7151
+Testing photo AUC_student_ggad_non_normalize: 0.7019
+Testing photo AUC_student_minus_ggad: 0.7205
+Testing photo AUC_student_minus_ggad_non_normalize: 0.6460
+Testing AP_student_mlp_s: 0.2180
+Testing AP_student_mlp_s_non_normalize: 0.2180
+Testing AP_student_ggad: 0.1983
+Testing AP_student_ggad_non_normalize: 0.1927
+Testing AP_student_minus_ggad: 0.2257
+Testing AP_student_minus_ggad_non_normalize: 0.1680
+Total time is: 75.38629722595215
+Testing_last_ggad_ photo AUC: 0.6606
+Hard label ratio: 0.20
+Pseudo abnormal used in BCE: False
+Epoch 335: Total Loss = 0.31861546635627747,BCE Loss =0.31861546635627747
+student_score: 0.11133439093828201
+ggad_score: 0.02766912803053856
+student_score_non_normalize: -4.387311935424805
+ggad_score_non_normalize: -5.281368255615234
+Testing photo AUC_student_mlp_s: 0.7029
+Testing photo AUC_student_mlp_s_non_normalize: 0.7029
+Testing photo AUC_student_ggad: 0.7002
+Testing photo AUC_student_ggad_non_normalize: 0.6950
+Testing photo AUC_student_minus_ggad: 0.7022
+Testing photo AUC_student_minus_ggad_non_normalize: 0.6525
+Testing AP_student_mlp_s: 0.2014
+Testing AP_student_mlp_s_non_normalize: 0.2014
+Testing AP_student_ggad: 0.1883
+Testing AP_student_ggad_non_normalize: 0.1867
+Testing AP_student_minus_ggad: 0.2071
+Testing AP_student_minus_ggad_non_normalize: 0.1600
+Total time is: 76.50223660469055
+Testing_last_ggad_ photo AUC: 0.6606
+Hard label ratio: 0.20
+Pseudo abnormal used in BCE: False
+Epoch 340: Total Loss = 0.46635377407073975,BCE Loss =0.46635377407073975
+student_score: 0.06463955342769623
+ggad_score: 0.02766912803053856
+student_score_non_normalize: -5.977505207061768
+ggad_score_non_normalize: -5.281368255615234
+Testing photo AUC_student_mlp_s: 0.6876
+Testing photo AUC_student_mlp_s_non_normalize: 0.6876
+Testing photo AUC_student_ggad: 0.6873
+Testing photo AUC_student_ggad_non_normalize: 0.6883
+Testing photo AUC_student_minus_ggad: 0.6721
+Testing photo AUC_student_minus_ggad_non_normalize: 0.6382
+Testing AP_student_mlp_s: 0.1862
+Testing AP_student_mlp_s_non_normalize: 0.1862
+Testing AP_student_ggad: 0.1792
+Testing AP_student_ggad_non_normalize: 0.1803
+Testing AP_student_minus_ggad: 0.1825
+Testing AP_student_minus_ggad_non_normalize: 0.1413
+Total time is: 77.6941602230072
+Testing_last_ggad_ photo AUC: 0.6606
+Hard label ratio: 0.20
+Pseudo abnormal used in BCE: False
+Epoch 345: Total Loss = 0.8607301712036133,BCE Loss =0.8607301712036133
+student_score: 0.01926705241203308
+ggad_score: 0.02766912803053856
+student_score_non_normalize: -8.812028884887695
+ggad_score_non_normalize: -5.281368255615234
+Testing photo AUC_student_mlp_s: 0.6538
+Testing photo AUC_student_mlp_s_non_normalize: 0.6538
+Testing photo AUC_student_ggad: 0.6663
+Testing photo AUC_student_ggad_non_normalize: 0.6690
+Testing photo AUC_student_minus_ggad: 0.6472
+Testing photo AUC_student_minus_ggad_non_normalize: 0.5999
+Testing AP_student_mlp_s: 0.1503
+Testing AP_student_mlp_s_non_normalize: 0.1503
+Testing AP_student_ggad: 0.1580
+Testing AP_student_ggad_non_normalize: 0.1596
+Testing AP_student_minus_ggad: 0.1485
+Testing AP_student_minus_ggad_non_normalize: 0.1157
+Total time is: 78.81421327590942
+Testing_last_ggad_ photo AUC: 0.6606
+Hard label ratio: 0.20
+Pseudo abnormal used in BCE: False
+Epoch 350: Total Loss = 0.3201563060283661,BCE Loss =0.3201563060283661
+student_score: 0.19010362029075623
+ggad_score: 0.02766912803053856
+student_score_non_normalize: -2.2804925441741943
+ggad_score_non_normalize: -5.281368255615234
+Testing photo AUC_student_mlp_s: 0.7141
+Testing photo AUC_student_mlp_s_non_normalize: 0.7141
+Testing photo AUC_student_ggad: 0.7093
+Testing photo AUC_student_ggad_non_normalize: 0.6960
+Testing photo AUC_student_minus_ggad: 0.7131
+Testing photo AUC_student_minus_ggad_non_normalize: 0.5465
+Testing AP_student_mlp_s: 0.2096
+Testing AP_student_mlp_s_non_normalize: 0.2096
+Testing AP_student_ggad: 0.1936
+Testing AP_student_ggad_non_normalize: 0.1837
+Testing AP_student_minus_ggad: 0.2145
+Testing AP_student_minus_ggad_non_normalize: 0.1035
+Total time is: 80.06355810165405
+Testing_last_ggad_ photo AUC: 0.6606
+Hard label ratio: 0.20
+Pseudo abnormal used in BCE: False
+Epoch 355: Total Loss = 0.3470711410045624,BCE Loss =0.3470711410045624
+student_score: 0.15375062823295593
+ggad_score: 0.02766912803053856
+student_score_non_normalize: -2.6176717281341553
+ggad_score_non_normalize: -5.281368255615234
+Testing photo AUC_student_mlp_s: 0.6916
+Testing photo AUC_student_mlp_s_non_normalize: 0.6916
+Testing photo AUC_student_ggad: 0.6902
+Testing photo AUC_student_ggad_non_normalize: 0.6878
+Testing photo AUC_student_minus_ggad: 0.6806
+Testing photo AUC_student_minus_ggad_non_normalize: 0.5169
+Testing AP_student_mlp_s: 0.1836
+Testing AP_student_mlp_s_non_normalize: 0.1836
+Testing AP_student_ggad: 0.1779
+Testing AP_student_ggad_non_normalize: 0.1754
+Testing AP_student_minus_ggad: 0.1752
+Testing AP_student_minus_ggad_non_normalize: 0.0944
+Total time is: 81.36241555213928
+Testing_last_ggad_ photo AUC: 0.6606
+Hard label ratio: 0.20
+Pseudo abnormal used in BCE: False
+Epoch 360: Total Loss = 0.39248621463775635,BCE Loss =0.39248621463775635
+student_score: 0.10749015212059021
+ggad_score: 0.02766912803053856
+student_score_non_normalize: -3.3922715187072754
+ggad_score_non_normalize: -5.281368255615234
+Testing photo AUC_student_mlp_s: 0.6748
+Testing photo AUC_student_mlp_s_non_normalize: 0.6748
+Testing photo AUC_student_ggad: 0.6770
+Testing photo AUC_student_ggad_non_normalize: 0.6828
+Testing photo AUC_student_minus_ggad: 0.6504
+Testing photo AUC_student_minus_ggad_non_normalize: 0.5241
+Testing AP_student_mlp_s: 0.1671
+Testing AP_student_mlp_s_non_normalize: 0.1671
+Testing AP_student_ggad: 0.1672
+Testing AP_student_ggad_non_normalize: 0.1697
+Testing AP_student_minus_ggad: 0.1517
+Testing AP_student_minus_ggad_non_normalize: 0.0952
+Total time is: 82.61169028282166
+Testing_last_ggad_ photo AUC: 0.6606
+Hard label ratio: 0.20
+Pseudo abnormal used in BCE: False
+Epoch 365: Total Loss = 0.3554712235927582,BCE Loss =0.3554712235927582
+student_score: 0.23527532815933228
+ggad_score: 0.02766912803053856
+student_score_non_normalize: -1.652187705039978
+ggad_score_non_normalize: -5.281368255615234
+Testing photo AUC_student_mlp_s: 0.7097
+Testing photo AUC_student_mlp_s_non_normalize: 0.7097
+Testing photo AUC_student_ggad: 0.7049
+Testing photo AUC_student_ggad_non_normalize: 0.6911
+Testing photo AUC_student_minus_ggad: 0.7019
+Testing photo AUC_student_minus_ggad_non_normalize: 0.4821
+Testing AP_student_mlp_s: 0.2060
+Testing AP_student_mlp_s_non_normalize: 0.2060
+Testing AP_student_ggad: 0.1892
+Testing AP_student_ggad_non_normalize: 0.1804
+Testing AP_student_minus_ggad: 0.1980
+Testing AP_student_minus_ggad_non_normalize: 0.0889
+Total time is: 83.55711936950684
+Testing_last_ggad_ photo AUC: 0.6606
+Hard label ratio: 0.20
+Pseudo abnormal used in BCE: False
+Epoch 370: Total Loss = 0.34832480549812317,BCE Loss =0.34832480549812317
+student_score: 0.22080884873867035
+ggad_score: 0.02766912803053856
+student_score_non_normalize: -1.8164576292037964
+ggad_score_non_normalize: -5.281368255615234
+Testing photo AUC_student_mlp_s: 0.7112
+Testing photo AUC_student_mlp_s_non_normalize: 0.7112
+Testing photo AUC_student_ggad: 0.7062
+Testing photo AUC_student_ggad_non_normalize: 0.6928
+Testing photo AUC_student_minus_ggad: 0.7054
+Testing photo AUC_student_minus_ggad_non_normalize: 0.4984
+Testing AP_student_mlp_s: 0.2107
+Testing AP_student_mlp_s_non_normalize: 0.2107
+Testing AP_student_ggad: 0.1916
+Testing AP_student_ggad_non_normalize: 0.1831
+Testing AP_student_minus_ggad: 0.2046
+Testing AP_student_minus_ggad_non_normalize: 0.0919
+Total time is: 84.57516717910767
+Testing_last_ggad_ photo AUC: 0.6606
+Hard label ratio: 0.20
+Pseudo abnormal used in BCE: False
+Epoch 375: Total Loss = 0.3481251895427704,BCE Loss =0.3481251895427704
+student_score: 0.15513069927692413
+ggad_score: 0.02766912803053856
+student_score_non_normalize: -2.646538019180298
+ggad_score_non_normalize: -5.281368255615234
+Testing photo AUC_student_mlp_s: 0.7002
+Testing photo AUC_student_mlp_s_non_normalize: 0.7002
+Testing photo AUC_student_ggad: 0.6972
+Testing photo AUC_student_ggad_non_normalize: 0.6921
+Testing photo AUC_student_minus_ggad: 0.6925
+Testing photo AUC_student_minus_ggad_non_normalize: 0.5327
+Testing AP_student_mlp_s: 0.2013
+Testing AP_student_mlp_s_non_normalize: 0.2013
+Testing AP_student_ggad: 0.1875
+Testing AP_student_ggad_non_normalize: 0.1826
+Testing AP_student_minus_ggad: 0.1948
+Testing AP_student_minus_ggad_non_normalize: 0.0983
+Total time is: 85.9183132648468
+Testing_last_ggad_ photo AUC: 0.6606
+Hard label ratio: 0.20
+Pseudo abnormal used in BCE: False
+Epoch 380: Total Loss = 0.3319934904575348,BCE Loss =0.3319934904575348
+student_score: 0.21461331844329834
+ggad_score: 0.02766912803053856
+student_score_non_normalize: -2.031372308731079
+ggad_score_non_normalize: -5.281368255615234
+Testing photo AUC_student_mlp_s: 0.7331
+Testing photo AUC_student_mlp_s_non_normalize: 0.7331
+Testing photo AUC_student_ggad: 0.7255
+Testing photo AUC_student_ggad_non_normalize: 0.7036
+Testing photo AUC_student_minus_ggad: 0.7340
+Testing photo AUC_student_minus_ggad_non_normalize: 0.5574
+Testing AP_student_mlp_s: 0.2415
+Testing AP_student_mlp_s_non_normalize: 0.2415
+Testing AP_student_ggad: 0.2094
+Testing AP_student_ggad_non_normalize: 0.1956
+Testing AP_student_minus_ggad: 0.2469
+Testing AP_student_minus_ggad_non_normalize: 0.1075
+Total time is: 86.97180032730103
+Testing_last_ggad_ photo AUC: 0.6606
+Hard label ratio: 0.20
+Pseudo abnormal used in BCE: False
+Epoch 385: Total Loss = 0.32330578565597534,BCE Loss =0.32330578565597534
+student_score: 0.19636625051498413
+ggad_score: 0.02766912803053856
+student_score_non_normalize: -2.305264472961426
+ggad_score_non_normalize: -5.281368255615234
+Testing photo AUC_student_mlp_s: 0.7364
+Testing photo AUC_student_mlp_s_non_normalize: 0.7364
+Testing photo AUC_student_ggad: 0.7288
+Testing photo AUC_student_ggad_non_normalize: 0.7071
+Testing photo AUC_student_minus_ggad: 0.7390
+Testing photo AUC_student_minus_ggad_non_normalize: 0.5848
+Testing AP_student_mlp_s: 0.2470
+Testing AP_student_mlp_s_non_normalize: 0.2470
+Testing AP_student_ggad: 0.2135
+Testing AP_student_ggad_non_normalize: 0.2010
+Testing AP_student_minus_ggad: 0.2561
+Testing AP_student_minus_ggad_non_normalize: 0.1171
+Total time is: 87.93627405166626
+Testing_last_ggad_ photo AUC: 0.6606
+Hard label ratio: 0.20
+Pseudo abnormal used in BCE: False
+Epoch 390: Total Loss = 0.3166564106941223,BCE Loss =0.3166564106941223
+student_score: 0.18919773399829865
+ggad_score: 0.02766912803053856
+student_score_non_normalize: -2.459465503692627
+ggad_score_non_normalize: -5.281368255615234
+Testing photo AUC_student_mlp_s: 0.7415
+Testing photo AUC_student_mlp_s_non_normalize: 0.7415
+Testing photo AUC_student_ggad: 0.7334
+Testing photo AUC_student_ggad_non_normalize: 0.7108
+Testing photo AUC_student_minus_ggad: 0.7456
+Testing photo AUC_student_minus_ggad_non_normalize: 0.6087
+Testing AP_student_mlp_s: 0.2542
+Testing AP_student_mlp_s_non_normalize: 0.2542
+Testing AP_student_ggad: 0.2185
+Testing AP_student_ggad_non_normalize: 0.2061
+Testing AP_student_minus_ggad: 0.2667
+Testing AP_student_minus_ggad_non_normalize: 0.1280
+Total time is: 88.87583255767822
+Testing_last_ggad_ photo AUC: 0.6606
+Hard label ratio: 0.20
+Pseudo abnormal used in BCE: False
+Epoch 395: Total Loss = 0.30974870920181274,BCE Loss =0.30974870920181274
+student_score: 0.20296788215637207
+ggad_score: 0.02766912803053856
+student_score_non_normalize: -2.3355023860931396
+ggad_score_non_normalize: -5.281368255615234
+Testing photo AUC_student_mlp_s: 0.7504
+Testing photo AUC_student_mlp_s_non_normalize: 0.7504
+Testing photo AUC_student_ggad: 0.7418
+Testing photo AUC_student_ggad_non_normalize: 0.7153
+Testing photo AUC_student_minus_ggad: 0.7552
+Testing photo AUC_student_minus_ggad_non_normalize: 0.6286
+Testing AP_student_mlp_s: 0.2649
+Testing AP_student_mlp_s_non_normalize: 0.2649
+Testing AP_student_ggad: 0.2243
+Testing AP_student_ggad_non_normalize: 0.2109
+Testing AP_student_minus_ggad: 0.2824
+Testing AP_student_minus_ggad_non_normalize: 0.1396
+Total time is: 90.04559707641602
+Testing_last_ggad_ photo AUC: 0.6606
+Hard label ratio: 0.20
+Pseudo abnormal used in BCE: False
+Epoch 400: Total Loss = 0.30266740918159485,BCE Loss =0.30266740918159485
+student_score: 0.19844995439052582
+ggad_score: 0.02766912803053856
+student_score_non_normalize: -2.4303650856018066
+ggad_score_non_normalize: -5.281368255615234
+Testing photo AUC_student_mlp_s: 0.7516
+Testing photo AUC_student_mlp_s_non_normalize: 0.7516
+Testing photo AUC_student_ggad: 0.7432
+Testing photo AUC_student_ggad_non_normalize: 0.7172
+Testing photo AUC_student_minus_ggad: 0.7570
+Testing photo AUC_student_minus_ggad_non_normalize: 0.6448
+Testing AP_student_mlp_s: 0.2651
+Testing AP_student_mlp_s_non_normalize: 0.2651
+Testing AP_student_ggad: 0.2244
+Testing AP_student_ggad_non_normalize: 0.2119
+Testing AP_student_minus_ggad: 0.2832
+Testing AP_student_minus_ggad_non_normalize: 0.1513
+Total time is: 91.14120125770569
+Testing_last_ggad_ photo AUC: 0.6606
+Hard label ratio: 0.20
+Pseudo abnormal used in BCE: False
+Epoch 405: Total Loss = 0.2953541576862335,BCE Loss =0.2953541576862335
+student_score: 0.18889732658863068
+ggad_score: 0.02766912803053856
+student_score_non_normalize: -2.6081655025482178
+ggad_score_non_normalize: -5.281368255615234
+Testing photo AUC_student_mlp_s: 0.7501
+Testing photo AUC_student_mlp_s_non_normalize: 0.7501
+Testing photo AUC_student_ggad: 0.7422
+Testing photo AUC_student_ggad_non_normalize: 0.7179
+Testing photo AUC_student_minus_ggad: 0.7553
+Testing photo AUC_student_minus_ggad_non_normalize: 0.6596
+Testing AP_student_mlp_s: 0.2630
+Testing AP_student_mlp_s_non_normalize: 0.2630
+Testing AP_student_ggad: 0.2231
+Testing AP_student_ggad_non_normalize: 0.2111
+Testing AP_student_minus_ggad: 0.2806
+Testing AP_student_minus_ggad_non_normalize: 0.1648
+Total time is: 92.08839988708496
+Testing_last_ggad_ photo AUC: 0.6606
+Hard label ratio: 0.20
+Pseudo abnormal used in BCE: False
+Epoch 410: Total Loss = 0.2870337963104248,BCE Loss =0.2870337963104248
+student_score: 0.20662637054920197
+ggad_score: 0.02766912803053856
+student_score_non_normalize: -2.44948148727417
+ggad_score_non_normalize: -5.281368255615234
+Testing photo AUC_student_mlp_s: 0.7544
+Testing photo AUC_student_mlp_s_non_normalize: 0.7544
+Testing photo AUC_student_ggad: 0.7467
+Testing photo AUC_student_ggad_non_normalize: 0.7211
+Testing photo AUC_student_minus_ggad: 0.7598
+Testing photo AUC_student_minus_ggad_non_normalize: 0.6771
+Testing AP_student_mlp_s: 0.2635
+Testing AP_student_mlp_s_non_normalize: 0.2635
+Testing AP_student_ggad: 0.2254
+Testing AP_student_ggad_non_normalize: 0.2128
+Testing AP_student_minus_ggad: 0.2861
+Testing AP_student_minus_ggad_non_normalize: 0.1862
+Total time is: 93.0186538696289
+Testing_last_ggad_ photo AUC: 0.6606
+Hard label ratio: 0.20
+Pseudo abnormal used in BCE: False
+Epoch 415: Total Loss = 0.27924489974975586,BCE Loss =0.27924489974975586
+student_score: 0.20368258655071259
+ggad_score: 0.02766912803053856
+student_score_non_normalize: -2.562387228012085
+ggad_score_non_normalize: -5.281368255615234
+Testing photo AUC_student_mlp_s: 0.7508
+Testing photo AUC_student_mlp_s_non_normalize: 0.7508
+Testing photo AUC_student_ggad: 0.7440
+Testing photo AUC_student_ggad_non_normalize: 0.7208
+Testing photo AUC_student_minus_ggad: 0.7556
+Testing photo AUC_student_minus_ggad_non_normalize: 0.6870
+Testing AP_student_mlp_s: 0.2580
+Testing AP_student_mlp_s_non_normalize: 0.2580
+Testing AP_student_ggad: 0.2224
+Testing AP_student_ggad_non_normalize: 0.2115
+Testing AP_student_minus_ggad: 0.2796
+Testing AP_student_minus_ggad_non_normalize: 0.2025
+Total time is: 94.24769377708435
+Testing_last_ggad_ photo AUC: 0.6606
+Hard label ratio: 0.20
+Pseudo abnormal used in BCE: False
+Epoch 420: Total Loss = 0.27225375175476074,BCE Loss =0.27225375175476074
+student_score: 0.19987963140010834
+ggad_score: 0.02766912803053856
+student_score_non_normalize: -2.677671432495117
+ggad_score_non_normalize: -5.281368255615234
+Testing photo AUC_student_mlp_s: 0.7453
+Testing photo AUC_student_mlp_s_non_normalize: 0.7453
+Testing photo AUC_student_ggad: 0.7390
+Testing photo AUC_student_ggad_non_normalize: 0.7188
+Testing photo AUC_student_minus_ggad: 0.7487
+Testing photo AUC_student_minus_ggad_non_normalize: 0.6909
+Testing AP_student_mlp_s: 0.2505
+Testing AP_student_mlp_s_non_normalize: 0.2505
+Testing AP_student_ggad: 0.2177
+Testing AP_student_ggad_non_normalize: 0.2089
+Testing AP_student_minus_ggad: 0.2692
+Testing AP_student_minus_ggad_non_normalize: 0.2124
+Total time is: 95.29862570762634
+Testing_last_ggad_ photo AUC: 0.6606
+Hard label ratio: 0.20
+Pseudo abnormal used in BCE: False
+Epoch 425: Total Loss = 0.2661948800086975,BCE Loss =0.2661948800086975
+student_score: 0.2001522183418274
+ggad_score: 0.02766912803053856
+student_score_non_normalize: -2.7344307899475098
+ggad_score_non_normalize: -5.281368255615234
+Testing photo AUC_student_mlp_s: 0.7395
+Testing photo AUC_student_mlp_s_non_normalize: 0.7395
+Testing photo AUC_student_ggad: 0.7339
+Testing photo AUC_student_ggad_non_normalize: 0.7163
+Testing photo AUC_student_minus_ggad: 0.7417
+Testing photo AUC_student_minus_ggad_non_normalize: 0.6911
+Testing AP_student_mlp_s: 0.2419
+Testing AP_student_mlp_s_non_normalize: 0.2419
+Testing AP_student_ggad: 0.2127
+Testing AP_student_ggad_non_normalize: 0.2057
+Testing AP_student_minus_ggad: 0.2581
+Testing AP_student_minus_ggad_non_normalize: 0.2175
+Total time is: 96.40264058113098
+Testing_last_ggad_ photo AUC: 0.6606
+Hard label ratio: 0.20
+Pseudo abnormal used in BCE: False
+Epoch 430: Total Loss = 0.26090919971466064,BCE Loss =0.26090919971466064
+student_score: 0.19534018635749817
+ggad_score: 0.02766912803053856
+student_score_non_normalize: -2.838331699371338
+ggad_score_non_normalize: -5.281368255615234
+Testing photo AUC_student_mlp_s: 0.7317
+Testing photo AUC_student_mlp_s_non_normalize: 0.7317
+Testing photo AUC_student_ggad: 0.7270
+Testing photo AUC_student_ggad_non_normalize: 0.7123
+Testing photo AUC_student_minus_ggad: 0.7326
+Testing photo AUC_student_minus_ggad_non_normalize: 0.6865
+Testing AP_student_mlp_s: 0.2331
+Testing AP_student_mlp_s_non_normalize: 0.2331
+Testing AP_student_ggad: 0.2068
+Testing AP_student_ggad_non_normalize: 0.2022
+Testing AP_student_minus_ggad: 0.2458
+Testing AP_student_minus_ggad_non_normalize: 0.2147
+Total time is: 97.60972237586975
+Testing_last_ggad_ photo AUC: 0.6606
+Hard label ratio: 0.20
+Pseudo abnormal used in BCE: False
+Epoch 435: Total Loss = 0.2567252218723297,BCE Loss =0.2567252218723297
+student_score: 0.1887827217578888
+ggad_score: 0.02766912803053856
+student_score_non_normalize: -2.9803178310394287
+ggad_score_non_normalize: -5.281368255615234
+Testing photo AUC_student_mlp_s: 0.7240
+Testing photo AUC_student_mlp_s_non_normalize: 0.7240
+Testing photo AUC_student_ggad: 0.7199
+Testing photo AUC_student_ggad_non_normalize: 0.7080
+Testing photo AUC_student_minus_ggad: 0.7227
+Testing photo AUC_student_minus_ggad_non_normalize: 0.6807
+Testing AP_student_mlp_s: 0.2249
+Testing AP_student_mlp_s_non_normalize: 0.2249
+Testing AP_student_ggad: 0.2012
+Testing AP_student_ggad_non_normalize: 0.1988
+Testing AP_student_minus_ggad: 0.2343
+Testing AP_student_minus_ggad_non_normalize: 0.2096
+Total time is: 98.63970232009888
+Testing_last_ggad_ photo AUC: 0.6606
+Hard label ratio: 0.20
+Pseudo abnormal used in BCE: False
+Epoch 440: Total Loss = 0.2529233396053314,BCE Loss =0.2529233396053314
+student_score: 0.195805624127388
+ggad_score: 0.02766912803053856
+student_score_non_normalize: -2.904228687286377
+ggad_score_non_normalize: -5.281368255615234
+Testing photo AUC_student_mlp_s: 0.7186
+Testing photo AUC_student_mlp_s_non_normalize: 0.7186
+Testing photo AUC_student_ggad: 0.7149
+Testing photo AUC_student_ggad_non_normalize: 0.7047
+Testing photo AUC_student_minus_ggad: 0.7173
+Testing photo AUC_student_minus_ggad_non_normalize: 0.6751
+Testing AP_student_mlp_s: 0.2191
+Testing AP_student_mlp_s_non_normalize: 0.2191
+Testing AP_student_ggad: 0.1969
+Testing AP_student_ggad_non_normalize: 0.1963
+Testing AP_student_minus_ggad: 0.2253
+Testing AP_student_minus_ggad_non_normalize: 0.2063
+Total time is: 99.61407446861267
+Testing_last_ggad_ photo AUC: 0.6606
+Hard label ratio: 0.20
+Pseudo abnormal used in BCE: False
+Epoch 445: Total Loss = 0.24917754530906677,BCE Loss =0.24917754530906677
+student_score: 0.19107328355312347
+ggad_score: 0.02766912803053856
+student_score_non_normalize: -3.0129573345184326
+ggad_score_non_normalize: -5.281368255615234
+Testing photo AUC_student_mlp_s: 0.7129
+Testing photo AUC_student_mlp_s_non_normalize: 0.7129
+Testing photo AUC_student_ggad: 0.7098
+Testing photo AUC_student_ggad_non_normalize: 0.7013
+Testing photo AUC_student_minus_ggad: 0.7101
+Testing photo AUC_student_minus_ggad_non_normalize: 0.6707
+Testing AP_student_mlp_s: 0.2134
+Testing AP_student_mlp_s_non_normalize: 0.2134
+Testing AP_student_ggad: 0.1930
+Testing AP_student_ggad_non_normalize: 0.1940
+Testing AP_student_minus_ggad: 0.2169
+Testing AP_student_minus_ggad_non_normalize: 0.2013
+Total time is: 100.65005016326904
+Testing_last_ggad_ photo AUC: 0.6606
+Hard label ratio: 0.20
+Pseudo abnormal used in BCE: False
+Epoch 450: Total Loss = 0.24555067718029022,BCE Loss =0.24555067718029022
+student_score: 0.19249507784843445
+ggad_score: 0.02766912803053856
+student_score_non_normalize: -3.0273728370666504
+ggad_score_non_normalize: -5.281368255615234
+Testing photo AUC_student_mlp_s: 0.7092
+Testing photo AUC_student_mlp_s_non_normalize: 0.7092
+Testing photo AUC_student_ggad: 0.7066
+Testing photo AUC_student_ggad_non_normalize: 0.6993
+Testing photo AUC_student_minus_ggad: 0.7059
+Testing photo AUC_student_minus_ggad_non_normalize: 0.6683
+Testing AP_student_mlp_s: 0.2096
+Testing AP_student_mlp_s_non_normalize: 0.2096
+Testing AP_student_ggad: 0.1902
+Testing AP_student_ggad_non_normalize: 0.1926
+Testing AP_student_minus_ggad: 0.2102
+Testing AP_student_minus_ggad_non_normalize: 0.1980
+Total time is: 101.73623967170715
+Testing_last_ggad_ photo AUC: 0.6606
+Hard label ratio: 0.20
+Pseudo abnormal used in BCE: False
+Epoch 455: Total Loss = 0.2420797348022461,BCE Loss =0.2420797348022461
+student_score: 0.19523730874061584
+ggad_score: 0.02766912803053856
+student_score_non_normalize: -3.014698028564453
+ggad_score_non_normalize: -5.281368255615234
+Testing photo AUC_student_mlp_s: 0.7065
+Testing photo AUC_student_mlp_s_non_normalize: 0.7065
+Testing photo AUC_student_ggad: 0.7042
+Testing photo AUC_student_ggad_non_normalize: 0.6977
+Testing photo AUC_student_minus_ggad: 0.7034
+Testing photo AUC_student_minus_ggad_non_normalize: 0.6667
+Testing AP_student_mlp_s: 0.2065
+Testing AP_student_mlp_s_non_normalize: 0.2065
+Testing AP_student_ggad: 0.1874
+Testing AP_student_ggad_non_normalize: 0.1913
+Testing AP_student_minus_ggad: 0.2052
+Testing AP_student_minus_ggad_non_normalize: 0.1953
+Total time is: 102.6980767250061
+Testing_last_ggad_ photo AUC: 0.6606
+Hard label ratio: 0.20
+Pseudo abnormal used in BCE: False
+Epoch 460: Total Loss = 0.2386590540409088,BCE Loss =0.2386590540409088
+student_score: 0.19586114585399628
+ggad_score: 0.02766912803053856
+student_score_non_normalize: -3.0255727767944336
+ggad_score_non_normalize: -5.281368255615234
+Testing photo AUC_student_mlp_s: 0.7041
+Testing photo AUC_student_mlp_s_non_normalize: 0.7041
+Testing photo AUC_student_ggad: 0.7019
+Testing photo AUC_student_ggad_non_normalize: 0.6961
+Testing photo AUC_student_minus_ggad: 0.7009
+Testing photo AUC_student_minus_ggad_non_normalize: 0.6649
+Testing AP_student_mlp_s: 0.2041
+Testing AP_student_mlp_s_non_normalize: 0.2041
+Testing AP_student_ggad: 0.1856
+Testing AP_student_ggad_non_normalize: 0.1900
+Testing AP_student_minus_ggad: 0.2013
+Testing AP_student_minus_ggad_non_normalize: 0.1927
+Total time is: 103.90560412406921
+Testing_last_ggad_ photo AUC: 0.6606
+Hard label ratio: 0.20
+Pseudo abnormal used in BCE: False
+Epoch 465: Total Loss = 0.23525424301624298,BCE Loss =0.23525424301624298
+student_score: 0.19631288945674896
+ggad_score: 0.02766912803053856
+student_score_non_normalize: -3.0459468364715576
+ggad_score_non_normalize: -5.281368255615234
+Testing photo AUC_student_mlp_s: 0.7020
+Testing photo AUC_student_mlp_s_non_normalize: 0.7020
+Testing photo AUC_student_ggad: 0.7000
+Testing photo AUC_student_ggad_non_normalize: 0.6949
+Testing photo AUC_student_minus_ggad: 0.6982
+Testing photo AUC_student_minus_ggad_non_normalize: 0.6639
+Testing AP_student_mlp_s: 0.2020
+Testing AP_student_mlp_s_non_normalize: 0.2020
+Testing AP_student_ggad: 0.1840
+Testing AP_student_ggad_non_normalize: 0.1891
+Testing AP_student_minus_ggad: 0.1977
+Testing AP_student_minus_ggad_non_normalize: 0.1907
+Total time is: 104.99762344360352
+Testing_last_ggad_ photo AUC: 0.6606
+Hard label ratio: 0.20
+Pseudo abnormal used in BCE: False
+Epoch 470: Total Loss = 0.23183825612068176,BCE Loss =0.23183825612068176
+student_score: 0.19602511823177338
+ggad_score: 0.02766912803053856
+student_score_non_normalize: -3.089600086212158
+ggad_score_non_normalize: -5.281368255615234
+Testing photo AUC_student_mlp_s: 0.6998
+Testing photo AUC_student_mlp_s_non_normalize: 0.6998
+Testing photo AUC_student_ggad: 0.6982
+Testing photo AUC_student_ggad_non_normalize: 0.6936
+Testing photo AUC_student_minus_ggad: 0.6963
+Testing photo AUC_student_minus_ggad_non_normalize: 0.6632
+Testing AP_student_mlp_s: 0.2000
+Testing AP_student_mlp_s_non_normalize: 0.2000
+Testing AP_student_ggad: 0.1828
+Testing AP_student_ggad_non_normalize: 0.1883
+Testing AP_student_minus_ggad: 0.1949
+Testing AP_student_minus_ggad_non_normalize: 0.1900
+Total time is: 106.00105309486389
+Testing_last_ggad_ photo AUC: 0.6606
+Hard label ratio: 0.20
+Pseudo abnormal used in BCE: False
+Epoch 475: Total Loss = 0.22843128442764282,BCE Loss =0.22843128442764282
+student_score: 0.19226261973381042
+ggad_score: 0.02766912803053856
+student_score_non_normalize: -3.201861619949341
+ggad_score_non_normalize: -5.281368255615234
+Testing photo AUC_student_mlp_s: 0.6977
+Testing photo AUC_student_mlp_s_non_normalize: 0.6977
+Testing photo AUC_student_ggad: 0.6963
+Testing photo AUC_student_ggad_non_normalize: 0.6923
+Testing photo AUC_student_minus_ggad: 0.6960
+Testing photo AUC_student_minus_ggad_non_normalize: 0.6631
+Testing AP_student_mlp_s: 0.1983
+Testing AP_student_mlp_s_non_normalize: 0.1983
+Testing AP_student_ggad: 0.1816
+Testing AP_student_ggad_non_normalize: 0.1875
+Testing AP_student_minus_ggad: 0.1927
+Testing AP_student_minus_ggad_non_normalize: 0.1890
+Total time is: 106.99912023544312
+Testing_last_ggad_ photo AUC: 0.6606
+Hard label ratio: 0.20
+Pseudo abnormal used in BCE: False
+Epoch 480: Total Loss = 0.2321900576353073,BCE Loss =0.2321900576353073
+student_score: 0.22798840701580048
+ggad_score: 0.02766912803053856
+student_score_non_normalize: -2.6397037506103516
+ggad_score_non_normalize: -5.281368255615234
+Testing photo AUC_student_mlp_s: 0.6983
+Testing photo AUC_student_mlp_s_non_normalize: 0.6983
+Testing photo AUC_student_ggad: 0.6965
+Testing photo AUC_student_ggad_non_normalize: 0.6928
+Testing photo AUC_student_minus_ggad: 0.6959
+Testing photo AUC_student_minus_ggad_non_normalize: 0.6609
+Testing AP_student_mlp_s: 0.1981
+Testing AP_student_mlp_s_non_normalize: 0.1981
+Testing AP_student_ggad: 0.1801
+Testing AP_student_ggad_non_normalize: 0.1878
+Testing AP_student_minus_ggad: 0.1898
+Testing AP_student_minus_ggad_non_normalize: 0.1888
+Total time is: 108.236328125
+Testing_last_ggad_ photo AUC: 0.6606
+Hard label ratio: 0.20
+Pseudo abnormal used in BCE: False
+Epoch 485: Total Loss = 0.22526375949382782,BCE Loss =0.22526375949382782
+student_score: 0.21809938549995422
+ggad_score: 0.02766912803053856
+student_score_non_normalize: -2.833463430404663
+ggad_score_non_normalize: -5.281368255615234
+Testing photo AUC_student_mlp_s: 0.6978
+Testing photo AUC_student_mlp_s_non_normalize: 0.6978
+Testing photo AUC_student_ggad: 0.6961
+Testing photo AUC_student_ggad_non_normalize: 0.6926
+Testing photo AUC_student_minus_ggad: 0.6953
+Testing photo AUC_student_minus_ggad_non_normalize: 0.6640
+Testing AP_student_mlp_s: 0.1979
+Testing AP_student_mlp_s_non_normalize: 0.1979
+Testing AP_student_ggad: 0.1800
+Testing AP_student_ggad_non_normalize: 0.1879
+Testing AP_student_minus_ggad: 0.1893
+Testing AP_student_minus_ggad_non_normalize: 0.1905
+Total time is: 109.23975729942322
+Testing_last_ggad_ photo AUC: 0.6606
+Hard label ratio: 0.20
+Pseudo abnormal used in BCE: False
+Epoch 490: Total Loss = 0.2223573476076126,BCE Loss =0.2223573476076126
+student_score: 0.2186061292886734
+ggad_score: 0.02766912803053856
+student_score_non_normalize: -2.84063458442688
+ggad_score_non_normalize: -5.281368255615234
+Testing photo AUC_student_mlp_s: 0.6978
+Testing photo AUC_student_mlp_s_non_normalize: 0.6978
+Testing photo AUC_student_ggad: 0.6960
+Testing photo AUC_student_ggad_non_normalize: 0.6926
+Testing photo AUC_student_minus_ggad: 0.6955
+Testing photo AUC_student_minus_ggad_non_normalize: 0.6652
+Testing AP_student_mlp_s: 0.1978
+Testing AP_student_mlp_s_non_normalize: 0.1978
+Testing AP_student_ggad: 0.1797
+Testing AP_student_ggad_non_normalize: 0.1874
+Testing AP_student_minus_ggad: 0.1894
+Testing AP_student_minus_ggad_non_normalize: 0.1911
+Total time is: 110.223712682724
+Testing_last_ggad_ photo AUC: 0.6606
+Hard label ratio: 0.20
+Pseudo abnormal used in BCE: False
+Epoch 495: Total Loss = 0.21874262392520905,BCE Loss =0.21874262392520905
+student_score: 0.21672174334526062
+ggad_score: 0.02766912803053856
+student_score_non_normalize: -2.882190227508545
+ggad_score_non_normalize: -5.281368255615234
+Testing photo AUC_student_mlp_s: 0.6970
+Testing photo AUC_student_mlp_s_non_normalize: 0.6970
+Testing photo AUC_student_ggad: 0.6952
+Testing photo AUC_student_ggad_non_normalize: 0.6921
+Testing photo AUC_student_minus_ggad: 0.6950
+Testing photo AUC_student_minus_ggad_non_normalize: 0.6653
+Testing AP_student_mlp_s: 0.1974
+Testing AP_student_mlp_s_non_normalize: 0.1974
+Testing AP_student_ggad: 0.1795
+Testing AP_student_ggad_non_normalize: 0.1871
+Testing AP_student_minus_ggad: 0.1887
+Testing AP_student_minus_ggad_non_normalize: 0.1907
+Total time is: 111.43037819862366
+Testing_last_ggad_ photo AUC: 0.6606
+Hard label ratio: 0.20
+Pseudo abnormal used in BCE: False
+Epoch 500: Total Loss = 0.21411339938640594,BCE Loss =0.21411339938640594
+student_score: 0.21037904918193817
+ggad_score: 0.02766912803053856
+student_score_non_normalize: -3.014845132827759
+ggad_score_non_normalize: -5.281368255615234
+Testing photo AUC_student_mlp_s: 0.6951
+Testing photo AUC_student_mlp_s_non_normalize: 0.6951
+Testing photo AUC_student_ggad: 0.6937
+Testing photo AUC_student_ggad_non_normalize: 0.6908
+Testing photo AUC_student_minus_ggad: 0.6922
+Testing photo AUC_student_minus_ggad_non_normalize: 0.6647
+Testing AP_student_mlp_s: 0.1955
+Testing AP_student_mlp_s_non_normalize: 0.1955
+Testing AP_student_ggad: 0.1785
+Testing AP_student_ggad_non_normalize: 0.1859
+Testing AP_student_minus_ggad: 0.1870
+Testing AP_student_minus_ggad_non_normalize: 0.1888
+Total time is: 112.50728583335876
+Testing_last_ggad_ photo AUC: 0.6606
+Hard label ratio: 0.20
+Pseudo abnormal used in BCE: False
+Epoch 505: Total Loss = 0.2114575207233429,BCE Loss =0.2114575207233429
+student_score: 0.1832730770111084
+ggad_score: 0.02766912803053856
+student_score_non_normalize: -3.569979190826416
+ggad_score_non_normalize: -5.281368255615234
+Testing photo AUC_student_mlp_s: 0.6916
+Testing photo AUC_student_mlp_s_non_normalize: 0.6916
+Testing photo AUC_student_ggad: 0.6909
+Testing photo AUC_student_ggad_non_normalize: 0.6887
+Testing photo AUC_student_minus_ggad: 0.6886
+Testing photo AUC_student_minus_ggad_non_normalize: 0.6644
+Testing AP_student_mlp_s: 0.1920
+Testing AP_student_mlp_s_non_normalize: 0.1920
+Testing AP_student_ggad: 0.1777
+Testing AP_student_ggad_non_normalize: 0.1837
+Testing AP_student_minus_ggad: 0.1855
+Testing AP_student_minus_ggad_non_normalize: 0.1850
+Total time is: 113.47834753990173
+Testing_last_ggad_ photo AUC: 0.6606
+Hard label ratio: 0.20
+Pseudo abnormal used in BCE: False
+Epoch 510: Total Loss = 0.2065613716840744,BCE Loss =0.2065613716840744
+student_score: 0.1976732462644577
+ggad_score: 0.02766912803053856
+student_score_non_normalize: -3.31815242767334
+ggad_score_non_normalize: -5.281368255615234
+Testing photo AUC_student_mlp_s: 0.6913
+Testing photo AUC_student_mlp_s_non_normalize: 0.6913
+Testing photo AUC_student_ggad: 0.6905
+Testing photo AUC_student_ggad_non_normalize: 0.6885
+Testing photo AUC_student_minus_ggad: 0.6889
+Testing photo AUC_student_minus_ggad_non_normalize: 0.6636
+Testing AP_student_mlp_s: 0.1913
+Testing AP_student_mlp_s_non_normalize: 0.1913
+Testing AP_student_ggad: 0.1766
+Testing AP_student_ggad_non_normalize: 0.1838
+Testing AP_student_minus_ggad: 0.1834
+Testing AP_student_minus_ggad_non_normalize: 0.1844
+Total time is: 114.51289582252502
+Testing_last_ggad_ photo AUC: 0.6606
+Hard label ratio: 0.20
+Pseudo abnormal used in BCE: False
+Epoch 515: Total Loss = 0.20605196058750153,BCE Loss =0.20605196058750153
+student_score: 0.21617133915424347
+ggad_score: 0.02766912803053856
+student_score_non_normalize: -3.0009450912475586
+ggad_score_non_normalize: -5.281368255615234
+Testing photo AUC_student_mlp_s: 0.6912
+Testing photo AUC_student_mlp_s_non_normalize: 0.6912
+Testing photo AUC_student_ggad: 0.6901
+Testing photo AUC_student_ggad_non_normalize: 0.6884
+Testing photo AUC_student_minus_ggad: 0.6881
+Testing photo AUC_student_minus_ggad_non_normalize: 0.6627
+Testing AP_student_mlp_s: 0.1912
+Testing AP_student_mlp_s_non_normalize: 0.1912
+Testing AP_student_ggad: 0.1756
+Testing AP_student_ggad_non_normalize: 0.1838
+Testing AP_student_minus_ggad: 0.1810
+Testing AP_student_minus_ggad_non_normalize: 0.1833
+Total time is: 115.46139621734619
+Testing_last_ggad_ photo AUC: 0.6606
+Hard label ratio: 0.20
+Pseudo abnormal used in BCE: False
+Epoch 520: Total Loss = 0.20476606488227844,BCE Loss =0.20476606488227844
+student_score: 0.22155824303627014
+ggad_score: 0.02766912803053856
+student_score_non_normalize: -2.9498109817504883
+ggad_score_non_normalize: -5.281368255615234
+Testing photo AUC_student_mlp_s: 0.6918
+Testing photo AUC_student_mlp_s_non_normalize: 0.6918
+Testing photo AUC_student_ggad: 0.6906
+Testing photo AUC_student_ggad_non_normalize: 0.6888
+Testing photo AUC_student_minus_ggad: 0.6891
+Testing photo AUC_student_minus_ggad_non_normalize: 0.6648
+Testing AP_student_mlp_s: 0.1909
+Testing AP_student_mlp_s_non_normalize: 0.1909
+Testing AP_student_ggad: 0.1755
+Testing AP_student_ggad_non_normalize: 0.1841
+Testing AP_student_minus_ggad: 0.1804
+Testing AP_student_minus_ggad_non_normalize: 0.1843
+Total time is: 116.41058540344238
+Testing_last_ggad_ photo AUC: 0.6606
+Hard label ratio: 0.20
+Pseudo abnormal used in BCE: False
+Epoch 525: Total Loss = 0.20756331086158752,BCE Loss =0.20756331086158752
+student_score: 0.23366521298885345
+ggad_score: 0.02766912803053856
+student_score_non_normalize: -2.7542359828948975
+ggad_score_non_normalize: -5.281368255615234
+Testing photo AUC_student_mlp_s: 0.6935
+Testing photo AUC_student_mlp_s_non_normalize: 0.6935
+Testing photo AUC_student_ggad: 0.6920
+Testing photo AUC_student_ggad_non_normalize: 0.6898
+Testing photo AUC_student_minus_ggad: 0.6913
+Testing photo AUC_student_minus_ggad_non_normalize: 0.6668
+Testing AP_student_mlp_s: 0.1924
+Testing AP_student_mlp_s_non_normalize: 0.1924
+Testing AP_student_ggad: 0.1760
+Testing AP_student_ggad_non_normalize: 0.1845
+Testing AP_student_minus_ggad: 0.1807
+Testing AP_student_minus_ggad_non_normalize: 0.1862
+Total time is: 117.47338676452637
+Testing_last_ggad_ photo AUC: 0.6606
+Hard label ratio: 0.20
+Pseudo abnormal used in BCE: False
+Epoch 530: Total Loss = 0.2004828006029129,BCE Loss =0.2004828006029129
+student_score: 0.22366641461849213
+ggad_score: 0.02766912803053856
+student_score_non_normalize: -2.920447826385498
+ggad_score_non_normalize: -5.281368255615234
+Testing photo AUC_student_mlp_s: 0.6926
+Testing photo AUC_student_mlp_s_non_normalize: 0.6926
+Testing photo AUC_student_ggad: 0.6912
+Testing photo AUC_student_ggad_non_normalize: 0.6893
+Testing photo AUC_student_minus_ggad: 0.6902
+Testing photo AUC_student_minus_ggad_non_normalize: 0.6664
+Testing AP_student_mlp_s: 0.1911
+Testing AP_student_mlp_s_non_normalize: 0.1911
+Testing AP_student_ggad: 0.1758
+Testing AP_student_ggad_non_normalize: 0.1835
+Testing AP_student_minus_ggad: 0.1809
+Testing AP_student_minus_ggad_non_normalize: 0.1848
+Total time is: 118.49819302558899
+Testing_last_ggad_ photo AUC: 0.6606
+Hard label ratio: 0.20
+Pseudo abnormal used in BCE: False
+Epoch 535: Total Loss = 0.19509713351726532,BCE Loss =0.19509713351726532
+student_score: 0.21600541472434998
+ggad_score: 0.02766912803053856
+student_score_non_normalize: -3.07712721824646
+ggad_score_non_normalize: -5.281368255615234
+Testing photo AUC_student_mlp_s: 0.6907
+Testing photo AUC_student_mlp_s_non_normalize: 0.6907
+Testing photo AUC_student_ggad: 0.6896
+Testing photo AUC_student_ggad_non_normalize: 0.6881
+Testing photo AUC_student_minus_ggad: 0.6874
+Testing photo AUC_student_minus_ggad_non_normalize: 0.6655
+Testing AP_student_mlp_s: 0.1890
+Testing AP_student_mlp_s_non_normalize: 0.1890
+Testing AP_student_ggad: 0.1748
+Testing AP_student_ggad_non_normalize: 0.1820
+Testing AP_student_minus_ggad: 0.1794
+Testing AP_student_minus_ggad_non_normalize: 0.1822
+Total time is: 119.51061415672302
+Testing_last_ggad_ photo AUC: 0.6606
+Hard label ratio: 0.20
+Pseudo abnormal used in BCE: False
+Epoch 540: Total Loss = 0.19591431319713593,BCE Loss =0.19591431319713593
+student_score: 0.22676056623458862
+ggad_score: 0.02766912803053856
+student_score_non_normalize: -2.930713653564453
+ggad_score_non_normalize: -5.281368255615234
+Testing photo AUC_student_mlp_s: 0.6897
+Testing photo AUC_student_mlp_s_non_normalize: 0.6897
+Testing photo AUC_student_ggad: 0.6885
+Testing photo AUC_student_ggad_non_normalize: 0.6874
+Testing photo AUC_student_minus_ggad: 0.6866
+Testing photo AUC_student_minus_ggad_non_normalize: 0.6647
+Testing AP_student_mlp_s: 0.1879
+Testing AP_student_mlp_s_non_normalize: 0.1879
+Testing AP_student_ggad: 0.1737
+Testing AP_student_ggad_non_normalize: 0.1815
+Testing AP_student_minus_ggad: 0.1767
+Testing AP_student_minus_ggad_non_normalize: 0.1809
+Total time is: 120.53406143188477
+Testing_last_ggad_ photo AUC: 0.6606
+Hard label ratio: 0.20
+Pseudo abnormal used in BCE: False
+Epoch 545: Total Loss = 0.1885530799627304,BCE Loss =0.1885530799627304
+student_score: 0.21369262039661407
+ggad_score: 0.02766912803053856
+student_score_non_normalize: -3.2119879722595215
+ggad_score_non_normalize: -5.281368255615234
+Testing photo AUC_student_mlp_s: 0.6884
+Testing photo AUC_student_mlp_s_non_normalize: 0.6884
+Testing photo AUC_student_ggad: 0.6875
+Testing photo AUC_student_ggad_non_normalize: 0.6865
+Testing photo AUC_student_minus_ggad: 0.6848
+Testing photo AUC_student_minus_ggad_non_normalize: 0.6653
+Testing AP_student_mlp_s: 0.1864
+Testing AP_student_mlp_s_non_normalize: 0.1864
+Testing AP_student_ggad: 0.1733
+Testing AP_student_ggad_non_normalize: 0.1805
+Testing AP_student_minus_ggad: 0.1768
+Testing AP_student_minus_ggad_non_normalize: 0.1801
+Total time is: 121.62092328071594
+Testing_last_ggad_ photo AUC: 0.6606
+Hard label ratio: 0.20
+Pseudo abnormal used in BCE: False
+Epoch 550: Total Loss = 0.2122102975845337,BCE Loss =0.2122102975845337
+student_score: 0.14746834337711334
+ggad_score: 0.02766912803053856
+student_score_non_normalize: -4.755584239959717
+ggad_score_non_normalize: -5.281368255615234
+Testing photo AUC_student_mlp_s: 0.6839
+Testing photo AUC_student_mlp_s_non_normalize: 0.6839
+Testing photo AUC_student_ggad: 0.6845
+Testing photo AUC_student_ggad_non_normalize: 0.6835
+Testing photo AUC_student_minus_ggad: 0.6779
+Testing photo AUC_student_minus_ggad_non_normalize: 0.6643
+Testing AP_student_mlp_s: 0.1817
+Testing AP_student_mlp_s_non_normalize: 0.1817
+Testing AP_student_ggad: 0.1731
+Testing AP_student_ggad_non_normalize: 0.1771
+Testing AP_student_minus_ggad: 0.1763
+Testing AP_student_minus_ggad_non_normalize: 0.1749
+Total time is: 122.64699935913086
+Testing_last_ggad_ photo AUC: 0.6606
+Hard label ratio: 0.20
+Pseudo abnormal used in BCE: False
+Epoch 555: Total Loss = 0.18645387887954712,BCE Loss =0.18645387887954712
+student_score: 0.176564559340477
+ggad_score: 0.02766912803053856
+student_score_non_normalize: -4.066259860992432
+ggad_score_non_normalize: -5.281368255615234
+Testing photo AUC_student_mlp_s: 0.6867
+Testing photo AUC_student_mlp_s_non_normalize: 0.6867
+Testing photo AUC_student_ggad: 0.6863
+Testing photo AUC_student_ggad_non_normalize: 0.6852
+Testing photo AUC_student_minus_ggad: 0.6816
+Testing photo AUC_student_minus_ggad_non_normalize: 0.6674
+Testing AP_student_mlp_s: 0.1842
+Testing AP_student_mlp_s_non_normalize: 0.1842
+Testing AP_student_ggad: 0.1734
+Testing AP_student_ggad_non_normalize: 0.1785
+Testing AP_student_minus_ggad: 0.1769
+Testing AP_student_minus_ggad_non_normalize: 0.1784
+Total time is: 123.68591380119324
+Testing_last_ggad_ photo AUC: 0.6606
+Hard label ratio: 0.20
+Pseudo abnormal used in BCE: False
+Epoch 560: Total Loss = 0.18053962290287018,BCE Loss =0.18053962290287018
+student_score: 0.2166266143321991
+ggad_score: 0.02766912803053856
+student_score_non_normalize: -3.238016128540039
+ggad_score_non_normalize: -5.281368255615234
+Testing photo AUC_student_mlp_s: 0.6882
+Testing photo AUC_student_mlp_s_non_normalize: 0.6882
+Testing photo AUC_student_ggad: 0.6871
+Testing photo AUC_student_ggad_non_normalize: 0.6864
+Testing photo AUC_student_minus_ggad: 0.6838
+Testing photo AUC_student_minus_ggad_non_normalize: 0.6677
+Testing AP_student_mlp_s: 0.1850
+Testing AP_student_mlp_s_non_normalize: 0.1850
+Testing AP_student_ggad: 0.1726
+Testing AP_student_ggad_non_normalize: 0.1793
+Testing AP_student_minus_ggad: 0.1746
+Testing AP_student_minus_ggad_non_normalize: 0.1790
+Total time is: 124.73596620559692
+Testing_last_ggad_ photo AUC: 0.6606
+Hard label ratio: 0.20
+Pseudo abnormal used in BCE: False
+Epoch 565: Total Loss = 0.1778448522090912,BCE Loss =0.1778448522090912
+student_score: 0.21792717278003693
+ggad_score: 0.02766912803053856
+student_score_non_normalize: -3.238335132598877
+ggad_score_non_normalize: -5.281368255615234
+Testing photo AUC_student_mlp_s: 0.6872
+Testing photo AUC_student_mlp_s_non_normalize: 0.6872
+Testing photo AUC_student_ggad: 0.6861
+Testing photo AUC_student_ggad_non_normalize: 0.6857
+Testing photo AUC_student_minus_ggad: 0.6825
+Testing photo AUC_student_minus_ggad_non_normalize: 0.6671
+Testing AP_student_mlp_s: 0.1837
+Testing AP_student_mlp_s_non_normalize: 0.1837
+Testing AP_student_ggad: 0.1719
+Testing AP_student_ggad_non_normalize: 0.1786
+Testing AP_student_minus_ggad: 0.1733
+Testing AP_student_minus_ggad_non_normalize: 0.1776
+Total time is: 125.79114508628845
+Testing_last_ggad_ photo AUC: 0.6606
+Hard label ratio: 0.20
+Pseudo abnormal used in BCE: False
+Epoch 570: Total Loss = 0.2128983736038208,BCE Loss =0.2128983736038208
+student_score: 0.14023801684379578
+ggad_score: 0.02766912803053856
+student_score_non_normalize: -5.145668983459473
+ggad_score_non_normalize: -5.281368255615234
+Testing photo AUC_student_mlp_s: 0.6821
+Testing photo AUC_student_mlp_s_non_normalize: 0.6821
+Testing photo AUC_student_ggad: 0.6832
+Testing photo AUC_student_ggad_non_normalize: 0.6822
+Testing photo AUC_student_minus_ggad: 0.6748
+Testing photo AUC_student_minus_ggad_non_normalize: 0.6647
+Testing AP_student_mlp_s: 0.1792
+Testing AP_student_mlp_s_non_normalize: 0.1792
+Testing AP_student_ggad: 0.1717
+Testing AP_student_ggad_non_normalize: 0.1754
+Testing AP_student_minus_ggad: 0.1730
+Testing AP_student_minus_ggad_non_normalize: 0.1726
+Total time is: 126.87625408172607
+Testing_last_ggad_ photo AUC: 0.6606
+Hard label ratio: 0.20
+Pseudo abnormal used in BCE: False
+Epoch 575: Total Loss = 0.20041106641292572,BCE Loss =0.20041106641292572
+student_score: 0.14848418533802032
+ggad_score: 0.02766912803053856
+student_score_non_normalize: -4.94343376159668
+ggad_score_non_normalize: -5.281368255615234
+Testing photo AUC_student_mlp_s: 0.6832
+Testing photo AUC_student_mlp_s_non_normalize: 0.6832
+Testing photo AUC_student_ggad: 0.6839
+Testing photo AUC_student_ggad_non_normalize: 0.6830
+Testing photo AUC_student_minus_ggad: 0.6762
+Testing photo AUC_student_minus_ggad_non_normalize: 0.6664
+Testing AP_student_mlp_s: 0.1800
+Testing AP_student_mlp_s_non_normalize: 0.1800
+Testing AP_student_ggad: 0.1719
+Testing AP_student_ggad_non_normalize: 0.1760
+Testing AP_student_minus_ggad: 0.1735
+Testing AP_student_minus_ggad_non_normalize: 0.1740
+Total time is: 127.8399920463562
+Testing_last_ggad_ photo AUC: 0.6606
+Hard label ratio: 0.20
+Pseudo abnormal used in BCE: False
+Epoch 580: Total Loss = 0.19581805169582367,BCE Loss =0.19581805169582367
+student_score: 0.1496438831090927
+ggad_score: 0.02766912803053856
+student_score_non_normalize: -4.910874843597412
+ggad_score_non_normalize: -5.281368255615234
+Testing photo AUC_student_mlp_s: 0.6824
+Testing photo AUC_student_mlp_s_non_normalize: 0.6824
+Testing photo AUC_student_ggad: 0.6832
+Testing photo AUC_student_ggad_non_normalize: 0.6824
+Testing photo AUC_student_minus_ggad: 0.6743
+Testing photo AUC_student_minus_ggad_non_normalize: 0.6656
+Testing AP_student_mlp_s: 0.1790
+Testing AP_student_mlp_s_non_normalize: 0.1790
+Testing AP_student_ggad: 0.1713
+Testing AP_student_ggad_non_normalize: 0.1752
+Testing AP_student_minus_ggad: 0.1728
+Testing AP_student_minus_ggad_non_normalize: 0.1728
+Total time is: 129.08902525901794
+Testing_last_ggad_ photo AUC: 0.6606
+Hard label ratio: 0.20
+Pseudo abnormal used in BCE: False
+Epoch 585: Total Loss = 0.18045751750469208,BCE Loss =0.18045751750469208
+student_score: 0.16133292019367218
+ggad_score: 0.02766912803053856
+student_score_non_normalize: -4.647494316101074
+ggad_score_non_normalize: -5.281368255615234
+Testing photo AUC_student_mlp_s: 0.6834
+Testing photo AUC_student_mlp_s_non_normalize: 0.6834
+Testing photo AUC_student_ggad: 0.6837
+Testing photo AUC_student_ggad_non_normalize: 0.6830
+Testing photo AUC_student_minus_ggad: 0.6755
+Testing photo AUC_student_minus_ggad_non_normalize: 0.6674
+Testing AP_student_mlp_s: 0.1798
+Testing AP_student_mlp_s_non_normalize: 0.1798
+Testing AP_student_ggad: 0.1714
+Testing AP_student_ggad_non_normalize: 0.1757
+Testing AP_student_minus_ggad: 0.1728
+Testing AP_student_minus_ggad_non_normalize: 0.1742
+Total time is: 130.19887948036194
+Testing_last_ggad_ photo AUC: 0.6606
+Hard label ratio: 0.20
+Pseudo abnormal used in BCE: False
+Epoch 590: Total Loss = 0.16113945841789246,BCE Loss =0.16113945841789246
+student_score: 0.20653045177459717
+ggad_score: 0.02766912803053856
+student_score_non_normalize: -3.6442694664001465
+ggad_score_non_normalize: -5.281368255615234
+Testing photo AUC_student_mlp_s: 0.6866
+Testing photo AUC_student_mlp_s_non_normalize: 0.6866
+Testing photo AUC_student_ggad: 0.6855
+Testing photo AUC_student_ggad_non_normalize: 0.6851
+Testing photo AUC_student_minus_ggad: 0.6834
+Testing photo AUC_student_minus_ggad_non_normalize: 0.6711
+Testing AP_student_mlp_s: 0.1826
+Testing AP_student_mlp_s_non_normalize: 0.1826
+Testing AP_student_ggad: 0.1714
+Testing AP_student_ggad_non_normalize: 0.1779
+Testing AP_student_minus_ggad: 0.1715
+Testing AP_student_minus_ggad_non_normalize: 0.1776
+Total time is: 131.3578462600708
+Testing_last_ggad_ photo AUC: 0.6606
+Hard label ratio: 0.20
+Pseudo abnormal used in BCE: False
+Epoch 595: Total Loss = 0.17531852424144745,BCE Loss =0.17531852424144745
+student_score: 0.2454676628112793
+ggad_score: 0.02766912803053856
+student_score_non_normalize: -2.898582696914673
+ggad_score_non_normalize: -5.281368255615234
+Testing photo AUC_student_mlp_s: 0.6862
+Testing photo AUC_student_mlp_s_non_normalize: 0.6862
+Testing photo AUC_student_ggad: 0.6848
+Testing photo AUC_student_ggad_non_normalize: 0.6848
+Testing photo AUC_student_minus_ggad: 0.6805
+Testing photo AUC_student_minus_ggad_non_normalize: 0.6687
+Testing AP_student_mlp_s: 0.1818
+Testing AP_student_mlp_s_non_normalize: 0.1818
+Testing AP_student_ggad: 0.1698
+Testing AP_student_ggad_non_normalize: 0.1777
+Testing AP_student_minus_ggad: 0.1659
+Testing AP_student_minus_ggad_non_normalize: 0.1744
+Total time is: 132.41242599487305
+Testing_last_ggad_ photo AUC: 0.6606
+Hard label ratio: 0.20
+Pseudo abnormal used in BCE: False
+Epoch 600: Total Loss = 0.15538552403450012,BCE Loss =0.15538552403450012
+student_score: 0.19623449444770813
+ggad_score: 0.02766912803053856
+student_score_non_normalize: -3.9616739749908447
+ggad_score_non_normalize: -5.281368255615234
+Testing photo AUC_student_mlp_s: 0.6852
+Testing photo AUC_student_mlp_s_non_normalize: 0.6852
+Testing photo AUC_student_ggad: 0.6845
+Testing photo AUC_student_ggad_non_normalize: 0.6842
+Testing photo AUC_student_minus_ggad: 0.6824
+Testing photo AUC_student_minus_ggad_non_normalize: 0.6712
+Testing AP_student_mlp_s: 0.1814
+Testing AP_student_mlp_s_non_normalize: 0.1814
+Testing AP_student_ggad: 0.1707
+Testing AP_student_ggad_non_normalize: 0.1768
+Testing AP_student_minus_ggad: 0.1702
+Testing AP_student_minus_ggad_non_normalize: 0.1763
+Total time is: 133.62498593330383
+Testing_last_ggad_ photo AUC: 0.6606
+Hard label ratio: 0.20
+Pseudo abnormal used in BCE: False
+Epoch 605: Total Loss = 0.17312811315059662,BCE Loss =0.17312811315059662
+student_score: 0.15783609449863434
+ggad_score: 0.02766912803053856
+student_score_non_normalize: -4.943544864654541
+ggad_score_non_normalize: -5.281368255615234
+Testing photo AUC_student_mlp_s: 0.6819
+Testing photo AUC_student_mlp_s_non_normalize: 0.6819
+Testing photo AUC_student_ggad: 0.6825
+Testing photo AUC_student_ggad_non_normalize: 0.6818
+Testing photo AUC_student_minus_ggad: 0.6726
+Testing photo AUC_student_minus_ggad_non_normalize: 0.6681
+Testing AP_student_mlp_s: 0.1778
+Testing AP_student_mlp_s_non_normalize: 0.1778
+Testing AP_student_ggad: 0.1702
+Testing AP_student_ggad_non_normalize: 0.1745
+Testing AP_student_minus_ggad: 0.1706
+Testing AP_student_minus_ggad_non_normalize: 0.1730
+Total time is: 134.65083003044128
+Testing_last_ggad_ photo AUC: 0.6606
+Hard label ratio: 0.20
+Pseudo abnormal used in BCE: False
+Epoch 610: Total Loss = 0.15042364597320557,BCE Loss =0.15042364597320557
+student_score: 0.21381151676177979
+ggad_score: 0.02766912803053856
+student_score_non_normalize: -3.6218137741088867
+ggad_score_non_normalize: -5.281368255615234
+Testing photo AUC_student_mlp_s: 0.6853
+Testing photo AUC_student_mlp_s_non_normalize: 0.6853
+Testing photo AUC_student_ggad: 0.6842
+Testing photo AUC_student_ggad_non_normalize: 0.6842
+Testing photo AUC_student_minus_ggad: 0.6815
+Testing photo AUC_student_minus_ggad_non_normalize: 0.6718
+Testing AP_student_mlp_s: 0.1808
+Testing AP_student_mlp_s_non_normalize: 0.1808
+Testing AP_student_ggad: 0.1699
+Testing AP_student_ggad_non_normalize: 0.1769
+Testing AP_student_minus_ggad: 0.1677
+Testing AP_student_minus_ggad_non_normalize: 0.1755
+Total time is: 135.80510878562927
+Testing_last_ggad_ photo AUC: 0.6606
+Hard label ratio: 0.20
+Pseudo abnormal used in BCE: False
+Epoch 615: Total Loss = 0.14554442465305328,BCE Loss =0.14554442465305328
+student_score: 0.19748763740062714
+ggad_score: 0.02766912803053856
+student_score_non_normalize: -4.028707027435303
+ggad_score_non_normalize: -5.281368255615234
+Testing photo AUC_student_mlp_s: 0.6834
+Testing photo AUC_student_mlp_s_non_normalize: 0.6834
+Testing photo AUC_student_ggad: 0.6829
+Testing photo AUC_student_ggad_non_normalize: 0.6828
+Testing photo AUC_student_minus_ggad: 0.6804
+Testing photo AUC_student_minus_ggad_non_normalize: 0.6704
+Testing AP_student_mlp_s: 0.1791
+Testing AP_student_mlp_s_non_normalize: 0.1791
+Testing AP_student_ggad: 0.1696
+Testing AP_student_ggad_non_normalize: 0.1756
+Testing AP_student_minus_ggad: 0.1679
+Testing AP_student_minus_ggad_non_normalize: 0.1742
+Total time is: 136.81011700630188
+Testing_last_ggad_ photo AUC: 0.6606
+Hard label ratio: 0.20
+Pseudo abnormal used in BCE: False
+Epoch 620: Total Loss = 0.15738435089588165,BCE Loss =0.15738435089588165
+student_score: 0.24062559008598328
+ggad_score: 0.02766912803053856
+student_score_non_normalize: -3.1425225734710693
+ggad_score_non_normalize: -5.281368255615234
+Testing photo AUC_student_mlp_s: 0.6839
+Testing photo AUC_student_mlp_s_non_normalize: 0.6839
+Testing photo AUC_student_ggad: 0.6826
+Testing photo AUC_student_ggad_non_normalize: 0.6832
+Testing photo AUC_student_minus_ggad: 0.6771
+Testing photo AUC_student_minus_ggad_non_normalize: 0.6697
+Testing AP_student_mlp_s: 0.1793
+Testing AP_student_mlp_s_non_normalize: 0.1793
+Testing AP_student_ggad: 0.1685
+Testing AP_student_ggad_non_normalize: 0.1762
+Testing AP_student_minus_ggad: 0.1630
+Testing AP_student_minus_ggad_non_normalize: 0.1724
+Total time is: 138.00472712516785
+Testing_last_ggad_ photo AUC: 0.6606
+Hard label ratio: 0.20
+Pseudo abnormal used in BCE: False
+Epoch 625: Total Loss = 1.1047009229660034,BCE Loss =1.1047009229660034
+student_score: 0.6223395466804504
+ggad_score: 0.02766912803053856
+student_score_non_normalize: 1.3469237089157104
+ggad_score_non_normalize: -5.281368255615234
+Testing photo AUC_student_mlp_s: 0.6857
+Testing photo AUC_student_mlp_s_non_normalize: 0.6857
+Testing photo AUC_student_ggad: 0.6850
+Testing photo AUC_student_ggad_non_normalize: 0.6865
+Testing photo AUC_student_minus_ggad: 0.6509
+Testing photo AUC_student_minus_ggad_non_normalize: 0.6407
+Testing AP_student_mlp_s: 0.1777
+Testing AP_student_mlp_s_non_normalize: 0.1776
+Testing AP_student_ggad: 0.1650
+Testing AP_student_ggad_non_normalize: 0.1808
+Testing AP_student_minus_ggad: 0.1329
+Testing AP_student_minus_ggad_non_normalize: 0.1498
+Total time is: 139.14128518104553
+Testing_last_ggad_ photo AUC: 0.6606
+Hard label ratio: 0.20
+Pseudo abnormal used in BCE: False
+Epoch 630: Total Loss = 2.8301563262939453,BCE Loss =2.8301563262939453
+student_score: 0.00042323535308241844
+ggad_score: 0.02766912803053856
+student_score_non_normalize: -24.9017391204834
+ggad_score_non_normalize: -5.281368255615234
+Testing photo AUC_student_mlp_s: 0.6174
+Testing photo AUC_student_mlp_s_non_normalize: 0.6174
+Testing photo AUC_student_ggad: 0.6602
+Testing photo AUC_student_ggad_non_normalize: 0.6332
+Testing photo AUC_student_minus_ggad: 0.6610
+Testing photo AUC_student_minus_ggad_non_normalize: 0.5951
+Testing AP_student_mlp_s: 0.1227
+Testing AP_student_mlp_s_non_normalize: 0.1227
+Testing AP_student_ggad: 0.1545
+Testing AP_student_ggad_non_normalize: 0.1316
+Testing AP_student_minus_ggad: 0.1571
+Testing AP_student_minus_ggad_non_normalize: 0.1125
+Total time is: 140.1340229511261
+Testing_last_ggad_ photo AUC: 0.6606
+Hard label ratio: 0.20
+Pseudo abnormal used in BCE: False
+Epoch 635: Total Loss = 0.7959080338478088,BCE Loss =0.7959080338478088
+student_score: 0.02109280414879322
+ggad_score: 0.02766912803053856
+student_score_non_normalize: -7.375473499298096
+ggad_score_non_normalize: -5.281368255615234
+Testing photo AUC_student_mlp_s: 0.6325
+Testing photo AUC_student_mlp_s_non_normalize: 0.6325
+Testing photo AUC_student_ggad: 0.6572
+Testing photo AUC_student_ggad_non_normalize: 0.6596
+Testing photo AUC_student_minus_ggad: 0.6241
+Testing photo AUC_student_minus_ggad_non_normalize: 0.5531
+Testing AP_student_mlp_s: 0.1302
+Testing AP_student_mlp_s_non_normalize: 0.1302
+Testing AP_student_ggad: 0.1477
+Testing AP_student_ggad_non_normalize: 0.1484
+Testing AP_student_minus_ggad: 0.1421
+Testing AP_student_minus_ggad_non_normalize: 0.1001
+Total time is: 141.38411855697632
+Testing_last_ggad_ photo AUC: 0.6606
+Hard label ratio: 0.20
+Pseudo abnormal used in BCE: False
+Epoch 640: Total Loss = 0.38691261410713196,BCE Loss =0.38691261410713196
+student_score: 0.22889351844787598
+ggad_score: 0.02766912803053856
+student_score_non_normalize: -1.5754419565200806
+ggad_score_non_normalize: -5.281368255615234
+Testing photo AUC_student_mlp_s: 0.6695
+Testing photo AUC_student_mlp_s_non_normalize: 0.6695
+Testing photo AUC_student_ggad: 0.6717
+Testing photo AUC_student_ggad_non_normalize: 0.6785
+Testing photo AUC_student_minus_ggad: 0.6373
+Testing photo AUC_student_minus_ggad_non_normalize: 0.4257
+Testing AP_student_mlp_s: 0.1700
+Testing AP_student_mlp_s_non_normalize: 0.1700
+Testing AP_student_ggad: 0.1665
+Testing AP_student_ggad_non_normalize: 0.1684
+Testing AP_student_minus_ggad: 0.1375
+Testing AP_student_minus_ggad_non_normalize: 0.0779
+Total time is: 142.55821895599365
+Testing_last_ggad_ photo AUC: 0.6606
+Hard label ratio: 0.20
+Pseudo abnormal used in BCE: False
+Epoch 645: Total Loss = 0.4530600309371948,BCE Loss =0.4530600309371948
+student_score: 0.08694164454936981
+ggad_score: 0.02766912803053856
+student_score_non_normalize: -3.595167875289917
+ggad_score_non_normalize: -5.281368255615234
+Testing photo AUC_student_mlp_s: 0.6387
+Testing photo AUC_student_mlp_s_non_normalize: 0.6387
+Testing photo AUC_student_ggad: 0.6509
+Testing photo AUC_student_ggad_non_normalize: 0.6686
+Testing photo AUC_student_minus_ggad: 0.6085
+Testing photo AUC_student_minus_ggad_non_normalize: 0.4823
+Testing AP_student_mlp_s: 0.1374
+Testing AP_student_mlp_s_non_normalize: 0.1374
+Testing AP_student_ggad: 0.1483
+Testing AP_student_ggad_non_normalize: 0.1572
+Testing AP_student_minus_ggad: 0.1212
+Testing AP_student_minus_ggad_non_normalize: 0.0858
+Total time is: 143.60809636116028
+Testing_last_ggad_ photo AUC: 0.6606
+Hard label ratio: 0.20
+Pseudo abnormal used in BCE: False
+Epoch 650: Total Loss = 0.38944604992866516,BCE Loss =0.38944604992866516
+student_score: 0.24103274941444397
+ggad_score: 0.02766912803053856
+student_score_non_normalize: -1.4756759405136108
+ggad_score_non_normalize: -5.281368255615234
+Testing photo AUC_student_mlp_s: 0.6790
+Testing photo AUC_student_mlp_s_non_normalize: 0.6790
+Testing photo AUC_student_ggad: 0.6783
+Testing photo AUC_student_ggad_non_normalize: 0.6802
+Testing photo AUC_student_minus_ggad: 0.6483
+Testing photo AUC_student_minus_ggad_non_normalize: 0.4249
+Testing AP_student_mlp_s: 0.1880
+Testing AP_student_mlp_s_non_normalize: 0.1880
+Testing AP_student_ggad: 0.1735
+Testing AP_student_ggad_non_normalize: 0.1717
+Testing AP_student_minus_ggad: 0.1482
+Testing AP_student_minus_ggad_non_normalize: 0.0780
+Total time is: 144.54363322257996
+Testing_last_ggad_ photo AUC: 0.6606
+Hard label ratio: 0.20
+Pseudo abnormal used in BCE: False
+Epoch 655: Total Loss = 0.3800296485424042,BCE Loss =0.3800296485424042
+student_score: 0.19892650842666626
+ggad_score: 0.02766912803053856
+student_score_non_normalize: -1.8471993207931519
+ggad_score_non_normalize: -5.281368255615234
+Testing photo AUC_student_mlp_s: 0.6704
+Testing photo AUC_student_mlp_s_non_normalize: 0.6704
+Testing photo AUC_student_ggad: 0.6716
+Testing photo AUC_student_ggad_non_normalize: 0.6791
+Testing photo AUC_student_minus_ggad: 0.6411
+Testing photo AUC_student_minus_ggad_non_normalize: 0.4367
+Testing AP_student_mlp_s: 0.1775
+Testing AP_student_mlp_s_non_normalize: 0.1775
+Testing AP_student_ggad: 0.1694
+Testing AP_student_ggad_non_normalize: 0.1706
+Testing AP_student_minus_ggad: 0.1423
+Testing AP_student_minus_ggad_non_normalize: 0.0794
+Total time is: 145.46688652038574
+Testing_last_ggad_ photo AUC: 0.6606
+Hard label ratio: 0.20
+Pseudo abnormal used in BCE: False
+Epoch 660: Total Loss = 0.3833666145801544,BCE Loss =0.3833666145801544
+student_score: 0.15148933231830597
+ggad_score: 0.02766912803053856
+student_score_non_normalize: -2.421978235244751
+ggad_score_non_normalize: -5.281368255615234
+Testing photo AUC_student_mlp_s: 0.6630
+Testing photo AUC_student_mlp_s_non_normalize: 0.6630
+Testing photo AUC_student_ggad: 0.6665
+Testing photo AUC_student_ggad_non_normalize: 0.6779
+Testing photo AUC_student_minus_ggad: 0.6315
+Testing photo AUC_student_minus_ggad_non_normalize: 0.4599
+Testing AP_student_mlp_s: 0.1664
+Testing AP_student_mlp_s_non_normalize: 0.1664
+Testing AP_student_ggad: 0.1648
+Testing AP_student_ggad_non_normalize: 0.1688
+Testing AP_student_minus_ggad: 0.1360
+Testing AP_student_minus_ggad_non_normalize: 0.0826
+Total time is: 146.4083399772644
+Testing_last_ggad_ photo AUC: 0.6606
+Hard label ratio: 0.20
+Pseudo abnormal used in BCE: False
+Epoch 665: Total Loss = 0.3741403818130493,BCE Loss =0.3741403818130493
+student_score: 0.21622326970100403
+ggad_score: 0.02766912803053856
+student_score_non_normalize: -1.7219115495681763
+ggad_score_non_normalize: -5.281368255615234
+Testing photo AUC_student_mlp_s: 0.6938
+Testing photo AUC_student_mlp_s_non_normalize: 0.6938
+Testing photo AUC_student_ggad: 0.6906
+Testing photo AUC_student_ggad_non_normalize: 0.6862
+Testing photo AUC_student_minus_ggad: 0.6755
+Testing photo AUC_student_minus_ggad_non_normalize: 0.4526
+Testing AP_student_mlp_s: 0.2092
+Testing AP_student_mlp_s_non_normalize: 0.2092
+Testing AP_student_ggad: 0.1865
+Testing AP_student_ggad_non_normalize: 0.1807
+Testing AP_student_minus_ggad: 0.1732
+Testing AP_student_minus_ggad_non_normalize: 0.0827
+Total time is: 147.5233817100525
+Testing_last_ggad_ photo AUC: 0.6606
+Hard label ratio: 0.20
+Pseudo abnormal used in BCE: False
+Epoch 670: Total Loss = 0.3652326464653015,BCE Loss =0.3652326464653015
+student_score: 0.19006071984767914
+ggad_score: 0.02766912803053856
+student_score_non_normalize: -2.0378241539001465
+ggad_score_non_normalize: -5.281368255615234
+Testing photo AUC_student_mlp_s: 0.6988
+Testing photo AUC_student_mlp_s_non_normalize: 0.6988
+Testing photo AUC_student_ggad: 0.6949
+Testing photo AUC_student_ggad_non_normalize: 0.6895
+Testing photo AUC_student_minus_ggad: 0.6856
+Testing photo AUC_student_minus_ggad_non_normalize: 0.4799
+Testing AP_student_mlp_s: 0.2162
+Testing AP_student_mlp_s_non_normalize: 0.2162
+Testing AP_student_ggad: 0.1910
+Testing AP_student_ggad_non_normalize: 0.1838
+Testing AP_student_minus_ggad: 0.1848
+Testing AP_student_minus_ggad_non_normalize: 0.0875
+Total time is: 148.588880777359
+Testing_last_ggad_ photo AUC: 0.6606
+Hard label ratio: 0.20
+Pseudo abnormal used in BCE: False
+Epoch 675: Total Loss = 0.35908806324005127,BCE Loss =0.35908806324005127
+student_score: 0.18616826832294464
+ggad_score: 0.02766912803053856
+student_score_non_normalize: -2.13779354095459
+ggad_score_non_normalize: -5.281368255615234
+Testing photo AUC_student_mlp_s: 0.7111
+Testing photo AUC_student_mlp_s_non_normalize: 0.7111
+Testing photo AUC_student_ggad: 0.7054
+Testing photo AUC_student_ggad_non_normalize: 0.6949
+Testing photo AUC_student_minus_ggad: 0.7036
+Testing photo AUC_student_minus_ggad_non_normalize: 0.5036
+Testing AP_student_mlp_s: 0.2347
+Testing AP_student_mlp_s_non_normalize: 0.2347
+Testing AP_student_ggad: 0.2017
+Testing AP_student_ggad_non_normalize: 0.1902
+Testing AP_student_minus_ggad: 0.2124
+Testing AP_student_minus_ggad_non_normalize: 0.0928
+Total time is: 149.82634115219116
+Testing_last_ggad_ photo AUC: 0.6606
+Hard label ratio: 0.20
+Pseudo abnormal used in BCE: False
+Epoch 680: Total Loss = 0.35306453704833984,BCE Loss =0.35306453704833984
+student_score: 0.19937586784362793
+ggad_score: 0.02766912803053856
+student_score_non_normalize: -2.0568771362304688
+ggad_score_non_normalize: -5.281368255615234
+Testing photo AUC_student_mlp_s: 0.7263
+Testing photo AUC_student_mlp_s_non_normalize: 0.7263
+Testing photo AUC_student_ggad: 0.7185
+Testing photo AUC_student_ggad_non_normalize: 0.7010
+Testing photo AUC_student_minus_ggad: 0.7237
+Testing photo AUC_student_minus_ggad_non_normalize: 0.5235
+Testing AP_student_mlp_s: 0.2609
+Testing AP_student_mlp_s_non_normalize: 0.2609
+Testing AP_student_ggad: 0.2152
+Testing AP_student_ggad_non_normalize: 0.1989
+Testing AP_student_minus_ggad: 0.2512
+Testing AP_student_minus_ggad_non_normalize: 0.0981
+Total time is: 151.1037905216217
+Testing_last_ggad_ photo AUC: 0.6606
+Hard label ratio: 0.20
+Pseudo abnormal used in BCE: False
+Epoch 685: Total Loss = 0.34737637639045715,BCE Loss =0.34737637639045715
+student_score: 0.1907627433538437
+ggad_score: 0.02766912803053856
+student_score_non_normalize: -2.215632677078247
+ggad_score_non_normalize: -5.281368255615234
+Testing photo AUC_student_mlp_s: 0.7329
+Testing photo AUC_student_mlp_s_non_normalize: 0.7329
+Testing photo AUC_student_ggad: 0.7244
+Testing photo AUC_student_ggad_non_normalize: 0.7050
+Testing photo AUC_student_minus_ggad: 0.7323
+Testing photo AUC_student_minus_ggad_non_normalize: 0.5473
+Testing AP_student_mlp_s: 0.2733
+Testing AP_student_mlp_s_non_normalize: 0.2733
+Testing AP_student_ggad: 0.2231
+Testing AP_student_ggad_non_normalize: 0.2055
+Testing AP_student_minus_ggad: 0.2739
+Testing AP_student_minus_ggad_non_normalize: 0.1045
+Total time is: 152.28429436683655
+Testing_last_ggad_ photo AUC: 0.6606
+Hard label ratio: 0.20
+Pseudo abnormal used in BCE: False
+Epoch 690: Total Loss = 0.3414298892021179,BCE Loss =0.3414298892021179
+student_score: 0.18994182348251343
+ggad_score: 0.02766912803053856
+student_score_non_normalize: -2.2817325592041016
+ggad_score_non_normalize: -5.281368255615234
+Testing photo AUC_student_mlp_s: 0.7403
+Testing photo AUC_student_mlp_s_non_normalize: 0.7403
+Testing photo AUC_student_ggad: 0.7311
+Testing photo AUC_student_ggad_non_normalize: 0.7090
+Testing photo AUC_student_minus_ggad: 0.7417
+Testing photo AUC_student_minus_ggad_non_normalize: 0.5676
+Testing AP_student_mlp_s: 0.2865
+Testing AP_student_mlp_s_non_normalize: 0.2865
+Testing AP_student_ggad: 0.2308
+Testing AP_student_ggad_non_normalize: 0.2103
+Testing AP_student_minus_ggad: 0.2963
+Testing AP_student_minus_ggad_non_normalize: 0.1110
+Total time is: 153.41975116729736
+Testing_last_ggad_ photo AUC: 0.6606
+Hard label ratio: 0.20
+Pseudo abnormal used in BCE: False
+Epoch 695: Total Loss = 0.3355509042739868,BCE Loss =0.3355509042739868
+student_score: 0.20073097944259644
+ggad_score: 0.02766912803053856
+student_score_non_normalize: -2.1981329917907715
+ggad_score_non_normalize: -5.281368255615234
+Testing photo AUC_student_mlp_s: 0.7495
+Testing photo AUC_student_mlp_s_non_normalize: 0.7495
+Testing photo AUC_student_ggad: 0.7393
+Testing photo AUC_student_ggad_non_normalize: 0.7128
+Testing photo AUC_student_minus_ggad: 0.7534
+Testing photo AUC_student_minus_ggad_non_normalize: 0.5825
+Testing AP_student_mlp_s: 0.2995
+Testing AP_student_mlp_s_non_normalize: 0.2995
+Testing AP_student_ggad: 0.2396
+Testing AP_student_ggad_non_normalize: 0.2176
+Testing AP_student_minus_ggad: 0.3186
+Testing AP_student_minus_ggad_non_normalize: 0.1165
+Total time is: 154.40967464447021
+Testing_last_ggad_ photo AUC: 0.6606
+Hard label ratio: 0.20
+Pseudo abnormal used in BCE: False
+Epoch 700: Total Loss = 0.329163134098053,BCE Loss =0.329163134098053
+student_score: 0.19302473962306976
+ggad_score: 0.02766912803053856
+student_score_non_normalize: -2.312854290008545
+ggad_score_non_normalize: -5.281368255615234
+Testing photo AUC_student_mlp_s: 0.7500
+Testing photo AUC_student_mlp_s_non_normalize: 0.7500
+Testing photo AUC_student_ggad: 0.7401
+Testing photo AUC_student_ggad_non_normalize: 0.7138
+Testing photo AUC_student_minus_ggad: 0.7554
+Testing photo AUC_student_minus_ggad_non_normalize: 0.5955
+Testing AP_student_mlp_s: 0.2949
+Testing AP_student_mlp_s_non_normalize: 0.2949
+Testing AP_student_ggad: 0.2392
+Testing AP_student_ggad_non_normalize: 0.2188
+Testing AP_student_minus_ggad: 0.3150
+Testing AP_student_minus_ggad_non_normalize: 0.1210
+Total time is: 155.43274760246277
+Testing_last_ggad_ photo AUC: 0.6606
+Hard label ratio: 0.20
+Pseudo abnormal used in BCE: False
+Epoch 705: Total Loss = 0.3220681846141815,BCE Loss =0.3220681846141815
+student_score: 0.18962514400482178
+ggad_score: 0.02766912803053856
+student_score_non_normalize: -2.379085063934326
+ggad_score_non_normalize: -5.281368255615234
+Testing photo AUC_student_mlp_s: 0.7500
+Testing photo AUC_student_mlp_s_non_normalize: 0.7500
+Testing photo AUC_student_ggad: 0.7405
+Testing photo AUC_student_ggad_non_normalize: 0.7143
+Testing photo AUC_student_minus_ggad: 0.7567
+Testing photo AUC_student_minus_ggad_non_normalize: 0.6069
+Testing AP_student_mlp_s: 0.2888
+Testing AP_student_mlp_s_non_normalize: 0.2888
+Testing AP_student_ggad: 0.2371
+Testing AP_student_ggad_non_normalize: 0.2184
+Testing AP_student_minus_ggad: 0.3101
+Testing AP_student_minus_ggad_non_normalize: 0.1252
+Total time is: 156.44367480278015
+Testing_last_ggad_ photo AUC: 0.6606
+Hard label ratio: 0.20
+Pseudo abnormal used in BCE: False
+Epoch 710: Total Loss = 0.3133835792541504,BCE Loss =0.3133835792541504
+student_score: 0.19026397168636322
+ggad_score: 0.02766912803053856
+student_score_non_normalize: -2.423722982406616
+ggad_score_non_normalize: -5.281368255615234
+Testing photo AUC_student_mlp_s: 0.7499
+Testing photo AUC_student_mlp_s_non_normalize: 0.7499
+Testing photo AUC_student_ggad: 0.7406
+Testing photo AUC_student_ggad_non_normalize: 0.7146
+Testing photo AUC_student_minus_ggad: 0.7574
+Testing photo AUC_student_minus_ggad_non_normalize: 0.6190
+Testing AP_student_mlp_s: 0.2811
+Testing AP_student_mlp_s_non_normalize: 0.2811
+Testing AP_student_ggad: 0.2341
+Testing AP_student_ggad_non_normalize: 0.2173
+Testing AP_student_minus_ggad: 0.3015
+Testing AP_student_minus_ggad_non_normalize: 0.1303
+Total time is: 157.39016842842102
+Testing_last_ggad_ photo AUC: 0.6606
+Hard label ratio: 0.20
+Pseudo abnormal used in BCE: False
+Epoch 715: Total Loss = 0.3059491515159607,BCE Loss =0.3059491515159607
+student_score: 0.19020701944828033
+ggad_score: 0.02766912803053856
+student_score_non_normalize: -2.447887420654297
+ggad_score_non_normalize: -5.281368255615234
+Testing photo AUC_student_mlp_s: 0.7450
+Testing photo AUC_student_mlp_s_non_normalize: 0.7450
+Testing photo AUC_student_ggad: 0.7365
+Testing photo AUC_student_ggad_non_normalize: 0.7128
+Testing photo AUC_student_minus_ggad: 0.7521
+Testing photo AUC_student_minus_ggad_non_normalize: 0.6229
+Testing AP_student_mlp_s: 0.2705
+Testing AP_student_mlp_s_non_normalize: 0.2705
+Testing AP_student_ggad: 0.2265
+Testing AP_student_ggad_non_normalize: 0.2133
+Testing AP_student_minus_ggad: 0.2870
+Testing AP_student_minus_ggad_non_normalize: 0.1323
+Total time is: 158.42321252822876
+Testing_last_ggad_ photo AUC: 0.6606
+Hard label ratio: 0.20
+Pseudo abnormal used in BCE: False
+Epoch 720: Total Loss = 0.2988072633743286,BCE Loss =0.2988072633743286
+student_score: 0.1892111897468567
+ggad_score: 0.02766912803053856
+student_score_non_normalize: -2.4881045818328857
+ggad_score_non_normalize: -5.281368255615234
+Testing photo AUC_student_mlp_s: 0.7389
+Testing photo AUC_student_mlp_s_non_normalize: 0.7389
+Testing photo AUC_student_ggad: 0.7312
+Testing photo AUC_student_ggad_non_normalize: 0.7102
+Testing photo AUC_student_minus_ggad: 0.7451
+Testing photo AUC_student_minus_ggad_non_normalize: 0.6249
+Testing AP_student_mlp_s: 0.2588
+Testing AP_student_mlp_s_non_normalize: 0.2588
+Testing AP_student_ggad: 0.2197
+Testing AP_student_ggad_non_normalize: 0.2085
+Testing AP_student_minus_ggad: 0.2717
+Testing AP_student_minus_ggad_non_normalize: 0.1343
+Total time is: 159.36280703544617
+Testing_last_ggad_ photo AUC: 0.6606
+Hard label ratio: 0.20
+Pseudo abnormal used in BCE: False
+Epoch 725: Total Loss = 0.2924795150756836,BCE Loss =0.2924795150756836
+student_score: 0.19233301281929016
+ggad_score: 0.02766912803053856
+student_score_non_normalize: -2.4603164196014404
+ggad_score_non_normalize: -5.281368255615234
+Testing photo AUC_student_mlp_s: 0.7332
+Testing photo AUC_student_mlp_s_non_normalize: 0.7332
+Testing photo AUC_student_ggad: 0.7264
+Testing photo AUC_student_ggad_non_normalize: 0.7076
+Testing photo AUC_student_minus_ggad: 0.7387
+Testing photo AUC_student_minus_ggad_non_normalize: 0.6246
+Testing AP_student_mlp_s: 0.2474
+Testing AP_student_mlp_s_non_normalize: 0.2474
+Testing AP_student_ggad: 0.2141
+Testing AP_student_ggad_non_normalize: 0.2041
+Testing AP_student_minus_ggad: 0.2606
+Testing AP_student_minus_ggad_non_normalize: 0.1355
+Total time is: 160.4319076538086
+Testing_last_ggad_ photo AUC: 0.6606
+Hard label ratio: 0.20
+Pseudo abnormal used in BCE: False
+Epoch 730: Total Loss = 0.2861696183681488,BCE Loss =0.2861696183681488
+student_score: 0.19076107442378998
+ggad_score: 0.02766912803053856
+student_score_non_normalize: -2.51120924949646
+ggad_score_non_normalize: -5.281368255615234
+Testing photo AUC_student_mlp_s: 0.7285
+Testing photo AUC_student_mlp_s_non_normalize: 0.7285
+Testing photo AUC_student_ggad: 0.7225
+Testing photo AUC_student_ggad_non_normalize: 0.7056
+Testing photo AUC_student_minus_ggad: 0.7335
+Testing photo AUC_student_minus_ggad_non_normalize: 0.6283
+Testing AP_student_mlp_s: 0.2407
+Testing AP_student_mlp_s_non_normalize: 0.2407
+Testing AP_student_ggad: 0.2099
+Testing AP_student_ggad_non_normalize: 0.2012
+Testing AP_student_minus_ggad: 0.2514
+Testing AP_student_minus_ggad_non_normalize: 0.1397
+Total time is: 161.36234188079834
+Testing_last_ggad_ photo AUC: 0.6606
+Hard label ratio: 0.20
+Pseudo abnormal used in BCE: False
+Epoch 735: Total Loss = 0.2799794673919678,BCE Loss =0.2799794673919678
+student_score: 0.19009917974472046
+ggad_score: 0.02766912803053856
+student_score_non_normalize: -2.564274787902832
+ggad_score_non_normalize: -5.281368255615234
+Testing photo AUC_student_mlp_s: 0.7255
+Testing photo AUC_student_mlp_s_non_normalize: 0.7255
+Testing photo AUC_student_ggad: 0.7199
+Testing photo AUC_student_ggad_non_normalize: 0.7045
+Testing photo AUC_student_minus_ggad: 0.7300
+Testing photo AUC_student_minus_ggad_non_normalize: 0.6344
+Testing AP_student_mlp_s: 0.2352
+Testing AP_student_mlp_s_non_normalize: 0.2352
+Testing AP_student_ggad: 0.2067
+Testing AP_student_ggad_non_normalize: 0.2001
+Testing AP_student_minus_ggad: 0.2440
+Testing AP_student_minus_ggad_non_normalize: 0.1454
+Total time is: 162.47708892822266
+Testing_last_ggad_ photo AUC: 0.6606
+Hard label ratio: 0.20
+Pseudo abnormal used in BCE: False
+Epoch 740: Total Loss = 0.2737562656402588,BCE Loss =0.2737562656402588
+student_score: 0.1891665905714035
+ggad_score: 0.02766912803053856
+student_score_non_normalize: -2.6330201625823975
+ggad_score_non_normalize: -5.281368255615234
+Testing photo AUC_student_mlp_s: 0.7228
+Testing photo AUC_student_mlp_s_non_normalize: 0.7228
+Testing photo AUC_student_ggad: 0.7177
+Testing photo AUC_student_ggad_non_normalize: 0.7035
+Testing photo AUC_student_minus_ggad: 0.7268
+Testing photo AUC_student_minus_ggad_non_normalize: 0.6417
+Testing AP_student_mlp_s: 0.2301
+Testing AP_student_mlp_s_non_normalize: 0.2301
+Testing AP_student_ggad: 0.2041
+Testing AP_student_ggad_non_normalize: 0.1977
+Testing AP_student_minus_ggad: 0.2373
+Testing AP_student_minus_ggad_non_normalize: 0.1522
+Total time is: 163.44115233421326
+Testing_last_ggad_ photo AUC: 0.6606
+Hard label ratio: 0.20
+Pseudo abnormal used in BCE: False
+Epoch 745: Total Loss = 0.26803848147392273,BCE Loss =0.26803848147392273
+student_score: 0.19054295122623444
+ggad_score: 0.02766912803053856
+student_score_non_normalize: -2.6677603721618652
+ggad_score_non_normalize: -5.281368255615234
+Testing photo AUC_student_mlp_s: 0.7209
+Testing photo AUC_student_mlp_s_non_normalize: 0.7209
+Testing photo AUC_student_ggad: 0.7161
+Testing photo AUC_student_ggad_non_normalize: 0.7028
+Testing photo AUC_student_minus_ggad: 0.7244
+Testing photo AUC_student_minus_ggad_non_normalize: 0.6476
+Testing AP_student_mlp_s: 0.2253
+Testing AP_student_mlp_s_non_normalize: 0.2253
+Testing AP_student_ggad: 0.2019
+Testing AP_student_ggad_non_normalize: 0.1967
+Testing AP_student_minus_ggad: 0.2317
+Testing AP_student_minus_ggad_non_normalize: 0.1582
+Total time is: 164.67829489707947
+Testing_last_ggad_ photo AUC: 0.6606
+Hard label ratio: 0.20
+Pseudo abnormal used in BCE: False
+Epoch 750: Total Loss = 0.2626056373119354,BCE Loss =0.2626056373119354
+student_score: 0.19017013907432556
+ggad_score: 0.02766912803053856
+student_score_non_normalize: -2.7283523082733154
+ggad_score_non_normalize: -5.281368255615234
+Testing photo AUC_student_mlp_s: 0.7185
+Testing photo AUC_student_mlp_s_non_normalize: 0.7185
+Testing photo AUC_student_ggad: 0.7140
+Testing photo AUC_student_ggad_non_normalize: 0.7018
+Testing photo AUC_student_minus_ggad: 0.7215
+Testing photo AUC_student_minus_ggad_non_normalize: 0.6521
+Testing AP_student_mlp_s: 0.2206
+Testing AP_student_mlp_s_non_normalize: 0.2206
+Testing AP_student_ggad: 0.1994
+Testing AP_student_ggad_non_normalize: 0.1954
+Testing AP_student_minus_ggad: 0.2256
+Testing AP_student_minus_ggad_non_normalize: 0.1627
+Total time is: 165.70235514640808
+Testing_last_ggad_ photo AUC: 0.6606
+Hard label ratio: 0.20
+Pseudo abnormal used in BCE: False
+Epoch 755: Total Loss = 0.2573801279067993,BCE Loss =0.2573801279067993
+student_score: 0.18933279812335968
+ggad_score: 0.02766912803053856
+student_score_non_normalize: -2.7954018115997314
+ggad_score_non_normalize: -5.281368255615234
+Testing photo AUC_student_mlp_s: 0.7150
+Testing photo AUC_student_mlp_s_non_normalize: 0.7150
+Testing photo AUC_student_ggad: 0.7110
+Testing photo AUC_student_ggad_non_normalize: 0.7002
+Testing photo AUC_student_minus_ggad: 0.7177
+Testing photo AUC_student_minus_ggad_non_normalize: 0.6539
+Testing AP_student_mlp_s: 0.2146
+Testing AP_student_mlp_s_non_normalize: 0.2146
+Testing AP_student_ggad: 0.1961
+Testing AP_student_ggad_non_normalize: 0.1933
+Testing AP_student_minus_ggad: 0.2183
+Testing AP_student_minus_ggad_non_normalize: 0.1645
+Total time is: 166.64408206939697
+Testing_last_ggad_ photo AUC: 0.6606
+Hard label ratio: 0.20
+Pseudo abnormal used in BCE: False
+Epoch 760: Total Loss = 0.2572905123233795,BCE Loss =0.2572905123233795
+student_score: 0.22028839588165283
+ggad_score: 0.02766912803053856
+student_score_non_normalize: -2.3986594676971436
+ggad_score_non_normalize: -5.281368255615234
+Testing photo AUC_student_mlp_s: 0.7143
+Testing photo AUC_student_mlp_s_non_normalize: 0.7143
+Testing photo AUC_student_ggad: 0.7104
+Testing photo AUC_student_ggad_non_normalize: 0.6997
+Testing photo AUC_student_minus_ggad: 0.7149
+Testing photo AUC_student_minus_ggad_non_normalize: 0.6510
+Testing AP_student_mlp_s: 0.2126
+Testing AP_student_mlp_s_non_normalize: 0.2126
+Testing AP_student_ggad: 0.1938
+Testing AP_student_ggad_non_normalize: 0.1922
+Testing AP_student_minus_ggad: 0.2101
+Testing AP_student_minus_ggad_non_normalize: 0.1648
+Total time is: 167.67249989509583
+Testing_last_ggad_ photo AUC: 0.6606
+Hard label ratio: 0.20
+Pseudo abnormal used in BCE: False
+Epoch 765: Total Loss = 0.4929802417755127,BCE Loss =0.4929802417755127
+student_score: 0.4360324740409851
+ggad_score: 0.02766912803053856
+student_score_non_normalize: -0.3904951512813568
+ggad_score_non_normalize: -5.281368255615234
+Testing photo AUC_student_mlp_s: 0.7191
+Testing photo AUC_student_mlp_s_non_normalize: 0.7191
+Testing photo AUC_student_ggad: 0.7148
+Testing photo AUC_student_ggad_non_normalize: 0.7016
+Testing photo AUC_student_minus_ggad: 0.7107
+Testing photo AUC_student_minus_ggad_non_normalize: 0.6009
+Testing AP_student_mlp_s: 0.2095
+Testing AP_student_mlp_s_non_normalize: 0.2095
+Testing AP_student_ggad: 0.1882
+Testing AP_student_ggad_non_normalize: 0.1940
+Testing AP_student_minus_ggad: 0.1801
+Testing AP_student_minus_ggad_non_normalize: 0.1422
+Total time is: 168.6317548751831
+Testing_last_ggad_ photo AUC: 0.6606
+Hard label ratio: 0.20
+Pseudo abnormal used in BCE: False
+Epoch 770: Total Loss = 0.8635072708129883,BCE Loss =0.8635072708129883
+student_score: 0.01888507604598999
+ggad_score: 0.02766912803053856
+student_score_non_normalize: -8.497916221618652
+ggad_score_non_normalize: -5.281368255615234
+Testing photo AUC_student_mlp_s: 0.6400
+Testing photo AUC_student_mlp_s_non_normalize: 0.6400
+Testing photo AUC_student_ggad: 0.6603
+Testing photo AUC_student_ggad_non_normalize: 0.6611
+Testing photo AUC_student_minus_ggad: 0.6418
+Testing photo AUC_student_minus_ggad_non_normalize: 0.5773
+Testing AP_student_mlp_s: 0.1374
+Testing AP_student_mlp_s_non_normalize: 0.1374
+Testing AP_student_ggad: 0.1516
+Testing AP_student_ggad_non_normalize: 0.1521
+Testing AP_student_minus_ggad: 0.1433
+Testing AP_student_minus_ggad_non_normalize: 0.1068
+Total time is: 169.7851083278656
+Testing_last_ggad_ photo AUC: 0.6606
+Hard label ratio: 0.20
+Pseudo abnormal used in BCE: False
+Epoch 775: Total Loss = 0.522747814655304,BCE Loss =0.522747814655304
+student_score: 0.4597037434577942
+ggad_score: 0.02766912803053856
+student_score_non_normalize: -0.20862387120723724
+ggad_score_non_normalize: -5.281368255615234
+Testing photo AUC_student_mlp_s: 0.7706
+Testing photo AUC_student_mlp_s_non_normalize: 0.7706
+Testing photo AUC_student_ggad: 0.7580
+Testing photo AUC_student_ggad_non_normalize: 0.7109
+Testing photo AUC_student_minus_ggad: 0.7678
+Testing photo AUC_student_minus_ggad_non_normalize: 0.5038
+Testing AP_student_mlp_s: 0.2747
+Testing AP_student_mlp_s_non_normalize: 0.2747
+Testing AP_student_ggad: 0.2249
+Testing AP_student_ggad_non_normalize: 0.2039
+Testing AP_student_minus_ggad: 0.2861
+Testing AP_student_minus_ggad_non_normalize: 0.0975
+Total time is: 171.0588254928589
+Testing_last_ggad_ photo AUC: 0.6606
+Hard label ratio: 0.20
+Pseudo abnormal used in BCE: False
+Epoch 780: Total Loss = 0.37657108902931213,BCE Loss =0.37657108902931213
+student_score: 0.13679464161396027
+ggad_score: 0.02766912803053856
+student_score_non_normalize: -2.698528528213501
+ggad_score_non_normalize: -5.281368255615234
+Testing photo AUC_student_mlp_s: 0.6632
+Testing photo AUC_student_mlp_s_non_normalize: 0.6632
+Testing photo AUC_student_ggad: 0.6669
+Testing photo AUC_student_ggad_non_normalize: 0.6776
+Testing photo AUC_student_minus_ggad: 0.6363
+Testing photo AUC_student_minus_ggad_non_normalize: 0.4781
+Testing AP_student_mlp_s: 0.1640
+Testing AP_student_mlp_s_non_normalize: 0.1640
+Testing AP_student_ggad: 0.1646
+Testing AP_student_ggad_non_normalize: 0.1688
+Testing AP_student_minus_ggad: 0.1439
+Testing AP_student_minus_ggad_non_normalize: 0.0856
+Total time is: 172.01215386390686
+Testing_last_ggad_ photo AUC: 0.6606
+Hard label ratio: 0.20
+Pseudo abnormal used in BCE: False
+Epoch 785: Total Loss = 0.38673949241638184,BCE Loss =0.38673949241638184
+student_score: 0.1301656812429428
+ggad_score: 0.02766912803053856
+student_score_non_normalize: -2.767080545425415
+ggad_score_non_normalize: -5.281368255615234
+Testing photo AUC_student_mlp_s: 0.6567
+Testing photo AUC_student_mlp_s_non_normalize: 0.6567
+Testing photo AUC_student_ggad: 0.6622
+Testing photo AUC_student_ggad_non_normalize: 0.6754
+Testing photo AUC_student_minus_ggad: 0.6263
+Testing photo AUC_student_minus_ggad_non_normalize: 0.4717
+Testing AP_student_mlp_s: 0.1564
+Testing AP_student_mlp_s_non_normalize: 0.1564
+Testing AP_student_ggad: 0.1600
+Testing AP_student_ggad_non_normalize: 0.1658
+Testing AP_student_minus_ggad: 0.1351
+Testing AP_student_minus_ggad_non_normalize: 0.0844
+Total time is: 172.9835910797119
+Testing_last_ggad_ photo AUC: 0.6606
+Hard label ratio: 0.20
+Pseudo abnormal used in BCE: False
+Epoch 790: Total Loss = 0.36261236667633057,BCE Loss =0.36261236667633057
+student_score: 0.19252647459506989
+ggad_score: 0.02766912803053856
+student_score_non_normalize: -1.9644829034805298
+ggad_score_non_normalize: -5.281368255615234
+Testing photo AUC_student_mlp_s: 0.6760
+Testing photo AUC_student_mlp_s_non_normalize: 0.6760
+Testing photo AUC_student_ggad: 0.6767
+Testing photo AUC_student_ggad_non_normalize: 0.6811
+Testing photo AUC_student_minus_ggad: 0.6590
+Testing photo AUC_student_minus_ggad_non_normalize: 0.4562
+Testing AP_student_mlp_s: 0.1802
+Testing AP_student_mlp_s_non_normalize: 0.1802
+Testing AP_student_ggad: 0.1734
+Testing AP_student_ggad_non_normalize: 0.1739
+Testing AP_student_minus_ggad: 0.1592
+Testing AP_student_minus_ggad_non_normalize: 0.0823
+Total time is: 173.94054198265076
+Testing_last_ggad_ photo AUC: 0.6606
+Hard label ratio: 0.20
+Pseudo abnormal used in BCE: False
+Epoch 795: Total Loss = 0.36815541982650757,BCE Loss =0.36815541982650757
+student_score: 0.24825429916381836
+ggad_score: 0.02766912803053856
+student_score_non_normalize: -1.4716688394546509
+ggad_score_non_normalize: -5.281368255615234
+Testing photo AUC_student_mlp_s: 0.6994
+Testing photo AUC_student_mlp_s_non_normalize: 0.6994
+Testing photo AUC_student_ggad: 0.6964
+Testing photo AUC_student_ggad_non_normalize: 0.6873
+Testing photo AUC_student_minus_ggad: 0.6902
+Testing photo AUC_student_minus_ggad_non_normalize: 0.4564
+Testing AP_student_mlp_s: 0.2048
+Testing AP_student_mlp_s_non_normalize: 0.2048
+Testing AP_student_ggad: 0.1881
+Testing AP_student_ggad_non_normalize: 0.1823
+Testing AP_student_minus_ggad: 0.1927
+Testing AP_student_minus_ggad_non_normalize: 0.0833
+Total time is: 175.00045728683472
+Testing_last_ggad_ photo AUC: 0.6606
+Hard label ratio: 0.20
+Pseudo abnormal used in BCE: False
+Epoch 800: Total Loss = 0.3529967665672302,BCE Loss =0.3529967665672302
+student_score: 0.19379839301109314
+ggad_score: 0.02766912803053856
+student_score_non_normalize: -2.014674425125122
+ggad_score_non_normalize: -5.281368255615234
+Testing photo AUC_student_mlp_s: 0.6897
+Testing photo AUC_student_mlp_s_non_normalize: 0.6897
+Testing photo AUC_student_ggad: 0.6881
+Testing photo AUC_student_ggad_non_normalize: 0.6865
+Testing photo AUC_student_minus_ggad: 0.6808
+Testing photo AUC_student_minus_ggad_non_normalize: 0.4829
+Testing AP_student_mlp_s: 0.1985
+Testing AP_student_mlp_s_non_normalize: 0.1985
+Testing AP_student_ggad: 0.1847
+Testing AP_student_ggad_non_normalize: 0.1820
+Testing AP_student_minus_ggad: 0.1860
+Testing AP_student_minus_ggad_non_normalize: 0.0870
+Total time is: 176.16589188575745
+Testing_last_ggad_ photo AUC: 0.6606
+Hard label ratio: 0.20
+Pseudo abnormal used in BCE: False
+Epoch 805: Total Loss = 0.34359320998191833,BCE Loss =0.34359320998191833
+student_score: 0.18979990482330322
+ggad_score: 0.02766912803053856
+student_score_non_normalize: -2.135960817337036
+ggad_score_non_normalize: -5.281368255615234
+Testing photo AUC_student_mlp_s: 0.7000
+Testing photo AUC_student_mlp_s_non_normalize: 0.7000
+Testing photo AUC_student_ggad: 0.6968
+Testing photo AUC_student_ggad_non_normalize: 0.6910
+Testing photo AUC_student_minus_ggad: 0.6947
+Testing photo AUC_student_minus_ggad_non_normalize: 0.5121
+Testing AP_student_mlp_s: 0.2113
+Testing AP_student_mlp_s_non_normalize: 0.2113
+Testing AP_student_ggad: 0.1934
+Testing AP_student_ggad_non_normalize: 0.1882
+Testing AP_student_minus_ggad: 0.2059
+Testing AP_student_minus_ggad_non_normalize: 0.0930
+Total time is: 177.23615193367004
+Testing_last_ggad_ photo AUC: 0.6606
+Hard label ratio: 0.20
+Pseudo abnormal used in BCE: False
+Epoch 810: Total Loss = 0.335424542427063,BCE Loss =0.335424542427063
+student_score: 0.2283594161272049
+ggad_score: 0.02766912803053856
+student_score_non_normalize: -1.847505807876587
+ggad_score_non_normalize: -5.281368255615234
+Testing photo AUC_student_mlp_s: 0.7253
+Testing photo AUC_student_mlp_s_non_normalize: 0.7253
+Testing photo AUC_student_ggad: 0.7188
+Testing photo AUC_student_ggad_non_normalize: 0.7006
+Testing photo AUC_student_minus_ggad: 0.7265
+Testing photo AUC_student_minus_ggad_non_normalize: 0.5478
+Testing AP_student_mlp_s: 0.2407
+Testing AP_student_mlp_s_non_normalize: 0.2407
+Testing AP_student_ggad: 0.2097
+Testing AP_student_ggad_non_normalize: 0.1992
+Testing AP_student_minus_ggad: 0.2496
+Testing AP_student_minus_ggad_non_normalize: 0.1034
+Total time is: 178.41791415214539
+Testing_last_ggad_ photo AUC: 0.6606
+Hard label ratio: 0.20
+Pseudo abnormal used in BCE: False
+Epoch 815: Total Loss = 0.32443031668663025,BCE Loss =0.32443031668663025
+student_score: 0.1893514096736908
+ggad_score: 0.02766912803053856
+student_score_non_normalize: -2.352428436279297
+ggad_score_non_normalize: -5.281368255615234
+Testing photo AUC_student_mlp_s: 0.7214
+Testing photo AUC_student_mlp_s_non_normalize: 0.7214
+Testing photo AUC_student_ggad: 0.7156
+Testing photo AUC_student_ggad_non_normalize: 0.7017
+Testing photo AUC_student_minus_ggad: 0.7225
+Testing photo AUC_student_minus_ggad_non_normalize: 0.5758
+Testing AP_student_mlp_s: 0.2395
+Testing AP_student_mlp_s_non_normalize: 0.2395
+Testing AP_student_ggad: 0.2101
+Testing AP_student_ggad_non_normalize: 0.2012
+Testing AP_student_minus_ggad: 0.2483
+Testing AP_student_minus_ggad_non_normalize: 0.1122
+Total time is: 179.35664057731628
+Testing_last_ggad_ photo AUC: 0.6606
+Hard label ratio: 0.20
+Pseudo abnormal used in BCE: False
+Epoch 820: Total Loss = 0.3164185881614685,BCE Loss =0.3164185881614685
+student_score: 0.21565519273281097
+ggad_score: 0.02766912803053856
+student_score_non_normalize: -2.1351778507232666
+ggad_score_non_normalize: -5.281368255615234
+Testing photo AUC_student_mlp_s: 0.7374
+Testing photo AUC_student_mlp_s_non_normalize: 0.7374
+Testing photo AUC_student_ggad: 0.7298
+Testing photo AUC_student_ggad_non_normalize: 0.7084
+Testing photo AUC_student_minus_ggad: 0.7415
+Testing photo AUC_student_minus_ggad_non_normalize: 0.6026
+Testing AP_student_mlp_s: 0.2576
+Testing AP_student_mlp_s_non_normalize: 0.2576
+Testing AP_student_ggad: 0.2200
+Testing AP_student_ggad_non_normalize: 0.2096
+Testing AP_student_minus_ggad: 0.2740
+Testing AP_student_minus_ggad_non_normalize: 0.1249
+Total time is: 180.43232440948486
+Testing_last_ggad_ photo AUC: 0.6606
+Hard label ratio: 0.20
+Pseudo abnormal used in BCE: False
+Epoch 825: Total Loss = 0.30848243832588196,BCE Loss =0.30848243832588196
+student_score: 0.19316525757312775
+ggad_score: 0.02766912803053856
+student_score_non_normalize: -2.440692901611328
+ggad_score_non_normalize: -5.281368255615234
+Testing photo AUC_student_mlp_s: 0.7355
+Testing photo AUC_student_mlp_s_non_normalize: 0.7355
+Testing photo AUC_student_ggad: 0.7283
+Testing photo AUC_student_ggad_non_normalize: 0.7091
+Testing photo AUC_student_minus_ggad: 0.7401
+Testing photo AUC_student_minus_ggad_non_normalize: 0.6186
+Testing AP_student_mlp_s: 0.2561
+Testing AP_student_mlp_s_non_normalize: 0.2561
+Testing AP_student_ggad: 0.2200
+Testing AP_student_ggad_non_normalize: 0.2113
+Testing AP_student_minus_ggad: 0.2725
+Testing AP_student_minus_ggad_non_normalize: 0.1342
+Total time is: 181.4842438697815
+Testing_last_ggad_ photo AUC: 0.6606
+Hard label ratio: 0.20
+Pseudo abnormal used in BCE: False
+Epoch 830: Total Loss = 0.3000795841217041,BCE Loss =0.3000795841217041
+student_score: 0.2034519612789154
+ggad_score: 0.02766912803053856
+student_score_non_normalize: -2.3640201091766357
+ggad_score_non_normalize: -5.281368255615234
+Testing photo AUC_student_mlp_s: 0.7426
+Testing photo AUC_student_mlp_s_non_normalize: 0.7426
+Testing photo AUC_student_ggad: 0.7346
+Testing photo AUC_student_ggad_non_normalize: 0.7126
+Testing photo AUC_student_minus_ggad: 0.7486
+Testing photo AUC_student_minus_ggad_non_normalize: 0.6362
+Testing AP_student_mlp_s: 0.2626
+Testing AP_student_mlp_s_non_normalize: 0.2626
+Testing AP_student_ggad: 0.2237
+Testing AP_student_ggad_non_normalize: 0.2140
+Testing AP_student_minus_ggad: 0.2806
+Testing AP_student_minus_ggad_non_normalize: 0.1469
+Total time is: 182.55814123153687
+Testing_last_ggad_ photo AUC: 0.6606
+Hard label ratio: 0.20
+Pseudo abnormal used in BCE: False
+Epoch 835: Total Loss = 0.29246291518211365,BCE Loss =0.29246291518211365
+student_score: 0.20551471412181854
+ggad_score: 0.02766912803053856
+student_score_non_normalize: -2.3785176277160645
+ggad_score_non_normalize: -5.281368255615234
+Testing photo AUC_student_mlp_s: 0.7443
+Testing photo AUC_student_mlp_s_non_normalize: 0.7443
+Testing photo AUC_student_ggad: 0.7364
+Testing photo AUC_student_ggad_non_normalize: 0.7139
+Testing photo AUC_student_minus_ggad: 0.7509
+Testing photo AUC_student_minus_ggad_non_normalize: 0.6483
+Testing AP_student_mlp_s: 0.2607
+Testing AP_student_mlp_s_non_normalize: 0.2607
+Testing AP_student_ggad: 0.2225
+Testing AP_student_ggad_non_normalize: 0.2152
+Testing AP_student_minus_ggad: 0.2801
+Testing AP_student_minus_ggad_non_normalize: 0.1567
+Total time is: 183.6570909023285
+Testing_last_ggad_ photo AUC: 0.6606
+Hard label ratio: 0.20
+Pseudo abnormal used in BCE: False
+Epoch 840: Total Loss = 0.28477156162261963,BCE Loss =0.28477156162261963
+student_score: 0.19703680276870728
+ggad_score: 0.02766912803053856
+student_score_non_normalize: -2.5150368213653564
+ggad_score_non_normalize: -5.281368255615234
+Testing photo AUC_student_mlp_s: 0.7400
+Testing photo AUC_student_mlp_s_non_normalize: 0.7400
+Testing photo AUC_student_ggad: 0.7326
+Testing photo AUC_student_ggad_non_normalize: 0.7122
+Testing photo AUC_student_minus_ggad: 0.7463
+Testing photo AUC_student_minus_ggad_non_normalize: 0.6534
+Testing AP_student_mlp_s: 0.2523
+Testing AP_student_mlp_s_non_normalize: 0.2523
+Testing AP_student_ggad: 0.2174
+Testing AP_student_ggad_non_normalize: 0.2114
+Testing AP_student_minus_ggad: 0.2694
+Testing AP_student_minus_ggad_non_normalize: 0.1612
+Total time is: 184.84970211982727
+Testing_last_ggad_ photo AUC: 0.6606
+Hard label ratio: 0.20
+Pseudo abnormal used in BCE: False
+Epoch 845: Total Loss = 0.2769196927547455,BCE Loss =0.2769196927547455
+student_score: 0.19539055228233337
+ggad_score: 0.02766912803053856
+student_score_non_normalize: -2.573007106781006
+ggad_score_non_normalize: -5.281368255615234
+Testing photo AUC_student_mlp_s: 0.7345
+Testing photo AUC_student_mlp_s_non_normalize: 0.7345
+Testing photo AUC_student_ggad: 0.7278
+Testing photo AUC_student_ggad_non_normalize: 0.7101
+Testing photo AUC_student_minus_ggad: 0.7400
+Testing photo AUC_student_minus_ggad_non_normalize: 0.6553
+Testing AP_student_mlp_s: 0.2433
+Testing AP_student_mlp_s_non_normalize: 0.2433
+Testing AP_student_ggad: 0.2115
+Testing AP_student_ggad_non_normalize: 0.2074
+Testing AP_student_minus_ggad: 0.2568
+Testing AP_student_minus_ggad_non_normalize: 0.1636
+Total time is: 185.9271960258484
+Testing_last_ggad_ photo AUC: 0.6606
+Hard label ratio: 0.20
+Pseudo abnormal used in BCE: False
+Epoch 850: Total Loss = 0.2686762511730194,BCE Loss =0.2686762511730194
+student_score: 0.1964290738105774
+ggad_score: 0.02766912803053856
+student_score_non_normalize: -2.5902528762817383
+ggad_score_non_normalize: -5.281368255615234
+Testing photo AUC_student_mlp_s: 0.7263
+Testing photo AUC_student_mlp_s_non_normalize: 0.7263
+Testing photo AUC_student_ggad: 0.7208
+Testing photo AUC_student_ggad_non_normalize: 0.7063
+Testing photo AUC_student_minus_ggad: 0.7303
+Testing photo AUC_student_minus_ggad_non_normalize: 0.6536
+Testing AP_student_mlp_s: 0.2322
+Testing AP_student_mlp_s_non_normalize: 0.2322
+Testing AP_student_ggad: 0.2050
+Testing AP_student_ggad_non_normalize: 0.2027
+Testing AP_student_minus_ggad: 0.2420
+Testing AP_student_minus_ggad_non_normalize: 0.1658
+Total time is: 186.92738604545593
+Testing_last_ggad_ photo AUC: 0.6606
+Hard label ratio: 0.20
+Pseudo abnormal used in BCE: False
+Epoch 855: Total Loss = 0.2614808678627014,BCE Loss =0.2614808678627014
+student_score: 0.19497378170490265
+ggad_score: 0.02766912803053856
+student_score_non_normalize: -2.6637401580810547
+ggad_score_non_normalize: -5.281368255615234
+Testing photo AUC_student_mlp_s: 0.7186
+Testing photo AUC_student_mlp_s_non_normalize: 0.7186
+Testing photo AUC_student_ggad: 0.7141
+Testing photo AUC_student_ggad_non_normalize: 0.7027
+Testing photo AUC_student_minus_ggad: 0.7213
+Testing photo AUC_student_minus_ggad_non_normalize: 0.6524
+Testing AP_student_mlp_s: 0.2238
+Testing AP_student_mlp_s_non_normalize: 0.2238
+Testing AP_student_ggad: 0.2000
+Testing AP_student_ggad_non_normalize: 0.1984
+Testing AP_student_minus_ggad: 0.2313
+Testing AP_student_minus_ggad_non_normalize: 0.1685
+Total time is: 187.87060141563416
+Testing_last_ggad_ photo AUC: 0.6606
+Hard label ratio: 0.20
+Pseudo abnormal used in BCE: False
+Epoch 860: Total Loss = 0.25553420186042786,BCE Loss =0.25553420186042786
+student_score: 0.19358526170253754
+ggad_score: 0.02766912803053856
+student_score_non_normalize: -2.7366130352020264
+ggad_score_non_normalize: -5.281368255615234
+Testing photo AUC_student_mlp_s: 0.7146
+Testing photo AUC_student_mlp_s_non_normalize: 0.7146
+Testing photo AUC_student_ggad: 0.7106
+Testing photo AUC_student_ggad_non_normalize: 0.7008
+Testing photo AUC_student_minus_ggad: 0.7166
+Testing photo AUC_student_minus_ggad_non_normalize: 0.6548
+Testing AP_student_mlp_s: 0.2197
+Testing AP_student_mlp_s_non_normalize: 0.2197
+Testing AP_student_ggad: 0.1971
+Testing AP_student_ggad_non_normalize: 0.1967
+Testing AP_student_minus_ggad: 0.2255
+Testing AP_student_minus_ggad_non_normalize: 0.1748
+Total time is: 189.16617941856384
+Testing_last_ggad_ photo AUC: 0.6606
+Hard label ratio: 0.20
+Pseudo abnormal used in BCE: False
+Epoch 865: Total Loss = 0.2505493462085724,BCE Loss =0.2505493462085724
+student_score: 0.19459792971611023
+ggad_score: 0.02766912803053856
+student_score_non_normalize: -2.770071506500244
+ggad_score_non_normalize: -5.281368255615234
+Testing photo AUC_student_mlp_s: 0.7128
+Testing photo AUC_student_mlp_s_non_normalize: 0.7128
+Testing photo AUC_student_ggad: 0.7089
+Testing photo AUC_student_ggad_non_normalize: 0.7001
+Testing photo AUC_student_minus_ggad: 0.7143
+Testing photo AUC_student_minus_ggad_non_normalize: 0.6587
+Testing AP_student_mlp_s: 0.2173
+Testing AP_student_mlp_s_non_normalize: 0.2173
+Testing AP_student_ggad: 0.1955
+Testing AP_student_ggad_non_normalize: 0.1963
+Testing AP_student_minus_ggad: 0.2209
+Testing AP_student_minus_ggad_non_normalize: 0.1812
+Total time is: 190.2342231273651
+Testing_last_ggad_ photo AUC: 0.6606
+Hard label ratio: 0.20
+Pseudo abnormal used in BCE: False
+Epoch 870: Total Loss = 0.24588410556316376,BCE Loss =0.24588410556316376
+student_score: 0.19622235000133514
+ggad_score: 0.02766912803053856
+student_score_non_normalize: -2.8135712146759033
+ggad_score_non_normalize: -5.281368255615234
+Testing photo AUC_student_mlp_s: 0.7116
+Testing photo AUC_student_mlp_s_non_normalize: 0.7116
+Testing photo AUC_student_ggad: 0.7079
+Testing photo AUC_student_ggad_non_normalize: 0.6997
+Testing photo AUC_student_minus_ggad: 0.7125
+Testing photo AUC_student_minus_ggad_non_normalize: 0.6633
+Testing AP_student_mlp_s: 0.2157
+Testing AP_student_mlp_s_non_normalize: 0.2157
+Testing AP_student_ggad: 0.1940
+Testing AP_student_ggad_non_normalize: 0.1961
+Testing AP_student_minus_ggad: 0.2167
+Testing AP_student_minus_ggad_non_normalize: 0.1883
+Total time is: 191.33447074890137
+Testing_last_ggad_ photo AUC: 0.6606
+Hard label ratio: 0.20
+Pseudo abnormal used in BCE: False
+Epoch 875: Total Loss = 0.2417048215866089,BCE Loss =0.2417048215866089
+student_score: 0.1934180110692978
+ggad_score: 0.02766912803053856
+student_score_non_normalize: -2.9384613037109375
+ggad_score_non_normalize: -5.281368255615234
+Testing photo AUC_student_mlp_s: 0.7092
+Testing photo AUC_student_mlp_s_non_normalize: 0.7092
+Testing photo AUC_student_ggad: 0.7056
+Testing photo AUC_student_ggad_non_normalize: 0.6987
+Testing photo AUC_student_minus_ggad: 0.7101
+Testing photo AUC_student_minus_ggad_non_normalize: 0.6657
+Testing AP_student_mlp_s: 0.2123
+Testing AP_student_mlp_s_non_normalize: 0.2123
+Testing AP_student_ggad: 0.1916
+Testing AP_student_ggad_non_normalize: 0.1948
+Testing AP_student_minus_ggad: 0.2113
+Testing AP_student_minus_ggad_non_normalize: 0.1906
+Total time is: 192.29492259025574
+Testing_last_ggad_ photo AUC: 0.6606
+Hard label ratio: 0.20
+Pseudo abnormal used in BCE: False
+Epoch 880: Total Loss = 0.23810234665870667,BCE Loss =0.23810234665870667
+student_score: 0.19397512078285217
+ggad_score: 0.02766912803053856
+student_score_non_normalize: -2.976416826248169
+ggad_score_non_normalize: -5.281368255615234
+Testing photo AUC_student_mlp_s: 0.7060
+Testing photo AUC_student_mlp_s_non_normalize: 0.7060
+Testing photo AUC_student_ggad: 0.7027
+Testing photo AUC_student_ggad_non_normalize: 0.6969
+Testing photo AUC_student_minus_ggad: 0.7064
+Testing photo AUC_student_minus_ggad_non_normalize: 0.6644
+Testing AP_student_mlp_s: 0.2085
+Testing AP_student_mlp_s_non_normalize: 0.2085
+Testing AP_student_ggad: 0.1890
+Testing AP_student_ggad_non_normalize: 0.1932
+Testing AP_student_minus_ggad: 0.2058
+Testing AP_student_minus_ggad_non_normalize: 0.1889
+Total time is: 193.3473572731018
+Testing_last_ggad_ photo AUC: 0.6606
+Hard label ratio: 0.20
+Pseudo abnormal used in BCE: False
+Epoch 885: Total Loss = 0.2347569316625595,BCE Loss =0.2347569316625595
+student_score: 0.1929568648338318
+ggad_score: 0.02766912803053856
+student_score_non_normalize: -3.035785436630249
+ggad_score_non_normalize: -5.281368255615234
+Testing photo AUC_student_mlp_s: 0.7032
+Testing photo AUC_student_mlp_s_non_normalize: 0.7032
+Testing photo AUC_student_ggad: 0.7001
+Testing photo AUC_student_ggad_non_normalize: 0.6952
+Testing photo AUC_student_minus_ggad: 0.7030
+Testing photo AUC_student_minus_ggad_non_normalize: 0.6631
+Testing AP_student_mlp_s: 0.2052
+Testing AP_student_mlp_s_non_normalize: 0.2052
+Testing AP_student_ggad: 0.1867
+Testing AP_student_ggad_non_normalize: 0.1914
+Testing AP_student_minus_ggad: 0.2009
+Testing AP_student_minus_ggad_non_normalize: 0.1869
+Total time is: 194.33990001678467
+Testing_last_ggad_ photo AUC: 0.6606
+Hard label ratio: 0.20
+Pseudo abnormal used in BCE: False
+Epoch 890: Total Loss = 0.23150184750556946,BCE Loss =0.23150184750556946
+student_score: 0.19438469409942627
+ggad_score: 0.02766912803053856
+student_score_non_normalize: -3.054811477661133
+ggad_score_non_normalize: -5.281368255615234
+Testing photo AUC_student_mlp_s: 0.7014
+Testing photo AUC_student_mlp_s_non_normalize: 0.7014
+Testing photo AUC_student_ggad: 0.6985
+Testing photo AUC_student_ggad_non_normalize: 0.6942
+Testing photo AUC_student_minus_ggad: 0.7010
+Testing photo AUC_student_minus_ggad_non_normalize: 0.6626
+Testing AP_student_mlp_s: 0.2029
+Testing AP_student_mlp_s_non_normalize: 0.2029
+Testing AP_student_ggad: 0.1852
+Testing AP_student_ggad_non_normalize: 0.1906
+Testing AP_student_minus_ggad: 0.1976
+Testing AP_student_minus_ggad_non_normalize: 0.1858
+Total time is: 195.31859159469604
+Testing_last_ggad_ photo AUC: 0.6606
+Hard label ratio: 0.20
+Pseudo abnormal used in BCE: False
+Epoch 895: Total Loss = 0.22832363843917847,BCE Loss =0.22832363843917847
+student_score: 0.1938234567642212
+ggad_score: 0.02766912803053856
+student_score_non_normalize: -3.112481117248535
+ggad_score_non_normalize: -5.281368255615234
+Testing photo AUC_student_mlp_s: 0.6995
+Testing photo AUC_student_mlp_s_non_normalize: 0.6995
+Testing photo AUC_student_ggad: 0.6967
+Testing photo AUC_student_ggad_non_normalize: 0.6930
+Testing photo AUC_student_minus_ggad: 0.6986
+Testing photo AUC_student_minus_ggad_non_normalize: 0.6622
+Testing AP_student_mlp_s: 0.2010
+Testing AP_student_mlp_s_non_normalize: 0.2010
+Testing AP_student_ggad: 0.1836
+Testing AP_student_ggad_non_normalize: 0.1896
+Testing AP_student_minus_ggad: 0.1945
+Testing AP_student_minus_ggad_non_normalize: 0.1843
+Total time is: 196.37232565879822
+Testing_last_ggad_ photo AUC: 0.6606
+Hard label ratio: 0.20
+Pseudo abnormal used in BCE: False
+Epoch 900: Total Loss = 0.22525376081466675,BCE Loss =0.22525376081466675
+student_score: 0.19424378871917725
+ggad_score: 0.02766912803053856
+student_score_non_normalize: -3.1510977745056152
+ggad_score_non_normalize: -5.281368255615234
+Testing photo AUC_student_mlp_s: 0.6975
+Testing photo AUC_student_mlp_s_non_normalize: 0.6975
+Testing photo AUC_student_ggad: 0.6950
+Testing photo AUC_student_ggad_non_normalize: 0.6918
+Testing photo AUC_student_minus_ggad: 0.6962
+Testing photo AUC_student_minus_ggad_non_normalize: 0.6612
+Testing AP_student_mlp_s: 0.1987
+Testing AP_student_mlp_s_non_normalize: 0.1987
+Testing AP_student_ggad: 0.1819
+Testing AP_student_ggad_non_normalize: 0.1886
+Testing AP_student_minus_ggad: 0.1914
+Testing AP_student_minus_ggad_non_normalize: 0.1829
+Total time is: 197.30538725852966
+Testing_last_ggad_ photo AUC: 0.6606
+Hard label ratio: 0.20
+Pseudo abnormal used in BCE: False
+Epoch 905: Total Loss = 0.22221404314041138,BCE Loss =0.22221404314041138
+student_score: 0.19508865475654602
+ggad_score: 0.02766912803053856
+student_score_non_normalize: -3.1803040504455566
+ggad_score_non_normalize: -5.281368255615234
+Testing photo AUC_student_mlp_s: 0.6959
+Testing photo AUC_student_mlp_s_non_normalize: 0.6959
+Testing photo AUC_student_ggad: 0.6936
+Testing photo AUC_student_ggad_non_normalize: 0.6908
+Testing photo AUC_student_minus_ggad: 0.6950
+Testing photo AUC_student_minus_ggad_non_normalize: 0.6607
+Testing AP_student_mlp_s: 0.1970
+Testing AP_student_mlp_s_non_normalize: 0.1970
+Testing AP_student_ggad: 0.1805
+Testing AP_student_ggad_non_normalize: 0.1875
+Testing AP_student_minus_ggad: 0.1892
+Testing AP_student_minus_ggad_non_normalize: 0.1817
+Total time is: 198.25738906860352
+Testing_last_ggad_ photo AUC: 0.6606
+Hard label ratio: 0.20
+Pseudo abnormal used in BCE: False
+Epoch 910: Total Loss = 0.2191760390996933,BCE Loss =0.2191760390996933
+student_score: 0.1956992745399475
+ggad_score: 0.02766912803053856
+student_score_non_normalize: -3.216784715652466
+ggad_score_non_normalize: -5.281368255615234
+Testing photo AUC_student_mlp_s: 0.6950
+Testing photo AUC_student_mlp_s_non_normalize: 0.6950
+Testing photo AUC_student_ggad: 0.6928
+Testing photo AUC_student_ggad_non_normalize: 0.6903
+Testing photo AUC_student_minus_ggad: 0.6942
+Testing photo AUC_student_minus_ggad_non_normalize: 0.6614
+Testing AP_student_mlp_s: 0.1957
+Testing AP_student_mlp_s_non_normalize: 0.1957
+Testing AP_student_ggad: 0.1795
+Testing AP_student_ggad_non_normalize: 0.1868
+Testing AP_student_minus_ggad: 0.1875
+Testing AP_student_minus_ggad_non_normalize: 0.1813
+Total time is: 199.19433665275574
+Testing_last_ggad_ photo AUC: 0.6606
+Hard label ratio: 0.20
+Pseudo abnormal used in BCE: False
+Epoch 915: Total Loss = 0.21613100171089172,BCE Loss =0.21613100171089172
+student_score: 0.19609937071800232
+ggad_score: 0.02766912803053856
+student_score_non_normalize: -3.2594807147979736
+ggad_score_non_normalize: -5.281368255615234
+Testing photo AUC_student_mlp_s: 0.6942
+Testing photo AUC_student_mlp_s_non_normalize: 0.6942
+Testing photo AUC_student_ggad: 0.6919
+Testing photo AUC_student_ggad_non_normalize: 0.6898
+Testing photo AUC_student_minus_ggad: 0.6934
+Testing photo AUC_student_minus_ggad_non_normalize: 0.6621
+Testing AP_student_mlp_s: 0.1944
+Testing AP_student_mlp_s_non_normalize: 0.1944
+Testing AP_student_ggad: 0.1787
+Testing AP_student_ggad_non_normalize: 0.1862
+Testing AP_student_minus_ggad: 0.1856
+Testing AP_student_minus_ggad_non_normalize: 0.1811
+Total time is: 200.1814079284668
+Testing_last_ggad_ photo AUC: 0.6606
+Hard label ratio: 0.20
+Pseudo abnormal used in BCE: False
+Epoch 920: Total Loss = 0.21309734880924225,BCE Loss =0.21309734880924225
+student_score: 0.19630244374275208
+ggad_score: 0.02766912803053856
+student_score_non_normalize: -3.2985422611236572
+ggad_score_non_normalize: -5.281368255615234
+Testing photo AUC_student_mlp_s: 0.6929
+Testing photo AUC_student_mlp_s_non_normalize: 0.6929
+Testing photo AUC_student_ggad: 0.6907
+Testing photo AUC_student_ggad_non_normalize: 0.6890
+Testing photo AUC_student_minus_ggad: 0.6917
+Testing photo AUC_student_minus_ggad_non_normalize: 0.6619
+Testing AP_student_mlp_s: 0.1928
+Testing AP_student_mlp_s_non_normalize: 0.1928
+Testing AP_student_ggad: 0.1777
+Testing AP_student_ggad_non_normalize: 0.1854
+Testing AP_student_minus_ggad: 0.1835
+Testing AP_student_minus_ggad_non_normalize: 0.1801
+Total time is: 201.29878568649292
+Testing_last_ggad_ photo AUC: 0.6606
+Hard label ratio: 0.20
+Pseudo abnormal used in BCE: False
+Epoch 925: Total Loss = 0.210134819149971,BCE Loss =0.210134819149971
+student_score: 0.19614672660827637
+ggad_score: 0.02766912803053856
+student_score_non_normalize: -3.337953567504883
+ggad_score_non_normalize: -5.281368255615234
+Testing photo AUC_student_mlp_s: 0.6914
+Testing photo AUC_student_mlp_s_non_normalize: 0.6914
+Testing photo AUC_student_ggad: 0.6894
+Testing photo AUC_student_ggad_non_normalize: 0.6881
+Testing photo AUC_student_minus_ggad: 0.6904
+Testing photo AUC_student_minus_ggad_non_normalize: 0.6613
+Testing AP_student_mlp_s: 0.1915
+Testing AP_student_mlp_s_non_normalize: 0.1915
+Testing AP_student_ggad: 0.1770
+Testing AP_student_ggad_non_normalize: 0.1845
+Testing AP_student_minus_ggad: 0.1814
+Testing AP_student_minus_ggad_non_normalize: 0.1788
+Total time is: 202.24126625061035
+Testing_last_ggad_ photo AUC: 0.6606
+Hard label ratio: 0.20
+Pseudo abnormal used in BCE: False
+Epoch 930: Total Loss = 0.20724135637283325,BCE Loss =0.20724135637283325
+student_score: 0.1971152126789093
+ggad_score: 0.02766912803053856
+student_score_non_normalize: -3.3574090003967285
+ggad_score_non_normalize: -5.281368255615234
+Testing photo AUC_student_mlp_s: 0.6906
+Testing photo AUC_student_mlp_s_non_normalize: 0.6906
+Testing photo AUC_student_ggad: 0.6887
+Testing photo AUC_student_ggad_non_normalize: 0.6875
+Testing photo AUC_student_minus_ggad: 0.6894
+Testing photo AUC_student_minus_ggad_non_normalize: 0.6616
+Testing AP_student_mlp_s: 0.1904
+Testing AP_student_mlp_s_non_normalize: 0.1904
+Testing AP_student_ggad: 0.1762
+Testing AP_student_ggad_non_normalize: 0.1838
+Testing AP_student_minus_ggad: 0.1800
+Testing AP_student_minus_ggad_non_normalize: 0.1784
+Total time is: 203.26088857650757
+Testing_last_ggad_ photo AUC: 0.6606
+Hard label ratio: 0.20
+Pseudo abnormal used in BCE: False
+Epoch 935: Total Loss = 0.20444358885288239,BCE Loss =0.20444358885288239
+student_score: 0.1931542456150055
+ggad_score: 0.02766912803053856
+student_score_non_normalize: -3.4700279235839844
+ggad_score_non_normalize: -5.281368255615234
+Testing photo AUC_student_mlp_s: 0.6899
+Testing photo AUC_student_mlp_s_non_normalize: 0.6899
+Testing photo AUC_student_ggad: 0.6879
+Testing photo AUC_student_ggad_non_normalize: 0.6871
+Testing photo AUC_student_minus_ggad: 0.6871
+Testing photo AUC_student_minus_ggad_non_normalize: 0.6623
+Testing AP_student_mlp_s: 0.1893
+Testing AP_student_mlp_s_non_normalize: 0.1893
+Testing AP_student_ggad: 0.1756
+Testing AP_student_ggad_non_normalize: 0.1831
+Testing AP_student_minus_ggad: 0.1788
+Testing AP_student_minus_ggad_non_normalize: 0.1778
+Total time is: 204.27195620536804
+Testing_last_ggad_ photo AUC: 0.6606
+Hard label ratio: 0.20
+Pseudo abnormal used in BCE: False
+Epoch 940: Total Loss = 0.21487270295619965,BCE Loss =0.21487270295619965
+student_score: 0.23868951201438904
+ggad_score: 0.02766912803053856
+student_score_non_normalize: -2.6767172813415527
+ggad_score_non_normalize: -5.281368255615234
+Testing photo AUC_student_mlp_s: 0.6903
+Testing photo AUC_student_mlp_s_non_normalize: 0.6903
+Testing photo AUC_student_ggad: 0.6883
+Testing photo AUC_student_ggad_non_normalize: 0.6871
+Testing photo AUC_student_minus_ggad: 0.6868
+Testing photo AUC_student_minus_ggad_non_normalize: 0.6595
+Testing AP_student_mlp_s: 0.1890
+Testing AP_student_mlp_s_non_normalize: 0.1890
+Testing AP_student_ggad: 0.1739
+Testing AP_student_ggad_non_normalize: 0.1828
+Testing AP_student_minus_ggad: 0.1752
+Testing AP_student_minus_ggad_non_normalize: 0.1758
+Total time is: 205.22624015808105
+Testing_last_ggad_ photo AUC: 0.6606
+Hard label ratio: 0.20
+Pseudo abnormal used in BCE: False
+Epoch 945: Total Loss = 0.20465941727161407,BCE Loss =0.20465941727161407
+student_score: 0.22455407679080963
+ggad_score: 0.02766912803053856
+student_score_non_normalize: -2.977876901626587
+ggad_score_non_normalize: -5.281368255615234
+Testing photo AUC_student_mlp_s: 0.6914
+Testing photo AUC_student_mlp_s_non_normalize: 0.6914
+Testing photo AUC_student_ggad: 0.6894
+Testing photo AUC_student_ggad_non_normalize: 0.6882
+Testing photo AUC_student_minus_ggad: 0.6894
+Testing photo AUC_student_minus_ggad_non_normalize: 0.6651
+Testing AP_student_mlp_s: 0.1897
+Testing AP_student_mlp_s_non_normalize: 0.1894
+Testing AP_student_ggad: 0.1747
+Testing AP_student_ggad_non_normalize: 0.1834
+Testing AP_student_minus_ggad: 0.1767
+Testing AP_student_minus_ggad_non_normalize: 0.1784
+Total time is: 206.35175108909607
+Testing_last_ggad_ photo AUC: 0.6606
+Hard label ratio: 0.20
+Pseudo abnormal used in BCE: False
+Epoch 950: Total Loss = 0.19894124567508698,BCE Loss =0.19894124567508698
+student_score: 0.21554075181484222
+ggad_score: 0.02766912803053856
+student_score_non_normalize: -3.1297736167907715
+ggad_score_non_normalize: -5.281368255615234
+Testing photo AUC_student_mlp_s: 0.6889
+Testing photo AUC_student_mlp_s_non_normalize: 0.6889
+Testing photo AUC_student_ggad: 0.6871
+Testing photo AUC_student_ggad_non_normalize: 0.6864
+Testing photo AUC_student_minus_ggad: 0.6868
+Testing photo AUC_student_minus_ggad_non_normalize: 0.6620
+Testing AP_student_mlp_s: 0.1875
+Testing AP_student_mlp_s_non_normalize: 0.1875
+Testing AP_student_ggad: 0.1736
+Testing AP_student_ggad_non_normalize: 0.1820
+Testing AP_student_minus_ggad: 0.1745
+Testing AP_student_minus_ggad_non_normalize: 0.1755
+Total time is: 207.28571343421936
+Testing_last_ggad_ photo AUC: 0.6606
+Hard label ratio: 0.20
+Pseudo abnormal used in BCE: False
+Epoch 955: Total Loss = 0.19379094243049622,BCE Loss =0.19379094243049622
+student_score: 0.19918249547481537
+ggad_score: 0.02766912803053856
+student_score_non_normalize: -3.4509003162384033
+ggad_score_non_normalize: -5.281368255615234
+Testing photo AUC_student_mlp_s: 0.6864
+Testing photo AUC_student_mlp_s_non_normalize: 0.6864
+Testing photo AUC_student_ggad: 0.6847
+Testing photo AUC_student_ggad_non_normalize: 0.6848
+Testing photo AUC_student_minus_ggad: 0.6826
+Testing photo AUC_student_minus_ggad_non_normalize: 0.6604
+Testing AP_student_mlp_s: 0.1855
+Testing AP_student_mlp_s_non_normalize: 0.1855
+Testing AP_student_ggad: 0.1727
+Testing AP_student_ggad_non_normalize: 0.1808
+Testing AP_student_minus_ggad: 0.1732
+Testing AP_student_minus_ggad_non_normalize: 0.1738
+Total time is: 208.22109866142273
+Testing_last_ggad_ photo AUC: 0.6606
+Hard label ratio: 0.20
+Pseudo abnormal used in BCE: False
+Epoch 960: Total Loss = 0.19582827389240265,BCE Loss =0.19582827389240265
+student_score: 0.17580367624759674
+ggad_score: 0.02766912803053856
+student_score_non_normalize: -4.008294582366943
+ggad_score_non_normalize: -5.281368255615234
+Testing photo AUC_student_mlp_s: 0.6854
+Testing photo AUC_student_mlp_s_non_normalize: 0.6854
+Testing photo AUC_student_ggad: 0.6839
+Testing photo AUC_student_ggad_non_normalize: 0.6841
+Testing photo AUC_student_minus_ggad: 0.6785
+Testing photo AUC_student_minus_ggad_non_normalize: 0.6623
+Testing AP_student_mlp_s: 0.1845
+Testing AP_student_mlp_s_non_normalize: 0.1845
+Testing AP_student_ggad: 0.1729
+Testing AP_student_ggad_non_normalize: 0.1805
+Testing AP_student_minus_ggad: 0.1734
+Testing AP_student_minus_ggad_non_normalize: 0.1743
+Total time is: 209.27639508247375
+Testing_last_ggad_ photo AUC: 0.6606
+Hard label ratio: 0.20
+Pseudo abnormal used in BCE: False
+Epoch 965: Total Loss = 0.18941670656204224,BCE Loss =0.18941670656204224
+student_score: 0.18733809888362885
+ggad_score: 0.02766912803053856
+student_score_non_normalize: -3.793030023574829
+ggad_score_non_normalize: -5.281368255615234
+Testing photo AUC_student_mlp_s: 0.6852
+Testing photo AUC_student_mlp_s_non_normalize: 0.6852
+Testing photo AUC_student_ggad: 0.6835
+Testing photo AUC_student_ggad_non_normalize: 0.6839
+Testing photo AUC_student_minus_ggad: 0.6783
+Testing photo AUC_student_minus_ggad_non_normalize: 0.6621
+Testing AP_student_mlp_s: 0.1845
+Testing AP_student_mlp_s_non_normalize: 0.1845
+Testing AP_student_ggad: 0.1726
+Testing AP_student_ggad_non_normalize: 0.1803
+Testing AP_student_minus_ggad: 0.1721
+Testing AP_student_minus_ggad_non_normalize: 0.1745
+Total time is: 210.20578718185425
+Testing_last_ggad_ photo AUC: 0.6606
+Hard label ratio: 0.20
+Pseudo abnormal used in BCE: False
+Epoch 970: Total Loss = 0.19679217040538788,BCE Loss =0.19679217040538788
+student_score: 0.23491337895393372
+ggad_score: 0.02766912803053856
+student_score_non_normalize: -2.8935787677764893
+ggad_score_non_normalize: -5.281368255615234
+Testing photo AUC_student_mlp_s: 0.6849
+Testing photo AUC_student_mlp_s_non_normalize: 0.6849
+Testing photo AUC_student_ggad: 0.6834
+Testing photo AUC_student_ggad_non_normalize: 0.6835
+Testing photo AUC_student_minus_ggad: 0.6808
+Testing photo AUC_student_minus_ggad_non_normalize: 0.6586
+Testing AP_student_mlp_s: 0.1839
+Testing AP_student_mlp_s_non_normalize: 0.1839
+Testing AP_student_ggad: 0.1710
+Testing AP_student_ggad_non_normalize: 0.1798
+Testing AP_student_minus_ggad: 0.1686
+Testing AP_student_minus_ggad_non_normalize: 0.1713
+Total time is: 211.2490668296814
+Testing_last_ggad_ photo AUC: 0.6606
+Hard label ratio: 0.20
+Pseudo abnormal used in BCE: False
+Epoch 975: Total Loss = 0.18316228687763214,BCE Loss =0.18316228687763214
+student_score: 0.1973230093717575
+ggad_score: 0.02766912803053856
+student_score_non_normalize: -3.68227481842041
+ggad_score_non_normalize: -5.281368255615234
+Testing photo AUC_student_mlp_s: 0.6855
+Testing photo AUC_student_mlp_s_non_normalize: 0.6855
+Testing photo AUC_student_ggad: 0.6838
+Testing photo AUC_student_ggad_non_normalize: 0.6842
+Testing photo AUC_student_minus_ggad: 0.6795
+Testing photo AUC_student_minus_ggad_non_normalize: 0.6644
+Testing AP_student_mlp_s: 0.1847
+Testing AP_student_mlp_s_non_normalize: 0.1847
+Testing AP_student_ggad: 0.1722
+Testing AP_student_ggad_non_normalize: 0.1805
+Testing AP_student_minus_ggad: 0.1716
+Testing AP_student_minus_ggad_non_normalize: 0.1756
+Total time is: 212.49263644218445
+Testing_last_ggad_ photo AUC: 0.6606
+Hard label ratio: 0.20
+Pseudo abnormal used in BCE: False
+Epoch 980: Total Loss = 0.19277019798755646,BCE Loss =0.19277019798755646
+student_score: 0.1639736145734787
+ggad_score: 0.02766912803053856
+student_score_non_normalize: -4.447896480560303
+ggad_score_non_normalize: -5.281368255615234
+Testing photo AUC_student_mlp_s: 0.6824
+Testing photo AUC_student_mlp_s_non_normalize: 0.6824
+Testing photo AUC_student_ggad: 0.6814
+Testing photo AUC_student_ggad_non_normalize: 0.6821
+Testing photo AUC_student_minus_ggad: 0.6728
+Testing photo AUC_student_minus_ggad_non_normalize: 0.6622
+Testing AP_student_mlp_s: 0.1826
+Testing AP_student_mlp_s_non_normalize: 0.1826
+Testing AP_student_ggad: 0.1715
+Testing AP_student_ggad_non_normalize: 0.1790
+Testing AP_student_minus_ggad: 0.1701
+Testing AP_student_minus_ggad_non_normalize: 0.1735
+Total time is: 213.44232439994812
+Testing_last_ggad_ photo AUC: 0.6606
+Hard label ratio: 0.20
+Pseudo abnormal used in BCE: False
+Epoch 985: Total Loss = 0.17856474220752716,BCE Loss =0.17856474220752716
+student_score: 0.20929035544395447
+ggad_score: 0.02766912803053856
+student_score_non_normalize: -3.4811410903930664
+ggad_score_non_normalize: -5.281368255615234
+Testing photo AUC_student_mlp_s: 0.6841
+Testing photo AUC_student_mlp_s_non_normalize: 0.6841
+Testing photo AUC_student_ggad: 0.6827
+Testing photo AUC_student_ggad_non_normalize: 0.6833
+Testing photo AUC_student_minus_ggad: 0.6789
+Testing photo AUC_student_minus_ggad_non_normalize: 0.6632
+Testing AP_student_mlp_s: 0.1833
+Testing AP_student_mlp_s_non_normalize: 0.1833
+Testing AP_student_ggad: 0.1711
+Testing AP_student_ggad_non_normalize: 0.1795
+Testing AP_student_minus_ggad: 0.1698
+Testing AP_student_minus_ggad_non_normalize: 0.1741
+Total time is: 214.37286162376404
+Testing_last_ggad_ photo AUC: 0.6606
+Hard label ratio: 0.20
+Pseudo abnormal used in BCE: False
+Epoch 990: Total Loss = 0.17735795676708221,BCE Loss =0.17735795676708221
+student_score: 0.2160101979970932
+ggad_score: 0.02766912803053856
+student_score_non_normalize: -3.3663125038146973
+ggad_score_non_normalize: -5.281368255615234
+Testing photo AUC_student_mlp_s: 0.6836
+Testing photo AUC_student_mlp_s_non_normalize: 0.6836
+Testing photo AUC_student_ggad: 0.6822
+Testing photo AUC_student_ggad_non_normalize: 0.6829
+Testing photo AUC_student_minus_ggad: 0.6787
+Testing photo AUC_student_minus_ggad_non_normalize: 0.6627
+Testing AP_student_mlp_s: 0.1831
+Testing AP_student_mlp_s_non_normalize: 0.1831
+Testing AP_student_ggad: 0.1707
+Testing AP_student_ggad_non_normalize: 0.1795
+Testing AP_student_minus_ggad: 0.1677
+Testing AP_student_minus_ggad_non_normalize: 0.1736
+Total time is: 215.3121063709259
+Testing_last_ggad_ photo AUC: 0.6606
+Hard label ratio: 0.20
+Pseudo abnormal used in BCE: False
+Epoch 995: Total Loss = 0.20698654651641846,BCE Loss =0.20698654651641846
+student_score: 0.14447638392448425
+ggad_score: 0.02766912803053856
+student_score_non_normalize: -5.156580448150635
+ggad_score_non_normalize: -5.281368255615234
+Testing photo AUC_student_mlp_s: 0.6799
+Testing photo AUC_student_mlp_s_non_normalize: 0.6799
+Testing photo AUC_student_ggad: 0.6798
+Testing photo AUC_student_ggad_non_normalize: 0.6804
+Testing photo AUC_student_minus_ggad: 0.6750
+Testing photo AUC_student_minus_ggad_non_normalize: 0.6617
+Testing AP_student_mlp_s: 0.1814
+Testing AP_student_mlp_s_non_normalize: 0.1814
+Testing AP_student_ggad: 0.1706
+Testing AP_student_ggad_non_normalize: 0.1782
+Testing AP_student_minus_ggad: 0.1701
+Testing AP_student_minus_ggad_non_normalize: 0.1727
+Total time is: 216.39670825004578

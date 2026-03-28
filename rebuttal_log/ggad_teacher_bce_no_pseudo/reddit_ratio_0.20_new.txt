@@ -1,0 +1,4200 @@
+Testing_last_ggad_ reddit AUC: 0.6253
+Hard label ratio: 0.20
+Pseudo abnormal used in BCE: False
+Epoch 0: Total Loss = 0.7018548846244812,BCE Loss =0.7018548846244812
+student_score: 0.5072565078735352
+ggad_score: 6.004573151585646e-05
+student_score_non_normalize: 0.02902817912399769
+ggad_score_non_normalize: -9.757074356079102
+Testing reddit AUC_student_mlp_s: 0.5392
+Testing reddit AUC_student_mlp_s_non_normalize: 0.5392
+Testing reddit AUC_student_ggad: 0.5405
+Testing reddit AUC_student_ggad_non_normalize: 0.6253
+Testing reddit AUC_student_minus_ggad: 0.5380
+Testing reddit AUC_student_minus_ggad_non_normalize: 0.3747
+Testing AP_student_mlp_s: 0.0346
+Testing AP_student_mlp_s_non_normalize: 0.0346
+Testing AP_student_ggad: 0.0347
+Testing AP_student_ggad_non_normalize: 0.0504
+Testing AP_student_minus_ggad: 0.0344
+Testing AP_student_minus_ggad_non_normalize: 0.0243
+Total time is: 0
+Testing_last_ggad_ reddit AUC: 0.6253
+Hard label ratio: 0.20
+Pseudo abnormal used in BCE: False
+Epoch 5: Total Loss = 0.6362966299057007,BCE Loss =0.6362966299057007
+student_score: 0.44751861691474915
+ggad_score: 6.004573151585646e-05
+student_score_non_normalize: -0.21193546056747437
+ggad_score_non_normalize: -9.757074356079102
+Testing reddit AUC_student_mlp_s: 0.5220
+Testing reddit AUC_student_mlp_s_non_normalize: 0.5220
+Testing reddit AUC_student_ggad: 0.5220
+Testing reddit AUC_student_ggad_non_normalize: 0.6192
+Testing reddit AUC_student_minus_ggad: 0.5219
+Testing reddit AUC_student_minus_ggad_non_normalize: 0.3759
+Testing AP_student_mlp_s: 0.0386
+Testing AP_student_mlp_s_non_normalize: 0.0386
+Testing AP_student_ggad: 0.0386
+Testing AP_student_ggad_non_normalize: 0.0471
+Testing AP_student_minus_ggad: 0.0386
+Testing AP_student_minus_ggad_non_normalize: 0.0245
+Total time is: 2.3302266597747803
+Testing_last_ggad_ reddit AUC: 0.6253
+Hard label ratio: 0.20
+Pseudo abnormal used in BCE: False
+Epoch 10: Total Loss = 0.5527194142341614,BCE Loss =0.5527194142341614
+student_score: 0.34053027629852295
+ggad_score: 6.004573151585646e-05
+student_score_non_normalize: -0.6778780817985535
+ggad_score_non_normalize: -9.757074356079102
+Testing reddit AUC_student_mlp_s: 0.5226
+Testing reddit AUC_student_mlp_s_non_normalize: 0.5226
+Testing reddit AUC_student_ggad: 0.5227
+Testing reddit AUC_student_ggad_non_normalize: 0.5889
+Testing reddit AUC_student_minus_ggad: 0.5226
+Testing reddit AUC_student_minus_ggad_non_normalize: 0.4135
+Testing AP_student_mlp_s: 0.0391
+Testing AP_student_mlp_s_non_normalize: 0.0391
+Testing AP_student_ggad: 0.0391
+Testing AP_student_ggad_non_normalize: 0.0425
+Testing AP_student_minus_ggad: 0.0391
+Testing AP_student_minus_ggad_non_normalize: 0.0284
+Total time is: 4.292025089263916
+Testing_last_ggad_ reddit AUC: 0.6253
+Hard label ratio: 0.20
+Pseudo abnormal used in BCE: False
+Epoch 15: Total Loss = 0.5139734148979187,BCE Loss =0.5139734148979187
+student_score: 0.19635073840618134
+ggad_score: 6.004573151585646e-05
+student_score_non_normalize: -1.486946702003479
+ggad_score_non_normalize: -9.757074356079102
+Testing reddit AUC_student_mlp_s: 0.5230
+Testing reddit AUC_student_mlp_s_non_normalize: 0.5229
+Testing reddit AUC_student_ggad: 0.5229
+Testing reddit AUC_student_ggad_non_normalize: 0.5562
+Testing reddit AUC_student_minus_ggad: 0.5230
+Testing reddit AUC_student_minus_ggad_non_normalize: 0.4611
+Testing AP_student_mlp_s: 0.0395
+Testing AP_student_mlp_s_non_normalize: 0.0395
+Testing AP_student_ggad: 0.0395
+Testing AP_student_ggad_non_normalize: 0.0413
+Testing AP_student_minus_ggad: 0.0395
+Testing AP_student_minus_ggad_non_normalize: 0.0331
+Total time is: 6.4618847370147705
+Testing_last_ggad_ reddit AUC: 0.6253
+Hard label ratio: 0.20
+Pseudo abnormal used in BCE: False
+Epoch 20: Total Loss = 0.531967282295227,BCE Loss =0.531967282295227
+student_score: 0.14246323704719543
+ggad_score: 6.004573151585646e-05
+student_score_non_normalize: -1.913059115409851
+ggad_score_non_normalize: -9.757074356079102
+Testing reddit AUC_student_mlp_s: 0.5226
+Testing reddit AUC_student_mlp_s_non_normalize: 0.5226
+Testing reddit AUC_student_ggad: 0.5226
+Testing reddit AUC_student_ggad_non_normalize: 0.5499
+Testing reddit AUC_student_minus_ggad: 0.5226
+Testing reddit AUC_student_minus_ggad_non_normalize: 0.4711
+Testing AP_student_mlp_s: 0.0396
+Testing AP_student_mlp_s_non_normalize: 0.0396
+Testing AP_student_ggad: 0.0396
+Testing AP_student_ggad_non_normalize: 0.0414
+Testing AP_student_minus_ggad: 0.0395
+Testing AP_student_minus_ggad_non_normalize: 0.0340
+Total time is: 8.80241060256958
+Testing_last_ggad_ reddit AUC: 0.6253
+Hard label ratio: 0.20
+Pseudo abnormal used in BCE: False
+Epoch 25: Total Loss = 0.5138632655143738,BCE Loss =0.5138632655143738
+student_score: 0.18674731254577637
+ggad_score: 6.004573151585646e-05
+student_score_non_normalize: -1.5526559352874756
+ggad_score_non_normalize: -9.757074356079102
+Testing reddit AUC_student_mlp_s: 0.5226
+Testing reddit AUC_student_mlp_s_non_normalize: 0.5226
+Testing reddit AUC_student_ggad: 0.5226
+Testing reddit AUC_student_ggad_non_normalize: 0.5563
+Testing reddit AUC_student_minus_ggad: 0.5226
+Testing reddit AUC_student_minus_ggad_non_normalize: 0.4622
+Testing AP_student_mlp_s: 0.0396
+Testing AP_student_mlp_s_non_normalize: 0.0396
+Testing AP_student_ggad: 0.0396
+Testing AP_student_ggad_non_normalize: 0.0412
+Testing AP_student_minus_ggad: 0.0396
+Testing AP_student_minus_ggad_non_normalize: 0.0332
+Total time is: 11.119750261306763
+Testing_last_ggad_ reddit AUC: 0.6253
+Hard label ratio: 0.20
+Pseudo abnormal used in BCE: False
+Epoch 30: Total Loss = 0.5126693248748779,BCE Loss =0.5126693248748779
+student_score: 0.24047082662582397
+ggad_score: 6.004573151585646e-05
+student_score_non_normalize: -1.1998064517974854
+ggad_score_non_normalize: -9.757074356079102
+Testing reddit AUC_student_mlp_s: 0.5238
+Testing reddit AUC_student_mlp_s_non_normalize: 0.5238
+Testing reddit AUC_student_ggad: 0.5237
+Testing reddit AUC_student_ggad_non_normalize: 0.5674
+Testing reddit AUC_student_minus_ggad: 0.5237
+Testing reddit AUC_student_minus_ggad_non_normalize: 0.4506
+Testing AP_student_mlp_s: 0.0396
+Testing AP_student_mlp_s_non_normalize: 0.0396
+Testing AP_student_ggad: 0.0396
+Testing AP_student_ggad_non_normalize: 0.0412
+Testing AP_student_minus_ggad: 0.0396
+Testing AP_student_minus_ggad_non_normalize: 0.0317
+Total time is: 13.112170934677124
+Testing_last_ggad_ reddit AUC: 0.6253
+Hard label ratio: 0.20
+Pseudo abnormal used in BCE: False
+Epoch 35: Total Loss = 0.5136051177978516,BCE Loss =0.5136051177978516
+student_score: 0.2502337098121643
+ggad_score: 6.004573151585646e-05
+student_score_non_normalize: -1.141694188117981
+ggad_score_non_normalize: -9.757074356079102
+Testing reddit AUC_student_mlp_s: 0.5235
+Testing reddit AUC_student_mlp_s_non_normalize: 0.5235
+Testing reddit AUC_student_ggad: 0.5234
+Testing reddit AUC_student_ggad_non_normalize: 0.5710
+Testing reddit AUC_student_minus_ggad: 0.5234
+Testing reddit AUC_student_minus_ggad_non_normalize: 0.4472
+Testing AP_student_mlp_s: 0.0398
+Testing AP_student_mlp_s_non_normalize: 0.0398
+Testing AP_student_ggad: 0.0398
+Testing AP_student_ggad_non_normalize: 0.0415
+Testing AP_student_minus_ggad: 0.0398
+Testing AP_student_minus_ggad_non_normalize: 0.0314
+Total time is: 14.978501796722412
+Testing_last_ggad_ reddit AUC: 0.6253
+Hard label ratio: 0.20
+Pseudo abnormal used in BCE: False
+Epoch 40: Total Loss = 0.5090805292129517,BCE Loss =0.5090805292129517
+student_score: 0.22463677823543549
+ggad_score: 6.004573151585646e-05
+student_score_non_normalize: -1.294423222541809
+ggad_score_non_normalize: -9.757074356079102
+Testing reddit AUC_student_mlp_s: 0.5231
+Testing reddit AUC_student_mlp_s_non_normalize: 0.5231
+Testing reddit AUC_student_ggad: 0.5231
+Testing reddit AUC_student_ggad_non_normalize: 0.5670
+Testing reddit AUC_student_minus_ggad: 0.5231
+Testing reddit AUC_student_minus_ggad_non_normalize: 0.4536
+Testing AP_student_mlp_s: 0.0398
+Testing AP_student_mlp_s_non_normalize: 0.0398
+Testing AP_student_ggad: 0.0398
+Testing AP_student_ggad_non_normalize: 0.0413
+Testing AP_student_minus_ggad: 0.0398
+Testing AP_student_minus_ggad_non_normalize: 0.0318
+Total time is: 16.78857684135437
+Testing_last_ggad_ reddit AUC: 0.6253
+Hard label ratio: 0.20
+Pseudo abnormal used in BCE: False
+Epoch 45: Total Loss = 0.5082244277000427,BCE Loss =0.5082244277000427
+student_score: 0.198264479637146
+ggad_score: 6.004573151585646e-05
+student_score_non_normalize: -1.4662995338439941
+ggad_score_non_normalize: -9.757074356079102
+Testing reddit AUC_student_mlp_s: 0.5244
+Testing reddit AUC_student_mlp_s_non_normalize: 0.5244
+Testing reddit AUC_student_ggad: 0.5244
+Testing reddit AUC_student_ggad_non_normalize: 0.5639
+Testing reddit AUC_student_minus_ggad: 0.5244
+Testing reddit AUC_student_minus_ggad_non_normalize: 0.4589
+Testing AP_student_mlp_s: 0.0401
+Testing AP_student_mlp_s_non_normalize: 0.0401
+Testing AP_student_ggad: 0.0401
+Testing AP_student_ggad_non_normalize: 0.0413
+Testing AP_student_minus_ggad: 0.0401
+Testing AP_student_minus_ggad_non_normalize: 0.0327
+Total time is: 18.8253390789032
+Testing_last_ggad_ reddit AUC: 0.6253
+Hard label ratio: 0.20
+Pseudo abnormal used in BCE: False
+Epoch 50: Total Loss = 0.5072472095489502,BCE Loss =0.5072472095489502
+student_score: 0.1961582601070404
+ggad_score: 6.004573151585646e-05
+student_score_non_normalize: -1.4796196222305298
+ggad_score_non_normalize: -9.757074356079102
+Testing reddit AUC_student_mlp_s: 0.5254
+Testing reddit AUC_student_mlp_s_non_normalize: 0.5254
+Testing reddit AUC_student_ggad: 0.5254
+Testing reddit AUC_student_ggad_non_normalize: 0.5650
+Testing reddit AUC_student_minus_ggad: 0.5254
+Testing reddit AUC_student_minus_ggad_non_normalize: 0.4592
+Testing AP_student_mlp_s: 0.0404
+Testing AP_student_mlp_s_non_normalize: 0.0404
+Testing AP_student_ggad: 0.0404
+Testing AP_student_ggad_non_normalize: 0.0413
+Testing AP_student_minus_ggad: 0.0404
+Testing AP_student_minus_ggad_non_normalize: 0.0327
+Total time is: 21.06532382965088
+Testing_last_ggad_ reddit AUC: 0.6253
+Hard label ratio: 0.20
+Pseudo abnormal used in BCE: False
+Epoch 55: Total Loss = 0.5052555203437805,BCE Loss =0.5052555203437805
+student_score: 0.21091154217720032
+ggad_score: 6.004573151585646e-05
+student_score_non_normalize: -1.3788952827453613
+ggad_score_non_normalize: -9.757074356079102
+Testing reddit AUC_student_mlp_s: 0.5263
+Testing reddit AUC_student_mlp_s_non_normalize: 0.5262
+Testing reddit AUC_student_ggad: 0.5263
+Testing reddit AUC_student_ggad_non_normalize: 0.5694
+Testing reddit AUC_student_minus_ggad: 0.5263
+Testing reddit AUC_student_minus_ggad_non_normalize: 0.4563
+Testing AP_student_mlp_s: 0.0406
+Testing AP_student_mlp_s_non_normalize: 0.0406
+Testing AP_student_ggad: 0.0406
+Testing AP_student_ggad_non_normalize: 0.0415
+Testing AP_student_minus_ggad: 0.0406
+Testing AP_student_minus_ggad_non_normalize: 0.0323
+Total time is: 23.25804901123047
+Testing_last_ggad_ reddit AUC: 0.6253
+Hard label ratio: 0.20
+Pseudo abnormal used in BCE: False
+Epoch 60: Total Loss = 0.5041321516036987,BCE Loss =0.5041321516036987
+student_score: 0.21953228116035461
+ggad_score: 6.004573151585646e-05
+student_score_non_normalize: -1.3220794200897217
+ggad_score_non_normalize: -9.757074356079102
+Testing reddit AUC_student_mlp_s: 0.5272
+Testing reddit AUC_student_mlp_s_non_normalize: 0.5272
+Testing reddit AUC_student_ggad: 0.5273
+Testing reddit AUC_student_ggad_non_normalize: 0.5736
+Testing reddit AUC_student_minus_ggad: 0.5272
+Testing reddit AUC_student_minus_ggad_non_normalize: 0.4546
+Testing AP_student_mlp_s: 0.0410
+Testing AP_student_mlp_s_non_normalize: 0.0410
+Testing AP_student_ggad: 0.0410
+Testing AP_student_ggad_non_normalize: 0.0418
+Testing AP_student_minus_ggad: 0.0410
+Testing AP_student_minus_ggad_non_normalize: 0.0320
+Total time is: 25.309115171432495
+Testing_last_ggad_ reddit AUC: 0.6253
+Hard label ratio: 0.20
+Pseudo abnormal used in BCE: False
+Epoch 65: Total Loss = 0.5022921562194824,BCE Loss =0.5022921562194824
+student_score: 0.2136840671300888
+ggad_score: 6.004573151585646e-05
+student_score_non_normalize: -1.3581559658050537
+ggad_score_non_normalize: -9.757074356079102
+Testing reddit AUC_student_mlp_s: 0.5299
+Testing reddit AUC_student_mlp_s_non_normalize: 0.5299
+Testing reddit AUC_student_ggad: 0.5299
+Testing reddit AUC_student_ggad_non_normalize: 0.5753
+Testing reddit AUC_student_minus_ggad: 0.5299
+Testing reddit AUC_student_minus_ggad_non_normalize: 0.4554
+Testing AP_student_mlp_s: 0.0415
+Testing AP_student_mlp_s_non_normalize: 0.0415
+Testing AP_student_ggad: 0.0415
+Testing AP_student_ggad_non_normalize: 0.0418
+Testing AP_student_minus_ggad: 0.0415
+Testing AP_student_minus_ggad_non_normalize: 0.0321
+Total time is: 27.747324228286743
+Testing_last_ggad_ reddit AUC: 0.6253
+Hard label ratio: 0.20
+Pseudo abnormal used in BCE: False
+Epoch 70: Total Loss = 0.5002821683883667,BCE Loss =0.5002821683883667
+student_score: 0.20514267683029175
+ggad_score: 6.004573151585646e-05
+student_score_non_normalize: -1.4125761985778809
+ggad_score_non_normalize: -9.757074356079102
+Testing reddit AUC_student_mlp_s: 0.5318
+Testing reddit AUC_student_mlp_s_non_normalize: 0.5318
+Testing reddit AUC_student_ggad: 0.5320
+Testing reddit AUC_student_ggad_non_normalize: 0.5763
+Testing reddit AUC_student_minus_ggad: 0.5319
+Testing reddit AUC_student_minus_ggad_non_normalize: 0.4575
+Testing AP_student_mlp_s: 0.0420
+Testing AP_student_mlp_s_non_normalize: 0.0420
+Testing AP_student_ggad: 0.0420
+Testing AP_student_ggad_non_normalize: 0.0419
+Testing AP_student_minus_ggad: 0.0420
+Testing AP_student_minus_ggad_non_normalize: 0.0323
+Total time is: 29.719302892684937
+Testing_last_ggad_ reddit AUC: 0.6253
+Hard label ratio: 0.20
+Pseudo abnormal used in BCE: False
+Epoch 75: Total Loss = 0.4977298378944397,BCE Loss =0.4977298378944397
+student_score: 0.20559243857860565
+ggad_score: 6.004573151585646e-05
+student_score_non_normalize: -1.4074562788009644
+ggad_score_non_normalize: -9.757074356079102
+Testing reddit AUC_student_mlp_s: 0.5352
+Testing reddit AUC_student_mlp_s_non_normalize: 0.5352
+Testing reddit AUC_student_ggad: 0.5352
+Testing reddit AUC_student_ggad_non_normalize: 0.5800
+Testing reddit AUC_student_minus_ggad: 0.5352
+Testing reddit AUC_student_minus_ggad_non_normalize: 0.4566
+Testing AP_student_mlp_s: 0.0430
+Testing AP_student_mlp_s_non_normalize: 0.0430
+Testing AP_student_ggad: 0.0430
+Testing AP_student_ggad_non_normalize: 0.0423
+Testing AP_student_minus_ggad: 0.0430
+Testing AP_student_minus_ggad_non_normalize: 0.0320
+Total time is: 31.54219913482666
+Testing_last_ggad_ reddit AUC: 0.6253
+Hard label ratio: 0.20
+Pseudo abnormal used in BCE: False
+Epoch 80: Total Loss = 0.49452292919158936,BCE Loss =0.49452292919158936
+student_score: 0.20992223918437958
+ggad_score: 6.004573151585646e-05
+student_score_non_normalize: -1.3764233589172363
+ggad_score_non_normalize: -9.757074356079102
+Testing reddit AUC_student_mlp_s: 0.5404
+Testing reddit AUC_student_mlp_s_non_normalize: 0.5404
+Testing reddit AUC_student_ggad: 0.5404
+Testing reddit AUC_student_ggad_non_normalize: 0.5870
+Testing reddit AUC_student_minus_ggad: 0.5404
+Testing reddit AUC_student_minus_ggad_non_normalize: 0.4544
+Testing AP_student_mlp_s: 0.0448
+Testing AP_student_mlp_s_non_normalize: 0.0448
+Testing AP_student_ggad: 0.0448
+Testing AP_student_ggad_non_normalize: 0.0428
+Testing AP_student_minus_ggad: 0.0448
+Testing AP_student_minus_ggad_non_normalize: 0.0314
+Total time is: 33.57930850982666
+Testing_last_ggad_ reddit AUC: 0.6253
+Hard label ratio: 0.20
+Pseudo abnormal used in BCE: False
+Epoch 85: Total Loss = 0.49022236466407776,BCE Loss =0.49022236466407776
+student_score: 0.2083284854888916
+ggad_score: 6.004573151585646e-05
+student_score_non_normalize: -1.3838882446289062
+ggad_score_non_normalize: -9.757074356079102
+Testing reddit AUC_student_mlp_s: 0.5472
+Testing reddit AUC_student_mlp_s_non_normalize: 0.5472
+Testing reddit AUC_student_ggad: 0.5472
+Testing reddit AUC_student_ggad_non_normalize: 0.5932
+Testing reddit AUC_student_minus_ggad: 0.5473
+Testing reddit AUC_student_minus_ggad_non_normalize: 0.4551
+Testing AP_student_mlp_s: 0.0453
+Testing AP_student_mlp_s_non_normalize: 0.0453
+Testing AP_student_ggad: 0.0453
+Testing AP_student_ggad_non_normalize: 0.0434
+Testing AP_student_minus_ggad: 0.0453
+Testing AP_student_minus_ggad_non_normalize: 0.0315
+Total time is: 35.516156911849976
+Testing_last_ggad_ reddit AUC: 0.6253
+Hard label ratio: 0.20
+Pseudo abnormal used in BCE: False
+Epoch 90: Total Loss = 0.4843568205833435,BCE Loss =0.4843568205833435
+student_score: 0.20506741106510162
+ggad_score: 6.004573151585646e-05
+student_score_non_normalize: -1.401708960533142
+ggad_score_non_normalize: -9.757074356079102
+Testing reddit AUC_student_mlp_s: 0.5573
+Testing reddit AUC_student_mlp_s_non_normalize: 0.5573
+Testing reddit AUC_student_ggad: 0.5573
+Testing reddit AUC_student_ggad_non_normalize: 0.5999
+Testing reddit AUC_student_minus_ggad: 0.5573
+Testing reddit AUC_student_minus_ggad_non_normalize: 0.4564
+Testing AP_student_mlp_s: 0.0436
+Testing AP_student_mlp_s_non_normalize: 0.0436
+Testing AP_student_ggad: 0.0436
+Testing AP_student_ggad_non_normalize: 0.0441
+Testing AP_student_minus_ggad: 0.0436
+Testing AP_student_minus_ggad_non_normalize: 0.0315
+Total time is: 37.79467177391052
+Testing_last_ggad_ reddit AUC: 0.6253
+Hard label ratio: 0.20
+Pseudo abnormal used in BCE: False
+Epoch 95: Total Loss = 0.4761941432952881,BCE Loss =0.4761941432952881
+student_score: 0.2073999047279358
+ggad_score: 6.004573151585646e-05
+student_score_non_normalize: -1.381792426109314
+ggad_score_non_normalize: -9.757074356079102
+Testing reddit AUC_student_mlp_s: 0.5773
+Testing reddit AUC_student_mlp_s_non_normalize: 0.5773
+Testing reddit AUC_student_ggad: 0.5774
+Testing reddit AUC_student_ggad_non_normalize: 0.6120
+Testing reddit AUC_student_minus_ggad: 0.5773
+Testing reddit AUC_student_minus_ggad_non_normalize: 0.4579
+Testing AP_student_mlp_s: 0.0418
+Testing AP_student_mlp_s_non_normalize: 0.0418
+Testing AP_student_ggad: 0.0418
+Testing AP_student_ggad_non_normalize: 0.0461
+Testing AP_student_minus_ggad: 0.0418
+Testing AP_student_minus_ggad_non_normalize: 0.0313
+Total time is: 39.81243634223938
+Testing_last_ggad_ reddit AUC: 0.6253
+Hard label ratio: 0.20
+Pseudo abnormal used in BCE: False
+Epoch 100: Total Loss = 0.4648760259151459,BCE Loss =0.4648760259151459
+student_score: 0.20662131905555725
+ggad_score: 6.004573151585646e-05
+student_score_non_normalize: -1.382086157798767
+ggad_score_non_normalize: -9.757074356079102
+Testing reddit AUC_student_mlp_s: 0.6068
+Testing reddit AUC_student_mlp_s_non_normalize: 0.6068
+Testing reddit AUC_student_ggad: 0.6068
+Testing reddit AUC_student_ggad_non_normalize: 0.6212
+Testing reddit AUC_student_minus_ggad: 0.6068
+Testing reddit AUC_student_minus_ggad_non_normalize: 0.4723
+Testing AP_student_mlp_s: 0.0462
+Testing AP_student_mlp_s_non_normalize: 0.0462
+Testing AP_student_ggad: 0.0462
+Testing AP_student_ggad_non_normalize: 0.0492
+Testing AP_student_minus_ggad: 0.0462
+Testing AP_student_minus_ggad_non_normalize: 0.0324
+Total time is: 42.25937294960022
+Testing_last_ggad_ reddit AUC: 0.6253
+Hard label ratio: 0.20
+Pseudo abnormal used in BCE: False
+Epoch 105: Total Loss = 0.4490538239479065,BCE Loss =0.4490538239479065
+student_score: 0.203883558511734
+ggad_score: 6.004573151585646e-05
+student_score_non_normalize: -1.3964184522628784
+ggad_score_non_normalize: -9.757074356079102
+Testing reddit AUC_student_mlp_s: 0.6127
+Testing reddit AUC_student_mlp_s_non_normalize: 0.6127
+Testing reddit AUC_student_ggad: 0.6127
+Testing reddit AUC_student_ggad_non_normalize: 0.6253
+Testing reddit AUC_student_minus_ggad: 0.6127
+Testing reddit AUC_student_minus_ggad_non_normalize: 0.5319
+Testing AP_student_mlp_s: 0.0532
+Testing AP_student_mlp_s_non_normalize: 0.0532
+Testing AP_student_ggad: 0.0532
+Testing AP_student_ggad_non_normalize: 0.0535
+Testing AP_student_minus_ggad: 0.0532
+Testing AP_student_minus_ggad_non_normalize: 0.0419
+Total time is: 44.243412256240845
+Testing_last_ggad_ reddit AUC: 0.6253
+Hard label ratio: 0.20
+Pseudo abnormal used in BCE: False
+Epoch 110: Total Loss = 0.42694562673568726,BCE Loss =0.42694562673568726
+student_score: 0.20385317504405975
+ggad_score: 6.004573151585646e-05
+student_score_non_normalize: -1.3983356952667236
+ggad_score_non_normalize: -9.757074356079102
+Testing reddit AUC_student_mlp_s: 0.6123
+Testing reddit AUC_student_mlp_s_non_normalize: 0.6123
+Testing reddit AUC_student_ggad: 0.6123
+Testing reddit AUC_student_ggad_non_normalize: 0.6254
+Testing reddit AUC_student_minus_ggad: 0.6123
+Testing reddit AUC_student_minus_ggad_non_normalize: 0.5402
+Testing AP_student_mlp_s: 0.0569
+Testing AP_student_mlp_s_non_normalize: 0.0569
+Testing AP_student_ggad: 0.0569
+Testing AP_student_ggad_non_normalize: 0.0569
+Testing AP_student_minus_ggad: 0.0569
+Testing AP_student_minus_ggad_non_normalize: 0.0455
+Total time is: 47.07309103012085
+Testing_last_ggad_ reddit AUC: 0.6253
+Hard label ratio: 0.20
+Pseudo abnormal used in BCE: False
+Epoch 115: Total Loss = 0.3972260057926178,BCE Loss =0.3972260057926178
+student_score: 0.19933919608592987
+ggad_score: 6.004573151585646e-05
+student_score_non_normalize: -1.4473776817321777
+ggad_score_non_normalize: -9.757074356079102
+Testing reddit AUC_student_mlp_s: 0.5959
+Testing reddit AUC_student_mlp_s_non_normalize: 0.5959
+Testing reddit AUC_student_ggad: 0.5959
+Testing reddit AUC_student_ggad_non_normalize: 0.6199
+Testing reddit AUC_student_minus_ggad: 0.5958
+Testing reddit AUC_student_minus_ggad_non_normalize: 0.5357
+Testing AP_student_mlp_s: 0.0579
+Testing AP_student_mlp_s_non_normalize: 0.0579
+Testing AP_student_ggad: 0.0579
+Testing AP_student_ggad_non_normalize: 0.0581
+Testing AP_student_minus_ggad: 0.0579
+Testing AP_student_minus_ggad_non_normalize: 0.0440
+Total time is: 49.727715253829956
+Testing_last_ggad_ reddit AUC: 0.6253
+Hard label ratio: 0.20
+Pseudo abnormal used in BCE: False
+Epoch 120: Total Loss = 0.36399149894714355,BCE Loss =0.36399149894714355
+student_score: 0.18373002111911774
+ggad_score: 6.004573151585646e-05
+student_score_non_normalize: -1.625350832939148
+ggad_score_non_normalize: -9.757074356079102
+Testing reddit AUC_student_mlp_s: 0.5729
+Testing reddit AUC_student_mlp_s_non_normalize: 0.5729
+Testing reddit AUC_student_ggad: 0.5729
+Testing reddit AUC_student_ggad_non_normalize: 0.6068
+Testing reddit AUC_student_minus_ggad: 0.5729
+Testing reddit AUC_student_minus_ggad_non_normalize: 0.5402
+Testing AP_student_mlp_s: 0.0546
+Testing AP_student_mlp_s_non_normalize: 0.0546
+Testing AP_student_ggad: 0.0546
+Testing AP_student_ggad_non_normalize: 0.0582
+Testing AP_student_minus_ggad: 0.0546
+Testing AP_student_minus_ggad_non_normalize: 0.0445
+Total time is: 52.244133710861206
+Testing_last_ggad_ reddit AUC: 0.6253
+Hard label ratio: 0.20
+Pseudo abnormal used in BCE: False
+Epoch 125: Total Loss = 0.3412770628929138,BCE Loss =0.3412770628929138
+student_score: 0.16818732023239136
+ggad_score: 6.004573151585646e-05
+student_score_non_normalize: -1.8809833526611328
+ggad_score_non_normalize: -9.757074356079102
+Testing reddit AUC_student_mlp_s: 0.5662
+Testing reddit AUC_student_mlp_s_non_normalize: 0.5662
+Testing reddit AUC_student_ggad: 0.5663
+Testing reddit AUC_student_ggad_non_normalize: 0.5887
+Testing reddit AUC_student_minus_ggad: 0.5662
+Testing reddit AUC_student_minus_ggad_non_normalize: 0.5433
+Testing AP_student_mlp_s: 0.0517
+Testing AP_student_mlp_s_non_normalize: 0.0517
+Testing AP_student_ggad: 0.0517
+Testing AP_student_ggad_non_normalize: 0.0574
+Testing AP_student_minus_ggad: 0.0517
+Testing AP_student_minus_ggad_non_normalize: 0.0450
+Total time is: 55.10880184173584
+Testing_last_ggad_ reddit AUC: 0.6253
+Hard label ratio: 0.20
+Pseudo abnormal used in BCE: False
+Epoch 130: Total Loss = 0.3372650146484375,BCE Loss =0.3372650146484375
+student_score: 0.16124765574932098
+ggad_score: 6.004573151585646e-05
+student_score_non_normalize: -2.0972683429718018
+ggad_score_non_normalize: -9.757074356079102
+Testing reddit AUC_student_mlp_s: 0.5623
+Testing reddit AUC_student_mlp_s_non_normalize: 0.5623
+Testing reddit AUC_student_ggad: 0.5623
+Testing reddit AUC_student_ggad_non_normalize: 0.5791
+Testing reddit AUC_student_minus_ggad: 0.5615
+Testing reddit AUC_student_minus_ggad_non_normalize: 0.5455
+Testing AP_student_mlp_s: 0.0508
+Testing AP_student_mlp_s_non_normalize: 0.0508
+Testing AP_student_ggad: 0.0508
+Testing AP_student_ggad_non_normalize: 0.0561
+Testing AP_student_minus_ggad: 0.0506
+Testing AP_student_minus_ggad_non_normalize: 0.0453
+Total time is: 58.141287088394165
+Testing_last_ggad_ reddit AUC: 0.6253
+Hard label ratio: 0.20
+Pseudo abnormal used in BCE: False
+Epoch 135: Total Loss = 0.32949134707450867,BCE Loss =0.32949134707450867
+student_score: 0.16417470574378967
+ggad_score: 6.004573151585646e-05
+student_score_non_normalize: -2.184971570968628
+ggad_score_non_normalize: -9.757074356079102
+Testing reddit AUC_student_mlp_s: 0.5614
+Testing reddit AUC_student_mlp_s_non_normalize: 0.5614
+Testing reddit AUC_student_ggad: 0.5614
+Testing reddit AUC_student_ggad_non_normalize: 0.5751
+Testing reddit AUC_student_minus_ggad: 0.5614
+Testing reddit AUC_student_minus_ggad_non_normalize: 0.5454
+Testing AP_student_mlp_s: 0.0503
+Testing AP_student_mlp_s_non_normalize: 0.0503
+Testing AP_student_ggad: 0.0504
+Testing AP_student_ggad_non_normalize: 0.0550
+Testing AP_student_minus_ggad: 0.0503
+Testing AP_student_minus_ggad_non_normalize: 0.0454
+Total time is: 61.03556561470032
+Testing_last_ggad_ reddit AUC: 0.6253
+Hard label ratio: 0.20
+Pseudo abnormal used in BCE: False
+Epoch 140: Total Loss = 0.32164105772972107,BCE Loss =0.32164105772972107
+student_score: 0.1641552597284317
+ggad_score: 6.004573151585646e-05
+student_score_non_normalize: -2.235051393508911
+ggad_score_non_normalize: -9.757074356079102
+Testing reddit AUC_student_mlp_s: 0.5620
+Testing reddit AUC_student_mlp_s_non_normalize: 0.5620
+Testing reddit AUC_student_ggad: 0.5620
+Testing reddit AUC_student_ggad_non_normalize: 0.5750
+Testing reddit AUC_student_minus_ggad: 0.5619
+Testing reddit AUC_student_minus_ggad_non_normalize: 0.5464
+Testing AP_student_mlp_s: 0.0508
+Testing AP_student_mlp_s_non_normalize: 0.0508
+Testing AP_student_ggad: 0.0508
+Testing AP_student_ggad_non_normalize: 0.0551
+Testing AP_student_minus_ggad: 0.0508
+Testing AP_student_minus_ggad_non_normalize: 0.0460
+Total time is: 64.19911479949951
+Testing_last_ggad_ reddit AUC: 0.6253
+Hard label ratio: 0.20
+Pseudo abnormal used in BCE: False
+Epoch 145: Total Loss = 0.31350284814834595,BCE Loss =0.31350284814834595
+student_score: 0.16493141651153564
+ggad_score: 6.004573151585646e-05
+student_score_non_normalize: -2.2360541820526123
+ggad_score_non_normalize: -9.757074356079102
+Testing reddit AUC_student_mlp_s: 0.5637
+Testing reddit AUC_student_mlp_s_non_normalize: 0.5637
+Testing reddit AUC_student_ggad: 0.5637
+Testing reddit AUC_student_ggad_non_normalize: 0.5777
+Testing reddit AUC_student_minus_ggad: 0.5637
+Testing reddit AUC_student_minus_ggad_non_normalize: 0.5497
+Testing AP_student_mlp_s: 0.0515
+Testing AP_student_mlp_s_non_normalize: 0.0515
+Testing AP_student_ggad: 0.0515
+Testing AP_student_ggad_non_normalize: 0.0557
+Testing AP_student_minus_ggad: 0.0515
+Testing AP_student_minus_ggad_non_normalize: 0.0469
+Total time is: 67.02415156364441
+Testing_last_ggad_ reddit AUC: 0.6253
+Hard label ratio: 0.20
+Pseudo abnormal used in BCE: False
+Epoch 150: Total Loss = 0.29755744338035583,BCE Loss =0.29755744338035583
+student_score: 0.1620979756116867
+ggad_score: 6.004573151585646e-05
+student_score_non_normalize: -2.2658464908599854
+ggad_score_non_normalize: -9.757074356079102
+Testing reddit AUC_student_mlp_s: 0.5667
+Testing reddit AUC_student_mlp_s_non_normalize: 0.5667
+Testing reddit AUC_student_ggad: 0.5667
+Testing reddit AUC_student_ggad_non_normalize: 0.5813
+Testing reddit AUC_student_minus_ggad: 0.5667
+Testing reddit AUC_student_minus_ggad_non_normalize: 0.5524
+Testing AP_student_mlp_s: 0.0527
+Testing AP_student_mlp_s_non_normalize: 0.0527
+Testing AP_student_ggad: 0.0527
+Testing AP_student_ggad_non_normalize: 0.0561
+Testing AP_student_minus_ggad: 0.0527
+Testing AP_student_minus_ggad_non_normalize: 0.0477
+Total time is: 69.44962787628174
+Testing_last_ggad_ reddit AUC: 0.6253
+Hard label ratio: 0.20
+Pseudo abnormal used in BCE: False
+Epoch 155: Total Loss = 0.2890569567680359,BCE Loss =0.2890569567680359
+student_score: 0.16537167131900787
+ggad_score: 6.004573151585646e-05
+student_score_non_normalize: -2.2397499084472656
+ggad_score_non_normalize: -9.757074356079102
+Testing reddit AUC_student_mlp_s: 0.5678
+Testing reddit AUC_student_mlp_s_non_normalize: 0.5678
+Testing reddit AUC_student_ggad: 0.5678
+Testing reddit AUC_student_ggad_non_normalize: 0.5848
+Testing reddit AUC_student_minus_ggad: 0.5678
+Testing reddit AUC_student_minus_ggad_non_normalize: 0.5552
+Testing AP_student_mlp_s: 0.0532
+Testing AP_student_mlp_s_non_normalize: 0.0532
+Testing AP_student_ggad: 0.0532
+Testing AP_student_ggad_non_normalize: 0.0563
+Testing AP_student_minus_ggad: 0.0532
+Testing AP_student_minus_ggad_non_normalize: 0.0482
+Total time is: 72.45612287521362
+Testing_last_ggad_ reddit AUC: 0.6253
+Hard label ratio: 0.20
+Pseudo abnormal used in BCE: False
+Epoch 160: Total Loss = 0.28013429045677185,BCE Loss =0.28013429045677185
+student_score: 0.1642523556947708
+ggad_score: 6.004573151585646e-05
+student_score_non_normalize: -2.2780299186706543
+ggad_score_non_normalize: -9.757074356079102
+Testing reddit AUC_student_mlp_s: 0.5704
+Testing reddit AUC_student_mlp_s_non_normalize: 0.5704
+Testing reddit AUC_student_ggad: 0.5704
+Testing reddit AUC_student_ggad_non_normalize: 0.5886
+Testing reddit AUC_student_minus_ggad: 0.5704
+Testing reddit AUC_student_minus_ggad_non_normalize: 0.5584
+Testing AP_student_mlp_s: 0.0537
+Testing AP_student_mlp_s_non_normalize: 0.0537
+Testing AP_student_ggad: 0.0537
+Testing AP_student_ggad_non_normalize: 0.0566
+Testing AP_student_minus_ggad: 0.0539
+Testing AP_student_minus_ggad_non_normalize: 0.0492
+Total time is: 74.81588172912598
+Testing_last_ggad_ reddit AUC: 0.6253
+Hard label ratio: 0.20
+Pseudo abnormal used in BCE: False
+Epoch 165: Total Loss = 0.27276599407196045,BCE Loss =0.27276599407196045
+student_score: 0.18333856761455536
+ggad_score: 6.004573151585646e-05
+student_score_non_normalize: -2.1189067363739014
+ggad_score_non_normalize: -9.757074356079102
+Testing reddit AUC_student_mlp_s: 0.5706
+Testing reddit AUC_student_mlp_s_non_normalize: 0.5706
+Testing reddit AUC_student_ggad: 0.5706
+Testing reddit AUC_student_ggad_non_normalize: 0.5868
+Testing reddit AUC_student_minus_ggad: 0.5706
+Testing reddit AUC_student_minus_ggad_non_normalize: 0.5577
+Testing AP_student_mlp_s: 0.0534
+Testing AP_student_mlp_s_non_normalize: 0.0534
+Testing AP_student_ggad: 0.0533
+Testing AP_student_ggad_non_normalize: 0.0562
+Testing AP_student_minus_ggad: 0.0534
+Testing AP_student_minus_ggad_non_normalize: 0.0488
+Total time is: 78.03454971313477
+Testing_last_ggad_ reddit AUC: 0.6253
+Hard label ratio: 0.20
+Pseudo abnormal used in BCE: False
+Epoch 170: Total Loss = 0.26450616121292114,BCE Loss =0.26450616121292114
+student_score: 0.15686404705047607
+ggad_score: 6.004573151585646e-05
+student_score_non_normalize: -2.4408438205718994
+ggad_score_non_normalize: -9.757074356079102
+Testing reddit AUC_student_mlp_s: 0.5810
+Testing reddit AUC_student_mlp_s_non_normalize: 0.5810
+Testing reddit AUC_student_ggad: 0.5810
+Testing reddit AUC_student_ggad_non_normalize: 0.5938
+Testing reddit AUC_student_minus_ggad: 0.5810
+Testing reddit AUC_student_minus_ggad_non_normalize: 0.5645
+Testing AP_student_mlp_s: 0.0553
+Testing AP_student_mlp_s_non_normalize: 0.0553
+Testing AP_student_ggad: 0.0553
+Testing AP_student_ggad_non_normalize: 0.0567
+Testing AP_student_minus_ggad: 0.0553
+Testing AP_student_minus_ggad_non_normalize: 0.0509
+Total time is: 80.45600938796997
+Testing_last_ggad_ reddit AUC: 0.6253
+Hard label ratio: 0.20
+Pseudo abnormal used in BCE: False
+Epoch 175: Total Loss = 0.25554996728897095,BCE Loss =0.25554996728897095
+student_score: 0.17760835587978363
+ggad_score: 6.004573151585646e-05
+student_score_non_normalize: -2.2555770874023438
+ggad_score_non_normalize: -9.757074356079102
+Testing reddit AUC_student_mlp_s: 0.5798
+Testing reddit AUC_student_mlp_s_non_normalize: 0.5798
+Testing reddit AUC_student_ggad: 0.5798
+Testing reddit AUC_student_ggad_non_normalize: 0.5913
+Testing reddit AUC_student_minus_ggad: 0.5798
+Testing reddit AUC_student_minus_ggad_non_normalize: 0.5635
+Testing AP_student_mlp_s: 0.0547
+Testing AP_student_mlp_s_non_normalize: 0.0547
+Testing AP_student_ggad: 0.0547
+Testing AP_student_ggad_non_normalize: 0.0564
+Testing AP_student_minus_ggad: 0.0549
+Testing AP_student_minus_ggad_non_normalize: 0.0504
+Total time is: 83.1917417049408
+Testing_last_ggad_ reddit AUC: 0.6253
+Hard label ratio: 0.20
+Pseudo abnormal used in BCE: False
+Epoch 180: Total Loss = 0.24752689898014069,BCE Loss =0.24752689898014069
+student_score: 0.17838266491889954
+ggad_score: 6.004573151585646e-05
+student_score_non_normalize: -2.28716778755188
+ggad_score_non_normalize: -9.757074356079102
+Testing reddit AUC_student_mlp_s: 0.5814
+Testing reddit AUC_student_mlp_s_non_normalize: 0.5814
+Testing reddit AUC_student_ggad: 0.5814
+Testing reddit AUC_student_ggad_non_normalize: 0.5929
+Testing reddit AUC_student_minus_ggad: 0.5814
+Testing reddit AUC_student_minus_ggad_non_normalize: 0.5662
+Testing AP_student_mlp_s: 0.0551
+Testing AP_student_mlp_s_non_normalize: 0.0551
+Testing AP_student_ggad: 0.0551
+Testing AP_student_ggad_non_normalize: 0.0564
+Testing AP_student_minus_ggad: 0.0551
+Testing AP_student_minus_ggad_non_normalize: 0.0512
+Total time is: 85.19312977790833
+Testing_last_ggad_ reddit AUC: 0.6253
+Hard label ratio: 0.20
+Pseudo abnormal used in BCE: False
+Epoch 185: Total Loss = 0.23963868618011475,BCE Loss =0.23963868618011475
+student_score: 0.17039036750793457
+ggad_score: 6.004573151585646e-05
+student_score_non_normalize: -2.4232141971588135
+ggad_score_non_normalize: -9.757074356079102
+Testing reddit AUC_student_mlp_s: 0.5859
+Testing reddit AUC_student_mlp_s_non_normalize: 0.5859
+Testing reddit AUC_student_ggad: 0.5859
+Testing reddit AUC_student_ggad_non_normalize: 0.5965
+Testing reddit AUC_student_minus_ggad: 0.5859
+Testing reddit AUC_student_minus_ggad_non_normalize: 0.5727
+Testing AP_student_mlp_s: 0.0557
+Testing AP_student_mlp_s_non_normalize: 0.0557
+Testing AP_student_ggad: 0.0556
+Testing AP_student_ggad_non_normalize: 0.0566
+Testing AP_student_minus_ggad: 0.0557
+Testing AP_student_minus_ggad_non_normalize: 0.0527
+Total time is: 87.79541754722595
+Testing_last_ggad_ reddit AUC: 0.6253
+Hard label ratio: 0.20
+Pseudo abnormal used in BCE: False
+Epoch 190: Total Loss = 0.2315681129693985,BCE Loss =0.2315681129693985
+student_score: 0.1723112314939499
+ggad_score: 6.004573151585646e-05
+student_score_non_normalize: -2.459571599960327
+ggad_score_non_normalize: -9.757074356079102
+Testing reddit AUC_student_mlp_s: 0.5878
+Testing reddit AUC_student_mlp_s_non_normalize: 0.5878
+Testing reddit AUC_student_ggad: 0.5878
+Testing reddit AUC_student_ggad_non_normalize: 0.5979
+Testing reddit AUC_student_minus_ggad: 0.5878
+Testing reddit AUC_student_minus_ggad_non_normalize: 0.5762
+Testing AP_student_mlp_s: 0.0556
+Testing AP_student_mlp_s_non_normalize: 0.0556
+Testing AP_student_ggad: 0.0556
+Testing AP_student_ggad_non_normalize: 0.0566
+Testing AP_student_minus_ggad: 0.0558
+Testing AP_student_minus_ggad_non_normalize: 0.0530
+Total time is: 90.14820718765259
+Testing_last_ggad_ reddit AUC: 0.6253
+Hard label ratio: 0.20
+Pseudo abnormal used in BCE: False
+Epoch 195: Total Loss = 0.22334007918834686,BCE Loss =0.22334007918834686
+student_score: 0.17531664669513702
+ggad_score: 6.004573151585646e-05
+student_score_non_normalize: -2.49035382270813
+ggad_score_non_normalize: -9.757074356079102
+Testing reddit AUC_student_mlp_s: 0.5895
+Testing reddit AUC_student_mlp_s_non_normalize: 0.5895
+Testing reddit AUC_student_ggad: 0.5895
+Testing reddit AUC_student_ggad_non_normalize: 0.5992
+Testing reddit AUC_student_minus_ggad: 0.5894
+Testing reddit AUC_student_minus_ggad_non_normalize: 0.5787
+Testing AP_student_mlp_s: 0.0556
+Testing AP_student_mlp_s_non_normalize: 0.0556
+Testing AP_student_ggad: 0.0556
+Testing AP_student_ggad_non_normalize: 0.0565
+Testing AP_student_minus_ggad: 0.0558
+Testing AP_student_minus_ggad_non_normalize: 0.0536
+Total time is: 92.77397084236145
+Testing_last_ggad_ reddit AUC: 0.6253
+Hard label ratio: 0.20
+Pseudo abnormal used in BCE: False
+Epoch 200: Total Loss = 0.21497008204460144,BCE Loss =0.21497008204460144
+student_score: 0.17759650945663452
+ggad_score: 6.004573151585646e-05
+student_score_non_normalize: -2.5390701293945312
+ggad_score_non_normalize: -9.757074356079102
+Testing reddit AUC_student_mlp_s: 0.5919
+Testing reddit AUC_student_mlp_s_non_normalize: 0.5919
+Testing reddit AUC_student_ggad: 0.5919
+Testing reddit AUC_student_ggad_non_normalize: 0.6004
+Testing reddit AUC_student_minus_ggad: 0.5919
+Testing reddit AUC_student_minus_ggad_non_normalize: 0.5816
+Testing AP_student_mlp_s: 0.0558
+Testing AP_student_mlp_s_non_normalize: 0.0558
+Testing AP_student_ggad: 0.0558
+Testing AP_student_ggad_non_normalize: 0.0565
+Testing AP_student_minus_ggad: 0.0558
+Testing AP_student_minus_ggad_non_normalize: 0.0538
+Total time is: 95.54681730270386
+Testing_last_ggad_ reddit AUC: 0.6253
+Hard label ratio: 0.20
+Pseudo abnormal used in BCE: False
+Epoch 205: Total Loss = 0.20736892521381378,BCE Loss =0.20736892521381378
+student_score: 0.19501830637454987
+ggad_score: 6.004573151585646e-05
+student_score_non_normalize: -2.4036731719970703
+ggad_score_non_normalize: -9.757074356079102
+Testing reddit AUC_student_mlp_s: 0.5913
+Testing reddit AUC_student_mlp_s_non_normalize: 0.5913
+Testing reddit AUC_student_ggad: 0.5913
+Testing reddit AUC_student_ggad_non_normalize: 0.5996
+Testing reddit AUC_student_minus_ggad: 0.5913
+Testing reddit AUC_student_minus_ggad_non_normalize: 0.5820
+Testing AP_student_mlp_s: 0.0556
+Testing AP_student_mlp_s_non_normalize: 0.0556
+Testing AP_student_ggad: 0.0556
+Testing AP_student_ggad_non_normalize: 0.0563
+Testing AP_student_minus_ggad: 0.0558
+Testing AP_student_minus_ggad_non_normalize: 0.0535
+Total time is: 98.2940468788147
+Testing_last_ggad_ reddit AUC: 0.6253
+Hard label ratio: 0.20
+Pseudo abnormal used in BCE: False
+Epoch 210: Total Loss = 0.19870267808437347,BCE Loss =0.19870267808437347
+student_score: 0.18706096708774567
+ggad_score: 6.004573151585646e-05
+student_score_non_normalize: -2.57478928565979
+ggad_score_non_normalize: -9.757074356079102
+Testing reddit AUC_student_mlp_s: 0.5948
+Testing reddit AUC_student_mlp_s_non_normalize: 0.5948
+Testing reddit AUC_student_ggad: 0.5949
+Testing reddit AUC_student_ggad_non_normalize: 0.6037
+Testing reddit AUC_student_minus_ggad: 0.5948
+Testing reddit AUC_student_minus_ggad_non_normalize: 0.5857
+Testing AP_student_mlp_s: 0.0559
+Testing AP_student_mlp_s_non_normalize: 0.0559
+Testing AP_student_ggad: 0.0559
+Testing AP_student_ggad_non_normalize: 0.0564
+Testing AP_student_minus_ggad: 0.0559
+Testing AP_student_minus_ggad_non_normalize: 0.0544
+Total time is: 100.61419224739075
+Testing_last_ggad_ reddit AUC: 0.6253
+Hard label ratio: 0.20
+Pseudo abnormal used in BCE: False
+Epoch 215: Total Loss = 0.19282236695289612,BCE Loss =0.19282236695289612
+student_score: 0.17290672659873962
+ggad_score: 6.004573151585646e-05
+student_score_non_normalize: -2.846181869506836
+ggad_score_non_normalize: -9.757074356079102
+Testing reddit AUC_student_mlp_s: 0.6000
+Testing reddit AUC_student_mlp_s_non_normalize: 0.6000
+Testing reddit AUC_student_ggad: 0.6000
+Testing reddit AUC_student_ggad_non_normalize: 0.6069
+Testing reddit AUC_student_minus_ggad: 0.6000
+Testing reddit AUC_student_minus_ggad_non_normalize: 0.5912
+Testing AP_student_mlp_s: 0.0560
+Testing AP_student_mlp_s_non_normalize: 0.0560
+Testing AP_student_ggad: 0.0562
+Testing AP_student_ggad_non_normalize: 0.0564
+Testing AP_student_minus_ggad: 0.0561
+Testing AP_student_minus_ggad_non_normalize: 0.0553
+Total time is: 102.94029641151428
+Testing_last_ggad_ reddit AUC: 0.6253
+Hard label ratio: 0.20
+Pseudo abnormal used in BCE: False
+Epoch 220: Total Loss = 0.18464313447475433,BCE Loss =0.18464313447475433
+student_score: 0.18175703287124634
+ggad_score: 6.004573151585646e-05
+student_score_non_normalize: -2.8045928478240967
+ggad_score_non_normalize: -9.757074356079102
+Testing reddit AUC_student_mlp_s: 0.6015
+Testing reddit AUC_student_mlp_s_non_normalize: 0.6015
+Testing reddit AUC_student_ggad: 0.6015
+Testing reddit AUC_student_ggad_non_normalize: 0.6069
+Testing reddit AUC_student_minus_ggad: 0.6015
+Testing reddit AUC_student_minus_ggad_non_normalize: 0.5917
+Testing AP_student_mlp_s: 0.0560
+Testing AP_student_mlp_s_non_normalize: 0.0560
+Testing AP_student_ggad: 0.0561
+Testing AP_student_ggad_non_normalize: 0.0564
+Testing AP_student_minus_ggad: 0.0560
+Testing AP_student_minus_ggad_non_normalize: 0.0552
+Total time is: 105.85143065452576
+Testing_last_ggad_ reddit AUC: 0.6253
+Hard label ratio: 0.20
+Pseudo abnormal used in BCE: False
+Epoch 225: Total Loss = 0.17823636531829834,BCE Loss =0.17823636531829834
+student_score: 0.18417857587337494
+ggad_score: 6.004573151585646e-05
+student_score_non_normalize: -2.8469958305358887
+ggad_score_non_normalize: -9.757074356079102
+Testing reddit AUC_student_mlp_s: 0.6027
+Testing reddit AUC_student_mlp_s_non_normalize: 0.6027
+Testing reddit AUC_student_ggad: 0.6028
+Testing reddit AUC_student_ggad_non_normalize: 0.6077
+Testing reddit AUC_student_minus_ggad: 0.6027
+Testing reddit AUC_student_minus_ggad_non_normalize: 0.5941
+Testing AP_student_mlp_s: 0.0559
+Testing AP_student_mlp_s_non_normalize: 0.0559
+Testing AP_student_ggad: 0.0561
+Testing AP_student_ggad_non_normalize: 0.0564
+Testing AP_student_minus_ggad: 0.0559
+Testing AP_student_minus_ggad_non_normalize: 0.0553
+Total time is: 108.61075139045715
+Testing_last_ggad_ reddit AUC: 0.6253
+Hard label ratio: 0.20
+Pseudo abnormal used in BCE: False
+Epoch 230: Total Loss = 0.17210374772548676,BCE Loss =0.17210374772548676
+student_score: 0.18722909688949585
+ggad_score: 6.004573151585646e-05
+student_score_non_normalize: -2.8840510845184326
+ggad_score_non_normalize: -9.757074356079102
+Testing reddit AUC_student_mlp_s: 0.6039
+Testing reddit AUC_student_mlp_s_non_normalize: 0.6039
+Testing reddit AUC_student_ggad: 0.6039
+Testing reddit AUC_student_ggad_non_normalize: 0.6082
+Testing reddit AUC_student_minus_ggad: 0.6038
+Testing reddit AUC_student_minus_ggad_non_normalize: 0.5970
+Testing AP_student_mlp_s: 0.0561
+Testing AP_student_mlp_s_non_normalize: 0.0561
+Testing AP_student_ggad: 0.0561
+Testing AP_student_ggad_non_normalize: 0.0564
+Testing AP_student_minus_ggad: 0.0561
+Testing AP_student_minus_ggad_non_normalize: 0.0552
+Total time is: 111.16678857803345
+Testing_last_ggad_ reddit AUC: 0.6253
+Hard label ratio: 0.20
+Pseudo abnormal used in BCE: False
+Epoch 235: Total Loss = 0.16642315685749054,BCE Loss =0.16642315685749054
+student_score: 0.1928424835205078
+ggad_score: 6.004573151585646e-05
+student_score_non_normalize: -2.8788974285125732
+ggad_score_non_normalize: -9.757074356079102
+Testing reddit AUC_student_mlp_s: 0.6043
+Testing reddit AUC_student_mlp_s_non_normalize: 0.6043
+Testing reddit AUC_student_ggad: 0.6043
+Testing reddit AUC_student_ggad_non_normalize: 0.6084
+Testing reddit AUC_student_minus_ggad: 0.6043
+Testing reddit AUC_student_minus_ggad_non_normalize: 0.5985
+Testing AP_student_mlp_s: 0.0561
+Testing AP_student_mlp_s_non_normalize: 0.0561
+Testing AP_student_ggad: 0.0561
+Testing AP_student_ggad_non_normalize: 0.0563
+Testing AP_student_minus_ggad: 0.0560
+Testing AP_student_minus_ggad_non_normalize: 0.0552
+Total time is: 113.39380073547363
+Testing_last_ggad_ reddit AUC: 0.6253
+Hard label ratio: 0.20
+Pseudo abnormal used in BCE: False
+Epoch 240: Total Loss = 0.16171319782733917,BCE Loss =0.16171319782733917
+student_score: 0.20100033283233643
+ggad_score: 6.004573151585646e-05
+student_score_non_normalize: -2.830333709716797
+ggad_score_non_normalize: -9.757074356079102
+Testing reddit AUC_student_mlp_s: 0.6040
+Testing reddit AUC_student_mlp_s_non_normalize: 0.6040
+Testing reddit AUC_student_ggad: 0.6040
+Testing reddit AUC_student_ggad_non_normalize: 0.6081
+Testing reddit AUC_student_minus_ggad: 0.6040
+Testing reddit AUC_student_minus_ggad_non_normalize: 0.5989
+Testing AP_student_mlp_s: 0.0558
+Testing AP_student_mlp_s_non_normalize: 0.0558
+Testing AP_student_ggad: 0.0560
+Testing AP_student_ggad_non_normalize: 0.0563
+Testing AP_student_minus_ggad: 0.0560
+Testing AP_student_minus_ggad_non_normalize: 0.0552
+Total time is: 116.23498177528381
+Testing_last_ggad_ reddit AUC: 0.6253
+Hard label ratio: 0.20
+Pseudo abnormal used in BCE: False
+Epoch 245: Total Loss = 0.15645761787891388,BCE Loss =0.15645761787891388
+student_score: 0.19757811725139618
+ggad_score: 6.004573151585646e-05
+student_score_non_normalize: -2.9538228511810303
+ggad_score_non_normalize: -9.757074356079102
+Testing reddit AUC_student_mlp_s: 0.6057
+Testing reddit AUC_student_mlp_s_non_normalize: 0.6057
+Testing reddit AUC_student_ggad: 0.6058
+Testing reddit AUC_student_ggad_non_normalize: 0.6094
+Testing reddit AUC_student_minus_ggad: 0.6057
+Testing reddit AUC_student_minus_ggad_non_normalize: 0.6013
+Testing AP_student_mlp_s: 0.0559
+Testing AP_student_mlp_s_non_normalize: 0.0559
+Testing AP_student_ggad: 0.0561
+Testing AP_student_ggad_non_normalize: 0.0562
+Testing AP_student_minus_ggad: 0.0561
+Testing AP_student_minus_ggad_non_normalize: 0.0553
+Total time is: 118.77554488182068
+Testing_last_ggad_ reddit AUC: 0.6253
+Hard label ratio: 0.20
+Pseudo abnormal used in BCE: False
+Epoch 250: Total Loss = 0.15446560084819794,BCE Loss =0.15446560084819794
+student_score: 0.1766170859336853
+ggad_score: 6.004573151585646e-05
+student_score_non_normalize: -3.367448091506958
+ggad_score_non_normalize: -9.757074356079102
+Testing reddit AUC_student_mlp_s: 0.6096
+Testing reddit AUC_student_mlp_s_non_normalize: 0.6096
+Testing reddit AUC_student_ggad: 0.6096
+Testing reddit AUC_student_ggad_non_normalize: 0.6134
+Testing reddit AUC_student_minus_ggad: 0.6095
+Testing reddit AUC_student_minus_ggad_non_normalize: 0.6054
+Testing AP_student_mlp_s: 0.0559
+Testing AP_student_mlp_s_non_normalize: 0.0559
+Testing AP_student_ggad: 0.0561
+Testing AP_student_ggad_non_normalize: 0.0562
+Testing AP_student_minus_ggad: 0.0558
+Testing AP_student_minus_ggad_non_normalize: 0.0555
+Total time is: 121.11879825592041
+Testing_last_ggad_ reddit AUC: 0.6253
+Hard label ratio: 0.20
+Pseudo abnormal used in BCE: False
+Epoch 255: Total Loss = 0.1482064574956894,BCE Loss =0.1482064574956894
+student_score: 0.1872383952140808
+ggad_score: 6.004573151585646e-05
+student_score_non_normalize: -3.267432689666748
+ggad_score_non_normalize: -9.757074356079102
+Testing reddit AUC_student_mlp_s: 0.6088
+Testing reddit AUC_student_mlp_s_non_normalize: 0.6088
+Testing reddit AUC_student_ggad: 0.6088
+Testing reddit AUC_student_ggad_non_normalize: 0.6128
+Testing reddit AUC_student_minus_ggad: 0.6087
+Testing reddit AUC_student_minus_ggad_non_normalize: 0.6050
+Testing AP_student_mlp_s: 0.0558
+Testing AP_student_mlp_s_non_normalize: 0.0558
+Testing AP_student_ggad: 0.0558
+Testing AP_student_ggad_non_normalize: 0.0560
+Testing AP_student_minus_ggad: 0.0560
+Testing AP_student_minus_ggad_non_normalize: 0.0554
+Total time is: 123.67754697799683
+Testing_last_ggad_ reddit AUC: 0.6253
+Hard label ratio: 0.20
+Pseudo abnormal used in BCE: False
+Epoch 260: Total Loss = 0.14436863362789154,BCE Loss =0.14436863362789154
+student_score: 0.18891213834285736
+ggad_score: 6.004573151585646e-05
+student_score_non_normalize: -3.3125905990600586
+ggad_score_non_normalize: -9.757074356079102
+Testing reddit AUC_student_mlp_s: 0.6098
+Testing reddit AUC_student_mlp_s_non_normalize: 0.6098
+Testing reddit AUC_student_ggad: 0.6098
+Testing reddit AUC_student_ggad_non_normalize: 0.6131
+Testing reddit AUC_student_minus_ggad: 0.6098
+Testing reddit AUC_student_minus_ggad_non_normalize: 0.6054
+Testing AP_student_mlp_s: 0.0555
+Testing AP_student_mlp_s_non_normalize: 0.0555
+Testing AP_student_ggad: 0.0556
+Testing AP_student_ggad_non_normalize: 0.0558
+Testing AP_student_minus_ggad: 0.0559
+Testing AP_student_minus_ggad_non_normalize: 0.0552
+Total time is: 125.91135668754578
+Testing_last_ggad_ reddit AUC: 0.6253
+Hard label ratio: 0.20
+Pseudo abnormal used in BCE: False
+Epoch 265: Total Loss = 0.14082787930965424,BCE Loss =0.14082787930965424
+student_score: 0.19058051705360413
+ggad_score: 6.004573151585646e-05
+student_score_non_normalize: -3.3560776710510254
+ggad_score_non_normalize: -9.757074356079102
+Testing reddit AUC_student_mlp_s: 0.6102
+Testing reddit AUC_student_mlp_s_non_normalize: 0.6102
+Testing reddit AUC_student_ggad: 0.6103
+Testing reddit AUC_student_ggad_non_normalize: 0.6133
+Testing reddit AUC_student_minus_ggad: 0.6102
+Testing reddit AUC_student_minus_ggad_non_normalize: 0.6059
+Testing AP_student_mlp_s: 0.0555
+Testing AP_student_mlp_s_non_normalize: 0.0555
+Testing AP_student_ggad: 0.0556
+Testing AP_student_ggad_non_normalize: 0.0558
+Testing AP_student_minus_ggad: 0.0562
+Testing AP_student_minus_ggad_non_normalize: 0.0552
+Total time is: 128.1329219341278
+Testing_last_ggad_ reddit AUC: 0.6253
+Hard label ratio: 0.20
+Pseudo abnormal used in BCE: False
+Epoch 270: Total Loss = 0.13740824162960052,BCE Loss =0.13740824162960052
+student_score: 0.1945153921842575
+ggad_score: 6.004573151585646e-05
+student_score_non_normalize: -3.35845685005188
+ggad_score_non_normalize: -9.757074356079102
+Testing reddit AUC_student_mlp_s: 0.6102
+Testing reddit AUC_student_mlp_s_non_normalize: 0.6102
+Testing reddit AUC_student_ggad: 0.6102
+Testing reddit AUC_student_ggad_non_normalize: 0.6141
+Testing reddit AUC_student_minus_ggad: 0.6101
+Testing reddit AUC_student_minus_ggad_non_normalize: 0.6060
+Testing AP_student_mlp_s: 0.0553
+Testing AP_student_mlp_s_non_normalize: 0.0553
+Testing AP_student_ggad: 0.0556
+Testing AP_student_ggad_non_normalize: 0.0556
+Testing AP_student_minus_ggad: 0.0566
+Testing AP_student_minus_ggad_non_normalize: 0.0551
+Total time is: 130.5572054386139
+Testing_last_ggad_ reddit AUC: 0.6253
+Hard label ratio: 0.20
+Pseudo abnormal used in BCE: False
+Epoch 275: Total Loss = 0.14204028248786926,BCE Loss =0.14204028248786926
+student_score: 0.19915135204792023
+ggad_score: 6.004573151585646e-05
+student_score_non_normalize: -3.345972776412964
+ggad_score_non_normalize: -9.757074356079102
+Testing reddit AUC_student_mlp_s: 0.6098
+Testing reddit AUC_student_mlp_s_non_normalize: 0.6098
+Testing reddit AUC_student_ggad: 0.6100
+Testing reddit AUC_student_ggad_non_normalize: 0.6140
+Testing reddit AUC_student_minus_ggad: 0.6098
+Testing reddit AUC_student_minus_ggad_non_normalize: 0.6061
+Testing AP_student_mlp_s: 0.0553
+Testing AP_student_mlp_s_non_normalize: 0.0553
+Testing AP_student_ggad: 0.0556
+Testing AP_student_ggad_non_normalize: 0.0554
+Testing AP_student_minus_ggad: 0.0566
+Testing AP_student_minus_ggad_non_normalize: 0.0551
+Total time is: 132.80280566215515
+Testing_last_ggad_ reddit AUC: 0.6253
+Hard label ratio: 0.20
+Pseudo abnormal used in BCE: False
+Epoch 280: Total Loss = 0.139964297413826,BCE Loss =0.139964297413826
+student_score: 0.20705418288707733
+ggad_score: 6.004573151585646e-05
+student_score_non_normalize: -3.274801731109619
+ggad_score_non_normalize: -9.757074356079102
+Testing reddit AUC_student_mlp_s: 0.6095
+Testing reddit AUC_student_mlp_s_non_normalize: 0.6095
+Testing reddit AUC_student_ggad: 0.6096
+Testing reddit AUC_student_ggad_non_normalize: 0.6135
+Testing reddit AUC_student_minus_ggad: 0.6095
+Testing reddit AUC_student_minus_ggad_non_normalize: 0.6065
+Testing AP_student_mlp_s: 0.0553
+Testing AP_student_mlp_s_non_normalize: 0.0553
+Testing AP_student_ggad: 0.0555
+Testing AP_student_ggad_non_normalize: 0.0554
+Testing AP_student_minus_ggad: 0.0567
+Testing AP_student_minus_ggad_non_normalize: 0.0551
+Total time is: 135.33179640769958
+Testing_last_ggad_ reddit AUC: 0.6253
+Hard label ratio: 0.20
+Pseudo abnormal used in BCE: False
+Epoch 285: Total Loss = 0.13687770068645477,BCE Loss =0.13687770068645477
+student_score: 0.18809466063976288
+ggad_score: 6.004573151585646e-05
+student_score_non_normalize: -3.6835975646972656
+ggad_score_non_normalize: -9.757074356079102
+Testing reddit AUC_student_mlp_s: 0.6124
+Testing reddit AUC_student_mlp_s_non_normalize: 0.6124
+Testing reddit AUC_student_ggad: 0.6124
+Testing reddit AUC_student_ggad_non_normalize: 0.6155
+Testing reddit AUC_student_minus_ggad: 0.6123
+Testing reddit AUC_student_minus_ggad_non_normalize: 0.6094
+Testing AP_student_mlp_s: 0.0552
+Testing AP_student_mlp_s_non_normalize: 0.0552
+Testing AP_student_ggad: 0.0554
+Testing AP_student_ggad_non_normalize: 0.0553
+Testing AP_student_minus_ggad: 0.0565
+Testing AP_student_minus_ggad_non_normalize: 0.0551
+Total time is: 137.72768378257751
+Testing_last_ggad_ reddit AUC: 0.6253
+Hard label ratio: 0.20
+Pseudo abnormal used in BCE: False
+Epoch 290: Total Loss = 0.13404494524002075,BCE Loss =0.13404494524002075
+student_score: 0.19038546085357666
+ggad_score: 6.004573151585646e-05
+student_score_non_normalize: -3.710022211074829
+ggad_score_non_normalize: -9.757074356079102
+Testing reddit AUC_student_mlp_s: 0.6125
+Testing reddit AUC_student_mlp_s_non_normalize: 0.6125
+Testing reddit AUC_student_ggad: 0.6126
+Testing reddit AUC_student_ggad_non_normalize: 0.6155
+Testing reddit AUC_student_minus_ggad: 0.6125
+Testing reddit AUC_student_minus_ggad_non_normalize: 0.6095
+Testing AP_student_mlp_s: 0.0552
+Testing AP_student_mlp_s_non_normalize: 0.0552
+Testing AP_student_ggad: 0.0552
+Testing AP_student_ggad_non_normalize: 0.0552
+Testing AP_student_minus_ggad: 0.0565
+Testing AP_student_minus_ggad_non_normalize: 0.0551
+Total time is: 140.16675996780396
+Testing_last_ggad_ reddit AUC: 0.6253
+Hard label ratio: 0.20
+Pseudo abnormal used in BCE: False
+Epoch 295: Total Loss = 0.14093707501888275,BCE Loss =0.14093707501888275
+student_score: 0.21165861189365387
+ggad_score: 6.004573151585646e-05
+student_score_non_normalize: -3.3810248374938965
+ggad_score_non_normalize: -9.757074356079102
+Testing reddit AUC_student_mlp_s: 0.6099
+Testing reddit AUC_student_mlp_s_non_normalize: 0.6099
+Testing reddit AUC_student_ggad: 0.6100
+Testing reddit AUC_student_ggad_non_normalize: 0.6135
+Testing reddit AUC_student_minus_ggad: 0.6099
+Testing reddit AUC_student_minus_ggad_non_normalize: 0.6072
+Testing AP_student_mlp_s: 0.0551
+Testing AP_student_mlp_s_non_normalize: 0.0551
+Testing AP_student_ggad: 0.0551
+Testing AP_student_ggad_non_normalize: 0.0551
+Testing AP_student_minus_ggad: 0.0561
+Testing AP_student_minus_ggad_non_normalize: 0.0550
+Total time is: 142.493305683136
+Testing_last_ggad_ reddit AUC: 0.6253
+Hard label ratio: 0.20
+Pseudo abnormal used in BCE: False
+Epoch 300: Total Loss = 0.13711051642894745,BCE Loss =0.13711051642894745
+student_score: 0.2036386877298355
+ggad_score: 6.004573151585646e-05
+student_score_non_normalize: -3.5911872386932373
+ggad_score_non_normalize: -9.757074356079102
+Testing reddit AUC_student_mlp_s: 0.6120
+Testing reddit AUC_student_mlp_s_non_normalize: 0.6120
+Testing reddit AUC_student_ggad: 0.6121
+Testing reddit AUC_student_ggad_non_normalize: 0.6145
+Testing reddit AUC_student_minus_ggad: 0.6110
+Testing reddit AUC_student_minus_ggad_non_normalize: 0.6085
+Testing AP_student_mlp_s: 0.0550
+Testing AP_student_mlp_s_non_normalize: 0.0550
+Testing AP_student_ggad: 0.0551
+Testing AP_student_ggad_non_normalize: 0.0551
+Testing AP_student_minus_ggad: 0.0560
+Testing AP_student_minus_ggad_non_normalize: 0.0549
+Total time is: 145.5911169052124
+Testing_last_ggad_ reddit AUC: 0.6253
+Hard label ratio: 0.20
+Pseudo abnormal used in BCE: False
+Epoch 305: Total Loss = 0.12766367197036743,BCE Loss =0.12766367197036743
+student_score: 0.18876025080680847
+ggad_score: 6.004573151585646e-05
+student_score_non_normalize: -3.9431467056274414
+ggad_score_non_normalize: -9.757074356079102
+Testing reddit AUC_student_mlp_s: 0.6143
+Testing reddit AUC_student_mlp_s_non_normalize: 0.6143
+Testing reddit AUC_student_ggad: 0.6144
+Testing reddit AUC_student_ggad_non_normalize: 0.6160
+Testing reddit AUC_student_minus_ggad: 0.6141
+Testing reddit AUC_student_minus_ggad_non_normalize: 0.6107
+Testing AP_student_mlp_s: 0.0550
+Testing AP_student_mlp_s_non_normalize: 0.0550
+Testing AP_student_ggad: 0.0551
+Testing AP_student_ggad_non_normalize: 0.0550
+Testing AP_student_minus_ggad: 0.0560
+Testing AP_student_minus_ggad_non_normalize: 0.0549
+Total time is: 147.6345603466034
+Testing_last_ggad_ reddit AUC: 0.6253
+Hard label ratio: 0.20
+Pseudo abnormal used in BCE: False
+Epoch 310: Total Loss = 0.13454948365688324,BCE Loss =0.13454948365688324
+student_score: 0.18362535536289215
+ggad_score: 6.004573151585646e-05
+student_score_non_normalize: -4.1121826171875
+ggad_score_non_normalize: -9.757074356079102
+Testing reddit AUC_student_mlp_s: 0.6151
+Testing reddit AUC_student_mlp_s_non_normalize: 0.6151
+Testing reddit AUC_student_ggad: 0.6152
+Testing reddit AUC_student_ggad_non_normalize: 0.6167
+Testing reddit AUC_student_minus_ggad: 0.6147
+Testing reddit AUC_student_minus_ggad_non_normalize: 0.6114
+Testing AP_student_mlp_s: 0.0549
+Testing AP_student_mlp_s_non_normalize: 0.0549
+Testing AP_student_ggad: 0.0551
+Testing AP_student_ggad_non_normalize: 0.0549
+Testing AP_student_minus_ggad: 0.0559
+Testing AP_student_minus_ggad_non_normalize: 0.0548
+Total time is: 149.85769891738892
+Testing_last_ggad_ reddit AUC: 0.6253
+Hard label ratio: 0.20
+Pseudo abnormal used in BCE: False
+Epoch 315: Total Loss = 0.13085734844207764,BCE Loss =0.13085734844207764
+student_score: 0.1989997923374176
+ggad_score: 6.004573151585646e-05
+student_score_non_normalize: -3.865384817123413
+ggad_score_non_normalize: -9.757074356079102
+Testing reddit AUC_student_mlp_s: 0.6135
+Testing reddit AUC_student_mlp_s_non_normalize: 0.6135
+Testing reddit AUC_student_ggad: 0.6136
+Testing reddit AUC_student_ggad_non_normalize: 0.6154
+Testing reddit AUC_student_minus_ggad: 0.6129
+Testing reddit AUC_student_minus_ggad_non_normalize: 0.6100
+Testing AP_student_mlp_s: 0.0548
+Testing AP_student_mlp_s_non_normalize: 0.0548
+Testing AP_student_ggad: 0.0548
+Testing AP_student_ggad_non_normalize: 0.0548
+Testing AP_student_minus_ggad: 0.0562
+Testing AP_student_minus_ggad_non_normalize: 0.0547
+Total time is: 152.21368312835693
+Testing_last_ggad_ reddit AUC: 0.6253
+Hard label ratio: 0.20
+Pseudo abnormal used in BCE: False
+Epoch 320: Total Loss = 0.13037468492984772,BCE Loss =0.13037468492984772
+student_score: 0.20853957533836365
+ggad_score: 6.004573151585646e-05
+student_score_non_normalize: -3.7337839603424072
+ggad_score_non_normalize: -9.757074356079102
+Testing reddit AUC_student_mlp_s: 0.6125
+Testing reddit AUC_student_mlp_s_non_normalize: 0.6125
+Testing reddit AUC_student_ggad: 0.6126
+Testing reddit AUC_student_ggad_non_normalize: 0.6146
+Testing reddit AUC_student_minus_ggad: 0.6122
+Testing reddit AUC_student_minus_ggad_non_normalize: 0.6093
+Testing AP_student_mlp_s: 0.0547
+Testing AP_student_mlp_s_non_normalize: 0.0547
+Testing AP_student_ggad: 0.0548
+Testing AP_student_ggad_non_normalize: 0.0547
+Testing AP_student_minus_ggad: 0.0562
+Testing AP_student_minus_ggad_non_normalize: 0.0546
+Total time is: 155.10673546791077
+Testing_last_ggad_ reddit AUC: 0.6253
+Hard label ratio: 0.20
+Pseudo abnormal used in BCE: False
+Epoch 325: Total Loss = 0.12758688628673553,BCE Loss =0.12758688628673553
+student_score: 0.20072440803050995
+ggad_score: 6.004573151585646e-05
+student_score_non_normalize: -3.9487195014953613
+ggad_score_non_normalize: -9.757074356079102
+Testing reddit AUC_student_mlp_s: 0.6137
+Testing reddit AUC_student_mlp_s_non_normalize: 0.6137
+Testing reddit AUC_student_ggad: 0.6138
+Testing reddit AUC_student_ggad_non_normalize: 0.6154
+Testing reddit AUC_student_minus_ggad: 0.6129
+Testing reddit AUC_student_minus_ggad_non_normalize: 0.6100
+Testing AP_student_mlp_s: 0.0547
+Testing AP_student_mlp_s_non_normalize: 0.0547
+Testing AP_student_ggad: 0.0548
+Testing AP_student_ggad_non_normalize: 0.0546
+Testing AP_student_minus_ggad: 0.0562
+Testing AP_student_minus_ggad_non_normalize: 0.0545
+Total time is: 157.53416657447815
+Testing_last_ggad_ reddit AUC: 0.6253
+Hard label ratio: 0.20
+Pseudo abnormal used in BCE: False
+Epoch 330: Total Loss = 0.12718366086483002,BCE Loss =0.12718366086483002
+student_score: 0.18664740025997162
+ggad_score: 6.004573151585646e-05
+student_score_non_normalize: -4.303123950958252
+ggad_score_non_normalize: -9.757074356079102
+Testing reddit AUC_student_mlp_s: 0.6152
+Testing reddit AUC_student_mlp_s_non_normalize: 0.6152
+Testing reddit AUC_student_ggad: 0.6154
+Testing reddit AUC_student_ggad_non_normalize: 0.6167
+Testing reddit AUC_student_minus_ggad: 0.6147
+Testing reddit AUC_student_minus_ggad_non_normalize: 0.6117
+Testing AP_student_mlp_s: 0.0545
+Testing AP_student_mlp_s_non_normalize: 0.0545
+Testing AP_student_ggad: 0.0547
+Testing AP_student_ggad_non_normalize: 0.0543
+Testing AP_student_minus_ggad: 0.0557
+Testing AP_student_minus_ggad_non_normalize: 0.0546
+Total time is: 159.73410081863403
+Testing_last_ggad_ reddit AUC: 0.6253
+Hard label ratio: 0.20
+Pseudo abnormal used in BCE: False
+Epoch 335: Total Loss = 0.12468096613883972,BCE Loss =0.12468096613883972
+student_score: 0.20214702188968658
+ggad_score: 6.004573151585646e-05
+student_score_non_normalize: -4.032855033874512
+ggad_score_non_normalize: -9.757074356079102
+Testing reddit AUC_student_mlp_s: 0.6138
+Testing reddit AUC_student_mlp_s_non_normalize: 0.6138
+Testing reddit AUC_student_ggad: 0.6139
+Testing reddit AUC_student_ggad_non_normalize: 0.6152
+Testing reddit AUC_student_minus_ggad: 0.6130
+Testing reddit AUC_student_minus_ggad_non_normalize: 0.6102
+Testing AP_student_mlp_s: 0.0545
+Testing AP_student_mlp_s_non_normalize: 0.0545
+Testing AP_student_ggad: 0.0546
+Testing AP_student_ggad_non_normalize: 0.0543
+Testing AP_student_minus_ggad: 0.0560
+Testing AP_student_minus_ggad_non_normalize: 0.0545
+Total time is: 161.9823648929596
+Testing_last_ggad_ reddit AUC: 0.6253
+Hard label ratio: 0.20
+Pseudo abnormal used in BCE: False
+Epoch 340: Total Loss = 0.12325622886419296,BCE Loss =0.12325622886419296
+student_score: 0.2017924040555954
+ggad_score: 6.004573151585646e-05
+student_score_non_normalize: -4.095583438873291
+ggad_score_non_normalize: -9.757074356079102
+Testing reddit AUC_student_mlp_s: 0.6140
+Testing reddit AUC_student_mlp_s_non_normalize: 0.6140
+Testing reddit AUC_student_ggad: 0.6141
+Testing reddit AUC_student_ggad_non_normalize: 0.6154
+Testing reddit AUC_student_minus_ggad: 0.6132
+Testing reddit AUC_student_minus_ggad_non_normalize: 0.6114
+Testing AP_student_mlp_s: 0.0544
+Testing AP_student_mlp_s_non_normalize: 0.0544
+Testing AP_student_ggad: 0.0546
+Testing AP_student_ggad_non_normalize: 0.0543
+Testing AP_student_minus_ggad: 0.0560
+Testing AP_student_minus_ggad_non_normalize: 0.0545
+Total time is: 164.79998064041138
+Testing_last_ggad_ reddit AUC: 0.6253
+Hard label ratio: 0.20
+Pseudo abnormal used in BCE: False
+Epoch 345: Total Loss = 0.12492987513542175,BCE Loss =0.12492987513542175
+student_score: 0.1808202564716339
+ggad_score: 6.004573151585646e-05
+student_score_non_normalize: -4.611380100250244
+ggad_score_non_normalize: -9.757074356079102
+Testing reddit AUC_student_mlp_s: 0.6160
+Testing reddit AUC_student_mlp_s_non_normalize: 0.6160
+Testing reddit AUC_student_ggad: 0.6162
+Testing reddit AUC_student_ggad_non_normalize: 0.6173
+Testing reddit AUC_student_minus_ggad: 0.6154
+Testing reddit AUC_student_minus_ggad_non_normalize: 0.6141
+Testing AP_student_mlp_s: 0.0542
+Testing AP_student_mlp_s_non_normalize: 0.0542
+Testing AP_student_ggad: 0.0544
+Testing AP_student_ggad_non_normalize: 0.0541
+Testing AP_student_minus_ggad: 0.0554
+Testing AP_student_minus_ggad_non_normalize: 0.0542
+Total time is: 167.47696375846863
+Testing_last_ggad_ reddit AUC: 0.6253
+Hard label ratio: 0.20
+Pseudo abnormal used in BCE: False
+Epoch 350: Total Loss = 0.12086557596921921,BCE Loss =0.12086557596921921
+student_score: 0.20314611494541168
+ggad_score: 6.004573151585646e-05
+student_score_non_normalize: -4.1724419593811035
+ggad_score_non_normalize: -9.757074356079102
+Testing reddit AUC_student_mlp_s: 0.6141
+Testing reddit AUC_student_mlp_s_non_normalize: 0.6141
+Testing reddit AUC_student_ggad: 0.6143
+Testing reddit AUC_student_ggad_non_normalize: 0.6155
+Testing reddit AUC_student_minus_ggad: 0.6130
+Testing reddit AUC_student_minus_ggad_non_normalize: 0.6118
+Testing AP_student_mlp_s: 0.0543
+Testing AP_student_mlp_s_non_normalize: 0.0543
+Testing AP_student_ggad: 0.0543
+Testing AP_student_ggad_non_normalize: 0.0542
+Testing AP_student_minus_ggad: 0.0555
+Testing AP_student_minus_ggad_non_normalize: 0.0543
+Total time is: 169.70133900642395
+Testing_last_ggad_ reddit AUC: 0.6253
+Hard label ratio: 0.20
+Pseudo abnormal used in BCE: False
+Epoch 355: Total Loss = 0.11978838592767715,BCE Loss =0.11978838592767715
+student_score: 0.20362769067287445
+ggad_score: 6.004573151585646e-05
+student_score_non_normalize: -4.2117695808410645
+ggad_score_non_normalize: -9.757074356079102
+Testing reddit AUC_student_mlp_s: 0.6138
+Testing reddit AUC_student_mlp_s_non_normalize: 0.6138
+Testing reddit AUC_student_ggad: 0.6144
+Testing reddit AUC_student_ggad_non_normalize: 0.6156
+Testing reddit AUC_student_minus_ggad: 0.6133
+Testing reddit AUC_student_minus_ggad_non_normalize: 0.6118
+Testing AP_student_mlp_s: 0.0542
+Testing AP_student_mlp_s_non_normalize: 0.0542
+Testing AP_student_ggad: 0.0541
+Testing AP_student_ggad_non_normalize: 0.0542
+Testing AP_student_minus_ggad: 0.0554
+Testing AP_student_minus_ggad_non_normalize: 0.0542
+Total time is: 172.29443621635437
+Testing_last_ggad_ reddit AUC: 0.6253
+Hard label ratio: 0.20
+Pseudo abnormal used in BCE: False
+Epoch 360: Total Loss = 0.11858179420232773,BCE Loss =0.11858179420232773
+student_score: 0.20195017755031586
+ggad_score: 6.004573151585646e-05
+student_score_non_normalize: -4.298070907592773
+ggad_score_non_normalize: -9.757074356079102
+Testing reddit AUC_student_mlp_s: 0.6140
+Testing reddit AUC_student_mlp_s_non_normalize: 0.6140
+Testing reddit AUC_student_ggad: 0.6146
+Testing reddit AUC_student_ggad_non_normalize: 0.6157
+Testing reddit AUC_student_minus_ggad: 0.6136
+Testing reddit AUC_student_minus_ggad_non_normalize: 0.6122
+Testing AP_student_mlp_s: 0.0541
+Testing AP_student_mlp_s_non_normalize: 0.0541
+Testing AP_student_ggad: 0.0541
+Testing AP_student_ggad_non_normalize: 0.0542
+Testing AP_student_minus_ggad: 0.0554
+Testing AP_student_minus_ggad_non_normalize: 0.0541
+Total time is: 174.8117916584015
+Testing_last_ggad_ reddit AUC: 0.6253
+Hard label ratio: 0.20
+Pseudo abnormal used in BCE: False
+Epoch 365: Total Loss = 0.11747436970472336,BCE Loss =0.11747436970472336
+student_score: 0.20130768418312073
+ggad_score: 6.004573151585646e-05
+student_score_non_normalize: -4.36145544052124
+ggad_score_non_normalize: -9.757074356079102
+Testing reddit AUC_student_mlp_s: 0.6143
+Testing reddit AUC_student_mlp_s_non_normalize: 0.6143
+Testing reddit AUC_student_ggad: 0.6148
+Testing reddit AUC_student_ggad_non_normalize: 0.6159
+Testing reddit AUC_student_minus_ggad: 0.6139
+Testing reddit AUC_student_minus_ggad_non_normalize: 0.6124
+Testing AP_student_mlp_s: 0.0541
+Testing AP_student_mlp_s_non_normalize: 0.0541
+Testing AP_student_ggad: 0.0541
+Testing AP_student_ggad_non_normalize: 0.0541
+Testing AP_student_minus_ggad: 0.0553
+Testing AP_student_minus_ggad_non_normalize: 0.0541
+Total time is: 177.29842567443848
+Testing_last_ggad_ reddit AUC: 0.6253
+Hard label ratio: 0.20
+Pseudo abnormal used in BCE: False
+Epoch 370: Total Loss = 0.11652856320142746,BCE Loss =0.11652856320142746
+student_score: 0.20209476351737976
+ggad_score: 6.004573151585646e-05
+student_score_non_normalize: -4.3922119140625
+ggad_score_non_normalize: -9.757074356079102
+Testing reddit AUC_student_mlp_s: 0.6143
+Testing reddit AUC_student_mlp_s_non_normalize: 0.6143
+Testing reddit AUC_student_ggad: 0.6145
+Testing reddit AUC_student_ggad_non_normalize: 0.6159
+Testing reddit AUC_student_minus_ggad: 0.6141
+Testing reddit AUC_student_minus_ggad_non_normalize: 0.6125
+Testing AP_student_mlp_s: 0.0541
+Testing AP_student_mlp_s_non_normalize: 0.0541
+Testing AP_student_ggad: 0.0539
+Testing AP_student_ggad_non_normalize: 0.0541
+Testing AP_student_minus_ggad: 0.0553
+Testing AP_student_minus_ggad_non_normalize: 0.0540
+Total time is: 179.67563843727112
+Testing_last_ggad_ reddit AUC: 0.6253
+Hard label ratio: 0.20
+Pseudo abnormal used in BCE: False
+Epoch 375: Total Loss = 0.11568174511194229,BCE Loss =0.11568174511194229
+student_score: 0.203465536236763
+ggad_score: 6.004573151585646e-05
+student_score_non_normalize: -4.408812046051025
+ggad_score_non_normalize: -9.757074356079102
+Testing reddit AUC_student_mlp_s: 0.6144
+Testing reddit AUC_student_mlp_s_non_normalize: 0.6144
+Testing reddit AUC_student_ggad: 0.6146
+Testing reddit AUC_student_ggad_non_normalize: 0.6159
+Testing reddit AUC_student_minus_ggad: 0.6140
+Testing reddit AUC_student_minus_ggad_non_normalize: 0.6125
+Testing AP_student_mlp_s: 0.0541
+Testing AP_student_mlp_s_non_normalize: 0.0541
+Testing AP_student_ggad: 0.0539
+Testing AP_student_ggad_non_normalize: 0.0541
+Testing AP_student_minus_ggad: 0.0552
+Testing AP_student_minus_ggad_non_normalize: 0.0540
+Total time is: 182.3099582195282
+Testing_last_ggad_ reddit AUC: 0.6253
+Hard label ratio: 0.20
+Pseudo abnormal used in BCE: False
+Epoch 380: Total Loss = 0.12232133001089096,BCE Loss =0.12232133001089096
+student_score: 0.2029535472393036
+ggad_score: 6.004573151585646e-05
+student_score_non_normalize: -4.467979907989502
+ggad_score_non_normalize: -9.757074356079102
+Testing reddit AUC_student_mlp_s: 0.6146
+Testing reddit AUC_student_mlp_s_non_normalize: 0.6146
+Testing reddit AUC_student_ggad: 0.6148
+Testing reddit AUC_student_ggad_non_normalize: 0.6162
+Testing reddit AUC_student_minus_ggad: 0.6159
+Testing reddit AUC_student_minus_ggad_non_normalize: 0.6127
+Testing AP_student_mlp_s: 0.0541
+Testing AP_student_mlp_s_non_normalize: 0.0541
+Testing AP_student_ggad: 0.0539
+Testing AP_student_ggad_non_normalize: 0.0541
+Testing AP_student_minus_ggad: 0.0551
+Testing AP_student_minus_ggad_non_normalize: 0.0540
+Total time is: 184.9260528087616
+Testing_last_ggad_ reddit AUC: 0.6253
+Hard label ratio: 0.20
+Pseudo abnormal used in BCE: False
+Epoch 385: Total Loss = 0.12125074118375778,BCE Loss =0.12125074118375778
+student_score: 0.20177294313907623
+ggad_score: 6.004573151585646e-05
+student_score_non_normalize: -4.543135166168213
+ggad_score_non_normalize: -9.757074356079102
+Testing reddit AUC_student_mlp_s: 0.6148
+Testing reddit AUC_student_mlp_s_non_normalize: 0.6148
+Testing reddit AUC_student_ggad: 0.6150
+Testing reddit AUC_student_ggad_non_normalize: 0.6160
+Testing reddit AUC_student_minus_ggad: 0.6171
+Testing reddit AUC_student_minus_ggad_non_normalize: 0.6131
+Testing AP_student_mlp_s: 0.0541
+Testing AP_student_mlp_s_non_normalize: 0.0541
+Testing AP_student_ggad: 0.0539
+Testing AP_student_ggad_non_normalize: 0.0541
+Testing AP_student_minus_ggad: 0.0551
+Testing AP_student_minus_ggad_non_normalize: 0.0540
+Total time is: 187.75586938858032
+Testing_last_ggad_ reddit AUC: 0.6253
+Hard label ratio: 0.20
+Pseudo abnormal used in BCE: False
+Epoch 390: Total Loss = 0.12018771469593048,BCE Loss =0.12018771469593048
+student_score: 0.19771261513233185
+ggad_score: 6.004573151585646e-05
+student_score_non_normalize: -4.687425136566162
+ggad_score_non_normalize: -9.757074356079102
+Testing reddit AUC_student_mlp_s: 0.6152
+Testing reddit AUC_student_mlp_s_non_normalize: 0.6152
+Testing reddit AUC_student_ggad: 0.6155
+Testing reddit AUC_student_ggad_non_normalize: 0.6164
+Testing reddit AUC_student_minus_ggad: 0.6165
+Testing reddit AUC_student_minus_ggad_non_normalize: 0.6136
+Testing AP_student_mlp_s: 0.0541
+Testing AP_student_mlp_s_non_normalize: 0.0541
+Testing AP_student_ggad: 0.0538
+Testing AP_student_ggad_non_normalize: 0.0540
+Testing AP_student_minus_ggad: 0.0551
+Testing AP_student_minus_ggad_non_normalize: 0.0540
+Total time is: 190.88081860542297
+Testing_last_ggad_ reddit AUC: 0.6253
+Hard label ratio: 0.20
+Pseudo abnormal used in BCE: False
+Epoch 395: Total Loss = 0.11973101645708084,BCE Loss =0.11973101645708084
+student_score: 0.19236290454864502
+ggad_score: 6.004573151585646e-05
+student_score_non_normalize: -4.865986347198486
+ggad_score_non_normalize: -9.757074356079102
+Testing reddit AUC_student_mlp_s: 0.6159
+Testing reddit AUC_student_mlp_s_non_normalize: 0.6159
+Testing reddit AUC_student_ggad: 0.6162
+Testing reddit AUC_student_ggad_non_normalize: 0.6169
+Testing reddit AUC_student_minus_ggad: 0.6180
+Testing reddit AUC_student_minus_ggad_non_normalize: 0.6142
+Testing AP_student_mlp_s: 0.0540
+Testing AP_student_mlp_s_non_normalize: 0.0540
+Testing AP_student_ggad: 0.0537
+Testing AP_student_ggad_non_normalize: 0.0539
+Testing AP_student_minus_ggad: 0.0552
+Testing AP_student_minus_ggad_non_normalize: 0.0540
+Total time is: 193.33796167373657
+Testing_last_ggad_ reddit AUC: 0.6253
+Hard label ratio: 0.20
+Pseudo abnormal used in BCE: False
+Epoch 400: Total Loss = 0.121587373316288,BCE Loss =0.121587373316288
+student_score: 0.21458332240581512
+ggad_score: 6.004573151585646e-05
+student_score_non_normalize: -4.3820576667785645
+ggad_score_non_normalize: -9.757074356079102
+Testing reddit AUC_student_mlp_s: 0.6139
+Testing reddit AUC_student_mlp_s_non_normalize: 0.6139
+Testing reddit AUC_student_ggad: 0.6145
+Testing reddit AUC_student_ggad_non_normalize: 0.6154
+Testing reddit AUC_student_minus_ggad: 0.6162
+Testing reddit AUC_student_minus_ggad_non_normalize: 0.6124
+Testing AP_student_mlp_s: 0.0540
+Testing AP_student_mlp_s_non_normalize: 0.0541
+Testing AP_student_ggad: 0.0536
+Testing AP_student_ggad_non_normalize: 0.0541
+Testing AP_student_minus_ggad: 0.0552
+Testing AP_student_minus_ggad_non_normalize: 0.0540
+Total time is: 196.14240741729736
+Testing_last_ggad_ reddit AUC: 0.6253
+Hard label ratio: 0.20
+Pseudo abnormal used in BCE: False
+Epoch 405: Total Loss = 0.11777978390455246,BCE Loss =0.11777978390455246
+student_score: 0.1946343183517456
+ggad_score: 6.004573151585646e-05
+student_score_non_normalize: -4.908843994140625
+ggad_score_non_normalize: -9.757074356079102
+Testing reddit AUC_student_mlp_s: 0.6159
+Testing reddit AUC_student_mlp_s_non_normalize: 0.6159
+Testing reddit AUC_student_ggad: 0.6162
+Testing reddit AUC_student_ggad_non_normalize: 0.6169
+Testing reddit AUC_student_minus_ggad: 0.6156
+Testing reddit AUC_student_minus_ggad_non_normalize: 0.6144
+Testing AP_student_mlp_s: 0.0539
+Testing AP_student_mlp_s_non_normalize: 0.0539
+Testing AP_student_ggad: 0.0536
+Testing AP_student_ggad_non_normalize: 0.0539
+Testing AP_student_minus_ggad: 0.0550
+Testing AP_student_minus_ggad_non_normalize: 0.0540
+Total time is: 198.86593222618103
+Testing_last_ggad_ reddit AUC: 0.6253
+Hard label ratio: 0.20
+Pseudo abnormal used in BCE: False
+Epoch 410: Total Loss = 0.11878720670938492,BCE Loss =0.11878720670938492
+student_score: 0.18606586754322052
+ggad_score: 6.004573151585646e-05
+student_score_non_normalize: -5.171014308929443
+ggad_score_non_normalize: -9.757074356079102
+Testing reddit AUC_student_mlp_s: 0.6167
+Testing reddit AUC_student_mlp_s_non_normalize: 0.6167
+Testing reddit AUC_student_ggad: 0.6175
+Testing reddit AUC_student_ggad_non_normalize: 0.6178
+Testing reddit AUC_student_minus_ggad: 0.6150
+Testing reddit AUC_student_minus_ggad_non_normalize: 0.6157
+Testing AP_student_mlp_s: 0.0539
+Testing AP_student_mlp_s_non_normalize: 0.0539
+Testing AP_student_ggad: 0.0536
+Testing AP_student_ggad_non_normalize: 0.0539
+Testing AP_student_minus_ggad: 0.0550
+Testing AP_student_minus_ggad_non_normalize: 0.0539
+Total time is: 201.75815677642822
+Testing_last_ggad_ reddit AUC: 0.6253
+Hard label ratio: 0.20
+Pseudo abnormal used in BCE: False
+Epoch 415: Total Loss = 0.11671517789363861,BCE Loss =0.11671517789363861
+student_score: 0.19127844274044037
+ggad_score: 6.004573151585646e-05
+student_score_non_normalize: -5.087974548339844
+ggad_score_non_normalize: -9.757074356079102
+Testing reddit AUC_student_mlp_s: 0.6164
+Testing reddit AUC_student_mlp_s_non_normalize: 0.6164
+Testing reddit AUC_student_ggad: 0.6171
+Testing reddit AUC_student_ggad_non_normalize: 0.6173
+Testing reddit AUC_student_minus_ggad: 0.6149
+Testing reddit AUC_student_minus_ggad_non_normalize: 0.6149
+Testing AP_student_mlp_s: 0.0539
+Testing AP_student_mlp_s_non_normalize: 0.0539
+Testing AP_student_ggad: 0.0535
+Testing AP_student_ggad_non_normalize: 0.0539
+Testing AP_student_minus_ggad: 0.0551
+Testing AP_student_minus_ggad_non_normalize: 0.0539
+Total time is: 204.2652349472046
+Testing_last_ggad_ reddit AUC: 0.6253
+Hard label ratio: 0.20
+Pseudo abnormal used in BCE: False
+Epoch 420: Total Loss = 0.11533726006746292,BCE Loss =0.11533726006746292
+student_score: 0.19974644482135773
+ggad_score: 6.004573151585646e-05
+student_score_non_normalize: -4.921967029571533
+ggad_score_non_normalize: -9.757074356079102
+Testing reddit AUC_student_mlp_s: 0.6158
+Testing reddit AUC_student_mlp_s_non_normalize: 0.6158
+Testing reddit AUC_student_ggad: 0.6165
+Testing reddit AUC_student_ggad_non_normalize: 0.6168
+Testing reddit AUC_student_minus_ggad: 0.6151
+Testing reddit AUC_student_minus_ggad_non_normalize: 0.6143
+Testing AP_student_mlp_s: 0.0539
+Testing AP_student_mlp_s_non_normalize: 0.0539
+Testing AP_student_ggad: 0.0535
+Testing AP_student_ggad_non_normalize: 0.0539
+Testing AP_student_minus_ggad: 0.0551
+Testing AP_student_minus_ggad_non_normalize: 0.0539
+Total time is: 207.16203594207764
+Testing_last_ggad_ reddit AUC: 0.6253
+Hard label ratio: 0.20
+Pseudo abnormal used in BCE: False
+Epoch 425: Total Loss = 0.12281699478626251,BCE Loss =0.12281699478626251
+student_score: 0.20540617406368256
+ggad_score: 6.004573151585646e-05
+student_score_non_normalize: -4.825287818908691
+ggad_score_non_normalize: -9.757074356079102
+Testing reddit AUC_student_mlp_s: 0.6155
+Testing reddit AUC_student_mlp_s_non_normalize: 0.6155
+Testing reddit AUC_student_ggad: 0.6158
+Testing reddit AUC_student_ggad_non_normalize: 0.6165
+Testing reddit AUC_student_minus_ggad: 0.6150
+Testing reddit AUC_student_minus_ggad_non_normalize: 0.6139
+Testing AP_student_mlp_s: 0.0539
+Testing AP_student_mlp_s_non_normalize: 0.0539
+Testing AP_student_ggad: 0.0535
+Testing AP_student_ggad_non_normalize: 0.0540
+Testing AP_student_minus_ggad: 0.0551
+Testing AP_student_minus_ggad_non_normalize: 0.0539
+Total time is: 209.25619339942932
+Testing_last_ggad_ reddit AUC: 0.6253
+Hard label ratio: 0.20
+Pseudo abnormal used in BCE: False
+Epoch 430: Total Loss = 0.12154882401227951,BCE Loss =0.12154882401227951
+student_score: 0.20064657926559448
+ggad_score: 6.004573151585646e-05
+student_score_non_normalize: -4.990333080291748
+ggad_score_non_normalize: -9.757074356079102
+Testing reddit AUC_student_mlp_s: 0.6160
+Testing reddit AUC_student_mlp_s_non_normalize: 0.6160
+Testing reddit AUC_student_ggad: 0.6167
+Testing reddit AUC_student_ggad_non_normalize: 0.6170
+Testing reddit AUC_student_minus_ggad: 0.6148
+Testing reddit AUC_student_minus_ggad_non_normalize: 0.6145
+Testing AP_student_mlp_s: 0.0538
+Testing AP_student_mlp_s_non_normalize: 0.0539
+Testing AP_student_ggad: 0.0535
+Testing AP_student_ggad_non_normalize: 0.0539
+Testing AP_student_minus_ggad: 0.0551
+Testing AP_student_minus_ggad_non_normalize: 0.0539
+Total time is: 212.24762868881226
+Testing_last_ggad_ reddit AUC: 0.6253
+Hard label ratio: 0.20
+Pseudo abnormal used in BCE: False
+Epoch 435: Total Loss = 0.11330585181713104,BCE Loss =0.11330585181713104
+student_score: 0.1950439065694809
+ggad_score: 6.004573151585646e-05
+student_score_non_normalize: -5.179888725280762
+ggad_score_non_normalize: -9.757074356079102
+Testing reddit AUC_student_mlp_s: 0.6165
+Testing reddit AUC_student_mlp_s_non_normalize: 0.6165
+Testing reddit AUC_student_ggad: 0.6172
+Testing reddit AUC_student_ggad_non_normalize: 0.6174
+Testing reddit AUC_student_minus_ggad: 0.6123
+Testing reddit AUC_student_minus_ggad_non_normalize: 0.6150
+Testing AP_student_mlp_s: 0.0538
+Testing AP_student_mlp_s_non_normalize: 0.0539
+Testing AP_student_ggad: 0.0534
+Testing AP_student_ggad_non_normalize: 0.0539
+Testing AP_student_minus_ggad: 0.0549
+Testing AP_student_minus_ggad_non_normalize: 0.0539
+Total time is: 214.64983701705933
+Testing_last_ggad_ reddit AUC: 0.6253
+Hard label ratio: 0.20
+Pseudo abnormal used in BCE: False
+Epoch 440: Total Loss = 0.12019605189561844,BCE Loss =0.12019605189561844
+student_score: 0.2018287032842636
+ggad_score: 6.004573151585646e-05
+student_score_non_normalize: -5.049959659576416
+ggad_score_non_normalize: -9.757074356079102
+Testing reddit AUC_student_mlp_s: 0.6161
+Testing reddit AUC_student_mlp_s_non_normalize: 0.6161
+Testing reddit AUC_student_ggad: 0.6168
+Testing reddit AUC_student_ggad_non_normalize: 0.6171
+Testing reddit AUC_student_minus_ggad: 0.6120
+Testing reddit AUC_student_minus_ggad_non_normalize: 0.6146
+Testing AP_student_mlp_s: 0.0538
+Testing AP_student_mlp_s_non_normalize: 0.0539
+Testing AP_student_ggad: 0.0533
+Testing AP_student_ggad_non_normalize: 0.0539
+Testing AP_student_minus_ggad: 0.0549
+Testing AP_student_minus_ggad_non_normalize: 0.0539
+Total time is: 217.4188027381897
+Testing_last_ggad_ reddit AUC: 0.6253
+Hard label ratio: 0.20
+Pseudo abnormal used in BCE: False
+Epoch 445: Total Loss = 0.11498383432626724,BCE Loss =0.11498383432626724
+student_score: 0.18341785669326782
+ggad_score: 6.004573151585646e-05
+student_score_non_normalize: -5.582275390625
+ggad_score_non_normalize: -9.757074356079102
+Testing reddit AUC_student_mlp_s: 0.6176
+Testing reddit AUC_student_mlp_s_non_normalize: 0.6176
+Testing reddit AUC_student_ggad: 0.6189
+Testing reddit AUC_student_ggad_non_normalize: 0.6189
+Testing reddit AUC_student_minus_ggad: 0.6106
+Testing reddit AUC_student_minus_ggad_non_normalize: 0.6166
+Testing AP_student_mlp_s: 0.0538
+Testing AP_student_mlp_s_non_normalize: 0.0538
+Testing AP_student_ggad: 0.0534
+Testing AP_student_ggad_non_normalize: 0.0537
+Testing AP_student_minus_ggad: 0.0548
+Testing AP_student_minus_ggad_non_normalize: 0.0538
+Total time is: 220.11403131484985
+Testing_last_ggad_ reddit AUC: 0.6253
+Hard label ratio: 0.20
+Pseudo abnormal used in BCE: False
+Epoch 450: Total Loss = 0.12231843173503876,BCE Loss =0.12231843173503876
+student_score: 0.21518492698669434
+ggad_score: 6.004573151585646e-05
+student_score_non_normalize: -4.791134834289551
+ggad_score_non_normalize: -9.757074356079102
+Testing reddit AUC_student_mlp_s: 0.6150
+Testing reddit AUC_student_mlp_s_non_normalize: 0.6150
+Testing reddit AUC_student_ggad: 0.6161
+Testing reddit AUC_student_ggad_non_normalize: 0.6164
+Testing reddit AUC_student_minus_ggad: 0.6129
+Testing reddit AUC_student_minus_ggad_non_normalize: 0.6138
+Testing AP_student_mlp_s: 0.0537
+Testing AP_student_mlp_s_non_normalize: 0.0539
+Testing AP_student_ggad: 0.0531
+Testing AP_student_ggad_non_normalize: 0.0539
+Testing AP_student_minus_ggad: 0.0550
+Testing AP_student_minus_ggad_non_normalize: 0.0539
+Total time is: 222.5034704208374
+Testing_last_ggad_ reddit AUC: 0.6253
+Hard label ratio: 0.20
+Pseudo abnormal used in BCE: False
+Epoch 455: Total Loss = 0.11910752952098846,BCE Loss =0.11910752952098846
+student_score: 0.2071204036474228
+ggad_score: 6.004573151585646e-05
+student_score_non_normalize: -5.039043426513672
+ggad_score_non_normalize: -9.757074356079102
+Testing reddit AUC_student_mlp_s: 0.6156
+Testing reddit AUC_student_mlp_s_non_normalize: 0.6156
+Testing reddit AUC_student_ggad: 0.6168
+Testing reddit AUC_student_ggad_non_normalize: 0.6170
+Testing reddit AUC_student_minus_ggad: 0.6123
+Testing reddit AUC_student_minus_ggad_non_normalize: 0.6146
+Testing AP_student_mlp_s: 0.0536
+Testing AP_student_mlp_s_non_normalize: 0.0538
+Testing AP_student_ggad: 0.0531
+Testing AP_student_ggad_non_normalize: 0.0539
+Testing AP_student_minus_ggad: 0.0549
+Testing AP_student_minus_ggad_non_normalize: 0.0538
+Total time is: 224.94182467460632
+Testing_last_ggad_ reddit AUC: 0.6253
+Hard label ratio: 0.20
+Pseudo abnormal used in BCE: False
+Epoch 460: Total Loss = 0.11760944128036499,BCE Loss =0.11760944128036499
+student_score: 0.1990223079919815
+ggad_score: 6.004573151585646e-05
+student_score_non_normalize: -5.292798042297363
+ggad_score_non_normalize: -9.757074356079102
+Testing reddit AUC_student_mlp_s: 0.6166
+Testing reddit AUC_student_mlp_s_non_normalize: 0.6166
+Testing reddit AUC_student_ggad: 0.6174
+Testing reddit AUC_student_ggad_non_normalize: 0.6176
+Testing reddit AUC_student_minus_ggad: 0.6121
+Testing reddit AUC_student_minus_ggad_non_normalize: 0.6153
+Testing AP_student_mlp_s: 0.0536
+Testing AP_student_mlp_s_non_normalize: 0.0538
+Testing AP_student_ggad: 0.0531
+Testing AP_student_ggad_non_normalize: 0.0538
+Testing AP_student_minus_ggad: 0.0545
+Testing AP_student_minus_ggad_non_normalize: 0.0538
+Total time is: 227.63113689422607
+Testing_last_ggad_ reddit AUC: 0.6253
+Hard label ratio: 0.20
+Pseudo abnormal used in BCE: False
+Epoch 465: Total Loss = 0.11749240756034851,BCE Loss =0.11749240756034851
+student_score: 0.19326737523078918
+ggad_score: 6.004573151585646e-05
+student_score_non_normalize: -5.488559246063232
+ggad_score_non_normalize: -9.757074356079102
+Testing reddit AUC_student_mlp_s: 0.6172
+Testing reddit AUC_student_mlp_s_non_normalize: 0.6172
+Testing reddit AUC_student_ggad: 0.6183
+Testing reddit AUC_student_ggad_non_normalize: 0.6184
+Testing reddit AUC_student_minus_ggad: 0.6081
+Testing reddit AUC_student_minus_ggad_non_normalize: 0.6159
+Testing AP_student_mlp_s: 0.0536
+Testing AP_student_mlp_s_non_normalize: 0.0538
+Testing AP_student_ggad: 0.0530
+Testing AP_student_ggad_non_normalize: 0.0538
+Testing AP_student_minus_ggad: 0.0542
+Testing AP_student_minus_ggad_non_normalize: 0.0538
+Total time is: 230.31534838676453
+Testing_last_ggad_ reddit AUC: 0.6253
+Hard label ratio: 0.20
+Pseudo abnormal used in BCE: False
+Epoch 470: Total Loss = 0.11731737107038498,BCE Loss =0.11731737107038498
+student_score: 0.19130751490592957
+ggad_score: 6.004573151585646e-05
+student_score_non_normalize: -5.5832672119140625
+ggad_score_non_normalize: -9.757074356079102
+Testing reddit AUC_student_mlp_s: 0.6174
+Testing reddit AUC_student_mlp_s_non_normalize: 0.6174
+Testing reddit AUC_student_ggad: 0.6188
+Testing reddit AUC_student_ggad_non_normalize: 0.6186
+Testing reddit AUC_student_minus_ggad: 0.6076
+Testing reddit AUC_student_minus_ggad_non_normalize: 0.6164
+Testing AP_student_mlp_s: 0.0535
+Testing AP_student_mlp_s_non_normalize: 0.0538
+Testing AP_student_ggad: 0.0529
+Testing AP_student_ggad_non_normalize: 0.0538
+Testing AP_student_minus_ggad: 0.0543
+Testing AP_student_minus_ggad_non_normalize: 0.0538
+Total time is: 232.91957187652588
+Testing_last_ggad_ reddit AUC: 0.6253
+Hard label ratio: 0.20
+Pseudo abnormal used in BCE: False
+Epoch 475: Total Loss = 0.11666803807020187,BCE Loss =0.11666803807020187
+student_score: 0.19185470044612885
+ggad_score: 6.004573151585646e-05
+student_score_non_normalize: -5.609319686889648
+ggad_score_non_normalize: -9.757074356079102
+Testing reddit AUC_student_mlp_s: 0.6175
+Testing reddit AUC_student_mlp_s_non_normalize: 0.6175
+Testing reddit AUC_student_ggad: 0.6189
+Testing reddit AUC_student_ggad_non_normalize: 0.6187
+Testing reddit AUC_student_minus_ggad: 0.6088
+Testing reddit AUC_student_minus_ggad_non_normalize: 0.6165
+Testing AP_student_mlp_s: 0.0536
+Testing AP_student_mlp_s_non_normalize: 0.0537
+Testing AP_student_ggad: 0.0529
+Testing AP_student_ggad_non_normalize: 0.0538
+Testing AP_student_minus_ggad: 0.0543
+Testing AP_student_minus_ggad_non_normalize: 0.0538
+Total time is: 235.51399040222168
+Testing_last_ggad_ reddit AUC: 0.6253
+Hard label ratio: 0.20
+Pseudo abnormal used in BCE: False
+Epoch 480: Total Loss = 0.11589724570512772,BCE Loss =0.11589724570512772
+student_score: 0.19315238296985626
+ggad_score: 6.004573151585646e-05
+student_score_non_normalize: -5.614258289337158
+ggad_score_non_normalize: -9.757074356079102
+Testing reddit AUC_student_mlp_s: 0.6175
+Testing reddit AUC_student_mlp_s_non_normalize: 0.6175
+Testing reddit AUC_student_ggad: 0.6189
+Testing reddit AUC_student_ggad_non_normalize: 0.6187
+Testing reddit AUC_student_minus_ggad: 0.6087
+Testing reddit AUC_student_minus_ggad_non_normalize: 0.6165
+Testing AP_student_mlp_s: 0.0536
+Testing AP_student_mlp_s_non_normalize: 0.0537
+Testing AP_student_ggad: 0.0528
+Testing AP_student_ggad_non_normalize: 0.0538
+Testing AP_student_minus_ggad: 0.0545
+Testing AP_student_minus_ggad_non_normalize: 0.0537
+Total time is: 237.9716055393219
+Testing_last_ggad_ reddit AUC: 0.6253
+Hard label ratio: 0.20
+Pseudo abnormal used in BCE: False
+Epoch 485: Total Loss = 0.11519055813550949,BCE Loss =0.11519055813550949
+student_score: 0.19434231519699097
+ggad_score: 6.004573151585646e-05
+student_score_non_normalize: -5.621764659881592
+ggad_score_non_normalize: -9.757074356079102
+Testing reddit AUC_student_mlp_s: 0.6176
+Testing reddit AUC_student_mlp_s_non_normalize: 0.6176
+Testing reddit AUC_student_ggad: 0.6190
+Testing reddit AUC_student_ggad_non_normalize: 0.6187
+Testing reddit AUC_student_minus_ggad: 0.6084
+Testing reddit AUC_student_minus_ggad_non_normalize: 0.6162
+Testing AP_student_mlp_s: 0.0535
+Testing AP_student_mlp_s_non_normalize: 0.0537
+Testing AP_student_ggad: 0.0528
+Testing AP_student_ggad_non_normalize: 0.0538
+Testing AP_student_minus_ggad: 0.0546
+Testing AP_student_minus_ggad_non_normalize: 0.0537
+Total time is: 240.60369682312012
+Testing_last_ggad_ reddit AUC: 0.6253
+Hard label ratio: 0.20
+Pseudo abnormal used in BCE: False
+Epoch 490: Total Loss = 0.11453703045845032,BCE Loss =0.11453703045845032
+student_score: 0.1954319030046463
+ggad_score: 6.004573151585646e-05
+student_score_non_normalize: -5.631657600402832
+ggad_score_non_normalize: -9.757074356079102
+Testing reddit AUC_student_mlp_s: 0.6176
+Testing reddit AUC_student_mlp_s_non_normalize: 0.6176
+Testing reddit AUC_student_ggad: 0.6191
+Testing reddit AUC_student_ggad_non_normalize: 0.6187
+Testing reddit AUC_student_minus_ggad: 0.6082
+Testing reddit AUC_student_minus_ggad_non_normalize: 0.6163
+Testing AP_student_mlp_s: 0.0536
+Testing AP_student_mlp_s_non_normalize: 0.0538
+Testing AP_student_ggad: 0.0526
+Testing AP_student_ggad_non_normalize: 0.0538
+Testing AP_student_minus_ggad: 0.0546
+Testing AP_student_minus_ggad_non_normalize: 0.0537
+Total time is: 243.3420271873474
+Testing_last_ggad_ reddit AUC: 0.6253
+Hard label ratio: 0.20
+Pseudo abnormal used in BCE: False
+Epoch 495: Total Loss = 0.1138944923877716,BCE Loss =0.1138944923877716
+student_score: 0.19693467020988464
+ggad_score: 6.004573151585646e-05
+student_score_non_normalize: -5.6295671463012695
+ggad_score_non_normalize: -9.757074356079102
+Testing reddit AUC_student_mlp_s: 0.6176
+Testing reddit AUC_student_mlp_s_non_normalize: 0.6176
+Testing reddit AUC_student_ggad: 0.6191
+Testing reddit AUC_student_ggad_non_normalize: 0.6187
+Testing reddit AUC_student_minus_ggad: 0.6080
+Testing reddit AUC_student_minus_ggad_non_normalize: 0.6163
+Testing AP_student_mlp_s: 0.0535
+Testing AP_student_mlp_s_non_normalize: 0.0537
+Testing AP_student_ggad: 0.0525
+Testing AP_student_ggad_non_normalize: 0.0537
+Testing AP_student_minus_ggad: 0.0549
+Testing AP_student_minus_ggad_non_normalize: 0.0537
+Total time is: 245.76263976097107
+Testing_last_ggad_ reddit AUC: 0.6253
+Hard label ratio: 0.20
+Pseudo abnormal used in BCE: False
+Epoch 500: Total Loss = 0.1133180558681488,BCE Loss =0.1133180558681488
+student_score: 0.19916599988937378
+ggad_score: 6.004573151585646e-05
+student_score_non_normalize: -5.60648250579834
+ggad_score_non_normalize: -9.757074356079102
+Testing reddit AUC_student_mlp_s: 0.6175
+Testing reddit AUC_student_mlp_s_non_normalize: 0.6175
+Testing reddit AUC_student_ggad: 0.6190
+Testing reddit AUC_student_ggad_non_normalize: 0.6186
+Testing reddit AUC_student_minus_ggad: 0.6079
+Testing reddit AUC_student_minus_ggad_non_normalize: 0.6162
+Testing AP_student_mlp_s: 0.0535
+Testing AP_student_mlp_s_non_normalize: 0.0538
+Testing AP_student_ggad: 0.0524
+Testing AP_student_ggad_non_normalize: 0.0537
+Testing AP_student_minus_ggad: 0.0545
+Testing AP_student_minus_ggad_non_normalize: 0.0537
+Total time is: 248.40840482711792
+Testing_last_ggad_ reddit AUC: 0.6253
+Hard label ratio: 0.20
+Pseudo abnormal used in BCE: False
+Epoch 505: Total Loss = 0.11286413669586182,BCE Loss =0.11286413669586182
+student_score: 0.2009798139333725
+ggad_score: 6.004573151585646e-05
+student_score_non_normalize: -5.5946526527404785
+ggad_score_non_normalize: -9.757074356079102
+Testing reddit AUC_student_mlp_s: 0.6175
+Testing reddit AUC_student_mlp_s_non_normalize: 0.6175
+Testing reddit AUC_student_ggad: 0.6189
+Testing reddit AUC_student_ggad_non_normalize: 0.6185
+Testing reddit AUC_student_minus_ggad: 0.6075
+Testing reddit AUC_student_minus_ggad_non_normalize: 0.6162
+Testing AP_student_mlp_s: 0.0534
+Testing AP_student_mlp_s_non_normalize: 0.0537
+Testing AP_student_ggad: 0.0523
+Testing AP_student_ggad_non_normalize: 0.0536
+Testing AP_student_minus_ggad: 0.0546
+Testing AP_student_minus_ggad_non_normalize: 0.0538
+Total time is: 251.03780674934387
+Testing_last_ggad_ reddit AUC: 0.6253
+Hard label ratio: 0.20
+Pseudo abnormal used in BCE: False
+Epoch 510: Total Loss = 0.11230466514825821,BCE Loss =0.11230466514825821
+student_score: 0.19954055547714233
+ggad_score: 6.004573151585646e-05
+student_score_non_normalize: -5.674827575683594
+ggad_score_non_normalize: -9.757074356079102
+Testing reddit AUC_student_mlp_s: 0.6176
+Testing reddit AUC_student_mlp_s_non_normalize: 0.6176
+Testing reddit AUC_student_ggad: 0.6192
+Testing reddit AUC_student_ggad_non_normalize: 0.6187
+Testing reddit AUC_student_minus_ggad: 0.6067
+Testing reddit AUC_student_minus_ggad_non_normalize: 0.6164
+Testing AP_student_mlp_s: 0.0533
+Testing AP_student_mlp_s_non_normalize: 0.0536
+Testing AP_student_ggad: 0.0523
+Testing AP_student_ggad_non_normalize: 0.0536
+Testing AP_student_minus_ggad: 0.0546
+Testing AP_student_minus_ggad_non_normalize: 0.0537
+Total time is: 253.4519853591919
+Testing_last_ggad_ reddit AUC: 0.6253
+Hard label ratio: 0.20
+Pseudo abnormal used in BCE: False
+Epoch 515: Total Loss = 0.1118556559085846,BCE Loss =0.1118556559085846
+student_score: 0.19711625576019287
+ggad_score: 6.004573151585646e-05
+student_score_non_normalize: -5.7839250564575195
+ggad_score_non_normalize: -9.757074356079102
+Testing reddit AUC_student_mlp_s: 0.6179
+Testing reddit AUC_student_mlp_s_non_normalize: 0.6179
+Testing reddit AUC_student_ggad: 0.6194
+Testing reddit AUC_student_ggad_non_normalize: 0.6190
+Testing reddit AUC_student_minus_ggad: 0.6065
+Testing reddit AUC_student_minus_ggad_non_normalize: 0.6168
+Testing AP_student_mlp_s: 0.0532
+Testing AP_student_mlp_s_non_normalize: 0.0536
+Testing AP_student_ggad: 0.0523
+Testing AP_student_ggad_non_normalize: 0.0535
+Testing AP_student_minus_ggad: 0.0545
+Testing AP_student_minus_ggad_non_normalize: 0.0537
+Total time is: 256.23821997642517
+Testing_last_ggad_ reddit AUC: 0.6253
+Hard label ratio: 0.20
+Pseudo abnormal used in BCE: False
+Epoch 520: Total Loss = 0.11144619435071945,BCE Loss =0.11144619435071945
+student_score: 0.2020856738090515
+ggad_score: 6.004573151585646e-05
+student_score_non_normalize: -5.680509567260742
+ggad_score_non_normalize: -9.757074356079102
+Testing reddit AUC_student_mlp_s: 0.6176
+Testing reddit AUC_student_mlp_s_non_normalize: 0.6176
+Testing reddit AUC_student_ggad: 0.6191
+Testing reddit AUC_student_ggad_non_normalize: 0.6187
+Testing reddit AUC_student_minus_ggad: 0.6066
+Testing reddit AUC_student_minus_ggad_non_normalize: 0.6164
+Testing AP_student_mlp_s: 0.0537
+Testing AP_student_mlp_s_non_normalize: 0.0536
+Testing AP_student_ggad: 0.0522
+Testing AP_student_ggad_non_normalize: 0.0536
+Testing AP_student_minus_ggad: 0.0551
+Testing AP_student_minus_ggad_non_normalize: 0.0537
+Total time is: 258.6350450515747
+Testing_last_ggad_ reddit AUC: 0.6253
+Hard label ratio: 0.20
+Pseudo abnormal used in BCE: False
+Epoch 525: Total Loss = 0.11183824390172958,BCE Loss =0.11183824390172958
+student_score: 0.19091010093688965
+ggad_score: 6.004573151585646e-05
+student_score_non_normalize: -6.045279026031494
+ggad_score_non_normalize: -9.757074356079102
+Testing reddit AUC_student_mlp_s: 0.6185
+Testing reddit AUC_student_mlp_s_non_normalize: 0.6185
+Testing reddit AUC_student_ggad: 0.6204
+Testing reddit AUC_student_ggad_non_normalize: 0.6194
+Testing reddit AUC_student_minus_ggad: 0.6049
+Testing reddit AUC_student_minus_ggad_non_normalize: 0.6177
+Testing AP_student_mlp_s: 0.0532
+Testing AP_student_mlp_s_non_normalize: 0.0534
+Testing AP_student_ggad: 0.0523
+Testing AP_student_ggad_non_normalize: 0.0534
+Testing AP_student_minus_ggad: 0.0546
+Testing AP_student_minus_ggad_non_normalize: 0.0535
+Total time is: 261.1448516845703
+Testing_last_ggad_ reddit AUC: 0.6253
+Hard label ratio: 0.20
+Pseudo abnormal used in BCE: False
+Epoch 530: Total Loss = 0.11854014545679092,BCE Loss =0.11854014545679092
+student_score: 0.22268512845039368
+ggad_score: 6.004573151585646e-05
+student_score_non_normalize: -5.169093608856201
+ggad_score_non_normalize: -9.757074356079102
+Testing reddit AUC_student_mlp_s: 0.6160
+Testing reddit AUC_student_mlp_s_non_normalize: 0.6160
+Testing reddit AUC_student_ggad: 0.6176
+Testing reddit AUC_student_ggad_non_normalize: 0.6168
+Testing reddit AUC_student_minus_ggad: 0.6072
+Testing reddit AUC_student_minus_ggad_non_normalize: 0.6151
+Testing AP_student_mlp_s: 0.0535
+Testing AP_student_mlp_s_non_normalize: 0.0537
+Testing AP_student_ggad: 0.0520
+Testing AP_student_ggad_non_normalize: 0.0536
+Testing AP_student_minus_ggad: 0.0546
+Testing AP_student_minus_ggad_non_normalize: 0.0538
+Total time is: 263.84303045272827
+Testing_last_ggad_ reddit AUC: 0.6253
+Hard label ratio: 0.20
+Pseudo abnormal used in BCE: False
+Epoch 535: Total Loss = 0.11076097190380096,BCE Loss =0.11076097190380096
+student_score: 0.20648330450057983
+ggad_score: 6.004573151585646e-05
+student_score_non_normalize: -5.666293144226074
+ggad_score_non_normalize: -9.757074356079102
+Testing reddit AUC_student_mlp_s: 0.6176
+Testing reddit AUC_student_mlp_s_non_normalize: 0.6176
+Testing reddit AUC_student_ggad: 0.6192
+Testing reddit AUC_student_ggad_non_normalize: 0.6187
+Testing reddit AUC_student_minus_ggad: 0.6060
+Testing reddit AUC_student_minus_ggad_non_normalize: 0.6164
+Testing AP_student_mlp_s: 0.0536
+Testing AP_student_mlp_s_non_normalize: 0.0536
+Testing AP_student_ggad: 0.0521
+Testing AP_student_ggad_non_normalize: 0.0536
+Testing AP_student_minus_ggad: 0.0545
+Testing AP_student_minus_ggad_non_normalize: 0.0536
+Total time is: 266.24411487579346
+Testing_last_ggad_ reddit AUC: 0.6253
+Hard label ratio: 0.20
+Pseudo abnormal used in BCE: False
+Epoch 540: Total Loss = 0.10953208059072495,BCE Loss =0.10953208059072495
+student_score: 0.1998748928308487
+ggad_score: 6.004573151585646e-05
+student_score_non_normalize: -5.895048141479492
+ggad_score_non_normalize: -9.757074356079102
+Testing reddit AUC_student_mlp_s: 0.6181
+Testing reddit AUC_student_mlp_s_non_normalize: 0.6181
+Testing reddit AUC_student_ggad: 0.6200
+Testing reddit AUC_student_ggad_non_normalize: 0.6191
+Testing reddit AUC_student_minus_ggad: 0.6057
+Testing reddit AUC_student_minus_ggad_non_normalize: 0.6169
+Testing AP_student_mlp_s: 0.0535
+Testing AP_student_mlp_s_non_normalize: 0.0535
+Testing AP_student_ggad: 0.0520
+Testing AP_student_ggad_non_normalize: 0.0535
+Testing AP_student_minus_ggad: 0.0544
+Testing AP_student_minus_ggad_non_normalize: 0.0535
+Total time is: 268.99653697013855
+Testing_last_ggad_ reddit AUC: 0.6253
+Hard label ratio: 0.20
+Pseudo abnormal used in BCE: False
+Epoch 545: Total Loss = 0.10917986184358597,BCE Loss =0.10917986184358597
+student_score: 0.19707755744457245
+ggad_score: 6.004573151585646e-05
+student_score_non_normalize: -6.01365327835083
+ggad_score_non_normalize: -9.757074356079102
+Testing reddit AUC_student_mlp_s: 0.6184
+Testing reddit AUC_student_mlp_s_non_normalize: 0.6184
+Testing reddit AUC_student_ggad: 0.6203
+Testing reddit AUC_student_ggad_non_normalize: 0.6194
+Testing reddit AUC_student_minus_ggad: 0.6052
+Testing reddit AUC_student_minus_ggad_non_normalize: 0.6173
+Testing AP_student_mlp_s: 0.0535
+Testing AP_student_mlp_s_non_normalize: 0.0534
+Testing AP_student_ggad: 0.0521
+Testing AP_student_ggad_non_normalize: 0.0534
+Testing AP_student_minus_ggad: 0.0543
+Testing AP_student_minus_ggad_non_normalize: 0.0535
+Total time is: 271.23001432418823
+Testing_last_ggad_ reddit AUC: 0.6253
+Hard label ratio: 0.20
+Pseudo abnormal used in BCE: False
+Epoch 550: Total Loss = 0.10893688350915909,BCE Loss =0.10893688350915909
+student_score: 0.19531942903995514
+ggad_score: 6.004573151585646e-05
+student_score_non_normalize: -6.102196216583252
+ggad_score_non_normalize: -9.757074356079102
+Testing reddit AUC_student_mlp_s: 0.6186
+Testing reddit AUC_student_mlp_s_non_normalize: 0.6186
+Testing reddit AUC_student_ggad: 0.6205
+Testing reddit AUC_student_ggad_non_normalize: 0.6195
+Testing reddit AUC_student_minus_ggad: 0.6037
+Testing reddit AUC_student_minus_ggad_non_normalize: 0.6175
+Testing AP_student_mlp_s: 0.0535
+Testing AP_student_mlp_s_non_normalize: 0.0534
+Testing AP_student_ggad: 0.0520
+Testing AP_student_ggad_non_normalize: 0.0534
+Testing AP_student_minus_ggad: 0.0543
+Testing AP_student_minus_ggad_non_normalize: 0.0535
+Total time is: 273.38521432876587
+Testing_last_ggad_ reddit AUC: 0.6253
+Hard label ratio: 0.20
+Pseudo abnormal used in BCE: False
+Epoch 555: Total Loss = 0.108722984790802,BCE Loss =0.108722984790802
+student_score: 0.1939992606639862
+ggad_score: 6.004573151585646e-05
+student_score_non_normalize: -6.178288459777832
+ggad_score_non_normalize: -9.757074356079102
+Testing reddit AUC_student_mlp_s: 0.6187
+Testing reddit AUC_student_mlp_s_non_normalize: 0.6187
+Testing reddit AUC_student_ggad: 0.6211
+Testing reddit AUC_student_ggad_non_normalize: 0.6197
+Testing reddit AUC_student_minus_ggad: 0.6018
+Testing reddit AUC_student_minus_ggad_non_normalize: 0.6180
+Testing AP_student_mlp_s: 0.0535
+Testing AP_student_mlp_s_non_normalize: 0.0534
+Testing AP_student_ggad: 0.0519
+Testing AP_student_ggad_non_normalize: 0.0534
+Testing AP_student_minus_ggad: 0.0541
+Testing AP_student_minus_ggad_non_normalize: 0.0534
+Total time is: 275.29286885261536
+Testing_last_ggad_ reddit AUC: 0.6253
+Hard label ratio: 0.20
+Pseudo abnormal used in BCE: False
+Epoch 560: Total Loss = 0.10839362442493439,BCE Loss =0.10839362442493439
+student_score: 0.19360120594501495
+ggad_score: 6.004573151585646e-05
+student_score_non_normalize: -6.226895332336426
+ggad_score_non_normalize: -9.757074356079102
+Testing reddit AUC_student_mlp_s: 0.6192
+Testing reddit AUC_student_mlp_s_non_normalize: 0.6192
+Testing reddit AUC_student_ggad: 0.6212
+Testing reddit AUC_student_ggad_non_normalize: 0.6198
+Testing reddit AUC_student_minus_ggad: 0.6012
+Testing reddit AUC_student_minus_ggad_non_normalize: 0.6181
+Testing AP_student_mlp_s: 0.0535
+Testing AP_student_mlp_s_non_normalize: 0.0534
+Testing AP_student_ggad: 0.0519
+Testing AP_student_ggad_non_normalize: 0.0534
+Testing AP_student_minus_ggad: 0.0541
+Testing AP_student_minus_ggad_non_normalize: 0.0534
+Total time is: 277.8486177921295
+Testing_last_ggad_ reddit AUC: 0.6253
+Hard label ratio: 0.20
+Pseudo abnormal used in BCE: False
+Epoch 565: Total Loss = 0.10775735974311829,BCE Loss =0.10775735974311829
+student_score: 0.1951896697282791
+ggad_score: 6.004573151585646e-05
+student_score_non_normalize: -6.215125560760498
+ggad_score_non_normalize: -9.757074356079102
+Testing reddit AUC_student_mlp_s: 0.6188
+Testing reddit AUC_student_mlp_s_non_normalize: 0.6188
+Testing reddit AUC_student_ggad: 0.6211
+Testing reddit AUC_student_ggad_non_normalize: 0.6198
+Testing reddit AUC_student_minus_ggad: 0.6009
+Testing reddit AUC_student_minus_ggad_non_normalize: 0.6177
+Testing AP_student_mlp_s: 0.0534
+Testing AP_student_mlp_s_non_normalize: 0.0534
+Testing AP_student_ggad: 0.0519
+Testing AP_student_ggad_non_normalize: 0.0534
+Testing AP_student_minus_ggad: 0.0542
+Testing AP_student_minus_ggad_non_normalize: 0.0534
+Total time is: 280.3361644744873
+Testing_last_ggad_ reddit AUC: 0.6253
+Hard label ratio: 0.20
+Pseudo abnormal used in BCE: False
+Epoch 570: Total Loss = 0.10710953921079636,BCE Loss =0.10710953921079636
+student_score: 0.19911450147628784
+ggad_score: 6.004573151585646e-05
+student_score_non_normalize: -6.131840705871582
+ggad_score_non_normalize: -9.757074356079102
+Testing reddit AUC_student_mlp_s: 0.6187
+Testing reddit AUC_student_mlp_s_non_normalize: 0.6187
+Testing reddit AUC_student_ggad: 0.6210
+Testing reddit AUC_student_ggad_non_normalize: 0.6196
+Testing reddit AUC_student_minus_ggad: 0.6013
+Testing reddit AUC_student_minus_ggad_non_normalize: 0.6177
+Testing AP_student_mlp_s: 0.0533
+Testing AP_student_mlp_s_non_normalize: 0.0534
+Testing AP_student_ggad: 0.0519
+Testing AP_student_ggad_non_normalize: 0.0534
+Testing AP_student_minus_ggad: 0.0541
+Testing AP_student_minus_ggad_non_normalize: 0.0534
+Total time is: 282.93341398239136
+Testing_last_ggad_ reddit AUC: 0.6253
+Hard label ratio: 0.20
+Pseudo abnormal used in BCE: False
+Epoch 575: Total Loss = 0.10687307268381119,BCE Loss =0.10687307268381119
+student_score: 0.20235081017017365
+ggad_score: 6.004573151585646e-05
+student_score_non_normalize: -6.069033622741699
+ggad_score_non_normalize: -9.757074356079102
+Testing reddit AUC_student_mlp_s: 0.6185
+Testing reddit AUC_student_mlp_s_non_normalize: 0.6185
+Testing reddit AUC_student_ggad: 0.6208
+Testing reddit AUC_student_ggad_non_normalize: 0.6196
+Testing reddit AUC_student_minus_ggad: 0.6020
+Testing reddit AUC_student_minus_ggad_non_normalize: 0.6175
+Testing AP_student_mlp_s: 0.0532
+Testing AP_student_mlp_s_non_normalize: 0.0534
+Testing AP_student_ggad: 0.0518
+Testing AP_student_ggad_non_normalize: 0.0534
+Testing AP_student_minus_ggad: 0.0540
+Testing AP_student_minus_ggad_non_normalize: 0.0534
+Total time is: 285.5906705856323
+Testing_last_ggad_ reddit AUC: 0.6253
+Hard label ratio: 0.20
+Pseudo abnormal used in BCE: False
+Epoch 580: Total Loss = 0.10632147639989853,BCE Loss =0.10632147639989853
+student_score: 0.19940747320652008
+ggad_score: 6.004573151585646e-05
+student_score_non_normalize: -6.194636821746826
+ggad_score_non_normalize: -9.757074356079102
+Testing reddit AUC_student_mlp_s: 0.6188
+Testing reddit AUC_student_mlp_s_non_normalize: 0.6188
+Testing reddit AUC_student_ggad: 0.6211
+Testing reddit AUC_student_ggad_non_normalize: 0.6197
+Testing reddit AUC_student_minus_ggad: 0.6012
+Testing reddit AUC_student_minus_ggad_non_normalize: 0.6177
+Testing AP_student_mlp_s: 0.0532
+Testing AP_student_mlp_s_non_normalize: 0.0534
+Testing AP_student_ggad: 0.0518
+Testing AP_student_ggad_non_normalize: 0.0534
+Testing AP_student_minus_ggad: 0.0539
+Testing AP_student_minus_ggad_non_normalize: 0.0534
+Total time is: 288.4333064556122
+Testing_last_ggad_ reddit AUC: 0.6253
+Hard label ratio: 0.20
+Pseudo abnormal used in BCE: False
+Epoch 585: Total Loss = 0.10603772848844528,BCE Loss =0.10603772848844528
+student_score: 0.19663859903812408
+ggad_score: 6.004573151585646e-05
+student_score_non_normalize: -6.316241264343262
+ggad_score_non_normalize: -9.757074356079102
+Testing reddit AUC_student_mlp_s: 0.6194
+Testing reddit AUC_student_mlp_s_non_normalize: 0.6194
+Testing reddit AUC_student_ggad: 0.6215
+Testing reddit AUC_student_ggad_non_normalize: 0.6200
+Testing reddit AUC_student_minus_ggad: 0.5998
+Testing reddit AUC_student_minus_ggad_non_normalize: 0.6180
+Testing AP_student_mlp_s: 0.0532
+Testing AP_student_mlp_s_non_normalize: 0.0534
+Testing AP_student_ggad: 0.0518
+Testing AP_student_ggad_non_normalize: 0.0534
+Testing AP_student_minus_ggad: 0.0539
+Testing AP_student_minus_ggad_non_normalize: 0.0534
+Total time is: 291.0540518760681
+Testing_last_ggad_ reddit AUC: 0.6253
+Hard label ratio: 0.20
+Pseudo abnormal used in BCE: False
+Epoch 590: Total Loss = 0.10586918890476227,BCE Loss =0.10586918890476227
+student_score: 0.20373733341693878
+ggad_score: 6.004573151585646e-05
+student_score_non_normalize: -6.133111000061035
+ggad_score_non_normalize: -9.757074356079102
+Testing reddit AUC_student_mlp_s: 0.6187
+Testing reddit AUC_student_mlp_s_non_normalize: 0.6187
+Testing reddit AUC_student_ggad: 0.6210
+Testing reddit AUC_student_ggad_non_normalize: 0.6196
+Testing reddit AUC_student_minus_ggad: 0.6012
+Testing reddit AUC_student_minus_ggad_non_normalize: 0.6177
+Testing AP_student_mlp_s: 0.0531
+Testing AP_student_mlp_s_non_normalize: 0.0534
+Testing AP_student_ggad: 0.0517
+Testing AP_student_ggad_non_normalize: 0.0533
+Testing AP_student_minus_ggad: 0.0543
+Testing AP_student_minus_ggad_non_normalize: 0.0534
+Total time is: 293.6051940917969
+Testing_last_ggad_ reddit AUC: 0.6253
+Hard label ratio: 0.20
+Pseudo abnormal used in BCE: False
+Epoch 595: Total Loss = 0.10689172148704529,BCE Loss =0.10689172148704529
+student_score: 0.1890205442905426
+ggad_score: 6.004573151585646e-05
+student_score_non_normalize: -6.628767490386963
+ggad_score_non_normalize: -9.757074356079102
+Testing reddit AUC_student_mlp_s: 0.6200
+Testing reddit AUC_student_mlp_s_non_normalize: 0.6200
+Testing reddit AUC_student_ggad: 0.6221
+Testing reddit AUC_student_ggad_non_normalize: 0.6205
+Testing reddit AUC_student_minus_ggad: 0.5997
+Testing reddit AUC_student_minus_ggad_non_normalize: 0.6190
+Testing AP_student_mlp_s: 0.0533
+Testing AP_student_mlp_s_non_normalize: 0.0533
+Testing AP_student_ggad: 0.0518
+Testing AP_student_ggad_non_normalize: 0.0533
+Testing AP_student_minus_ggad: 0.0540
+Testing AP_student_minus_ggad_non_normalize: 0.0534
+Total time is: 296.4648802280426
+Testing_last_ggad_ reddit AUC: 0.6253
+Hard label ratio: 0.20
+Pseudo abnormal used in BCE: False
+Epoch 600: Total Loss = 0.11068492382764816,BCE Loss =0.11068492382764816
+student_score: 0.21849238872528076
+ggad_score: 6.004573151585646e-05
+student_score_non_normalize: -5.749770164489746
+ggad_score_non_normalize: -9.757074356079102
+Testing reddit AUC_student_mlp_s: 0.6174
+Testing reddit AUC_student_mlp_s_non_normalize: 0.6174
+Testing reddit AUC_student_ggad: 0.6201
+Testing reddit AUC_student_ggad_non_normalize: 0.6188
+Testing reddit AUC_student_minus_ggad: 0.6069
+Testing reddit AUC_student_minus_ggad_non_normalize: 0.6166
+Testing AP_student_mlp_s: 0.0526
+Testing AP_student_mlp_s_non_normalize: 0.0534
+Testing AP_student_ggad: 0.0518
+Testing AP_student_ggad_non_normalize: 0.0533
+Testing AP_student_minus_ggad: 0.0538
+Testing AP_student_minus_ggad_non_normalize: 0.0535
+Total time is: 299.05244517326355
+Testing_last_ggad_ reddit AUC: 0.6253
+Hard label ratio: 0.20
+Pseudo abnormal used in BCE: False
+Epoch 605: Total Loss = 0.10464303940534592,BCE Loss =0.10464303940534592
+student_score: 0.2027091085910797
+ggad_score: 6.004573151585646e-05
+student_score_non_normalize: -6.269437313079834
+ggad_score_non_normalize: -9.757074356079102
+Testing reddit AUC_student_mlp_s: 0.6192
+Testing reddit AUC_student_mlp_s_non_normalize: 0.6192
+Testing reddit AUC_student_ggad: 0.6213
+Testing reddit AUC_student_ggad_non_normalize: 0.6198
+Testing reddit AUC_student_minus_ggad: 0.5999
+Testing reddit AUC_student_minus_ggad_non_normalize: 0.6179
+Testing AP_student_mlp_s: 0.0528
+Testing AP_student_mlp_s_non_normalize: 0.0534
+Testing AP_student_ggad: 0.0517
+Testing AP_student_ggad_non_normalize: 0.0533
+Testing AP_student_minus_ggad: 0.0539
+Testing AP_student_minus_ggad_non_normalize: 0.0534
+Total time is: 301.219158411026
+Testing_last_ggad_ reddit AUC: 0.6253
+Hard label ratio: 0.20
+Pseudo abnormal used in BCE: False
+Epoch 610: Total Loss = 0.10525096952915192,BCE Loss =0.10525096952915192
+student_score: 0.19101427495479584
+ggad_score: 6.004573151585646e-05
+student_score_non_normalize: -6.673288822174072
+ggad_score_non_normalize: -9.757074356079102
+Testing reddit AUC_student_mlp_s: 0.6201
+Testing reddit AUC_student_mlp_s_non_normalize: 0.6201
+Testing reddit AUC_student_ggad: 0.6223
+Testing reddit AUC_student_ggad_non_normalize: 0.6205
+Testing reddit AUC_student_minus_ggad: 0.5982
+Testing reddit AUC_student_minus_ggad_non_normalize: 0.6192
+Testing AP_student_mlp_s: 0.0531
+Testing AP_student_mlp_s_non_normalize: 0.0533
+Testing AP_student_ggad: 0.0517
+Testing AP_student_ggad_non_normalize: 0.0532
+Testing AP_student_minus_ggad: 0.0535
+Testing AP_student_minus_ggad_non_normalize: 0.0533
+Total time is: 303.3009214401245
+Testing_last_ggad_ reddit AUC: 0.6253
+Hard label ratio: 0.20
+Pseudo abnormal used in BCE: False
+Epoch 615: Total Loss = 0.10514076799154282,BCE Loss =0.10514076799154282
+student_score: 0.19026172161102295
+ggad_score: 6.004573151585646e-05
+student_score_non_normalize: -6.732537746429443
+ggad_score_non_normalize: -9.757074356079102
+Testing reddit AUC_student_mlp_s: 0.6202
+Testing reddit AUC_student_mlp_s_non_normalize: 0.6202
+Testing reddit AUC_student_ggad: 0.6225
+Testing reddit AUC_student_ggad_non_normalize: 0.6205
+Testing reddit AUC_student_minus_ggad: 0.5949
+Testing reddit AUC_student_minus_ggad_non_normalize: 0.6192
+Testing AP_student_mlp_s: 0.0530
+Testing AP_student_mlp_s_non_normalize: 0.0533
+Testing AP_student_ggad: 0.0517
+Testing AP_student_ggad_non_normalize: 0.0531
+Testing AP_student_minus_ggad: 0.0534
+Testing AP_student_minus_ggad_non_normalize: 0.0533
+Total time is: 305.4687821865082
+Testing_last_ggad_ reddit AUC: 0.6253
+Hard label ratio: 0.20
+Pseudo abnormal used in BCE: False
+Epoch 620: Total Loss = 0.10347181558609009,BCE Loss =0.10347181558609009
+student_score: 0.19773057103157043
+ggad_score: 6.004573151585646e-05
+student_score_non_normalize: -6.528110504150391
+ggad_score_non_normalize: -9.757074356079102
+Testing reddit AUC_student_mlp_s: 0.6198
+Testing reddit AUC_student_mlp_s_non_normalize: 0.6198
+Testing reddit AUC_student_ggad: 0.6219
+Testing reddit AUC_student_ggad_non_normalize: 0.6203
+Testing reddit AUC_student_minus_ggad: 0.6015
+Testing reddit AUC_student_minus_ggad_non_normalize: 0.6185
+Testing AP_student_mlp_s: 0.0527
+Testing AP_student_mlp_s_non_normalize: 0.0533
+Testing AP_student_ggad: 0.0517
+Testing AP_student_ggad_non_normalize: 0.0532
+Testing AP_student_minus_ggad: 0.0538
+Testing AP_student_minus_ggad_non_normalize: 0.0533
+Total time is: 307.72782492637634
+Testing_last_ggad_ reddit AUC: 0.6253
+Hard label ratio: 0.20
+Pseudo abnormal used in BCE: False
+Epoch 625: Total Loss = 0.10361239314079285,BCE Loss =0.10361239314079285
+student_score: 0.20489127933979034
+ggad_score: 6.004573151585646e-05
+student_score_non_normalize: -6.334127902984619
+ggad_score_non_normalize: -9.757074356079102
+Testing reddit AUC_student_mlp_s: 0.6193
+Testing reddit AUC_student_mlp_s_non_normalize: 0.6193
+Testing reddit AUC_student_ggad: 0.6214
+Testing reddit AUC_student_ggad_non_normalize: 0.6199
+Testing reddit AUC_student_minus_ggad: 0.6038
+Testing reddit AUC_student_minus_ggad_non_normalize: 0.6181
+Testing AP_student_mlp_s: 0.0525
+Testing AP_student_mlp_s_non_normalize: 0.0533
+Testing AP_student_ggad: 0.0519
+Testing AP_student_ggad_non_normalize: 0.0532
+Testing AP_student_minus_ggad: 0.0539
+Testing AP_student_minus_ggad_non_normalize: 0.0533
+Total time is: 309.864461183548
+Testing_last_ggad_ reddit AUC: 0.6253
+Hard label ratio: 0.20
+Pseudo abnormal used in BCE: False
+Epoch 630: Total Loss = 0.10285437107086182,BCE Loss =0.10285437107086182
+student_score: 0.2017422616481781
+ggad_score: 6.004573151585646e-05
+student_score_non_normalize: -6.467764377593994
+ggad_score_non_normalize: -9.757074356079102
+Testing reddit AUC_student_mlp_s: 0.6196
+Testing reddit AUC_student_mlp_s_non_normalize: 0.6196
+Testing reddit AUC_student_ggad: 0.6218
+Testing reddit AUC_student_ggad_non_normalize: 0.6201
+Testing reddit AUC_student_minus_ggad: 0.6023
+Testing reddit AUC_student_minus_ggad_non_normalize: 0.6183
+Testing AP_student_mlp_s: 0.0525
+Testing AP_student_mlp_s_non_normalize: 0.0532
+Testing AP_student_ggad: 0.0519
+Testing AP_student_ggad_non_normalize: 0.0532
+Testing AP_student_minus_ggad: 0.0538
+Testing AP_student_minus_ggad_non_normalize: 0.0533
+Total time is: 312.1333658695221
+Testing_last_ggad_ reddit AUC: 0.6253
+Hard label ratio: 0.20
+Pseudo abnormal used in BCE: False
+Epoch 635: Total Loss = 0.10281427949666977,BCE Loss =0.10281427949666977
+student_score: 0.19452443718910217
+ggad_score: 6.004573151585646e-05
+student_score_non_normalize: -6.734476089477539
+ggad_score_non_normalize: -9.757074356079102
+Testing reddit AUC_student_mlp_s: 0.6201
+Testing reddit AUC_student_mlp_s_non_normalize: 0.6201
+Testing reddit AUC_student_ggad: 0.6225
+Testing reddit AUC_student_ggad_non_normalize: 0.6205
+Testing reddit AUC_student_minus_ggad: 0.5944
+Testing reddit AUC_student_minus_ggad_non_normalize: 0.6192
+Testing AP_student_mlp_s: 0.0526
+Testing AP_student_mlp_s_non_normalize: 0.0531
+Testing AP_student_ggad: 0.0517
+Testing AP_student_ggad_non_normalize: 0.0531
+Testing AP_student_minus_ggad: 0.0538
+Testing AP_student_minus_ggad_non_normalize: 0.0533
+Total time is: 314.1584219932556
+Testing_last_ggad_ reddit AUC: 0.6253
+Hard label ratio: 0.20
+Pseudo abnormal used in BCE: False
+Epoch 640: Total Loss = 0.10220814496278763,BCE Loss =0.10220814496278763
+student_score: 0.20201410353183746
+ggad_score: 6.004573151585646e-05
+student_score_non_normalize: -6.526462554931641
+ggad_score_non_normalize: -9.757074356079102
+Testing reddit AUC_student_mlp_s: 0.6196
+Testing reddit AUC_student_mlp_s_non_normalize: 0.6196
+Testing reddit AUC_student_ggad: 0.6218
+Testing reddit AUC_student_ggad_non_normalize: 0.6201
+Testing reddit AUC_student_minus_ggad: 0.5983
+Testing reddit AUC_student_minus_ggad_non_normalize: 0.6184
+Testing AP_student_mlp_s: 0.0524
+Testing AP_student_mlp_s_non_normalize: 0.0531
+Testing AP_student_ggad: 0.0517
+Testing AP_student_ggad_non_normalize: 0.0532
+Testing AP_student_minus_ggad: 0.0536
+Testing AP_student_minus_ggad_non_normalize: 0.0533
+Total time is: 316.288476228714
+Testing_last_ggad_ reddit AUC: 0.6253
+Hard label ratio: 0.20
+Pseudo abnormal used in BCE: False
+Epoch 645: Total Loss = 0.10177446901798248,BCE Loss =0.10177446901798248
+student_score: 0.19832660257816315
+ggad_score: 6.004573151585646e-05
+student_score_non_normalize: -6.680004596710205
+ggad_score_non_normalize: -9.757074356079102
+Testing reddit AUC_student_mlp_s: 0.6198
+Testing reddit AUC_student_mlp_s_non_normalize: 0.6198
+Testing reddit AUC_student_ggad: 0.6223
+Testing reddit AUC_student_ggad_non_normalize: 0.6203
+Testing reddit AUC_student_minus_ggad: 0.5947
+Testing reddit AUC_student_minus_ggad_non_normalize: 0.6186
+Testing AP_student_mlp_s: 0.0524
+Testing AP_student_mlp_s_non_normalize: 0.0531
+Testing AP_student_ggad: 0.0517
+Testing AP_student_ggad_non_normalize: 0.0531
+Testing AP_student_minus_ggad: 0.0533
+Testing AP_student_minus_ggad_non_normalize: 0.0532
+Total time is: 318.35973167419434
+Testing_last_ggad_ reddit AUC: 0.6253
+Hard label ratio: 0.20
+Pseudo abnormal used in BCE: False
+Epoch 650: Total Loss = 0.10144289582967758,BCE Loss =0.10144289582967758
+student_score: 0.20031635463237762
+ggad_score: 6.004573151585646e-05
+student_score_non_normalize: -6.649663925170898
+ggad_score_non_normalize: -9.757074356079102
+Testing reddit AUC_student_mlp_s: 0.6197
+Testing reddit AUC_student_mlp_s_non_normalize: 0.6197
+Testing reddit AUC_student_ggad: 0.6223
+Testing reddit AUC_student_ggad_non_normalize: 0.6202
+Testing reddit AUC_student_minus_ggad: 0.5947
+Testing reddit AUC_student_minus_ggad_non_normalize: 0.6185
+Testing AP_student_mlp_s: 0.0524
+Testing AP_student_mlp_s_non_normalize: 0.0531
+Testing AP_student_ggad: 0.0517
+Testing AP_student_ggad_non_normalize: 0.0531
+Testing AP_student_minus_ggad: 0.0534
+Testing AP_student_minus_ggad_non_normalize: 0.0531
+Total time is: 320.22899627685547
+Testing_last_ggad_ reddit AUC: 0.6253
+Hard label ratio: 0.20
+Pseudo abnormal used in BCE: False
+Epoch 655: Total Loss = 0.10127349197864532,BCE Loss =0.10127349197864532
+student_score: 0.1962173879146576
+ggad_score: 6.004573151585646e-05
+student_score_non_normalize: -6.818612098693848
+ggad_score_non_normalize: -9.757074356079102
+Testing reddit AUC_student_mlp_s: 0.6199
+Testing reddit AUC_student_mlp_s_non_normalize: 0.6199
+Testing reddit AUC_student_ggad: 0.6225
+Testing reddit AUC_student_ggad_non_normalize: 0.6205
+Testing reddit AUC_student_minus_ggad: 0.5946
+Testing reddit AUC_student_minus_ggad_non_normalize: 0.6191
+Testing AP_student_mlp_s: 0.0523
+Testing AP_student_mlp_s_non_normalize: 0.0531
+Testing AP_student_ggad: 0.0517
+Testing AP_student_ggad_non_normalize: 0.0530
+Testing AP_student_minus_ggad: 0.0533
+Testing AP_student_minus_ggad_non_normalize: 0.0531
+Total time is: 322.0935814380646
+Testing_last_ggad_ reddit AUC: 0.6253
+Hard label ratio: 0.20
+Pseudo abnormal used in BCE: False
+Epoch 660: Total Loss = 0.10522396117448807,BCE Loss =0.10522396117448807
+student_score: 0.21559162437915802
+ggad_score: 6.004573151585646e-05
+student_score_non_normalize: -6.221657752990723
+ggad_score_non_normalize: -9.757074356079102
+Testing reddit AUC_student_mlp_s: 0.6187
+Testing reddit AUC_student_mlp_s_non_normalize: 0.6187
+Testing reddit AUC_student_ggad: 0.6211
+Testing reddit AUC_student_ggad_non_normalize: 0.6195
+Testing reddit AUC_student_minus_ggad: 0.6044
+Testing reddit AUC_student_minus_ggad_non_normalize: 0.6178
+Testing AP_student_mlp_s: 0.0525
+Testing AP_student_mlp_s_non_normalize: 0.0532
+Testing AP_student_ggad: 0.0517
+Testing AP_student_ggad_non_normalize: 0.0532
+Testing AP_student_minus_ggad: 0.0531
+Testing AP_student_minus_ggad_non_normalize: 0.0532
+Total time is: 324.0132396221161
+Testing_last_ggad_ reddit AUC: 0.6253
+Hard label ratio: 0.20
+Pseudo abnormal used in BCE: False
+Epoch 665: Total Loss = 0.11132164299488068,BCE Loss =0.11132164299488068
+student_score: 0.17488205432891846
+ggad_score: 6.004573151585646e-05
+student_score_non_normalize: -7.605484962463379
+ggad_score_non_normalize: -9.757074356079102
+Testing reddit AUC_student_mlp_s: 0.6213
+Testing reddit AUC_student_mlp_s_non_normalize: 0.6213
+Testing reddit AUC_student_ggad: 0.6235
+Testing reddit AUC_student_ggad_non_normalize: 0.6216
+Testing reddit AUC_student_minus_ggad: 0.6053
+Testing reddit AUC_student_minus_ggad_non_normalize: 0.6208
+Testing AP_student_mlp_s: 0.0527
+Testing AP_student_mlp_s_non_normalize: 0.0529
+Testing AP_student_ggad: 0.0516
+Testing AP_student_ggad_non_normalize: 0.0529
+Testing AP_student_minus_ggad: 0.0540
+Testing AP_student_minus_ggad_non_normalize: 0.0530
+Total time is: 326.38109040260315
+Testing_last_ggad_ reddit AUC: 0.6253
+Hard label ratio: 0.20
+Pseudo abnormal used in BCE: False
+Epoch 670: Total Loss = 0.10446836054325104,BCE Loss =0.10446836054325104
+student_score: 0.18399864435195923
+ggad_score: 6.004573151585646e-05
+student_score_non_normalize: -7.326813220977783
+ggad_score_non_normalize: -9.757074356079102
+Testing reddit AUC_student_mlp_s: 0.6208
+Testing reddit AUC_student_mlp_s_non_normalize: 0.6208
+Testing reddit AUC_student_ggad: 0.6232
+Testing reddit AUC_student_ggad_non_normalize: 0.6212
+Testing reddit AUC_student_minus_ggad: 0.6006
+Testing reddit AUC_student_minus_ggad_non_normalize: 0.6203
+Testing AP_student_mlp_s: 0.0525
+Testing AP_student_mlp_s_non_normalize: 0.0529
+Testing AP_student_ggad: 0.0516
+Testing AP_student_ggad_non_normalize: 0.0529
+Testing AP_student_minus_ggad: 0.0536
+Testing AP_student_minus_ggad_non_normalize: 0.0529
+Total time is: 328.88481187820435
+Testing_last_ggad_ reddit AUC: 0.6253
+Hard label ratio: 0.20
+Pseudo abnormal used in BCE: False
+Epoch 675: Total Loss = 0.10014721006155014,BCE Loss =0.10014721006155014
+student_score: 0.19645878672599792
+ggad_score: 6.004573151585646e-05
+student_score_non_normalize: -6.937149524688721
+ggad_score_non_normalize: -9.757074356079102
+Testing reddit AUC_student_mlp_s: 0.6201
+Testing reddit AUC_student_mlp_s_non_normalize: 0.6201
+Testing reddit AUC_student_ggad: 0.6227
+Testing reddit AUC_student_ggad_non_normalize: 0.6207
+Testing reddit AUC_student_minus_ggad: 0.5974
+Testing reddit AUC_student_minus_ggad_non_normalize: 0.6193
+Testing AP_student_mlp_s: 0.0528
+Testing AP_student_mlp_s_non_normalize: 0.0531
+Testing AP_student_ggad: 0.0517
+Testing AP_student_ggad_non_normalize: 0.0530
+Testing AP_student_minus_ggad: 0.0536
+Testing AP_student_minus_ggad_non_normalize: 0.0531
+Total time is: 331.21979093551636
+Testing_last_ggad_ reddit AUC: 0.6253
+Hard label ratio: 0.20
+Pseudo abnormal used in BCE: False
+Epoch 680: Total Loss = 0.10057860612869263,BCE Loss =0.10057860612869263
+student_score: 0.20628111064434052
+ggad_score: 6.004573151585646e-05
+student_score_non_normalize: -6.63911771774292
+ggad_score_non_normalize: -9.757074356079102
+Testing reddit AUC_student_mlp_s: 0.6196
+Testing reddit AUC_student_mlp_s_non_normalize: 0.6196
+Testing reddit AUC_student_ggad: 0.6221
+Testing reddit AUC_student_ggad_non_normalize: 0.6202
+Testing reddit AUC_student_minus_ggad: 0.5958
+Testing reddit AUC_student_minus_ggad_non_normalize: 0.6183
+Testing AP_student_mlp_s: 0.0525
+Testing AP_student_mlp_s_non_normalize: 0.0531
+Testing AP_student_ggad: 0.0517
+Testing AP_student_ggad_non_normalize: 0.0530
+Testing AP_student_minus_ggad: 0.0526
+Testing AP_student_minus_ggad_non_normalize: 0.0531
+Total time is: 333.2389266490936
+Testing_last_ggad_ reddit AUC: 0.6253
+Hard label ratio: 0.20
+Pseudo abnormal used in BCE: False
+Epoch 685: Total Loss = 0.10119553655385971,BCE Loss =0.10119553655385971
+student_score: 0.20926566421985626
+ggad_score: 6.004573151585646e-05
+student_score_non_normalize: -6.568350315093994
+ggad_score_non_normalize: -9.757074356079102
+Testing reddit AUC_student_mlp_s: 0.6191
+Testing reddit AUC_student_mlp_s_non_normalize: 0.6191
+Testing reddit AUC_student_ggad: 0.6220
+Testing reddit AUC_student_ggad_non_normalize: 0.6201
+Testing reddit AUC_student_minus_ggad: 0.5958
+Testing reddit AUC_student_minus_ggad_non_normalize: 0.6182
+Testing AP_student_mlp_s: 0.0524
+Testing AP_student_mlp_s_non_normalize: 0.0531
+Testing AP_student_ggad: 0.0516
+Testing AP_student_ggad_non_normalize: 0.0531
+Testing AP_student_minus_ggad: 0.0526
+Testing AP_student_minus_ggad_non_normalize: 0.0531
+Total time is: 335.3548333644867
+Testing_last_ggad_ reddit AUC: 0.6253
+Hard label ratio: 0.20
+Pseudo abnormal used in BCE: False
+Epoch 690: Total Loss = 0.1002032533288002,BCE Loss =0.1002032533288002
+student_score: 0.20681975781917572
+ggad_score: 6.004573151585646e-05
+student_score_non_normalize: -6.677424907684326
+ggad_score_non_normalize: -9.757074356079102
+Testing reddit AUC_student_mlp_s: 0.6196
+Testing reddit AUC_student_mlp_s_non_normalize: 0.6196
+Testing reddit AUC_student_ggad: 0.6224
+Testing reddit AUC_student_ggad_non_normalize: 0.6203
+Testing reddit AUC_student_minus_ggad: 0.5960
+Testing reddit AUC_student_minus_ggad_non_normalize: 0.6184
+Testing AP_student_mlp_s: 0.0524
+Testing AP_student_mlp_s_non_normalize: 0.0531
+Testing AP_student_ggad: 0.0517
+Testing AP_student_ggad_non_normalize: 0.0530
+Testing AP_student_minus_ggad: 0.0527
+Testing AP_student_minus_ggad_non_normalize: 0.0532
+Total time is: 337.32447361946106
+Testing_last_ggad_ reddit AUC: 0.6253
+Hard label ratio: 0.20
+Pseudo abnormal used in BCE: False
+Epoch 695: Total Loss = 0.09916461259126663,BCE Loss =0.09916461259126663
+student_score: 0.20267823338508606
+ggad_score: 6.004573151585646e-05
+student_score_non_normalize: -6.844513893127441
+ggad_score_non_normalize: -9.757074356079102
+Testing reddit AUC_student_mlp_s: 0.6199
+Testing reddit AUC_student_mlp_s_non_normalize: 0.6199
+Testing reddit AUC_student_ggad: 0.6226
+Testing reddit AUC_student_ggad_non_normalize: 0.6206
+Testing reddit AUC_student_minus_ggad: 0.5973
+Testing reddit AUC_student_minus_ggad_non_normalize: 0.6191
+Testing AP_student_mlp_s: 0.0526
+Testing AP_student_mlp_s_non_normalize: 0.0530
+Testing AP_student_ggad: 0.0517
+Testing AP_student_ggad_non_normalize: 0.0530
+Testing AP_student_minus_ggad: 0.0527
+Testing AP_student_minus_ggad_non_normalize: 0.0531
+Total time is: 339.281631231308
+Testing_last_ggad_ reddit AUC: 0.6253
+Hard label ratio: 0.20
+Pseudo abnormal used in BCE: False
+Epoch 700: Total Loss = 0.09871318191289902,BCE Loss =0.09871318191289902
+student_score: 0.19952771067619324
+ggad_score: 6.004573151585646e-05
+student_score_non_normalize: -6.980185508728027
+ggad_score_non_normalize: -9.757074356079102
+Testing reddit AUC_student_mlp_s: 0.6202
+Testing reddit AUC_student_mlp_s_non_normalize: 0.6201
+Testing reddit AUC_student_ggad: 0.6227
+Testing reddit AUC_student_ggad_non_normalize: 0.6208
+Testing reddit AUC_student_minus_ggad: 0.5994
+Testing reddit AUC_student_minus_ggad_non_normalize: 0.6193
+Testing AP_student_mlp_s: 0.0526
+Testing AP_student_mlp_s_non_normalize: 0.0530
+Testing AP_student_ggad: 0.0517
+Testing AP_student_ggad_non_normalize: 0.0530
+Testing AP_student_minus_ggad: 0.0531
+Testing AP_student_minus_ggad_non_normalize: 0.0530
+Total time is: 341.71429109573364
+Testing_last_ggad_ reddit AUC: 0.6253
+Hard label ratio: 0.20
+Pseudo abnormal used in BCE: False
+Epoch 705: Total Loss = 0.09848687052726746,BCE Loss =0.09848687052726746
+student_score: 0.1980094462633133
+ggad_score: 6.004573151585646e-05
+student_score_non_normalize: -7.061717510223389
+ggad_score_non_normalize: -9.757074356079102
+Testing reddit AUC_student_mlp_s: 0.6203
+Testing reddit AUC_student_mlp_s_non_normalize: 0.6203
+Testing reddit AUC_student_ggad: 0.6228
+Testing reddit AUC_student_ggad_non_normalize: 0.6208
+Testing reddit AUC_student_minus_ggad: 0.6008
+Testing reddit AUC_student_minus_ggad_non_normalize: 0.6194
+Testing AP_student_mlp_s: 0.0526
+Testing AP_student_mlp_s_non_normalize: 0.0530
+Testing AP_student_ggad: 0.0516
+Testing AP_student_ggad_non_normalize: 0.0530
+Testing AP_student_minus_ggad: 0.0531
+Testing AP_student_minus_ggad_non_normalize: 0.0529
+Total time is: 343.8087043762207
+Testing_last_ggad_ reddit AUC: 0.6253
+Hard label ratio: 0.20
+Pseudo abnormal used in BCE: False
+Epoch 710: Total Loss = 0.09824689477682114,BCE Loss =0.09824689477682114
+student_score: 0.19764114916324615
+ggad_score: 6.004573151585646e-05
+student_score_non_normalize: -7.104589462280273
+ggad_score_non_normalize: -9.757074356079102
+Testing reddit AUC_student_mlp_s: 0.6204
+Testing reddit AUC_student_mlp_s_non_normalize: 0.6204
+Testing reddit AUC_student_ggad: 0.6228
+Testing reddit AUC_student_ggad_non_normalize: 0.6209
+Testing reddit AUC_student_minus_ggad: 0.6006
+Testing reddit AUC_student_minus_ggad_non_normalize: 0.6194
+Testing AP_student_mlp_s: 0.0525
+Testing AP_student_mlp_s_non_normalize: 0.0530
+Testing AP_student_ggad: 0.0516
+Testing AP_student_ggad_non_normalize: 0.0530
+Testing AP_student_minus_ggad: 0.0529
+Testing AP_student_minus_ggad_non_normalize: 0.0529
+Total time is: 345.9646363258362
+Testing_last_ggad_ reddit AUC: 0.6253
+Hard label ratio: 0.20
+Pseudo abnormal used in BCE: False
+Epoch 715: Total Loss = 0.09797342866659164,BCE Loss =0.09797342866659164
+student_score: 0.19784347712993622
+ggad_score: 6.004573151585646e-05
+student_score_non_normalize: -7.128243923187256
+ggad_score_non_normalize: -9.757074356079102
+Testing reddit AUC_student_mlp_s: 0.6205
+Testing reddit AUC_student_mlp_s_non_normalize: 0.6205
+Testing reddit AUC_student_ggad: 0.6229
+Testing reddit AUC_student_ggad_non_normalize: 0.6210
+Testing reddit AUC_student_minus_ggad: 0.6014
+Testing reddit AUC_student_minus_ggad_non_normalize: 0.6195
+Testing AP_student_mlp_s: 0.0524
+Testing AP_student_mlp_s_non_normalize: 0.0530
+Testing AP_student_ggad: 0.0516
+Testing AP_student_ggad_non_normalize: 0.0530
+Testing AP_student_minus_ggad: 0.0529
+Testing AP_student_minus_ggad_non_normalize: 0.0529
+Total time is: 348.02666878700256
+Testing_last_ggad_ reddit AUC: 0.6253
+Hard label ratio: 0.20
+Pseudo abnormal used in BCE: False
+Epoch 720: Total Loss = 0.0976911261677742,BCE Loss =0.0976911261677742
+student_score: 0.19827800989151
+ggad_score: 6.004573151585646e-05
+student_score_non_normalize: -7.144155502319336
+ggad_score_non_normalize: -9.757074356079102
+Testing reddit AUC_student_mlp_s: 0.6205
+Testing reddit AUC_student_mlp_s_non_normalize: 0.6205
+Testing reddit AUC_student_ggad: 0.6231
+Testing reddit AUC_student_ggad_non_normalize: 0.6210
+Testing reddit AUC_student_minus_ggad: 0.6019
+Testing reddit AUC_student_minus_ggad_non_normalize: 0.6195
+Testing AP_student_mlp_s: 0.0523
+Testing AP_student_mlp_s_non_normalize: 0.0530
+Testing AP_student_ggad: 0.0516
+Testing AP_student_ggad_non_normalize: 0.0530
+Testing AP_student_minus_ggad: 0.0528
+Testing AP_student_minus_ggad_non_normalize: 0.0529
+Total time is: 350.33974742889404
+Testing_last_ggad_ reddit AUC: 0.6253
+Hard label ratio: 0.20
+Pseudo abnormal used in BCE: False
+Epoch 725: Total Loss = 0.09741294384002686,BCE Loss =0.09741294384002686
+student_score: 0.1988316923379898
+ggad_score: 6.004573151585646e-05
+student_score_non_normalize: -7.156085014343262
+ggad_score_non_normalize: -9.757074356079102
+Testing reddit AUC_student_mlp_s: 0.6205
+Testing reddit AUC_student_mlp_s_non_normalize: 0.6205
+Testing reddit AUC_student_ggad: 0.6231
+Testing reddit AUC_student_ggad_non_normalize: 0.6210
+Testing reddit AUC_student_minus_ggad: 0.6024
+Testing reddit AUC_student_minus_ggad_non_normalize: 0.6195
+Testing AP_student_mlp_s: 0.0523
+Testing AP_student_mlp_s_non_normalize: 0.0529
+Testing AP_student_ggad: 0.0516
+Testing AP_student_ggad_non_normalize: 0.0530
+Testing AP_student_minus_ggad: 0.0528
+Testing AP_student_minus_ggad_non_normalize: 0.0529
+Total time is: 352.60771441459656
+Testing_last_ggad_ reddit AUC: 0.6253
+Hard label ratio: 0.20
+Pseudo abnormal used in BCE: False
+Epoch 730: Total Loss = 0.09714663028717041,BCE Loss =0.09714663028717041
+student_score: 0.1994611769914627
+ggad_score: 6.004573151585646e-05
+student_score_non_normalize: -7.165439605712891
+ggad_score_non_normalize: -9.757074356079102
+Testing reddit AUC_student_mlp_s: 0.6206
+Testing reddit AUC_student_mlp_s_non_normalize: 0.6206
+Testing reddit AUC_student_ggad: 0.6231
+Testing reddit AUC_student_ggad_non_normalize: 0.6210
+Testing reddit AUC_student_minus_ggad: 0.6026
+Testing reddit AUC_student_minus_ggad_non_normalize: 0.6196
+Testing AP_student_mlp_s: 0.0522
+Testing AP_student_mlp_s_non_normalize: 0.0529
+Testing AP_student_ggad: 0.0516
+Testing AP_student_ggad_non_normalize: 0.0530
+Testing AP_student_minus_ggad: 0.0527
+Testing AP_student_minus_ggad_non_normalize: 0.0529
+Total time is: 354.6931993961334
+Testing_last_ggad_ reddit AUC: 0.6253
+Hard label ratio: 0.20
+Pseudo abnormal used in BCE: False
+Epoch 735: Total Loss = 0.0968945100903511,BCE Loss =0.0968945100903511
+student_score: 0.20004254579544067
+ggad_score: 6.004573151585646e-05
+student_score_non_normalize: -7.17650032043457
+ggad_score_non_normalize: -9.757074356079102
+Testing reddit AUC_student_mlp_s: 0.6205
+Testing reddit AUC_student_mlp_s_non_normalize: 0.6205
+Testing reddit AUC_student_ggad: 0.6231
+Testing reddit AUC_student_ggad_non_normalize: 0.6210
+Testing reddit AUC_student_minus_ggad: 0.6035
+Testing reddit AUC_student_minus_ggad_non_normalize: 0.6196
+Testing AP_student_mlp_s: 0.0520
+Testing AP_student_mlp_s_non_normalize: 0.0529
+Testing AP_student_ggad: 0.0515
+Testing AP_student_ggad_non_normalize: 0.0530
+Testing AP_student_minus_ggad: 0.0527
+Testing AP_student_minus_ggad_non_normalize: 0.0529
+Total time is: 356.6284668445587
+Testing_last_ggad_ reddit AUC: 0.6253
+Hard label ratio: 0.20
+Pseudo abnormal used in BCE: False
+Epoch 740: Total Loss = 0.09664374589920044,BCE Loss =0.09664374589920044
+student_score: 0.20028415322303772
+ggad_score: 6.004573151585646e-05
+student_score_non_normalize: -7.1994123458862305
+ggad_score_non_normalize: -9.757074356079102
+Testing reddit AUC_student_mlp_s: 0.6205
+Testing reddit AUC_student_mlp_s_non_normalize: 0.6206
+Testing reddit AUC_student_ggad: 0.6231
+Testing reddit AUC_student_ggad_non_normalize: 0.6210
+Testing reddit AUC_student_minus_ggad: 0.6038
+Testing reddit AUC_student_minus_ggad_non_normalize: 0.6196
+Testing AP_student_mlp_s: 0.0521
+Testing AP_student_mlp_s_non_normalize: 0.0529
+Testing AP_student_ggad: 0.0515
+Testing AP_student_ggad_non_normalize: 0.0529
+Testing AP_student_minus_ggad: 0.0526
+Testing AP_student_minus_ggad_non_normalize: 0.0529
+Total time is: 358.78066420555115
+Testing_last_ggad_ reddit AUC: 0.6253
+Hard label ratio: 0.20
+Pseudo abnormal used in BCE: False
+Epoch 745: Total Loss = 0.09638036787509918,BCE Loss =0.09638036787509918
+student_score: 0.19988498091697693
+ggad_score: 6.004573151585646e-05
+student_score_non_normalize: -7.244818687438965
+ggad_score_non_normalize: -9.757074356079102
+Testing reddit AUC_student_mlp_s: 0.6206
+Testing reddit AUC_student_mlp_s_non_normalize: 0.6207
+Testing reddit AUC_student_ggad: 0.6233
+Testing reddit AUC_student_ggad_non_normalize: 0.6210
+Testing reddit AUC_student_minus_ggad: 0.6042
+Testing reddit AUC_student_minus_ggad_non_normalize: 0.6196
+Testing AP_student_mlp_s: 0.0518
+Testing AP_student_mlp_s_non_normalize: 0.0529
+Testing AP_student_ggad: 0.0515
+Testing AP_student_ggad_non_normalize: 0.0529
+Testing AP_student_minus_ggad: 0.0526
+Testing AP_student_minus_ggad_non_normalize: 0.0529
+Total time is: 360.77858877182007
+Testing_last_ggad_ reddit AUC: 0.6253
+Hard label ratio: 0.20
+Pseudo abnormal used in BCE: False
+Epoch 750: Total Loss = 0.0961267352104187,BCE Loss =0.0961267352104187
+student_score: 0.19914758205413818
+ggad_score: 6.004573151585646e-05
+student_score_non_normalize: -7.302387237548828
+ggad_score_non_normalize: -9.757074356079102
+Testing reddit AUC_student_mlp_s: 0.6206
+Testing reddit AUC_student_mlp_s_non_normalize: 0.6207
+Testing reddit AUC_student_ggad: 0.6237
+Testing reddit AUC_student_ggad_non_normalize: 0.6211
+Testing reddit AUC_student_minus_ggad: 0.6052
+Testing reddit AUC_student_minus_ggad_non_normalize: 0.6197
+Testing AP_student_mlp_s: 0.0518
+Testing AP_student_mlp_s_non_normalize: 0.0529
+Testing AP_student_ggad: 0.0515
+Testing AP_student_ggad_non_normalize: 0.0529
+Testing AP_student_minus_ggad: 0.0527
+Testing AP_student_minus_ggad_non_normalize: 0.0529
+Total time is: 362.95698070526123
+Testing_last_ggad_ reddit AUC: 0.6253
+Hard label ratio: 0.20
+Pseudo abnormal used in BCE: False
+Epoch 755: Total Loss = 0.09587302803993225,BCE Loss =0.09587302803993225
+student_score: 0.19922877848148346
+ggad_score: 6.004573151585646e-05
+student_score_non_normalize: -7.331510066986084
+ggad_score_non_normalize: -9.757074356079102
+Testing reddit AUC_student_mlp_s: 0.6207
+Testing reddit AUC_student_mlp_s_non_normalize: 0.6207
+Testing reddit AUC_student_ggad: 0.6237
+Testing reddit AUC_student_ggad_non_normalize: 0.6211
+Testing reddit AUC_student_minus_ggad: 0.6050
+Testing reddit AUC_student_minus_ggad_non_normalize: 0.6197
+Testing AP_student_mlp_s: 0.0517
+Testing AP_student_mlp_s_non_normalize: 0.0529
+Testing AP_student_ggad: 0.0515
+Testing AP_student_ggad_non_normalize: 0.0529
+Testing AP_student_minus_ggad: 0.0526
+Testing AP_student_minus_ggad_non_normalize: 0.0529
+Total time is: 365.09353947639465
+Testing_last_ggad_ reddit AUC: 0.6253
+Hard label ratio: 0.20
+Pseudo abnormal used in BCE: False
+Epoch 760: Total Loss = 0.0956236869096756,BCE Loss =0.0956236869096756
+student_score: 0.19997160136699677
+ggad_score: 6.004573151585646e-05
+student_score_non_normalize: -7.337372779846191
+ggad_score_non_normalize: -9.757074356079102
+Testing reddit AUC_student_mlp_s: 0.6207
+Testing reddit AUC_student_mlp_s_non_normalize: 0.6207
+Testing reddit AUC_student_ggad: 0.6238
+Testing reddit AUC_student_ggad_non_normalize: 0.6212
+Testing reddit AUC_student_minus_ggad: 0.6051
+Testing reddit AUC_student_minus_ggad_non_normalize: 0.6198
+Testing AP_student_mlp_s: 0.0520
+Testing AP_student_mlp_s_non_normalize: 0.0529
+Testing AP_student_ggad: 0.0515
+Testing AP_student_ggad_non_normalize: 0.0529
+Testing AP_student_minus_ggad: 0.0526
+Testing AP_student_minus_ggad_non_normalize: 0.0529
+Total time is: 367.36103868484497
+Testing_last_ggad_ reddit AUC: 0.6253
+Hard label ratio: 0.20
+Pseudo abnormal used in BCE: False
+Epoch 765: Total Loss = 0.09537243098020554,BCE Loss =0.09537243098020554
+student_score: 0.1991574913263321
+ggad_score: 6.004573151585646e-05
+student_score_non_normalize: -7.398312091827393
+ggad_score_non_normalize: -9.757074356079102
+Testing reddit AUC_student_mlp_s: 0.6207
+Testing reddit AUC_student_mlp_s_non_normalize: 0.6208
+Testing reddit AUC_student_ggad: 0.6239
+Testing reddit AUC_student_ggad_non_normalize: 0.6212
+Testing reddit AUC_student_minus_ggad: 0.6059
+Testing reddit AUC_student_minus_ggad_non_normalize: 0.6198
+Testing AP_student_mlp_s: 0.0519
+Testing AP_student_mlp_s_non_normalize: 0.0529
+Testing AP_student_ggad: 0.0515
+Testing AP_student_ggad_non_normalize: 0.0529
+Testing AP_student_minus_ggad: 0.0526
+Testing AP_student_minus_ggad_non_normalize: 0.0529
+Total time is: 369.51979970932007
+Testing_last_ggad_ reddit AUC: 0.6253
+Hard label ratio: 0.20
+Pseudo abnormal used in BCE: False
+Epoch 770: Total Loss = 0.0951261818408966,BCE Loss =0.0951261818408966
+student_score: 0.20009887218475342
+ggad_score: 6.004573151585646e-05
+student_score_non_normalize: -7.397155284881592
+ggad_score_non_normalize: -9.757074356079102
+Testing reddit AUC_student_mlp_s: 0.6207
+Testing reddit AUC_student_mlp_s_non_normalize: 0.6207
+Testing reddit AUC_student_ggad: 0.6239
+Testing reddit AUC_student_ggad_non_normalize: 0.6212
+Testing reddit AUC_student_minus_ggad: 0.6060
+Testing reddit AUC_student_minus_ggad_non_normalize: 0.6198
+Testing AP_student_mlp_s: 0.0520
+Testing AP_student_mlp_s_non_normalize: 0.0529
+Testing AP_student_ggad: 0.0515
+Testing AP_student_ggad_non_normalize: 0.0529
+Testing AP_student_minus_ggad: 0.0525
+Testing AP_student_minus_ggad_non_normalize: 0.0529
+Total time is: 371.96361351013184
+Testing_last_ggad_ reddit AUC: 0.6253
+Hard label ratio: 0.20
+Pseudo abnormal used in BCE: False
+Epoch 775: Total Loss = 0.09492087364196777,BCE Loss =0.09492087364196777
+student_score: 0.19794316589832306
+ggad_score: 6.004573151585646e-05
+student_score_non_normalize: -7.506319046020508
+ggad_score_non_normalize: -9.757074356079102
+Testing reddit AUC_student_mlp_s: 0.6209
+Testing reddit AUC_student_mlp_s_non_normalize: 0.6209
+Testing reddit AUC_student_ggad: 0.6241
+Testing reddit AUC_student_ggad_non_normalize: 0.6212
+Testing reddit AUC_student_minus_ggad: 0.6091
+Testing reddit AUC_student_minus_ggad_non_normalize: 0.6199
+Testing AP_student_mlp_s: 0.0520
+Testing AP_student_mlp_s_non_normalize: 0.0528
+Testing AP_student_ggad: 0.0515
+Testing AP_student_ggad_non_normalize: 0.0528
+Testing AP_student_minus_ggad: 0.0527
+Testing AP_student_minus_ggad_non_normalize: 0.0528
+Total time is: 374.1064338684082
+Testing_last_ggad_ reddit AUC: 0.6253
+Hard label ratio: 0.20
+Pseudo abnormal used in BCE: False
+Epoch 780: Total Loss = 0.09546207636594772,BCE Loss =0.09546207636594772
+student_score: 0.20623637735843658
+ggad_score: 6.004573151585646e-05
+student_score_non_normalize: -7.243173122406006
+ggad_score_non_normalize: -9.757074356079102
+Testing reddit AUC_student_mlp_s: 0.6205
+Testing reddit AUC_student_mlp_s_non_normalize: 0.6205
+Testing reddit AUC_student_ggad: 0.6236
+Testing reddit AUC_student_ggad_non_normalize: 0.6210
+Testing reddit AUC_student_minus_ggad: 0.6051
+Testing reddit AUC_student_minus_ggad_non_normalize: 0.6194
+Testing AP_student_mlp_s: 0.0521
+Testing AP_student_mlp_s_non_normalize: 0.0529
+Testing AP_student_ggad: 0.0515
+Testing AP_student_ggad_non_normalize: 0.0529
+Testing AP_student_minus_ggad: 0.0522
+Testing AP_student_minus_ggad_non_normalize: 0.0529
+Total time is: 376.7946050167084
+Testing_last_ggad_ reddit AUC: 0.6253
+Hard label ratio: 0.20
+Pseudo abnormal used in BCE: False
+Epoch 785: Total Loss = 0.11208685487508774,BCE Loss =0.11208685487508774
+student_score: 0.16971343755722046
+ggad_score: 6.004573151585646e-05
+student_score_non_normalize: -8.605148315429688
+ggad_score_non_normalize: -9.757074356079102
+Testing reddit AUC_student_mlp_s: 0.6221
+Testing reddit AUC_student_mlp_s_non_normalize: 0.6221
+Testing reddit AUC_student_ggad: 0.6248
+Testing reddit AUC_student_ggad_non_normalize: 0.6223
+Testing reddit AUC_student_minus_ggad: 0.6236
+Testing reddit AUC_student_minus_ggad_non_normalize: 0.6217
+Testing AP_student_mlp_s: 0.0521
+Testing AP_student_mlp_s_non_normalize: 0.0526
+Testing AP_student_ggad: 0.0513
+Testing AP_student_ggad_non_normalize: 0.0525
+Testing AP_student_minus_ggad: 0.0542
+Testing AP_student_minus_ggad_non_normalize: 0.0526
+Total time is: 379.0015263557434
+Testing_last_ggad_ reddit AUC: 0.6253
+Hard label ratio: 0.20
+Pseudo abnormal used in BCE: False
+Epoch 790: Total Loss = 0.09560921788215637,BCE Loss =0.09560921788215637
+student_score: 0.19098307192325592
+ggad_score: 6.004573151585646e-05
+student_score_non_normalize: -7.85176944732666
+ggad_score_non_normalize: -9.757074356079102
+Testing reddit AUC_student_mlp_s: 0.6212
+Testing reddit AUC_student_mlp_s_non_normalize: 0.6212
+Testing reddit AUC_student_ggad: 0.6245
+Testing reddit AUC_student_ggad_non_normalize: 0.6216
+Testing reddit AUC_student_minus_ggad: 0.6145
+Testing reddit AUC_student_minus_ggad_non_normalize: 0.6204
+Testing AP_student_mlp_s: 0.0519
+Testing AP_student_mlp_s_non_normalize: 0.0527
+Testing AP_student_ggad: 0.0515
+Testing AP_student_ggad_non_normalize: 0.0527
+Testing AP_student_minus_ggad: 0.0530
+Testing AP_student_minus_ggad_non_normalize: 0.0528
+Total time is: 381.31630182266235
+Testing_last_ggad_ reddit AUC: 0.6253
+Hard label ratio: 0.20
+Pseudo abnormal used in BCE: False
+Epoch 795: Total Loss = 0.0974179357290268,BCE Loss =0.0974179357290268
+student_score: 0.18632955849170685
+ggad_score: 6.004573151585646e-05
+student_score_non_normalize: -8.049478530883789
+ggad_score_non_normalize: -9.757074356079102
+Testing reddit AUC_student_mlp_s: 0.6215
+Testing reddit AUC_student_mlp_s_non_normalize: 0.6215
+Testing reddit AUC_student_ggad: 0.6247
+Testing reddit AUC_student_ggad_non_normalize: 0.6218
+Testing reddit AUC_student_minus_ggad: 0.6200
+Testing reddit AUC_student_minus_ggad_non_normalize: 0.6211
+Testing AP_student_mlp_s: 0.0519
+Testing AP_student_mlp_s_non_normalize: 0.0527
+Testing AP_student_ggad: 0.0515
+Testing AP_student_ggad_non_normalize: 0.0527
+Testing AP_student_minus_ggad: 0.0535
+Testing AP_student_minus_ggad_non_normalize: 0.0528
+Total time is: 383.87838196754456
+Testing_last_ggad_ reddit AUC: 0.6253
+Hard label ratio: 0.20
+Pseudo abnormal used in BCE: False
+Epoch 800: Total Loss = 0.09890209138393402,BCE Loss =0.09890209138393402
+student_score: 0.18347738683223724
+ggad_score: 6.004573151585646e-05
+student_score_non_normalize: -8.181629180908203
+ggad_score_non_normalize: -9.757074356079102
+Testing reddit AUC_student_mlp_s: 0.6216
+Testing reddit AUC_student_mlp_s_non_normalize: 0.6216
+Testing reddit AUC_student_ggad: 0.6248
+Testing reddit AUC_student_ggad_non_normalize: 0.6218
+Testing reddit AUC_student_minus_ggad: 0.6201
+Testing reddit AUC_student_minus_ggad_non_normalize: 0.6212
+Testing AP_student_mlp_s: 0.0519
+Testing AP_student_mlp_s_non_normalize: 0.0527
+Testing AP_student_ggad: 0.0514
+Testing AP_student_ggad_non_normalize: 0.0526
+Testing AP_student_minus_ggad: 0.0535
+Testing AP_student_minus_ggad_non_normalize: 0.0527
+Total time is: 386.309104681015
+Testing_last_ggad_ reddit AUC: 0.6253
+Hard label ratio: 0.20
+Pseudo abnormal used in BCE: False
+Epoch 805: Total Loss = 0.09596013277769089,BCE Loss =0.09596013277769089
+student_score: 0.1886746883392334
+ggad_score: 6.004573151585646e-05
+student_score_non_normalize: -8.016807556152344
+ggad_score_non_normalize: -9.757074356079102
+Testing reddit AUC_student_mlp_s: 0.6214
+Testing reddit AUC_student_mlp_s_non_normalize: 0.6214
+Testing reddit AUC_student_ggad: 0.6247
+Testing reddit AUC_student_ggad_non_normalize: 0.6218
+Testing reddit AUC_student_minus_ggad: 0.6199
+Testing reddit AUC_student_minus_ggad_non_normalize: 0.6206
+Testing AP_student_mlp_s: 0.0519
+Testing AP_student_mlp_s_non_normalize: 0.0527
+Testing AP_student_ggad: 0.0514
+Testing AP_student_ggad_non_normalize: 0.0527
+Testing AP_student_minus_ggad: 0.0532
+Testing AP_student_minus_ggad_non_normalize: 0.0527
+Total time is: 388.99869203567505
+Testing_last_ggad_ reddit AUC: 0.6253
+Hard label ratio: 0.20
+Pseudo abnormal used in BCE: False
+Epoch 810: Total Loss = 0.0935550332069397,BCE Loss =0.0935550332069397
+student_score: 0.19742530584335327
+ggad_score: 6.004573151585646e-05
+student_score_non_normalize: -7.722280025482178
+ggad_score_non_normalize: -9.757074356079102
+Testing reddit AUC_student_mlp_s: 0.6210
+Testing reddit AUC_student_mlp_s_non_normalize: 0.6210
+Testing reddit AUC_student_ggad: 0.6244
+Testing reddit AUC_student_ggad_non_normalize: 0.6214
+Testing reddit AUC_student_minus_ggad: 0.6137
+Testing reddit AUC_student_minus_ggad_non_normalize: 0.6199
+Testing AP_student_mlp_s: 0.0518
+Testing AP_student_mlp_s_non_normalize: 0.0528
+Testing AP_student_ggad: 0.0515
+Testing AP_student_ggad_non_normalize: 0.0528
+Testing AP_student_minus_ggad: 0.0527
+Testing AP_student_minus_ggad_non_normalize: 0.0528
+Total time is: 391.3084206581116
+Testing_last_ggad_ reddit AUC: 0.6253
+Hard label ratio: 0.20
+Pseudo abnormal used in BCE: False
+Epoch 815: Total Loss = 0.09357514977455139,BCE Loss =0.09357514977455139
+student_score: 0.2034887820482254
+ggad_score: 6.004573151585646e-05
+student_score_non_normalize: -7.52720308303833
+ggad_score_non_normalize: -9.757074356079102
+Testing reddit AUC_student_mlp_s: 0.6206
+Testing reddit AUC_student_mlp_s_non_normalize: 0.6206
+Testing reddit AUC_student_ggad: 0.6242
+Testing reddit AUC_student_ggad_non_normalize: 0.6211
+Testing reddit AUC_student_minus_ggad: 0.6106
+Testing reddit AUC_student_minus_ggad_non_normalize: 0.6197
+Testing AP_student_mlp_s: 0.0519
+Testing AP_student_mlp_s_non_normalize: 0.0528
+Testing AP_student_ggad: 0.0515
+Testing AP_student_ggad_non_normalize: 0.0528
+Testing AP_student_minus_ggad: 0.0524
+Testing AP_student_minus_ggad_non_normalize: 0.0528
+Total time is: 394.0617711544037
+Testing_last_ggad_ reddit AUC: 0.6253
+Hard label ratio: 0.20
+Pseudo abnormal used in BCE: False
+Epoch 820: Total Loss = 0.09367207437753677,BCE Loss =0.09367207437753677
+student_score: 0.20511817932128906
+ggad_score: 6.004573151585646e-05
+student_score_non_normalize: -7.493709087371826
+ggad_score_non_normalize: -9.757074356079102
+Testing reddit AUC_student_mlp_s: 0.6202
+Testing reddit AUC_student_mlp_s_non_normalize: 0.6202
+Testing reddit AUC_student_ggad: 0.6241
+Testing reddit AUC_student_ggad_non_normalize: 0.6211
+Testing reddit AUC_student_minus_ggad: 0.6102
+Testing reddit AUC_student_minus_ggad_non_normalize: 0.6197
+Testing AP_student_mlp_s: 0.0518
+Testing AP_student_mlp_s_non_normalize: 0.0528
+Testing AP_student_ggad: 0.0515
+Testing AP_student_ggad_non_normalize: 0.0528
+Testing AP_student_minus_ggad: 0.0521
+Testing AP_student_minus_ggad_non_normalize: 0.0528
+Total time is: 396.5737397670746
+Testing_last_ggad_ reddit AUC: 0.6253
+Hard label ratio: 0.20
+Pseudo abnormal used in BCE: False
+Epoch 825: Total Loss = 0.09324911236763,BCE Loss =0.09324911236763
+student_score: 0.203979954123497
+ggad_score: 6.004573151585646e-05
+student_score_non_normalize: -7.561274528503418
+ggad_score_non_normalize: -9.757074356079102
+Testing reddit AUC_student_mlp_s: 0.6201
+Testing reddit AUC_student_mlp_s_non_normalize: 0.6201
+Testing reddit AUC_student_ggad: 0.6242
+Testing reddit AUC_student_ggad_non_normalize: 0.6212
+Testing reddit AUC_student_minus_ggad: 0.6113
+Testing reddit AUC_student_minus_ggad_non_normalize: 0.6197
+Testing AP_student_mlp_s: 0.0518
+Testing AP_student_mlp_s_non_normalize: 0.0528
+Testing AP_student_ggad: 0.0515
+Testing AP_student_ggad_non_normalize: 0.0528
+Testing AP_student_minus_ggad: 0.0522
+Testing AP_student_minus_ggad_non_normalize: 0.0528
+Total time is: 399.14933919906616
+Testing_last_ggad_ reddit AUC: 0.6253
+Hard label ratio: 0.20
+Pseudo abnormal used in BCE: False
+Epoch 830: Total Loss = 0.09280040115118027,BCE Loss =0.09280040115118027
+student_score: 0.20218722522258759
+ggad_score: 6.004573151585646e-05
+student_score_non_normalize: -7.653521537780762
+ggad_score_non_normalize: -9.757074356079102
+Testing reddit AUC_student_mlp_s: 0.6208
+Testing reddit AUC_student_mlp_s_non_normalize: 0.6208
+Testing reddit AUC_student_ggad: 0.6244
+Testing reddit AUC_student_ggad_non_normalize: 0.6214
+Testing reddit AUC_student_minus_ggad: 0.6131
+Testing reddit AUC_student_minus_ggad_non_normalize: 0.6199
+Testing AP_student_mlp_s: 0.0518
+Testing AP_student_mlp_s_non_normalize: 0.0528
+Testing AP_student_ggad: 0.0514
+Testing AP_student_ggad_non_normalize: 0.0528
+Testing AP_student_minus_ggad: 0.0525
+Testing AP_student_minus_ggad_non_normalize: 0.0528
+Total time is: 401.4913446903229
+Testing_last_ggad_ reddit AUC: 0.6253
+Hard label ratio: 0.20
+Pseudo abnormal used in BCE: False
+Epoch 835: Total Loss = 0.09249384701251984,BCE Loss =0.09249384701251984
+student_score: 0.20082375407218933
+ggad_score: 6.004573151585646e-05
+student_score_non_normalize: -7.730830669403076
+ggad_score_non_normalize: -9.757074356079102
+Testing reddit AUC_student_mlp_s: 0.6209
+Testing reddit AUC_student_mlp_s_non_normalize: 0.6209
+Testing reddit AUC_student_ggad: 0.6244
+Testing reddit AUC_student_ggad_non_normalize: 0.6214
+Testing reddit AUC_student_minus_ggad: 0.6144
+Testing reddit AUC_student_minus_ggad_non_normalize: 0.6200
+Testing AP_student_mlp_s: 0.0518
+Testing AP_student_mlp_s_non_normalize: 0.0528
+Testing AP_student_ggad: 0.0514
+Testing AP_student_ggad_non_normalize: 0.0527
+Testing AP_student_minus_ggad: 0.0524
+Testing AP_student_minus_ggad_non_normalize: 0.0527
+Total time is: 403.51216411590576
+Testing_last_ggad_ reddit AUC: 0.6253
+Hard label ratio: 0.20
+Pseudo abnormal used in BCE: False
+Epoch 840: Total Loss = 0.0922655239701271,BCE Loss =0.0922655239701271
+student_score: 0.20010484755039215
+ggad_score: 6.004573151585646e-05
+student_score_non_normalize: -7.7850189208984375
+ggad_score_non_normalize: -9.757074356079102
+Testing reddit AUC_student_mlp_s: 0.6210
+Testing reddit AUC_student_mlp_s_non_normalize: 0.6210
+Testing reddit AUC_student_ggad: 0.6245
+Testing reddit AUC_student_ggad_non_normalize: 0.6214
+Testing reddit AUC_student_minus_ggad: 0.6150
+Testing reddit AUC_student_minus_ggad_non_normalize: 0.6200
+Testing AP_student_mlp_s: 0.0517
+Testing AP_student_mlp_s_non_normalize: 0.0527
+Testing AP_student_ggad: 0.0514
+Testing AP_student_ggad_non_normalize: 0.0527
+Testing AP_student_minus_ggad: 0.0524
+Testing AP_student_minus_ggad_non_normalize: 0.0527
+Total time is: 405.7258312702179
+Testing_last_ggad_ reddit AUC: 0.6253
+Hard label ratio: 0.20
+Pseudo abnormal used in BCE: False
+Epoch 845: Total Loss = 0.09205937385559082,BCE Loss =0.09205937385559082
+student_score: 0.19987033307552338
+ggad_score: 6.004573151585646e-05
+student_score_non_normalize: -7.821789741516113
+ggad_score_non_normalize: -9.757074356079102
+Testing reddit AUC_student_mlp_s: 0.6211
+Testing reddit AUC_student_mlp_s_non_normalize: 0.6211
+Testing reddit AUC_student_ggad: 0.6245
+Testing reddit AUC_student_ggad_non_normalize: 0.6215
+Testing reddit AUC_student_minus_ggad: 0.6169
+Testing reddit AUC_student_minus_ggad_non_normalize: 0.6201
+Testing AP_student_mlp_s: 0.0520
+Testing AP_student_mlp_s_non_normalize: 0.0527
+Testing AP_student_ggad: 0.0513
+Testing AP_student_ggad_non_normalize: 0.0527
+Testing AP_student_minus_ggad: 0.0525
+Testing AP_student_minus_ggad_non_normalize: 0.0527
+Total time is: 407.52456426620483
+Testing_last_ggad_ reddit AUC: 0.6253
+Hard label ratio: 0.20
+Pseudo abnormal used in BCE: False
+Epoch 850: Total Loss = 0.09185800701379776,BCE Loss =0.09185800701379776
+student_score: 0.19992373883724213
+ggad_score: 6.004573151585646e-05
+student_score_non_normalize: -7.848256587982178
+ggad_score_non_normalize: -9.757074356079102
+Testing reddit AUC_student_mlp_s: 0.6210
+Testing reddit AUC_student_mlp_s_non_normalize: 0.6210
+Testing reddit AUC_student_ggad: 0.6246
+Testing reddit AUC_student_ggad_non_normalize: 0.6215
+Testing reddit AUC_student_minus_ggad: 0.6170
+Testing reddit AUC_student_minus_ggad_non_normalize: 0.6201
+Testing AP_student_mlp_s: 0.0519
+Testing AP_student_mlp_s_non_normalize: 0.0527
+Testing AP_student_ggad: 0.0513
+Testing AP_student_ggad_non_normalize: 0.0527
+Testing AP_student_minus_ggad: 0.0524
+Testing AP_student_minus_ggad_non_normalize: 0.0527
+Total time is: 409.76606369018555
+Testing_last_ggad_ reddit AUC: 0.6253
+Hard label ratio: 0.20
+Pseudo abnormal used in BCE: False
+Epoch 855: Total Loss = 0.09165985882282257,BCE Loss =0.09165985882282257
+student_score: 0.20010720193386078
+ggad_score: 6.004573151585646e-05
+student_score_non_normalize: -7.870126247406006
+ggad_score_non_normalize: -9.757074356079102
+Testing reddit AUC_student_mlp_s: 0.6210
+Testing reddit AUC_student_mlp_s_non_normalize: 0.6210
+Testing reddit AUC_student_ggad: 0.6246
+Testing reddit AUC_student_ggad_non_normalize: 0.6215
+Testing reddit AUC_student_minus_ggad: 0.6174
+Testing reddit AUC_student_minus_ggad_non_normalize: 0.6201
+Testing AP_student_mlp_s: 0.0519
+Testing AP_student_mlp_s_non_normalize: 0.0527
+Testing AP_student_ggad: 0.0513
+Testing AP_student_ggad_non_normalize: 0.0526
+Testing AP_student_minus_ggad: 0.0525
+Testing AP_student_minus_ggad_non_normalize: 0.0527
+Total time is: 412.1637713909149
+Testing_last_ggad_ reddit AUC: 0.6253
+Hard label ratio: 0.20
+Pseudo abnormal used in BCE: False
+Epoch 860: Total Loss = 0.09146282821893692,BCE Loss =0.09146282821893692
+student_score: 0.20027542114257812
+ggad_score: 6.004573151585646e-05
+student_score_non_normalize: -7.8927412033081055
+ggad_score_non_normalize: -9.757074356079102
+Testing reddit AUC_student_mlp_s: 0.6211
+Testing reddit AUC_student_mlp_s_non_normalize: 0.6211
+Testing reddit AUC_student_ggad: 0.6246
+Testing reddit AUC_student_ggad_non_normalize: 0.6216
+Testing reddit AUC_student_minus_ggad: 0.6179
+Testing reddit AUC_student_minus_ggad_non_normalize: 0.6202
+Testing AP_student_mlp_s: 0.0519
+Testing AP_student_mlp_s_non_normalize: 0.0527
+Testing AP_student_ggad: 0.0513
+Testing AP_student_ggad_non_normalize: 0.0527
+Testing AP_student_minus_ggad: 0.0524
+Testing AP_student_minus_ggad_non_normalize: 0.0527
+Total time is: 414.1296708583832
+Testing_last_ggad_ reddit AUC: 0.6253
+Hard label ratio: 0.20
+Pseudo abnormal used in BCE: False
+Epoch 865: Total Loss = 0.09126342087984085,BCE Loss =0.09126342087984085
+student_score: 0.2003011554479599
+ggad_score: 6.004573151585646e-05
+student_score_non_normalize: -7.920857906341553
+ggad_score_non_normalize: -9.757074356079102
+Testing reddit AUC_student_mlp_s: 0.6211
+Testing reddit AUC_student_mlp_s_non_normalize: 0.6211
+Testing reddit AUC_student_ggad: 0.6245
+Testing reddit AUC_student_ggad_non_normalize: 0.6216
+Testing reddit AUC_student_minus_ggad: 0.6193
+Testing reddit AUC_student_minus_ggad_non_normalize: 0.6202
+Testing AP_student_mlp_s: 0.0518
+Testing AP_student_mlp_s_non_normalize: 0.0527
+Testing AP_student_ggad: 0.0513
+Testing AP_student_ggad_non_normalize: 0.0526
+Testing AP_student_minus_ggad: 0.0525
+Testing AP_student_minus_ggad_non_normalize: 0.0527
+Total time is: 416.24927401542664
+Testing_last_ggad_ reddit AUC: 0.6253
+Hard label ratio: 0.20
+Pseudo abnormal used in BCE: False
+Epoch 870: Total Loss = 0.09105861932039261,BCE Loss =0.09105861932039261
+student_score: 0.20005691051483154
+ggad_score: 6.004573151585646e-05
+student_score_non_normalize: -7.959360599517822
+ggad_score_non_normalize: -9.757074356079102
+Testing reddit AUC_student_mlp_s: 0.6212
+Testing reddit AUC_student_mlp_s_non_normalize: 0.6212
+Testing reddit AUC_student_ggad: 0.6247
+Testing reddit AUC_student_ggad_non_normalize: 0.6216
+Testing reddit AUC_student_minus_ggad: 0.6203
+Testing reddit AUC_student_minus_ggad_non_normalize: 0.6203
+Testing AP_student_mlp_s: 0.0517
+Testing AP_student_mlp_s_non_normalize: 0.0527
+Testing AP_student_ggad: 0.0513
+Testing AP_student_ggad_non_normalize: 0.0526
+Testing AP_student_minus_ggad: 0.0525
+Testing AP_student_minus_ggad_non_normalize: 0.0527
+Total time is: 418.3989202976227
+Testing_last_ggad_ reddit AUC: 0.6253
+Hard label ratio: 0.20
+Pseudo abnormal used in BCE: False
+Epoch 875: Total Loss = 0.09085597842931747,BCE Loss =0.09085597842931747
+student_score: 0.19957669079303741
+ggad_score: 6.004573151585646e-05
+student_score_non_normalize: -8.007017135620117
+ggad_score_non_normalize: -9.757074356079102
+Testing reddit AUC_student_mlp_s: 0.6212
+Testing reddit AUC_student_mlp_s_non_normalize: 0.6212
+Testing reddit AUC_student_ggad: 0.6247
+Testing reddit AUC_student_ggad_non_normalize: 0.6216
+Testing reddit AUC_student_minus_ggad: 0.6223
+Testing reddit AUC_student_minus_ggad_non_normalize: 0.6203
+Testing AP_student_mlp_s: 0.0517
+Testing AP_student_mlp_s_non_normalize: 0.0526
+Testing AP_student_ggad: 0.0513
+Testing AP_student_ggad_non_normalize: 0.0525
+Testing AP_student_minus_ggad: 0.0525
+Testing AP_student_minus_ggad_non_normalize: 0.0526
+Total time is: 420.2147681713104
+Testing_last_ggad_ reddit AUC: 0.6253
+Hard label ratio: 0.20
+Pseudo abnormal used in BCE: False
+Epoch 880: Total Loss = 0.09065951406955719,BCE Loss =0.09065951406955719
+student_score: 0.1992647647857666
+ggad_score: 6.004573151585646e-05
+student_score_non_normalize: -8.048441886901855
+ggad_score_non_normalize: -9.757074356079102
+Testing reddit AUC_student_mlp_s: 0.6212
+Testing reddit AUC_student_mlp_s_non_normalize: 0.6212
+Testing reddit AUC_student_ggad: 0.6247
+Testing reddit AUC_student_ggad_non_normalize: 0.6217
+Testing reddit AUC_student_minus_ggad: 0.6228
+Testing reddit AUC_student_minus_ggad_non_normalize: 0.6203
+Testing AP_student_mlp_s: 0.0517
+Testing AP_student_mlp_s_non_normalize: 0.0526
+Testing AP_student_ggad: 0.0513
+Testing AP_student_ggad_non_normalize: 0.0525
+Testing AP_student_minus_ggad: 0.0525
+Testing AP_student_minus_ggad_non_normalize: 0.0526
+Total time is: 422.6021056175232
+Testing_last_ggad_ reddit AUC: 0.6253
+Hard label ratio: 0.20
+Pseudo abnormal used in BCE: False
+Epoch 885: Total Loss = 0.09045954048633575,BCE Loss =0.09045954048633575
+student_score: 0.1995491087436676
+ggad_score: 6.004573151585646e-05
+student_score_non_normalize: -8.067398071289062
+ggad_score_non_normalize: -9.757074356079102
+Testing reddit AUC_student_mlp_s: 0.6212
+Testing reddit AUC_student_mlp_s_non_normalize: 0.6213
+Testing reddit AUC_student_ggad: 0.6247
+Testing reddit AUC_student_ggad_non_normalize: 0.6217
+Testing reddit AUC_student_minus_ggad: 0.6230
+Testing reddit AUC_student_minus_ggad_non_normalize: 0.6203
+Testing AP_student_mlp_s: 0.0516
+Testing AP_student_mlp_s_non_normalize: 0.0526
+Testing AP_student_ggad: 0.0512
+Testing AP_student_ggad_non_normalize: 0.0524
+Testing AP_student_minus_ggad: 0.0525
+Testing AP_student_minus_ggad_non_normalize: 0.0526
+Total time is: 424.55941581726074
+Testing_last_ggad_ reddit AUC: 0.6253
+Hard label ratio: 0.20
+Pseudo abnormal used in BCE: False
+Epoch 890: Total Loss = 0.09026385843753815,BCE Loss =0.09026385843753815
+student_score: 0.1999088078737259
+ggad_score: 6.004573151585646e-05
+student_score_non_normalize: -8.083857536315918
+ggad_score_non_normalize: -9.757074356079102
+Testing reddit AUC_student_mlp_s: 0.6213
+Testing reddit AUC_student_mlp_s_non_normalize: 0.6213
+Testing reddit AUC_student_ggad: 0.6246
+Testing reddit AUC_student_ggad_non_normalize: 0.6217
+Testing reddit AUC_student_minus_ggad: 0.6233
+Testing reddit AUC_student_minus_ggad_non_normalize: 0.6203
+Testing AP_student_mlp_s: 0.0516
+Testing AP_student_mlp_s_non_normalize: 0.0525
+Testing AP_student_ggad: 0.0512
+Testing AP_student_ggad_non_normalize: 0.0524
+Testing AP_student_minus_ggad: 0.0525
+Testing AP_student_minus_ggad_non_normalize: 0.0526
+Total time is: 426.62655878067017
+Testing_last_ggad_ reddit AUC: 0.6253
+Hard label ratio: 0.20
+Pseudo abnormal used in BCE: False
+Epoch 895: Total Loss = 0.0900668054819107,BCE Loss =0.0900668054819107
+student_score: 0.19946017861366272
+ggad_score: 6.004573151585646e-05
+student_score_non_normalize: -8.131354331970215
+ggad_score_non_normalize: -9.757074356079102
+Testing reddit AUC_student_mlp_s: 0.6213
+Testing reddit AUC_student_mlp_s_non_normalize: 0.6213
+Testing reddit AUC_student_ggad: 0.6247
+Testing reddit AUC_student_ggad_non_normalize: 0.6217
+Testing reddit AUC_student_minus_ggad: 0.6239
+Testing reddit AUC_student_minus_ggad_non_normalize: 0.6203
+Testing AP_student_mlp_s: 0.0516
+Testing AP_student_mlp_s_non_normalize: 0.0524
+Testing AP_student_ggad: 0.0512
+Testing AP_student_ggad_non_normalize: 0.0524
+Testing AP_student_minus_ggad: 0.0525
+Testing AP_student_minus_ggad_non_normalize: 0.0525
+Total time is: 428.4278738498688
+Testing_last_ggad_ reddit AUC: 0.6253
+Hard label ratio: 0.20
+Pseudo abnormal used in BCE: False
+Epoch 900: Total Loss = 0.08987072110176086,BCE Loss =0.08987072110176086
+student_score: 0.19971182942390442
+ggad_score: 6.004573151585646e-05
+student_score_non_normalize: -8.152127265930176
+ggad_score_non_normalize: -9.757074356079102
+Testing reddit AUC_student_mlp_s: 0.6213
+Testing reddit AUC_student_mlp_s_non_normalize: 0.6213
+Testing reddit AUC_student_ggad: 0.6247
+Testing reddit AUC_student_ggad_non_normalize: 0.6218
+Testing reddit AUC_student_minus_ggad: 0.6249
+Testing reddit AUC_student_minus_ggad_non_normalize: 0.6203
+Testing AP_student_mlp_s: 0.0517
+Testing AP_student_mlp_s_non_normalize: 0.0524
+Testing AP_student_ggad: 0.0512
+Testing AP_student_ggad_non_normalize: 0.0524
+Testing AP_student_minus_ggad: 0.0526
+Testing AP_student_minus_ggad_non_normalize: 0.0525
+Total time is: 430.47471284866333
+Testing_last_ggad_ reddit AUC: 0.6253
+Hard label ratio: 0.20
+Pseudo abnormal used in BCE: False
+Epoch 905: Total Loss = 0.08967527747154236,BCE Loss =0.08967527747154236
+student_score: 0.19959762692451477
+ggad_score: 6.004573151585646e-05
+student_score_non_normalize: -8.186856269836426
+ggad_score_non_normalize: -9.757074356079102
+Testing reddit AUC_student_mlp_s: 0.6214
+Testing reddit AUC_student_mlp_s_non_normalize: 0.6214
+Testing reddit AUC_student_ggad: 0.6247
+Testing reddit AUC_student_ggad_non_normalize: 0.6218
+Testing reddit AUC_student_minus_ggad: 0.6257
+Testing reddit AUC_student_minus_ggad_non_normalize: 0.6205
+Testing AP_student_mlp_s: 0.0517
+Testing AP_student_mlp_s_non_normalize: 0.0524
+Testing AP_student_ggad: 0.0512
+Testing AP_student_ggad_non_normalize: 0.0524
+Testing AP_student_minus_ggad: 0.0526
+Testing AP_student_minus_ggad_non_normalize: 0.0525
+Total time is: 432.46260023117065
+Testing_last_ggad_ reddit AUC: 0.6253
+Hard label ratio: 0.20
+Pseudo abnormal used in BCE: False
+Epoch 910: Total Loss = 0.08948104828596115,BCE Loss =0.08948104828596115
+student_score: 0.19974307715892792
+ggad_score: 6.004573151585646e-05
+student_score_non_normalize: -8.21170711517334
+ggad_score_non_normalize: -9.757074356079102
+Testing reddit AUC_student_mlp_s: 0.6212
+Testing reddit AUC_student_mlp_s_non_normalize: 0.6212
+Testing reddit AUC_student_ggad: 0.6247
+Testing reddit AUC_student_ggad_non_normalize: 0.6218
+Testing reddit AUC_student_minus_ggad: 0.6262
+Testing reddit AUC_student_minus_ggad_non_normalize: 0.6205
+Testing AP_student_mlp_s: 0.0515
+Testing AP_student_mlp_s_non_normalize: 0.0524
+Testing AP_student_ggad: 0.0512
+Testing AP_student_ggad_non_normalize: 0.0524
+Testing AP_student_minus_ggad: 0.0526
+Testing AP_student_minus_ggad_non_normalize: 0.0524
+Total time is: 434.342148065567
+Testing_last_ggad_ reddit AUC: 0.6253
+Hard label ratio: 0.20
+Pseudo abnormal used in BCE: False
+Epoch 915: Total Loss = 0.0892903134226799,BCE Loss =0.0892903134226799
+student_score: 0.19926440715789795
+ggad_score: 6.004573151585646e-05
+student_score_non_normalize: -8.260828018188477
+ggad_score_non_normalize: -9.757074356079102
+Testing reddit AUC_student_mlp_s: 0.6213
+Testing reddit AUC_student_mlp_s_non_normalize: 0.6212
+Testing reddit AUC_student_ggad: 0.6248
+Testing reddit AUC_student_ggad_non_normalize: 0.6218
+Testing reddit AUC_student_minus_ggad: 0.6260
+Testing reddit AUC_student_minus_ggad_non_normalize: 0.6205
+Testing AP_student_mlp_s: 0.0518
+Testing AP_student_mlp_s_non_normalize: 0.0524
+Testing AP_student_ggad: 0.0512
+Testing AP_student_ggad_non_normalize: 0.0524
+Testing AP_student_minus_ggad: 0.0526
+Testing AP_student_minus_ggad_non_normalize: 0.0524
+Total time is: 436.4285047054291
+Testing_last_ggad_ reddit AUC: 0.6253
+Hard label ratio: 0.20
+Pseudo abnormal used in BCE: False
+Epoch 920: Total Loss = 0.08918018639087677,BCE Loss =0.08918018639087677
+student_score: 0.20170022547245026
+ggad_score: 6.004573151585646e-05
+student_score_non_normalize: -8.197359085083008
+ggad_score_non_normalize: -9.757074356079102
+Testing reddit AUC_student_mlp_s: 0.6212
+Testing reddit AUC_student_mlp_s_non_normalize: 0.6212
+Testing reddit AUC_student_ggad: 0.6248
+Testing reddit AUC_student_ggad_non_normalize: 0.6218
+Testing reddit AUC_student_minus_ggad: 0.6261
+Testing reddit AUC_student_minus_ggad_non_normalize: 0.6205
+Testing AP_student_mlp_s: 0.0518
+Testing AP_student_mlp_s_non_normalize: 0.0524
+Testing AP_student_ggad: 0.0512
+Testing AP_student_ggad_non_normalize: 0.0524
+Testing AP_student_minus_ggad: 0.0528
+Testing AP_student_minus_ggad_non_normalize: 0.0524
+Total time is: 438.53932070732117
+Testing_last_ggad_ reddit AUC: 0.6253
+Hard label ratio: 0.20
+Pseudo abnormal used in BCE: False
+Epoch 925: Total Loss = 0.0923522338271141,BCE Loss =0.0923522338271141
+student_score: 0.1868675947189331
+ggad_score: 6.004573151585646e-05
+student_score_non_normalize: -8.807466506958008
+ggad_score_non_normalize: -9.757074356079102
+Testing reddit AUC_student_mlp_s: 0.6219
+Testing reddit AUC_student_mlp_s_non_normalize: 0.6219
+Testing reddit AUC_student_ggad: 0.6249
+Testing reddit AUC_student_ggad_non_normalize: 0.6222
+Testing reddit AUC_student_minus_ggad: 0.6283
+Testing reddit AUC_student_minus_ggad_non_normalize: 0.6212
+Testing AP_student_mlp_s: 0.0515
+Testing AP_student_mlp_s_non_normalize: 0.0523
+Testing AP_student_ggad: 0.0511
+Testing AP_student_ggad_non_normalize: 0.0523
+Testing AP_student_minus_ggad: 0.0529
+Testing AP_student_minus_ggad_non_normalize: 0.0522
+Total time is: 440.6117253303528
+Testing_last_ggad_ reddit AUC: 0.6253
+Hard label ratio: 0.20
+Pseudo abnormal used in BCE: False
+Epoch 930: Total Loss = 0.12870895862579346,BCE Loss =0.12870895862579346
+student_score: 0.2449420839548111
+ggad_score: 6.004573151585646e-05
+student_score_non_normalize: -6.620351791381836
+ggad_score_non_normalize: -9.757074356079102
+Testing reddit AUC_student_mlp_s: 0.6182
+Testing reddit AUC_student_mlp_s_non_normalize: 0.6182
+Testing reddit AUC_student_ggad: 0.6230
+Testing reddit AUC_student_ggad_non_normalize: 0.6194
+Testing reddit AUC_student_minus_ggad: 0.6072
+Testing reddit AUC_student_minus_ggad_non_normalize: 0.6174
+Testing AP_student_mlp_s: 0.0515
+Testing AP_student_mlp_s_non_normalize: 0.0528
+Testing AP_student_ggad: 0.0512
+Testing AP_student_ggad_non_normalize: 0.0527
+Testing AP_student_minus_ggad: 0.0541
+Testing AP_student_minus_ggad_non_normalize: 0.0528
+Total time is: 442.68343329429626
+Testing_last_ggad_ reddit AUC: 0.6253
+Hard label ratio: 0.20
+Pseudo abnormal used in BCE: False
+Epoch 935: Total Loss = 0.1037517562508583,BCE Loss =0.1037517562508583
+student_score: 0.22709761559963226
+ggad_score: 6.004573151585646e-05
+student_score_non_normalize: -7.3062052726745605
+ggad_score_non_normalize: -9.757074356079102
+Testing reddit AUC_student_mlp_s: 0.6196
+Testing reddit AUC_student_mlp_s_non_normalize: 0.6196
+Testing reddit AUC_student_ggad: 0.6240
+Testing reddit AUC_student_ggad_non_normalize: 0.6200
+Testing reddit AUC_student_minus_ggad: 0.6099
+Testing reddit AUC_student_minus_ggad_non_normalize: 0.6182
+Testing AP_student_mlp_s: 0.0520
+Testing AP_student_mlp_s_non_normalize: 0.0527
+Testing AP_student_ggad: 0.0512
+Testing AP_student_ggad_non_normalize: 0.0525
+Testing AP_student_minus_ggad: 0.0535
+Testing AP_student_minus_ggad_non_normalize: 0.0526
+Total time is: 444.9360246658325
+Testing_last_ggad_ reddit AUC: 0.6253
+Hard label ratio: 0.20
+Pseudo abnormal used in BCE: False
+Epoch 940: Total Loss = 0.08853697776794434,BCE Loss =0.08853697776794434
+student_score: 0.19903984665870667
+ggad_score: 6.004573151585646e-05
+student_score_non_normalize: -8.407347679138184
+ggad_score_non_normalize: -9.757074356079102
+Testing reddit AUC_student_mlp_s: 0.6208
+Testing reddit AUC_student_mlp_s_non_normalize: 0.6208
+Testing reddit AUC_student_ggad: 0.6249
+Testing reddit AUC_student_ggad_non_normalize: 0.6215
+Testing reddit AUC_student_minus_ggad: 0.6294
+Testing reddit AUC_student_minus_ggad_non_normalize: 0.6205
+Testing AP_student_mlp_s: 0.0517
+Testing AP_student_mlp_s_non_normalize: 0.0524
+Testing AP_student_ggad: 0.0512
+Testing AP_student_ggad_non_normalize: 0.0524
+Testing AP_student_minus_ggad: 0.0529
+Testing AP_student_minus_ggad_non_normalize: 0.0525
+Total time is: 446.91178703308105
+Testing_last_ggad_ reddit AUC: 0.6253
+Hard label ratio: 0.20
+Pseudo abnormal used in BCE: False
+Epoch 945: Total Loss = 0.09548676759004593,BCE Loss =0.09548676759004593
+student_score: 0.18147672712802887
+ggad_score: 6.004573151585646e-05
+student_score_non_normalize: -9.126160621643066
+ggad_score_non_normalize: -9.757074356079102
+Testing reddit AUC_student_mlp_s: 0.6218
+Testing reddit AUC_student_mlp_s_non_normalize: 0.6218
+Testing reddit AUC_student_ggad: 0.6250
+Testing reddit AUC_student_ggad_non_normalize: 0.6223
+Testing reddit AUC_student_minus_ggad: 0.6293
+Testing reddit AUC_student_minus_ggad_non_normalize: 0.6212
+Testing AP_student_mlp_s: 0.0515
+Testing AP_student_mlp_s_non_normalize: 0.0523
+Testing AP_student_ggad: 0.0512
+Testing AP_student_ggad_non_normalize: 0.0523
+Testing AP_student_minus_ggad: 0.0532
+Testing AP_student_minus_ggad_non_normalize: 0.0522
+Total time is: 449.33512139320374
+Testing_last_ggad_ reddit AUC: 0.6253
+Hard label ratio: 0.20
+Pseudo abnormal used in BCE: False
+Epoch 950: Total Loss = 0.08864434063434601,BCE Loss =0.08864434063434601
+student_score: 0.19551245868206024
+ggad_score: 6.004573151585646e-05
+student_score_non_normalize: -8.588632583618164
+ggad_score_non_normalize: -9.757074356079102
+Testing reddit AUC_student_mlp_s: 0.6210
+Testing reddit AUC_student_mlp_s_non_normalize: 0.6210
+Testing reddit AUC_student_ggad: 0.6249
+Testing reddit AUC_student_ggad_non_normalize: 0.6216
+Testing reddit AUC_student_minus_ggad: 0.6293
+Testing reddit AUC_student_minus_ggad_non_normalize: 0.6207
+Testing AP_student_mlp_s: 0.0517
+Testing AP_student_mlp_s_non_normalize: 0.0524
+Testing AP_student_ggad: 0.0512
+Testing AP_student_ggad_non_normalize: 0.0524
+Testing AP_student_minus_ggad: 0.0528
+Testing AP_student_minus_ggad_non_normalize: 0.0525
+Total time is: 451.0999050140381
+Testing_last_ggad_ reddit AUC: 0.6253
+Hard label ratio: 0.20
+Pseudo abnormal used in BCE: False
+Epoch 955: Total Loss = 0.0901736170053482,BCE Loss =0.0901736170053482
+student_score: 0.20942802727222443
+ggad_score: 6.004573151585646e-05
+student_score_non_normalize: -8.062936782836914
+ggad_score_non_normalize: -9.757074356079102
+Testing reddit AUC_student_mlp_s: 0.6204
+Testing reddit AUC_student_mlp_s_non_normalize: 0.6205
+Testing reddit AUC_student_ggad: 0.6248
+Testing reddit AUC_student_ggad_non_normalize: 0.6211
+Testing reddit AUC_student_minus_ggad: 0.6280
+Testing reddit AUC_student_minus_ggad_non_normalize: 0.6198
+Testing AP_student_mlp_s: 0.0516
+Testing AP_student_mlp_s_non_normalize: 0.0526
+Testing AP_student_ggad: 0.0512
+Testing AP_student_ggad_non_normalize: 0.0525
+Testing AP_student_minus_ggad: 0.0531
+Testing AP_student_minus_ggad_non_normalize: 0.0526
+Total time is: 453.0662467479706
+Testing_last_ggad_ reddit AUC: 0.6253
+Hard label ratio: 0.20
+Pseudo abnormal used in BCE: False
+Epoch 960: Total Loss = 0.08839238435029984,BCE Loss =0.08839238435029984
+student_score: 0.20386002957820892
+ggad_score: 6.004573151585646e-05
+student_score_non_normalize: -8.301260948181152
+ggad_score_non_normalize: -9.757074356079102
+Testing reddit AUC_student_mlp_s: 0.6207
+Testing reddit AUC_student_mlp_s_non_normalize: 0.6207
+Testing reddit AUC_student_ggad: 0.6249
+Testing reddit AUC_student_ggad_non_normalize: 0.6214
+Testing reddit AUC_student_minus_ggad: 0.6284
+Testing reddit AUC_student_minus_ggad_non_normalize: 0.6201
+Testing AP_student_mlp_s: 0.0516
+Testing AP_student_mlp_s_non_normalize: 0.0524
+Testing AP_student_ggad: 0.0511
+Testing AP_student_ggad_non_normalize: 0.0524
+Testing AP_student_minus_ggad: 0.0527
+Testing AP_student_minus_ggad_non_normalize: 0.0525
+Total time is: 455.28217601776123
+Testing_last_ggad_ reddit AUC: 0.6253
+Hard label ratio: 0.20
+Pseudo abnormal used in BCE: False
+Epoch 965: Total Loss = 0.08836965262889862,BCE Loss =0.08836965262889862
+student_score: 0.1946876496076584
+ggad_score: 6.004573151585646e-05
+student_score_non_normalize: -8.68521785736084
+ggad_score_non_normalize: -9.757074356079102
+Testing reddit AUC_student_mlp_s: 0.6211
+Testing reddit AUC_student_mlp_s_non_normalize: 0.6211
+Testing reddit AUC_student_ggad: 0.6250
+Testing reddit AUC_student_ggad_non_normalize: 0.6217
+Testing reddit AUC_student_minus_ggad: 0.6300
+Testing reddit AUC_student_minus_ggad_non_normalize: 0.6209
+Testing AP_student_mlp_s: 0.0517
+Testing AP_student_mlp_s_non_normalize: 0.0523
+Testing AP_student_ggad: 0.0511
+Testing AP_student_ggad_non_normalize: 0.0523
+Testing AP_student_minus_ggad: 0.0528
+Testing AP_student_minus_ggad_non_normalize: 0.0524
+Total time is: 457.40341114997864
+Testing_last_ggad_ reddit AUC: 0.6253
+Hard label ratio: 0.20
+Pseudo abnormal used in BCE: False
+Epoch 970: Total Loss = 0.08806280791759491,BCE Loss =0.08806280791759491
+student_score: 0.19548574090003967
+ggad_score: 6.004573151585646e-05
+student_score_non_normalize: -8.675689697265625
+ggad_score_non_normalize: -9.757074356079102
+Testing reddit AUC_student_mlp_s: 0.6210
+Testing reddit AUC_student_mlp_s_non_normalize: 0.6210
+Testing reddit AUC_student_ggad: 0.6250
+Testing reddit AUC_student_ggad_non_normalize: 0.6217
+Testing reddit AUC_student_minus_ggad: 0.6300
+Testing reddit AUC_student_minus_ggad_non_normalize: 0.6208
+Testing AP_student_mlp_s: 0.0517
+Testing AP_student_mlp_s_non_normalize: 0.0523
+Testing AP_student_ggad: 0.0511
+Testing AP_student_ggad_non_normalize: 0.0523
+Testing AP_student_minus_ggad: 0.0528
+Testing AP_student_minus_ggad_non_normalize: 0.0524
+Total time is: 459.3636178970337
+Testing_last_ggad_ reddit AUC: 0.6253
+Hard label ratio: 0.20
+Pseudo abnormal used in BCE: False
+Epoch 975: Total Loss = 0.08756472170352936,BCE Loss =0.08756472170352936
+student_score: 0.20064353942871094
+ggad_score: 6.004573151585646e-05
+student_score_non_normalize: -8.493415832519531
+ggad_score_non_normalize: -9.757074356079102
+Testing reddit AUC_student_mlp_s: 0.6208
+Testing reddit AUC_student_mlp_s_non_normalize: 0.6208
+Testing reddit AUC_student_ggad: 0.6249
+Testing reddit AUC_student_ggad_non_normalize: 0.6215
+Testing reddit AUC_student_minus_ggad: 0.6290
+Testing reddit AUC_student_minus_ggad_non_normalize: 0.6206
+Testing AP_student_mlp_s: 0.0516
+Testing AP_student_mlp_s_non_normalize: 0.0523
+Testing AP_student_ggad: 0.0511
+Testing AP_student_ggad_non_normalize: 0.0524
+Testing AP_student_minus_ggad: 0.0526
+Testing AP_student_minus_ggad_non_normalize: 0.0524
+Total time is: 461.7260091304779
+Testing_last_ggad_ reddit AUC: 0.6253
+Hard label ratio: 0.20
+Pseudo abnormal used in BCE: False
+Epoch 980: Total Loss = 0.08757565915584564,BCE Loss =0.08757565915584564
+student_score: 0.2026263177394867
+ggad_score: 6.004573151585646e-05
+student_score_non_normalize: -8.437816619873047
+ggad_score_non_normalize: -9.757074356079102
+Testing reddit AUC_student_mlp_s: 0.6208
+Testing reddit AUC_student_mlp_s_non_normalize: 0.6208
+Testing reddit AUC_student_ggad: 0.6249
+Testing reddit AUC_student_ggad_non_normalize: 0.6215
+Testing reddit AUC_student_minus_ggad: 0.6300
+Testing reddit AUC_student_minus_ggad_non_normalize: 0.6206
+Testing AP_student_mlp_s: 0.0516
+Testing AP_student_mlp_s_non_normalize: 0.0523
+Testing AP_student_ggad: 0.0511
+Testing AP_student_ggad_non_normalize: 0.0524
+Testing AP_student_minus_ggad: 0.0528
+Testing AP_student_minus_ggad_non_normalize: 0.0524
+Total time is: 463.9823281764984
+Testing_last_ggad_ reddit AUC: 0.6253
+Hard label ratio: 0.20
+Pseudo abnormal used in BCE: False
+Epoch 985: Total Loss = 0.08728247135877609,BCE Loss =0.08728247135877609
+student_score: 0.20120704174041748
+ggad_score: 6.004573151585646e-05
+student_score_non_normalize: -8.517794609069824
+ggad_score_non_normalize: -9.757074356079102
+Testing reddit AUC_student_mlp_s: 0.6209
+Testing reddit AUC_student_mlp_s_non_normalize: 0.6209
+Testing reddit AUC_student_ggad: 0.6249
+Testing reddit AUC_student_ggad_non_normalize: 0.6215
+Testing reddit AUC_student_minus_ggad: 0.6286
+Testing reddit AUC_student_minus_ggad_non_normalize: 0.6206
+Testing AP_student_mlp_s: 0.0516
+Testing AP_student_mlp_s_non_normalize: 0.0523
+Testing AP_student_ggad: 0.0511
+Testing AP_student_ggad_non_normalize: 0.0523
+Testing AP_student_minus_ggad: 0.0527
+Testing AP_student_minus_ggad_non_normalize: 0.0523
+Total time is: 466.4189488887787
+Testing_last_ggad_ reddit AUC: 0.6253
+Hard label ratio: 0.20
+Pseudo abnormal used in BCE: False
+Epoch 990: Total Loss = 0.08707971125841141,BCE Loss =0.08707971125841141
+student_score: 0.19927029311656952
+ggad_score: 6.004573151585646e-05
+student_score_non_normalize: -8.619488716125488
+ggad_score_non_normalize: -9.757074356079102
+Testing reddit AUC_student_mlp_s: 0.6210
+Testing reddit AUC_student_mlp_s_non_normalize: 0.6210
+Testing reddit AUC_student_ggad: 0.6250
+Testing reddit AUC_student_ggad_non_normalize: 0.6217
+Testing reddit AUC_student_minus_ggad: 0.6300
+Testing reddit AUC_student_minus_ggad_non_normalize: 0.6208
+Testing AP_student_mlp_s: 0.0515
+Testing AP_student_mlp_s_non_normalize: 0.0523
+Testing AP_student_ggad: 0.0511
+Testing AP_student_ggad_non_normalize: 0.0523
+Testing AP_student_minus_ggad: 0.0527
+Testing AP_student_minus_ggad_non_normalize: 0.0523
+Total time is: 468.58340311050415
+Testing_last_ggad_ reddit AUC: 0.6253
+Hard label ratio: 0.20
+Pseudo abnormal used in BCE: False
+Epoch 995: Total Loss = 0.08695503324270248,BCE Loss =0.08695503324270248
+student_score: 0.19843347370624542
+ggad_score: 6.004573151585646e-05
+student_score_non_normalize: -8.678189277648926
+ggad_score_non_normalize: -9.757074356079102
+Testing reddit AUC_student_mlp_s: 0.6210
+Testing reddit AUC_student_mlp_s_non_normalize: 0.6210
+Testing reddit AUC_student_ggad: 0.6249
+Testing reddit AUC_student_ggad_non_normalize: 0.6217
+Testing reddit AUC_student_minus_ggad: 0.6307
+Testing reddit AUC_student_minus_ggad_non_normalize: 0.6208
+Testing AP_student_mlp_s: 0.0518
+Testing AP_student_mlp_s_non_normalize: 0.0523
+Testing AP_student_ggad: 0.0511
+Testing AP_student_ggad_non_normalize: 0.0523
+Testing AP_student_minus_ggad: 0.0527
+Testing AP_student_minus_ggad_non_normalize: 0.0523
+Total time is: 470.62021350860596
