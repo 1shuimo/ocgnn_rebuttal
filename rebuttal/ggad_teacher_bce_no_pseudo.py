@@ -42,6 +42,7 @@ parser.add_argument('--negsamp_ratio', type=int, default=1)
 parser.add_argument('--readout', type=str, default='avg')
 parser.add_argument('--seed', type=int, default=0)
 parser.add_argument('--hard_label_ratio', type=float, default=0.2)
+parser.add_argument('--output_suffix', type=str, default='')
 add_log_subdir_argument(parser, 'ggad_teacher_bce_no_pseudo')
 args = parser.parse_args()
 
@@ -210,9 +211,10 @@ optimiser_mlp_s = torch.optim.Adam(mlp_s.parameters(), lr=args.lr, weight_decay=
 
 
 print("\n🔁 Starting Student Training...")
-output_file = get_log_file(args, f"{args.dataset}_ratio_{args.hard_label_ratio:.2f}.txt")
-best_logits_file = get_log_file(args, f"{args.dataset}_ratio_{args.hard_label_ratio:.2f}_best_logits.npy")
-best_labels_file = get_log_file(args, f"{args.dataset}_ratio_{args.hard_label_ratio:.2f}_test_labels.npy")
+run_name = f"{args.dataset}_ratio_{args.hard_label_ratio:.2f}{args.output_suffix}"
+output_file = get_log_file(args, f"{run_name}.txt")
+best_logits_file = get_log_file(args, f"{run_name}_best_logits.npy")
+best_labels_file = get_log_file(args, f"{run_name}_test_labels.npy")
 best_auc = float("-inf")
 with open(output_file, "a") as f:
     with tqdm(total=args.num_epoch) as pbar:
