@@ -1,0 +1,10 @@
+Best AUC_student_mlp_s: 0.7693
+NormReg enabled: True
+Base ratio: 0.20
+Teacher real_abnormal_center -> labeled_normal_center: 0.1190
+Teacher real_abnormal_center -> all_normal_center: 0.1208
+Best Student real_abnormal_center -> labeled_normal_center: 4.5089
+Best Student real_abnormal_center -> all_normal_center: 4.3903
+Ratio 0.10: TP=153 FP=299 TN=3799 FN=271 Precision=0.3385 Recall=0.3608 F1=0.3493 PredictedAbnormalCount=452
+Ratio 0.20: TP=214 FP=690 TN=3408 FN=210 Precision=0.2367 Recall=0.5047 F1=0.3223 PredictedAbnormalCount=904
+Ratio 0.30: TP=279 FP=1077 TN=3021 FN=145 Precision=0.2058 Recall=0.6580 F1=0.3135 PredictedAbnormalCount=1356
