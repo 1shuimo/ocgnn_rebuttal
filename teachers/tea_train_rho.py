@@ -79,28 +79,6 @@ def init_center_c(adj, inputs, net, device, eps=0.1):
     return c_local, c_global
 
 
-def get_default_lr(dataset):
-    if dataset in ["Amazon", "tf_finace", "YelpChi-all"]:
-        return 5e-4
-    if dataset in ["reddit", "photo", "tolokers"]:
-        return 1e-3
-    return 5e-4
-
-
-def get_default_epochs(dataset):
-    if dataset == "Amazon":
-        return 800
-    if dataset == "tf_finace":
-        return 800
-    if dataset == "reddit":
-        return 1200
-    if dataset == "photo":
-        return 1000
-    if dataset in ["tolokers", "YelpChi-all"]:
-        return 1000
-    return 800
-
-
 def main_worker(args):
     fix_seed(args.seed)
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
@@ -199,8 +177,8 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument("--seed", type=int, default=42)
     parser.add_argument("--dataset", type=str, default="Amazon")
-    parser.add_argument("--epochs", type=int)
-    parser.add_argument("--lr", type=float)
+    parser.add_argument("--epochs", type=int, default=100)
+    parser.add_argument("--lr", type=float, default=5e-4)
     parser.add_argument("--weight_decay", type=float, default=5e-5)
     parser.add_argument("--nlayers", type=int, default=2)
     parser.add_argument("--hidden1", type=int, default=1024)
@@ -211,10 +189,5 @@ if __name__ == "__main__":
     parser.add_argument("--weight_save_path", type=str, default=None)
     add_log_subdir_argument(parser, "tea_train_rho")
     args = parser.parse_args()
-
-    if args.lr is None:
-        args.lr = get_default_lr(args.dataset)
-    if args.epochs is None:
-        args.epochs = get_default_epochs(args.dataset)
 
     main_worker(args)
