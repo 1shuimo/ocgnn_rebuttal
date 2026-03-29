@@ -74,6 +74,7 @@ def official_rho_dataset_name(dataset):
         "photo": "photo",
         "elliptic": "elliptic",
         "tolokers": "tolokers",
+        "YelpChi-all": "YelpChi-all",
         "questions": "questions",
     }
     return mapping.get(dataset)
@@ -223,7 +224,7 @@ def main_worker(args):
 
 if __name__ == "__main__":
     def get_default_lr(dataset):
-        if dataset in ["Amazon", "tf_finace", "reddit", "photo", "tolokers"]:
+        if dataset in ["Amazon", "tf_finace", "reddit", "photo", "tolokers", "YelpChi-all"]:
             return 5e-3
         if dataset in ["elliptic", "questions"]:
             return 5e-4
@@ -246,7 +247,7 @@ if __name__ == "__main__":
         "--dataset",
         type=str,
         default="reddit",
-        choices=["Amazon", "tf_finace", "reddit", "photo", "elliptic", "tolokers", "questions"],
+        choices=["Amazon", "tf_finace", "reddit", "photo", "elliptic", "tolokers", "questions", "YelpChi-all"],
     )
     parser.add_argument("--epochs", type=int)
     parser.add_argument("--lr", type=float)
