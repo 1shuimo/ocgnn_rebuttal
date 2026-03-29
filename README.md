@@ -85,6 +85,222 @@ python main/ggad_labeledNormal_no_noise.py \
 - 主入口：`main/dominant.py`
 - teacher 训练：`teachers/tea_train_dominant.py`
 
+### RHO
+
+- RHO teacher：`teachers/tea_train_rho.py`
+- RHO teacher（不读取官方 npz）：`teachers/tea_train_rho_no_npz.py`
+- RHO student / distill：`rebuttal/rho_labeledNormal_our.py`
+
+当前 `tea_train_rho.py` 的运行口径：
+
+1. 默认参数按官方 `RHO` 仓库的 `run.sh` 分数据集设置
+2. 默认使用官方风格 split
+   - 先随机切 `train/val/test`
+   - 再从 `train` 里的正常节点中取前 `50%` 作为 labeled normal
+3. 默认优先读取仓库内 vendored 的官方预存 Lap
+   - 位置：`rho_official/datasets/`
+   - 当前现成有：`reddit / photo / elliptic / questions`
+4. 如果某个数据集没有官方预存 Lap
+   - 会自动回退到根据当前 `adj` 现场构造 Lap
+
+RHO teacher 权重建议保存到仓库同级：
+
+```text
+../rho_teacher_best_pth/
+```
+
+先建目录：
+
+```bash
+mkdir -p ../rho_teacher_best_pth
+```
+
+示例命令：
+
+```bash
+python teachers/tea_train_rho.py \
+  --dataset Amazon \
+  --weight_save_path ../rho_teacher_best_pth/Amazon_rho_teacher_best.pth
+```
+
+```bash
+python teachers/tea_train_rho.py \
+  --dataset reddit \
+  --weight_save_path ../rho_teacher_best_pth/reddit_rho_teacher_best.pth
+```
+
+```bash
+python teachers/tea_train_rho.py \
+  --dataset tolokers \
+  --weight_save_path ../rho_teacher_best_pth/tolokers_rho_teacher_best.pth
+```
+
+```bash
+python teachers/tea_train_rho.py \
+  --dataset photo \
+  --weight_save_path ../rho_teacher_best_pth/photo_rho_teacher_best.pth
+```
+
+如果想统一跑 `1000 epoch`：
+
+```bash
+for ds in Amazon reddit tolokers photo; do
+  python teachers/tea_train_rho.py \
+    --dataset "$ds" \
+    --epochs 1000 \
+    --weight_save_path "../rho_teacher_best_pth/${ds}_rho_teacher_best.pth"
+done
+```
+
+日志位置：
+
+```text
+../rebuttal_log/tea_train_rho/
+```
+
+训练过程日志：
+
+```text
+../rebuttal_log/tea_train_rho/<dataset>_rho_teacher.txt
+```
+
+最佳结果摘要：
+
+```text
+../rebuttal_log/tea_train_rho/<dataset>_rho_teacher_best.txt
+```
+
+最佳摘要里会记录：
+- `Best epoch`
+- `Best AUROC`
+- `Best AUPRC`
+- `Weight path`
+
+### RHO teacher（不使用官方 npz）
+
+脚本：
+
+- `teachers/tea_train_rho_no_npz.py`
+
+运行口径：
+
+1. 默认训练参数仍按官方 `run.sh` 分数据集
+2. 默认仍然使用官方风格 split
+3. 不读取任何官方预存 `Lap_matrix_*.npz`
+4. 一律根据当前 `adj` 现场构造 Lap
+
+默认权重保存到新的同级目录：
+
+```text
+../rho_teacher_best_pth_no_npz/
+```
+
+例如：
+
+```bash
+python teachers/tea_train_rho_no_npz.py \
+  --dataset Amazon
+```
+
+默认会保存到：
+
+```text
+../rho_teacher_best_pth_no_npz/Amazon_rho_teacher_no_npz_best.pth
+```
+
+如果想统一跑 `1000 epoch`：
+
+```bash
+for ds in Amazon reddit tolokers photo; do
+  python teachers/tea_train_rho_no_npz.py \
+    --dataset "$ds" \
+    --epochs 1000 \
+    --weight_save_path "../rho_teacher_best_pth_no_npz/${ds}_rho_teacher_no_npz_best.pth"
+done
+```
+
+日志位置：
+
+```text
+../rebuttal_log/tea_train_rho_no_npz/
+```
+
+### RHO student / distill
+
+脚本：
+
+- `rebuttal/rho_labeledNormal_our.py`
+
+这条线的输入是已经训练好的 RHO teacher 权重，然后用 RHO teacher score 去蒸馏 OCGNN student。
+
+如果 teacher 来自 `tea_train_rho.py`：
+
+```bash
+python rebuttal/rho_labeledNormal_our.py \
+  --dataset Amazon \
+  --teacher_path ../rho_teacher_best_pth/Amazon_rho_teacher_best.pth \
+  --use_normreg 1
+```
+
+如果 teacher 来自 `tea_train_rho_no_npz.py`：
+
+```bash
+python rebuttal/rho_labeledNormal_our.py \
+  --dataset Amazon \
+  --teacher_path ../rho_teacher_best_pth_no_npz/Amazon_rho_teacher_no_npz_best.pth \
+  --use_normreg 1
+```
+
+如果你训练 `no_npz teacher` 时手动把权重保存到了旧目录 `../rho_teacher_best_pth/`，那 student 也要按真实保存位置去读。例如你实际跑过的是：
+
+```bash
+for ds in Amazon reddit tolokers photo; do
+  python teachers/tea_train_rho_no_npz.py \
+    --dataset "$ds" \
+    --epochs 1000 \
+    --weight_save_path "../rho_teacher_best_pth/${ds}_rho_teacher_no_npz_best.pth"
+done
+```
+
+那 student 对应应该写成：
+
+```bash
+for ds in Amazon reddit tolokers photo; do
+  python rebuttal/rho_labeledNormal_our.py \
+    --dataset "$ds" \
+    --teacher_path "../rho_teacher_best_pth/${ds}_rho_teacher_no_npz_best.pth" \
+    --use_normreg 1 \
+    --num_epoch 1500
+done
+```
+
+先做 smoke test 时，建议少跑几轮：
+
+```bash
+python rebuttal/rho_labeledNormal_our.py \
+  --dataset Amazon \
+  --teacher_path ../rho_teacher_best_pth_no_npz/Amazon_rho_teacher_no_npz_best.pth \
+  --use_normreg 1 \
+  --num_epoch 5
+```
+
+如果想跑 4 个数据集：
+
+```bash
+for ds in Amazon reddit tolokers photo; do
+  python rebuttal/rho_labeledNormal_our.py \
+    --dataset "$ds" \
+    --teacher_path "../rho_teacher_best_pth_no_npz/${ds}_rho_teacher_no_npz_best.pth" \
+    --use_normreg 1
+done
+```
+
+日志位置：
+
+```text
+../rebuttal_log/rho_labeledNormal_our/
+```
+
 ## Rebuttal 脚本
 
 `rebuttal/` 目录下放的是这次 rebuttal 额外加的实验脚本。
