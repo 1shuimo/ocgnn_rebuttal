@@ -269,7 +269,7 @@ if __name__ == "__main__":
     parser.add_argument("--alpha", type=float, default=1.0)
     parser.add_argument("--tau", type=float, default=0.2)
     parser.add_argument("--weight_save_path", type=str, default=None)
-    parser.add_argument("--rho_root", type=str, default=None)
+    parser.add_argument("--rho_root", type=str, default=str(ROOT / "rho_official"))
     parser.add_argument("--use_official_split", type=int, choices=[0, 1], default=1)
     add_log_subdir_argument(parser, "tea_train_rho")
     args = parser.parse_args()
