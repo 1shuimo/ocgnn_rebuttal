@@ -6,6 +6,8 @@ if str(ROOT) not in sys.path:
     sys.path.insert(0, str(ROOT))
 
 import argparse
+import random
+
 import numpy as np
 import scipy.sparse as sp
 import torch
@@ -21,8 +23,6 @@ from utils.utils_old import load_mat, preprocess_features
 
 
 def fix_seed(seed):
-    import random
-
     random.seed(seed)
     np.random.seed(seed)
     torch.manual_seed(seed)
@@ -83,6 +83,14 @@ def min_max_normalize(tensor):
     return (tensor - min_val) / (max_val - min_val)
 
 
+def distillation_loss_emb(emb_t, emb_s):
+    return F.mse_loss(emb_s, emb_t, reduction="mean")
+
+
+def score_distillation_loss(score_t, score_s):
+    return F.mse_loss(score_s, score_t, reduction="mean")
+
+
 def _to_index_tensor(index_list, device):
     return torch.as_tensor(index_list, dtype=torch.long, device=device)
 
@@ -108,7 +116,7 @@ def compute_distance_metrics(embeddings, ano_label, labeled_normal_idx):
     }
 
 
-parser = argparse.ArgumentParser(description="RHO teacher -> OCGNN student distillation.")
+parser = argparse.ArgumentParser(description="RHO teacher -> OCGNN student distillation (no pseudo).")
 parser.add_argument("--dataset", type=str, default="Amazon")
 parser.add_argument("--teacher_path", type=str, required=True)
 parser.add_argument("--lr", type=float)
@@ -139,11 +147,7 @@ if args.lr is None:
 if args.num_epoch is None:
     if args.dataset in ["Amazon"]:
         args.num_epoch = 1200
-    elif args.dataset in ["tf_finace"]:
-        args.num_epoch = 1500
-    elif args.dataset in ["reddit", "photo"]:
-        args.num_epoch = 1500
-    elif args.dataset in ["tolokers", "YelpChi-all"]:
+    elif args.dataset in ["tf_finace", "reddit", "photo", "tolokers", "YelpChi-all"]:
         args.num_epoch = 1500
     else:
         args.num_epoch = 1200
@@ -160,8 +164,7 @@ else:
     features = features.todense()
 
 lap = build_laplacian(adj)
-adj_dense = adj
-adj_dense = (adj_dense + sp.eye(adj_dense.shape[0])).todense()
+adj_dense = (adj + sp.eye(adj.shape[0])).todense()
 adj_dense = torch.FloatTensor(np.asarray(adj_dense)[np.newaxis])
 features = torch.FloatTensor(np.asarray(features))
 features_batched = features.unsqueeze(0)
@@ -186,27 +189,45 @@ for p in teacher.parameters():
     p.requires_grad = False
 
 student = Model_ocgnn(features.shape[1], args.embedding_dim, "prelu", args.negsamp_ratio, args.readout).to(device)
-student_score_head = nn.Linear(args.embedding_dim, 1).to(device)
+mlp_s = nn.Linear(args.embedding_dim, 1).to(device)
 
-optimizer_student = torch.optim.Adam(student.parameters(), lr=args.lr, weight_decay=args.weight_decay)
-optimizer_head = torch.optim.Adam(student_score_head.parameters(), lr=args.lr, weight_decay=args.weight_decay)
+optimiser_s = torch.optim.Adam(student.parameters(), lr=args.lr, weight_decay=args.weight_decay)
+optimiser_mlp_s = torch.optim.Adam(mlp_s.parameters(), lr=args.lr, weight_decay=args.weight_decay)
 
+print("Precomputing teacher outputs...")
 with torch.no_grad():
     center_local, center_global = init_center_c(lap, features, teacher, device)
-    teacher_global, teacher_local, _ = teacher(lap, features)
-    teacher_scores_raw = rho_scores(teacher_global, teacher_local, center_global, center_local)
-    teacher_scores = min_max_normalize(teacher_scores_raw)
-    teacher_distance_metrics = compute_distance_metrics(teacher_local, ano_label, normal_label_idx)
+    teacher_global_cached, teacher_local_cached, _ = teacher(lap, features)
+    teacher_score_non_normalize_cached = rho_scores(
+        teacher_global_cached, teacher_local_cached, center_global, center_local
+    )
+    teacher_score_cached = min_max_normalize(teacher_score_non_normalize_cached)
+    teacher_auc = roc_auc_score(
+        ano_label[idx_test], teacher_score_non_normalize_cached[idx_test].detach().cpu().numpy()
+    )
+    teacher_ap = average_precision_score(
+        ano_label[idx_test],
+        teacher_score_non_normalize_cached[idx_test].detach().cpu().numpy(),
+        average="macro",
+        pos_label=1,
+    )
+    teacher_distance_metrics = compute_distance_metrics(teacher_local_cached, ano_label, normal_label_idx)
+    teacher_auc_message = (
+        f"Testing {args.dataset} Teacher AUC: {teacher_auc:.4f}\n"
+        f"Testing {args.dataset} Teacher AP: {teacher_ap:.4f}\n"
+    )
 
 run_tag = "with_normreg" if args.use_normreg else "without_normreg"
 output_file = get_log_file(args, f"{args.dataset}_{run_tag}.txt")
+best_logits_file = get_log_file(args, f"{args.dataset}_{run_tag}_best_logits.npy")
+best_labels_file = get_log_file(args, f"{args.dataset}_{run_tag}_test_labels.npy")
 best_file = get_log_file(args, f"{args.dataset}_{run_tag}_best.txt")
 best_auc = float("-inf")
 best_summary = ""
 
 with open(output_file, "a") as f:
+    f.write(teacher_auc_message)
     f.write(
-        f"Teacher baseline distances\n"
         f"Teacher real_abnormal_center -> labeled_normal_center: "
         f"{teacher_distance_metrics['real_abnormal_to_labeled_normal_center']:.4f}\n"
         f"Teacher real_abnormal_center -> all_normal_center: "
@@ -216,49 +237,55 @@ with open(output_file, "a") as f:
         pbar.set_description("Training RHO Student")
         for epoch in range(args.num_epoch):
             student.train()
-            student_score_head.train()
-            optimizer_student.zero_grad()
-            optimizer_head.zero_grad()
+            mlp_s.train()
+            optimiser_s.zero_grad()
+            optimiser_mlp_s.zero_grad()
 
-            _, student_emb = student(features_batched, adj_dense)
-            student_emb = student_emb.squeeze(0)
-            student_scores_raw = student_score_head(student_emb).squeeze(-1)
-            student_scores = min_max_normalize(student_scores_raw)
+            _, emb_s_all_raw = student(features_batched, adj_dense)
+            emb_s_all = emb_s_all_raw.squeeze(0)
+            student_score_non_normalize = mlp_s(emb_s_all).squeeze(dim=-1)
+            student_score = min_max_normalize(student_score_non_normalize)
 
-            mse_loss = F.mse_loss(student_scores, teacher_scores, reduction="mean")
+            mse_loss = score_distillation_loss(teacher_score_cached, student_score)
+
+            emb_loss = distillation_loss_emb(teacher_local_cached, emb_s_all)
 
             normal_features = features[normal_label_idx]
             mask = torch.rand_like(normal_features) > 0.3
             masked_features = features.clone()
             masked_features[normal_label_idx] = normal_features * mask
-            _, student_emb_aug = student(masked_features.unsqueeze(0), adj_dense)
-            student_emb_aug = student_emb_aug.squeeze(0)
-            reg2_mse = F.mse_loss(student_emb_aug[normal_label_idx], student_emb[normal_label_idx], reduction="mean")
+            _, emb_s_augmented_raw = student(masked_features.unsqueeze(0), adj_dense)
+            emb_s_augmented = emb_s_augmented_raw.squeeze(0)
+            reg2_mse = F.mse_loss(
+                emb_s_augmented[normal_label_idx], emb_s_all[normal_label_idx], reduction="mean"
+            )
 
             normreg_term = args.normreg_weight * reg2_mse if args.use_normreg else torch.zeros_like(reg2_mse)
-            total_loss = mse_loss + normreg_term
+            total_loss = mse_loss + emb_loss + normreg_term
             total_loss.backward()
-            optimizer_student.step()
-            optimizer_head.step()
+            optimiser_s.step()
+            optimiser_mlp_s.step()
 
             student.eval()
-            student_score_head.eval()
+            mlp_s.eval()
             with torch.no_grad():
-                _, student_emb = student(features_batched, adj_dense)
-                student_emb = student_emb.squeeze(0)
-                student_scores_raw = student_score_head(student_emb).squeeze(-1)
-                logits_test = student_scores_raw[idx_test].detach().cpu().numpy()
+                _, emb_s_all_raw = student(features_batched, adj_dense)
+                emb_s_all = emb_s_all_raw.squeeze(0)
+                student_score_non_normalize = mlp_s(emb_s_all).squeeze(dim=-1)
+                logits_stu = student_score_non_normalize[idx_test].detach().cpu().numpy()
                 labels_test = np.asarray(ano_label[idx_test])
-                auc = roc_auc_score(labels_test, logits_test)
-                ap = average_precision_score(labels_test, logits_test, average="macro", pos_label=1)
-                distance_metrics = compute_distance_metrics(student_emb, ano_label, normal_label_idx)
+                auc_stu = roc_auc_score(labels_test, logits_stu)
+                ap_stu = average_precision_score(labels_test, logits_stu, average="macro", pos_label=1)
+                distance_metrics = compute_distance_metrics(emb_s_all, ano_label, normal_label_idx)
 
             message = (
-                f"Epoch {epoch}: Total Loss = {total_loss.item():.4f}\n"
-                f"MSE Loss = {mse_loss.item():.4f}\n"
-                f"Reg2 MSE Loss = {reg2_mse.item():.4f}\n"
-                f"Testing {args.dataset} AUC_student: {auc:.4f}\n"
-                f"Testing {args.dataset} AP_student: {ap:.4f}\n"
+                f"{teacher_auc_message}"
+                f"Epoch {epoch}: Total Loss = {total_loss.item():.6f}\n"
+                f"MSE Loss = {mse_loss.item():.6f}\n"
+                f"Emb Loss = {emb_loss.item():.6f}\n"
+                f"Reg2 MSE Loss = {reg2_mse.item():.6f}\n"
+                f"Testing {args.dataset} AUC_student: {auc_stu:.4f}\n"
+                f"Testing {args.dataset} AP_student: {ap_stu:.4f}\n"
                 f"Student real_abnormal_center -> labeled_normal_center: "
                 f"{distance_metrics['real_abnormal_to_labeled_normal_center']:.4f}\n"
                 f"Student real_abnormal_center -> all_normal_center: "
@@ -268,12 +295,14 @@ with open(output_file, "a") as f:
             f.write(message)
             f.flush()
 
-            if auc > best_auc:
-                best_auc = auc
+            if auc_stu > best_auc:
+                best_auc = auc_stu
+                np.save(best_logits_file, logits_stu)
+                np.save(best_labels_file, labels_test)
                 best_summary = (
                     f"Best epoch: {epoch}\n"
-                    f"Best AUC: {auc:.4f}\n"
-                    f"Best AP: {ap:.4f}\n"
+                    f"Best AUC: {auc_stu:.4f}\n"
+                    f"Best AP: {ap_stu:.4f}\n"
                     f"NormReg enabled: {bool(args.use_normreg)}\n"
                     f"Teacher path: {args.teacher_path}\n"
                 )
