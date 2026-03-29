@@ -104,8 +104,8 @@ with torch.no_grad():
         features, adj, abnormal_label_idx, normal_label_idx, train_flag=False, args=args
     )
     emb_t_all = emb_t_all.squeeze(0)
-    score = logits.squeeze(dim=-1).squeeze(0)
     logits_test = np.squeeze(logits[:, idx_test, :].cpu().detach().numpy())
+    labels_test = np.asarray(ano_label[idx_test])
     auc = roc_auc_score(ano_label[idx_test], logits_test)
     ap = average_precision_score(ano_label[idx_test], logits_test, average="macro", pos_label=1)
     distance_metrics = compute_distance_metrics(emb_t_all, ano_label, normal_label_idx)
@@ -124,5 +124,9 @@ report = (
 print(report)
 
 output_file = get_log_file(args, f"{args.dataset}_teacher_distance.txt")
+best_logits_file = get_log_file(args, f"{args.dataset}_teacher_best_logits.npy")
+best_labels_file = get_log_file(args, f"{args.dataset}_teacher_test_labels.npy")
 with open(output_file, "w") as f:
     f.write(report)
+np.save(best_logits_file, logits_test)
+np.save(best_labels_file, labels_test)
