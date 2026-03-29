@@ -7,6 +7,7 @@ if str(ROOT) not in sys.path:
 
 import argparse
 import random
+from collections import Counter
 
 import numpy as np
 import scipy.sparse as sp
@@ -56,6 +57,48 @@ def get_lap(adj):
     d_inv_sqrt = sp.diags(deg_inv_sqrt)
     lap = sp.eye(adj.shape[0], dtype=np.float32) - d_inv_sqrt @ adj @ d_inv_sqrt
     return sparse_mx_to_torch_sparse_tensor(lap)
+
+
+def official_rho_dataset_name(dataset):
+    mapping = {
+        "Amazon": "amazon",
+        "tf_finace": "tfinance",
+        "reddit": "reddit",
+        "photo": "photo",
+        "elliptic": "elliptic",
+        "tolokers": "tolokers",
+        "questions": "questions",
+    }
+    return mapping.get(dataset)
+
+
+def get_lap_with_official_fallback(adj, dataset, rho_root):
+    if rho_root:
+        official_name = official_rho_dataset_name(dataset)
+        if official_name is not None:
+            lap_path = Path(rho_root) / "datasets" / f"Lap_matrix_{official_name}.npz"
+            if lap_path.exists():
+                lap = sp.load_npz(lap_path)
+                return sparse_mx_to_torch_sparse_tensor(lap), str(lap_path)
+    return get_lap(adj), None
+
+
+def get_official_split(num_node, label, train_ratio=0.3, val_ratio=0.1):
+    all_labels = np.squeeze(np.array(label))
+    num_train = int(num_node * train_ratio)
+    num_val = int(num_node * val_ratio)
+    all_idx = list(range(num_node))
+    random.shuffle(all_idx)
+    idx_train = all_idx[:num_train]
+    idx_val = all_idx[num_train : num_train + num_val]
+    idx_test = all_idx[num_train + num_val :]
+    print("Training", Counter(np.squeeze(all_labels[idx_train])))
+    print("Test", Counter(np.squeeze(all_labels[idx_test])))
+    all_normal_label_idx = [i for i in idx_train if all_labels[i] == 0]
+    rate = 0.5
+    normal_label_idx = all_normal_label_idx[: int(len(all_normal_label_idx) * rate)]
+    print("Training rate", rate * train_ratio)
+    return normal_label_idx, idx_val, idx_test
 
 
 def init_center_c(adj, inputs, net, device, eps=0.1):
@@ -129,7 +172,7 @@ def main_worker(args):
             auprc = average_precision_score(labels[idx], scores, average="macro", pos_label=1)
             return auprc, auroc
 
-    adj, features, labels, all_idx, idx_train_all, idx_val, idx_test, ano_label, str_ano_label, attr_ano_label, normal_label_idx, abnormal_label_idx = load_mat(
+    adj, features, labels, all_idx, idx_train_all, idx_val_loaded, idx_test_loaded, ano_label, str_ano_label, attr_ano_label, normal_label_idx_loaded, abnormal_label_idx = load_mat(
         args.dataset
     )
 
@@ -138,12 +181,24 @@ def main_worker(args):
     else:
         features = features.todense()
 
-    Lap = get_lap(adj)
+    Lap, lap_source = get_lap_with_official_fallback(adj, args.dataset, args.rho_root)
     features = torch.FloatTensor(np.asarray(features))
     labels = torch.as_tensor(ano_label, dtype=torch.long)
 
     in_feats = features.shape[1]
-    idx_train = normal_label_idx
+    if args.use_official_split:
+        idx_train, idx_val, idx_test = get_official_split(
+            num_node=features.shape[0],
+            label=ano_label,
+            train_ratio=args.train_ratio,
+            val_ratio=args.val_ratio,
+        )
+        split_source = "official-style split"
+    else:
+        idx_train = normal_label_idx_loaded
+        idx_val = idx_val_loaded
+        idx_test = idx_test_loaded
+        split_source = "utils_old split"
 
     net = RHO(in_feats, args.hidden1, args.hidden2, args.nlayers, args.batch_size, args.tau).to(device)
     Lap = Lap.to(device)
@@ -161,6 +216,11 @@ def main_worker(args):
     best_auroc = 0.0
     best_summary = ""
     with open(output_file, "a") as f:
+        if lap_source is not None:
+            f.write(f"Using official RHO Lap: {lap_source}\n")
+        else:
+            f.write("Using locally constructed Lap from current adjacency.\n")
+        f.write(f"Using split source: {split_source}\n")
         with tqdm(total=args.epochs) as pbar:
             pbar.set_description("Training RHO Teacher")
             for epoch in range(args.epochs):
@@ -200,6 +260,8 @@ if __name__ == "__main__":
     parser.add_argument("--epochs", type=int)
     parser.add_argument("--lr", type=float)
     parser.add_argument("--weight_decay", type=float, default=5e-5)
+    parser.add_argument("--train_ratio", type=float, default=0.3)
+    parser.add_argument("--val_ratio", type=float, default=0.1)
     parser.add_argument("--nlayers", type=int, default=2)
     parser.add_argument("--hidden1", type=int, default=1024)
     parser.add_argument("--hidden2", type=int, default=64)
@@ -207,6 +269,8 @@ if __name__ == "__main__":
     parser.add_argument("--alpha", type=float, default=1.0)
     parser.add_argument("--tau", type=float, default=0.2)
     parser.add_argument("--weight_save_path", type=str, default=None)
+    parser.add_argument("--rho_root", type=str, default=None)
+    parser.add_argument("--use_official_split", type=int, choices=[0, 1], default=1)
     add_log_subdir_argument(parser, "tea_train_rho")
     args = parser.parse_args()
 
