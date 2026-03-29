@@ -222,6 +222,23 @@ def main_worker(args):
 
 
 if __name__ == "__main__":
+    def get_default_lr(dataset):
+        if dataset in ["Amazon", "tf_finace", "reddit", "photo", "tolokers"]:
+            return 5e-3
+        if dataset in ["elliptic", "questions"]:
+            return 5e-4
+        return 5e-4
+
+    def get_default_epochs(dataset):
+        if dataset in ["Amazon", "tolokers"]:
+            return 500
+        return 100
+
+    def get_default_batch_size(dataset):
+        if dataset in ["tf_finace", "elliptic", "questions"]:
+            return 1024
+        return 0
+
     parser = argparse.ArgumentParser()
     parser.add_argument("--seed", type=int, default=42)
     parser.add_argument("--cuda", type=int, default=0)
@@ -231,8 +248,8 @@ if __name__ == "__main__":
         default="reddit",
         choices=["Amazon", "tf_finace", "reddit", "photo", "elliptic", "tolokers", "questions"],
     )
-    parser.add_argument("--epochs", type=int, default=100)
-    parser.add_argument("--lr", type=float, default=0.0005)
+    parser.add_argument("--epochs", type=int)
+    parser.add_argument("--lr", type=float)
     parser.add_argument("--weight_decay", type=float, default=5e-5)
     parser.add_argument("--train_ratio", type=float, default=0.3, help="Training ratio")
     parser.add_argument("--val_ratio", type=float, default=0.1, help="Val ratio")
@@ -240,7 +257,7 @@ if __name__ == "__main__":
     parser.add_argument("--early_stopping", type=int, default=200)
     parser.add_argument("--hidden1", type=int, default=1024)
     parser.add_argument("--hidden2", type=int, default=64)
-    parser.add_argument("--batch_size", type=int, default=0)
+    parser.add_argument("--batch_size", type=int)
     parser.add_argument("--alpha", type=float, default=1.0)
     parser.add_argument("--tau", type=float, default=0.2)
     parser.add_argument("--rho_root", type=str, default=str(ROOT / "rho_official"))
@@ -248,4 +265,12 @@ if __name__ == "__main__":
     parser.add_argument("--best_save_path", type=str, default=None)
     add_log_subdir_argument(parser, "tea_train_rho_official_minimal")
     args = parser.parse_args()
+
+    if args.lr is None:
+        args.lr = get_default_lr(args.dataset)
+    if args.epochs is None:
+        args.epochs = get_default_epochs(args.dataset)
+    if args.batch_size is None:
+        args.batch_size = get_default_batch_size(args.dataset)
+
     main_worker(args)
