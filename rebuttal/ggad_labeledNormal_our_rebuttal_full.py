@@ -244,6 +244,15 @@ def compute_center_distance(embeddings, abnormal_idx, normal_idx):
     return torch.norm(abnormal_center - normal_center, p=2).item()
 
 
+def compute_mean_abnormal_to_center_distance(embeddings, abnormal_idx, normal_idx):
+    abnormal_idx = _to_index_tensor(abnormal_idx, embeddings.device)
+    normal_idx = _to_index_tensor(normal_idx, embeddings.device)
+    abnormal_embeddings = embeddings[abnormal_idx]
+    normal_center = embeddings[normal_idx].mean(dim=0)
+    distances = torch.norm(abnormal_embeddings - normal_center, p=2, dim=1)
+    return distances.mean().item()
+
+
 def compute_distance_metrics(embeddings, ano_label, labeled_normal_idx):
     real_abnormal_idx = np.where(ano_label == 1)[0]
     all_normal_idx = np.where(ano_label == 0)[0]
@@ -252,6 +261,12 @@ def compute_distance_metrics(embeddings, ano_label, labeled_normal_idx):
             embeddings, real_abnormal_idx, labeled_normal_idx
         ),
         'real_abnormal_to_all_normal_center': compute_center_distance(
+            embeddings, real_abnormal_idx, all_normal_idx
+        ),
+        'real_abnormal_mean_to_labeled_normal_center': compute_mean_abnormal_to_center_distance(
+            embeddings, real_abnormal_idx, labeled_normal_idx
+        ),
+        'real_abnormal_mean_to_all_normal_center': compute_mean_abnormal_to_center_distance(
             embeddings, real_abnormal_idx, all_normal_idx
         ),
     }
@@ -263,6 +278,10 @@ def format_distance_metrics(prefix, metrics):
         f"{metrics['real_abnormal_to_labeled_normal_center']:.4f}\n"
         f"{prefix} real_abnormal_center -> all_normal_center: "
         f"{metrics['real_abnormal_to_all_normal_center']:.4f}\n"
+        f"{prefix} mean(real_abnormal_i -> labeled_normal_center): "
+        f"{metrics['real_abnormal_mean_to_labeled_normal_center']:.4f}\n"
+        f"{prefix} mean(real_abnormal_i -> all_normal_center): "
+        f"{metrics['real_abnormal_mean_to_all_normal_center']:.4f}\n"
     )
 
 
