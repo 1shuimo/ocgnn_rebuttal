@@ -79,6 +79,26 @@ def init_center_c(adj, inputs, net, device, eps=0.1):
     return c_local, c_global
 
 
+def get_default_lr(dataset):
+    if dataset in ["Amazon", "tf_finace", "reddit", "photo", "tolokers"]:
+        return 5e-3
+    if dataset in ["elliptic", "questions"]:
+        return 5e-4
+    return 5e-4
+
+
+def get_default_epochs(dataset):
+    if dataset in ["Amazon", "tolokers"]:
+        return 500
+    return 100
+
+
+def get_default_batch_size(dataset):
+    if dataset in ["tf_finace", "elliptic", "questions"]:
+        return 1024
+    return 0
+
+
 def main_worker(args):
     fix_seed(args.seed)
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
@@ -177,17 +197,24 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument("--seed", type=int, default=42)
     parser.add_argument("--dataset", type=str, default="Amazon")
-    parser.add_argument("--epochs", type=int, default=100)
-    parser.add_argument("--lr", type=float, default=5e-4)
+    parser.add_argument("--epochs", type=int)
+    parser.add_argument("--lr", type=float)
     parser.add_argument("--weight_decay", type=float, default=5e-5)
     parser.add_argument("--nlayers", type=int, default=2)
     parser.add_argument("--hidden1", type=int, default=1024)
     parser.add_argument("--hidden2", type=int, default=64)
-    parser.add_argument("--batch_size", type=int, default=0)
+    parser.add_argument("--batch_size", type=int)
     parser.add_argument("--alpha", type=float, default=1.0)
     parser.add_argument("--tau", type=float, default=0.2)
     parser.add_argument("--weight_save_path", type=str, default=None)
     add_log_subdir_argument(parser, "tea_train_rho")
     args = parser.parse_args()
+
+    if args.lr is None:
+        args.lr = get_default_lr(args.dataset)
+    if args.epochs is None:
+        args.epochs = get_default_epochs(args.dataset)
+    if args.batch_size is None:
+        args.batch_size = get_default_batch_size(args.dataset)
 
     main_worker(args)
