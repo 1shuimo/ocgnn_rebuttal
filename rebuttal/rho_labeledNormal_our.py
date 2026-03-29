@@ -83,10 +83,6 @@ def min_max_normalize(tensor):
     return (tensor - min_val) / (max_val - min_val)
 
 
-def distillation_loss_emb(emb_t, emb_s):
-    return F.mse_loss(emb_s, emb_t, reduction="mean")
-
-
 def score_distillation_loss(score_t, score_s):
     return F.mse_loss(score_s, score_t, reduction="mean")
 
@@ -248,8 +244,6 @@ with open(output_file, "a") as f:
 
             mse_loss = score_distillation_loss(teacher_score_cached, student_score)
 
-            emb_loss = distillation_loss_emb(teacher_local_cached, emb_s_all)
-
             normal_features = features[normal_label_idx]
             mask = torch.rand_like(normal_features) > 0.3
             masked_features = features.clone()
@@ -261,7 +255,7 @@ with open(output_file, "a") as f:
             )
 
             normreg_term = args.normreg_weight * reg2_mse if args.use_normreg else torch.zeros_like(reg2_mse)
-            total_loss = mse_loss + emb_loss + normreg_term
+            total_loss = mse_loss + normreg_term
             total_loss.backward()
             optimiser_s.step()
             optimiser_mlp_s.step()
@@ -282,7 +276,6 @@ with open(output_file, "a") as f:
                 f"{teacher_auc_message}"
                 f"Epoch {epoch}: Total Loss = {total_loss.item():.6f}\n"
                 f"MSE Loss = {mse_loss.item():.6f}\n"
-                f"Emb Loss = {emb_loss.item():.6f}\n"
                 f"Reg2 MSE Loss = {reg2_mse.item():.6f}\n"
                 f"Testing {args.dataset} AUC_student: {auc_stu:.4f}\n"
                 f"Testing {args.dataset} AP_student: {ap_stu:.4f}\n"
